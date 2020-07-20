@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CSS 规范 | JeremyJone 的文档站</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    
+    <meta name="description" content="jeremyjone document web">
+    <link rel="preload" href="/docs/assets/css/0.styles.611aaf7e.css" as="style"><link rel="preload" href="/docs/assets/js/app.aead7f79.js" as="script"><link rel="preload" href="/docs/assets/js/2.34ab4476.js" as="script"><link rel="preload" href="/docs/assets/js/19.73582893.js" as="script"><link rel="preload" href="/docs/assets/js/3.28f0e35b.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.f249ddda.js"><link rel="prefetch" href="/docs/assets/js/11.3ea8a579.js"><link rel="prefetch" href="/docs/assets/js/12.e2daeb2d.js"><link rel="prefetch" href="/docs/assets/js/13.92bd6012.js"><link rel="prefetch" href="/docs/assets/js/14.65016328.js"><link rel="prefetch" href="/docs/assets/js/15.31ba0837.js"><link rel="prefetch" href="/docs/assets/js/16.692d7e36.js"><link rel="prefetch" href="/docs/assets/js/17.7bb6cf2f.js"><link rel="prefetch" href="/docs/assets/js/18.2fc4498a.js"><link rel="prefetch" href="/docs/assets/js/20.833169a2.js"><link rel="prefetch" href="/docs/assets/js/21.ccb3a70c.js"><link rel="prefetch" href="/docs/assets/js/22.fcbc87d7.js"><link rel="prefetch" href="/docs/assets/js/23.e2f09949.js"><link rel="prefetch" href="/docs/assets/js/4.9a8c2241.js"><link rel="prefetch" href="/docs/assets/js/5.57a1e056.js"><link rel="prefetch" href="/docs/assets/js/6.d7a0f3f5.js"><link rel="prefetch" href="/docs/assets/js/7.d5570ee9.js"><link rel="prefetch" href="/docs/assets/js/8.a3a33fc9.js"><link rel="prefetch" href="/docs/assets/js/9.b946eb99.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.611aaf7e.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/img/logo.png" alt="JeremyJone 的文档站" class="logo"> <span class="site-name can-hide">JeremyJone 的文档站</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/docs/standard/" class="nav-link router-link-active">
+  代码编写规范
+</a></div><div class="nav-item"><a href="/docs/document/" class="nav-link">
+  文档手册
+</a></div><div class="nav-item"><a href="/docs/codes/" class="nav-link">
+  代码库
+</a></div><div class="nav-item"><a href="https://jeremyjone.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Google
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/jeremyjone/docs-admin" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/docs/standard/" class="nav-link router-link-active">
+  代码编写规范
+</a></div><div class="nav-item"><a href="/docs/document/" class="nav-link">
+  文档手册
+</a></div><div class="nav-item"><a href="/docs/codes/" class="nav-link">
+  代码库
+</a></div><div class="nav-item"><a href="https://jeremyjone.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://google.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Google
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/jeremyjone/docs-admin" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>代码编写规范</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/standard/" aria-current="page" class="sidebar-link">代码书写规范总纲</a></li><li><a href="/docs/standard/csharp.html" class="sidebar-link">C#</a></li><li><a href="/docs/standard/css.html" aria-current="page" class="active sidebar-link">CSS 规范</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/standard/css.html#_1-css-属性的命名" class="sidebar-link">1 CSS 属性的命名</a></li><li class="sidebar-sub-header"><a href="/docs/standard/css.html#_2-使用-css-的属性缩写" class="sidebar-link">2 使用 CSS 的属性缩写</a></li><li class="sidebar-sub-header"><a href="/docs/standard/css.html#_3-css-语言规范" class="sidebar-link">3 CSS 语言规范</a></li></ul></li><li><a href="/docs/standard/html.html" class="sidebar-link">HTML 规范</a></li><li><a href="/docs/standard/javascript.html" class="sidebar-link">JavaScript 开发规范</a></li><li><a href="/docs/standard/python.html" class="sidebar-link">Python 开发规范</a></li><li><a href="/docs/standard/vue.html" class="sidebar-link">Vue 开发规范</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="css-规范"><a href="#css-规范" class="header-anchor">#</a> CSS 规范</h1> <div data-v-369bca39><p class="td-text" data-v-369bca39>作者：jeremyjone</p> <!----> <p class="td-text" data-v-369bca39>版本：v1</p> <!----> <hr class="td-hr" data-v-369bca39></div> <p>本文档适用于所有css文件的开发编写。</p> <p>同时，推荐使用<code>scss</code>，<code>sass</code>，<code>stylus</code>等扩展的 css 语言。最好使用<code>stylus</code>。</p> <h2 id="_1-css-属性的命名"><a href="#_1-css-属性的命名" class="header-anchor">#</a> 1 CSS 属性的命名</h2> <p>css 的 ID 应当尽量少用，可以在一个页面使用一个，这样可以有效减少 ID 的使用，同时降低了 className 重复命名的概率（使用作用域/嵌套方式）。</p> <p>css 的 className 应当同样具有语义化，通过名字就知道它对应的标签元素和内容。
+cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。</p> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token selector">#header-menu </span><span class="token punctuation">{</span>
+<span class="token property">font-size</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+<span class="token property">background-color</span><span class="token punctuation">:</span> #0ff<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h2 id="_2-使用-css-的属性缩写"><a href="#_2-使用-css-的属性缩写" class="header-anchor">#</a> 2 使用 CSS 的属性缩写</h2> <p>如果在一个 css 的 class 中有多个同一范围的属性，则应当尽可能的使用它的缩写。</p> <div class="language-scss line-numbers-mode"><pre class="language-scss"><code><span class="token comment">// 错误的写法</span>
+<span class="token selector">#header-menu </span><span class="token punctuation">{</span>
+  <span class="token property">margin-left</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">margin-right</span><span class="token punctuation">:</span> 10px<span class="token punctuation">;</span>
+  <span class="token property">margin-top</span><span class="token punctuation">:</span> 20px<span class="token punctuation">;</span>
+  <span class="token property">margin-bottom</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">// 正确的写法</span>
+<span class="token selector">#header-menu </span><span class="token punctuation">{</span>
+  <span class="token property">margin</span><span class="token punctuation">:</span> 20px 10px 5px 10px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br></div></div><h2 id="_3-css-语言规范"><a href="#_3-css-语言规范" class="header-anchor">#</a> 3 CSS 语言规范</h2> <ul><li>每一个 CSS 属性都应当跟一个<code>;</code>（stylus 除外）</li> <li>CSS 的选择器应当间可能的简单，每个选择器和声明都应当是独立的一行</li> <li>对于<code>url()</code>方法，可以省略协议，直接使用 uri 内容而不需要加引号</li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/jeremyjone/docs-admin/edit/master/docs/standard/css.md" target="_blank" rel="noopener noreferrer">修改此页面</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">7/20/2020, 11:40:14 AM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/standard/csharp.html" class="prev">
+        C#
+      </a></span> <span class="next"><a href="/docs/standard/html.html">
+        HTML 规范
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.aead7f79.js" defer></script><script src="/docs/assets/js/2.34ab4476.js" defer></script><script src="/docs/assets/js/19.73582893.js" defer></script><script src="/docs/assets/js/3.28f0e35b.js" defer></script>
+  </body>
+</html>
