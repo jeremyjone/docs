@@ -1,4 +1,4 @@
-if ($(".darkreader")[0]){
+if (document.querySelectorAll(".darkreader")[0]){
     console.log("Darkreader Extension detected");
 } else {
     DarkReader.setFetchMethod(window.fetch);
