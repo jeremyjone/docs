@@ -1,10 +1,14 @@
 # JeremyJone 的文档站点
 
-本站点使用 vuepress 生成。
+本站点使用 vuepress 生成。这是本人的个人文档站点，内容持续更新。
 
-这是本人的个人文档站点，内容持续更新。每次百度google太麻烦，不如一点一点收集整理到自己的站点，方便使用，如果您喜欢，欢迎star，并收藏我的个人站点。
+## 来了就点个 star 吧~
 
-站点路径：[https://jeremyjone.github.io/docs](https://jeremyjone.github.io/docs)，欢迎访问。
+如果您喜欢，欢迎star，并收藏我的个人站点。
+
+## 如何查看
+
+文档路径：[https://jeremyjone.github.io/docs](https://jeremyjone.github.io/docs)，欢迎访问。
 
 ## 帮助我
 
