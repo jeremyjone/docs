@@ -4,8 +4,8 @@ sidebar: false
 heroImage: /assets/img/perfect.jpg
 heroText: JeremyJone 的文档站
 tagline:
-actionText: 查看使用规范 →
-actionLink: /standard/
+actionText: 查看学习手册 →
+actionLink: /roadmap/
 features:
   - title: 规范
     details: 遵循代码编写规范，以编写更加成熟可维护的代码。
