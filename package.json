@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "jeremyjone document website",
+  "main": "index.js",
+  "repository": "https://github.com/jeremyjone/docs",
+  "author": "jeremyjone",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^1.5.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.2",
+    "markdown-it-mark": "^3.0.0",
+    "markdown-it-mathjax": "^2.0.0"
+  }
+}
