@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Vim 使用说明 | JeremyJone 的文档站</title>
+    <meta name="generator" content="VuePress 1.5.2">
+    <link rel="icon" href="/docs/assets/img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/darkreader@4.9.32/darkreader.min.js"></script>
+    <script src="/docs/js/base.js"></script>
+    <meta name="description" content="jeremyjone document web">
+    <link rel="preload" href="/docs/assets/css/0.styles.91f5cac8.css" as="style"><link rel="preload" href="/docs/assets/js/app.e0e238b2.js" as="script"><link rel="preload" href="/docs/assets/js/2.525f04cb.js" as="script"><link rel="preload" href="/docs/assets/js/31.a417ee06.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.63d08d11.js"><link rel="prefetch" href="/docs/assets/js/11.a9e44199.js"><link rel="prefetch" href="/docs/assets/js/12.e2ffbea5.js"><link rel="prefetch" href="/docs/assets/js/13.11e43d90.js"><link rel="prefetch" href="/docs/assets/js/14.fb883a30.js"><link rel="prefetch" href="/docs/assets/js/15.d046e3ef.js"><link rel="prefetch" href="/docs/assets/js/16.d3d10042.js"><link rel="prefetch" href="/docs/assets/js/17.d825cc5e.js"><link rel="prefetch" href="/docs/assets/js/18.66d216c6.js"><link rel="prefetch" href="/docs/assets/js/19.7eb070c0.js"><link rel="prefetch" href="/docs/assets/js/20.edd03ac4.js"><link rel="prefetch" href="/docs/assets/js/21.2a8c8f6d.js"><link rel="prefetch" href="/docs/assets/js/22.4df72eeb.js"><link rel="prefetch" href="/docs/assets/js/23.928d7c6f.js"><link rel="prefetch" href="/docs/assets/js/24.0799f454.js"><link rel="prefetch" href="/docs/assets/js/25.149bfde7.js"><link rel="prefetch" href="/docs/assets/js/26.1ac77c75.js"><link rel="prefetch" href="/docs/assets/js/27.02c903a9.js"><link rel="prefetch" href="/docs/assets/js/28.f88e2c6f.js"><link rel="prefetch" href="/docs/assets/js/29.0ba50be2.js"><link rel="prefetch" href="/docs/assets/js/3.d8871e3b.js"><link rel="prefetch" href="/docs/assets/js/30.0a2dfc35.js"><link rel="prefetch" href="/docs/assets/js/32.4cc4b3fd.js"><link rel="prefetch" href="/docs/assets/js/33.e944eb0b.js"><link rel="prefetch" href="/docs/assets/js/34.9b668cdb.js"><link rel="prefetch" href="/docs/assets/js/35.09a372c7.js"><link rel="prefetch" href="/docs/assets/js/36.1b087c25.js"><link rel="prefetch" href="/docs/assets/js/37.8eeabeb7.js"><link rel="prefetch" href="/docs/assets/js/38.1d67a4e3.js"><link rel="prefetch" href="/docs/assets/js/39.1f25ec48.js"><link rel="prefetch" href="/docs/assets/js/4.a50b8c29.js"><link rel="prefetch" href="/docs/assets/js/40.08c67710.js"><link rel="prefetch" href="/docs/assets/js/41.b9995785.js"><link rel="prefetch" href="/docs/assets/js/42.dbf836b0.js"><link rel="prefetch" href="/docs/assets/js/43.7b292ce3.js"><link rel="prefetch" href="/docs/assets/js/44.e9bc79af.js"><link rel="prefetch" href="/docs/assets/js/45.ed71ec46.js"><link rel="prefetch" href="/docs/assets/js/46.9b207590.js"><link rel="prefetch" href="/docs/assets/js/47.5b352f2e.js"><link rel="prefetch" href="/docs/assets/js/48.99b8cf0e.js"><link rel="prefetch" href="/docs/assets/js/49.f039c3ba.js"><link rel="prefetch" href="/docs/assets/js/5.3c2a8087.js"><link rel="prefetch" href="/docs/assets/js/50.768eab47.js"><link rel="prefetch" href="/docs/assets/js/51.7c4fc81d.js"><link rel="prefetch" href="/docs/assets/js/52.63f08128.js"><link rel="prefetch" href="/docs/assets/js/53.6a89bc0c.js"><link rel="prefetch" href="/docs/assets/js/54.473edcce.js"><link rel="prefetch" href="/docs/assets/js/55.20dfb19c.js"><link rel="prefetch" href="/docs/assets/js/56.2910da07.js"><link rel="prefetch" href="/docs/assets/js/57.4f9984e8.js"><link rel="prefetch" href="/docs/assets/js/58.01a6cf7e.js"><link rel="prefetch" href="/docs/assets/js/59.b929308b.js"><link rel="prefetch" href="/docs/assets/js/6.e244f7f5.js"><link rel="prefetch" href="/docs/assets/js/60.058d28c9.js"><link rel="prefetch" href="/docs/assets/js/61.83338d1f.js"><link rel="prefetch" href="/docs/assets/js/62.3f3b6821.js"><link rel="prefetch" href="/docs/assets/js/63.147bb348.js"><link rel="prefetch" href="/docs/assets/js/64.f59c760d.js"><link rel="prefetch" href="/docs/assets/js/65.5df1b58e.js"><link rel="prefetch" href="/docs/assets/js/66.16bf889e.js"><link rel="prefetch" href="/docs/assets/js/67.72992505.js"><link rel="prefetch" href="/docs/assets/js/68.8929e93a.js"><link rel="prefetch" href="/docs/assets/js/69.f7ab8d3e.js"><link rel="prefetch" href="/docs/assets/js/7.edded807.js"><link rel="prefetch" href="/docs/assets/js/70.0d7d1731.js"><link rel="prefetch" href="/docs/assets/js/71.391618cd.js"><link rel="prefetch" href="/docs/assets/js/72.f9d050bf.js"><link rel="prefetch" href="/docs/assets/js/73.84bb110e.js"><link rel="prefetch" href="/docs/assets/js/74.76e2e9c8.js"><link rel="prefetch" href="/docs/assets/js/75.3b498fe6.js"><link rel="prefetch" href="/docs/assets/js/76.b5e93d97.js"><link rel="prefetch" href="/docs/assets/js/8.72c1ac79.js"><link rel="prefetch" href="/docs/assets/js/9.c703ec4d.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.91f5cac8.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><img src="/docs/assets/img/logo.png" alt="JeremyJone 的文档站" class="logo"> <span class="site-name can-hide">JeremyJone 的文档站</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="代码相关菜单" class="dropdown-title"><span class="title">代码相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/standard/" class="nav-link">
+  代码编写规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/codes/" class="nav-link">
+  代码库
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档手册菜单" class="dropdown-title"><span class="title">文档手册</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          使用文档
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/document/git/" class="nav-link">
+  Git 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/markdown/" class="nav-link">
+  Markdown 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/vim/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vim 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/docker/" class="nav-link">
+  Docker 使用文档
+</a></li></ul></li><li class="dropdown-item"><h4>
+          学习手册
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/roadmap/dotnetcore/" class="nav-link">
+  .NET 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/java/" class="nav-link">
+  Java 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/vue/" class="nav-link">
+  Vue 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/react/" class="nav-link">
+  React 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/flutter/" class="nav-link">
+  Flutter 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/android/" class="nav-link">
+  Android 学习之路
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.jeremyjone.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.xiaopangying.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  个人站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/jeremyjone/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="代码相关菜单" class="dropdown-title"><span class="title">代码相关</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/standard/" class="nav-link">
+  代码编写规范
+</a></li><li class="dropdown-item"><!----> <a href="/docs/codes/" class="nav-link">
+  代码库
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="文档手册菜单" class="dropdown-title"><span class="title">文档手册</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          使用文档
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/document/git/" class="nav-link">
+  Git 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/markdown/" class="nav-link">
+  Markdown 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/vim/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Vim 使用文档
+</a></li><li class="dropdown-subitem"><a href="/docs/document/docker/" class="nav-link">
+  Docker 使用文档
+</a></li></ul></li><li class="dropdown-item"><h4>
+          学习手册
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/roadmap/dotnetcore/" class="nav-link">
+  .NET 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/java/" class="nav-link">
+  Java 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/vue/" class="nav-link">
+  Vue 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/react/" class="nav-link">
+  React 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/flutter/" class="nav-link">
+  Flutter 学习之路
+</a></li><li class="dropdown-subitem"><a href="/docs/roadmap/android/" class="nav-link">
+  Android 学习之路
+</a></li></ul></li></ul></div></div><div class="nav-item"><a href="https://www.jeremyjone.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  我的博客
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div><div class="nav-item"><a href="https://www.xiaopangying.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  个人站
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <a href="https://github.com/jeremyjone/docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Vim 使用文档</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/document/vim/" aria-current="page" class="active sidebar-link">Vim 使用说明</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/document/vim/#打开文件" class="sidebar-link">打开文件</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#保存和退出" class="sidebar-link">保存和退出</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#visual模式" class="sidebar-link">Visual模式</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#显示设置" class="sidebar-link">显示设置</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#编辑" class="sidebar-link">编辑</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/document/vim/#增加" class="sidebar-link">增加</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#删除" class="sidebar-link">删除</a></li></ul></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#复制和粘贴" class="sidebar-link">复制和粘贴</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#重复和撤销" class="sidebar-link">重复和撤销</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#移动" class="sidebar-link">移动</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#标记" class="sidebar-link">标记</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#查找和替换" class="sidebar-link">查找和替换</a></li><li class="sidebar-sub-header"><a href="/docs/document/vim/#替换文本" class="sidebar-link">替换文本</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="vim-使用说明"><a href="#vim-使用说明" class="header-anchor">#</a> Vim 使用说明</h1> <h2 id="打开文件"><a href="#打开文件" class="header-anchor">#</a> 打开文件</h2> <p><code>vim filename</code>     打开文件</p> <p><code>vim -R filename</code>     只读打开文件</p> <p><code>vim -M filename</code>     强制避免对文件进行修改打开文件</p> <p><code>vim filename1 filename2 filename3</code>     同时打开多个文件，但是只显示第一个文件内容</p> <p><code>:next | :n</code>     编辑下一个文件</p> <p><code>:wnext | :wn</code>     保存当前文件内容并且继续编辑下一个文件</p> <p><code>Ctrl+^</code>     在两个文件之间切换</p> <p><code>vim -o filename1 filename2</code>     为每一个文件打开一个窗口</p> <p><code>:args filename4 filename5 filename6</code>     在不关闭vim的同时，重新定义文件列表</p> <h2 id="保存和退出"><a href="#保存和退出" class="header-anchor">#</a> 保存和退出</h2> <p><code>:w</code>     保存</p> <p><code>:q | :quit</code>     退出</p> <p><code>ZZ | :wq | :x</code>     保存退出</p> <p><code>ZQ | :q!</code>     不保存直接退出</p> <p><code>:edit filename | :e filename</code>     编辑另一个文件</p> <p><code>:e!</code>     放弃当前文件所有修改并重新载入原始内容</p> <p><code>:qall</code>     放弃所有窗口的修改并退出</p> <p><code>:wall</code>     保存所有窗口的修改</p> <p><code>:wqall</code>     保存所有修改并退出</p> <p><code>:w filename | :sav filename | :saveas filename</code>     另存为</p> <p><code>:f filename | :file filename</code>     将修改的版本另存为新文件，同时不保存源文件的修改</p> <p><code>:set autowrite</code>     设置自动存盘</p> <div class="language- extra-class"><pre><code>该命令在每个:next、:rewind、:last、:first、:previous、:stop、:suspend、:tag、:!、:make、Ctrl+]、Ctrl+^命令时执行。
+</code></pre></div><h2 id="visual模式"><a href="#visual模式" class="header-anchor">#</a> Visual模式</h2> <p><code>v</code>     进入Visual模式，从光标当前位置开始，移动所经过的内容都会被选中，直到下一次v结束</p> <p><code>V</code>     进入Visual模式，从光标当前行首开始，移动所经过的行都会被选中，直到下一次V结束</p> <p><code>Ctrl+v</code>     从光标当前位置开始，选中光标起点和终点所构成的矩形区域，再按Ctrl+v结束</p> <p><code>ggVG</code>     快速全选，gg：转到行首，V：选择整行，G：转到尾行</p> <h2 id="显示设置"><a href="#显示设置" class="header-anchor">#</a> 显示设置</h2> <p><code>:args</code>     显示当前文件</p> <p><code>:set number | :set nu!</code>     显示行号</p> <p><code>:set nonumber | :set nonu!</code>     不显示行号</p> <p><code>:set ruler</code>     在Vim窗口右下角显示当前光标位置</p> <p><code>:set autoindent</code>     自动缩进</p> <p><code>:set hlsearch</code>     查询结果高亮</p> <p><code>:set nohlsearch</code>     取消查询结果高亮</p> <p><code>:split | :vsplit</code>     分割窗口</p> <p><code>Ctrl+w</code>     切换当前活动窗口</p> <p><code>Ctrl+w h</code>     切换到左边窗口</p> <p><code>Ctrl+w j</code>     切换到下边窗口</p> <p><code>Ctrl+w k</code>     切换到上边窗口</p> <p><code>Ctrl+w i</code>     切换到右边窗口</p> <p><code>Ctrl+w t</code>     切换到顶部窗口</p> <p><code>Ctrl+w b</code>     切换到底部窗口</p> <p><code>:close</code>     关闭活动窗口，阻止关闭最后一个活动窗口</p> <p><code>:only</code>    关闭除当前活动窗口之外的所有窗口，修改过的窗口不会关闭</p> <p><code>:set warp</code>     自动换行</p> <p><code>:set ignorecase</code>     忽略大小写</p> <p><code>==</code>     对当前行自动格式化</p> <p><code>数字==</code>     对当前行起的下面&quot;数字&quot;行进行格式化</p> <p><code>gg=G</code>     对整个文档进行格式化</p> <h2 id="编辑"><a href="#编辑" class="header-anchor">#</a> 编辑</h2> <h3 id="增加"><a href="#增加" class="header-anchor">#</a> 增加</h3> <p><code>i</code>     在光标之前插入</p> <div class="language- extra-class"><pre><code>支持数字：3i!，在光标之前插入三个&quot;!&quot;
+</code></pre></div><p><code>I</code>     在当前行首插入</p> <div class="language- extra-class"><pre><code>支持数字：3I@，在行首插入三个&quot;@&quot;
+</code></pre></div><p><code>a</code>     在光标之后插入</p> <div class="language- extra-class"><pre><code>支持数字：3a!，在光标之后插入三个&quot;!&quot;
+</code></pre></div><p><code>A</code>     在当前行尾插入</p> <div class="language- extra-class"><pre><code>支持数字：3A@，在行尾插入三个&quot;@&quot;
+</code></pre></div><p><code>o</code>     在当前光标行之下插入空行</p> <p><code>O</code>     在当前光标行之上插入空行</p> <h3 id="删除"><a href="#删除" class="header-anchor">#</a> 删除</h3> <p><code>d+位移命令</code>     删除从光标位置到位移处的内容</p> <div class="language- extra-class"><pre><code>支持数字：    d+2+方向键，剪切左右方向的两个字符，剪切上下方向2行+当前行（共三行）的内容
+
+- 3dw  |  d3w     删除当前光标后面的3个单词
+- 3d2w     删除2光标后面两个单词，执行3次，共删除6个单词
+
+- 左：    剪切前一个字符
+- 右：    剪切后一个字符
+- 上：    剪切当前行和上一行
+- 下：    剪切当前行和下一行
+- Shift+左：    剪切至当前单词首字符
+- Shift+右：    剪切至下一个单词首字符
+- dw     删除从当前位置到下一个单词词首
+- db     删除从当前位置到前一个单词词首
+- diw     删除光标所在的单词，不包括空白字符
+- daw     删除当前光标所在单词，包括之后的空白字符
+- dG     删除当前行至文件末尾的内容
+- dgg     删除当前行至文件行首的内容
+</code></pre></div><p><code>dd</code>     删除当前光标整行，并将之后内容上移一行</p> <p><code>D | d$</code>     删除到行尾</p> <p><code>c+位移命令</code> 删除从光标处到位移处的内容，并进入编辑模式。<em>具体参照 &quot;d+位移命令&quot;</em></p> <p><code>C | c$</code> 删除光标处至行尾，并进入编辑模式</p> <p><code>x | dl</code>     删除当前光标右边的一个字符</p> <div class="language- extra-class"><pre><code>支持数字：3x，删除光标右边三个字符
+</code></pre></div><p><code>X | dh</code>     删除当前光标左边的一个字符</p> <div class="language- extra-class"><pre><code>支持数字：3X，删除光标左边三个字符
+</code></pre></div><p><code>s | cl</code>      删除当前光标之后的一个字符并进入编辑模式</p> <div class="language- extra-class"><pre><code>支持数字：3s，删除光标右边三个字符
+</code></pre></div><p><code>S | cc</code>       删除当前整行，保留该空行并且保留缩进，进入编辑模式。</p> <div class="language- extra-class"><pre><code>支持数字：3S，删除当前行开始往下3行内容
+</code></pre></div><p><code>J</code>     删除当前行的换行符，相当于将下一行内容上移至当前行末尾</p> <h2 id="复制和粘贴"><a href="#复制和粘贴" class="header-anchor">#</a> 复制和粘贴</h2> <p><code>d+位移命令</code>     剪切。<strong>（不贴则用作删除）</strong></p> <p><code>y</code>     复制</p> <div class="language- extra-class"><pre><code>具体操作同剪切(d)
+</code></pre></div><p><code>+y</code>     复制到系统剪贴板</p> <p><code>yy</code> 复制一行</p> <div class="language- extra-class"><pre><code>支持数字：3yy，复制当前行与下面两行
+</code></pre></div><p><code>p</code>     粘贴到光标之后</p> <div class="language- extra-class"><pre><code>支持数字：3p，粘贴3次
+</code></pre></div><p><code>P</code>     粘贴到光标之前</p> <div class="language- extra-class"><pre><code>支持数字：3P，粘贴3次
+</code></pre></div><p><code>+p</code>     从系统剪贴板粘贴</p> <h2 id="重复和撤销"><a href="#重复和撤销" class="header-anchor">#</a> 重复和撤销</h2> <p><code>u</code>     撤销</p> <div class="language- extra-class"><pre><code>支持数字，3u，撤销3次
+</code></pre></div><p><code>Ctrl+r | .</code>     重做，&quot;.&quot;需要在Normal模式下执行</p> <div class="language- extra-class"><pre><code>支持数字，3 + Ctrl+R，重做三次
+</code></pre></div><p><code>U</code>     重做，一次撤销对一行的操作，再次使用则会撤销前一次的&quot;U&quot;操作</p> <h2 id="移动"><a href="#移动" class="header-anchor">#</a> 移动</h2> <p><code>方向键</code>    移动</p> <p><code>数字+方向键</code>     移动</p> <div class="language- extra-class"><pre><code>- 左：向左移动&quot;数字&quot;个字符
+- 右：向右移动&quot;数字&quot;个字符
+- 上：向上移动&quot;数字&quot;行
+- 下：向下移动&quot;数字&quot;行
+</code></pre></div><p><code>w | W</code>     移动到下一单词首字符</p> <div class="language- extra-class"><pre><code>支持数字，3w，移动到后面3个单词首字符
+</code></pre></div><p><code>b | B</code>     移动到前一单词首字符</p> <div class="language- extra-class"><pre><code>支持数字，3b，移动到前面3个单词首字符
+</code></pre></div><p><code>e | E</code>     移动到下一个单词末字符</p> <div class="language- extra-class"><pre><code>支持数字，3e，移动到后面3个单词末字符
+</code></pre></div><p><code>$ | &lt;END&gt;键</code>     移动到当前行末尾</p> <div class="language- extra-class"><pre><code>支持数字，3$，移动到下3行（当前行为第一行）末尾
+</code></pre></div><p><code>0 | ^ | &lt;HOME&gt;键</code>     移动到当前行首</p> <div class="language- extra-class"><pre><code>不支持数字
+</code></pre></div><p><code>G</code>     移动到最后一行</p> <p><code>数字+G</code>     移动到指定行</p> <p><code>gg</code>     移动到第一行</p> <p><code>ge</code>     移动到前一单词末字符</p> <div class="language- extra-class"><pre><code>支持数字，3ge，移动到前面3个单词末字符
+</code></pre></div><p><code>数字+%</code>     移动到文档某一位置，如：50%，移动到文档中间，90%，移动到文档靠近尾部</p> <p><code>:+数字</code>     移动到文档的某一行</p> <p><code>H</code>     移动到当前界面顶部</p> <p><code>M</code>     移动到当前画面中部</p> <p><code>L</code>     移动到当前界面底部</p> <p><code>(</code>     移动到句首</p> <p><code>)</code>     移动到句尾</p> <p><code>{</code>     移动到段首</p> <p><code>}</code>     移动到段尾</p> <p><code>Ctrl+o</code>     光标跳转到之前的位置</p> <p><code>Ctrl+i</code>     光标跳转到之后的位置（在使用Ctrl+o之后有效）</p> <h2 id="标记"><a href="#标记" class="header-anchor">#</a> 标记</h2> <p><code>m+字符</code>    设定标记，将当前光标处用指定字符作为标记</p> <p><code>`+字符</code>     跳转到指定标记，如果该字符标记位存在，则会跳转，使用m设定标记</p> <p><code>:marks</code>     查看标记</p> <p><code>``</code>     如果使用了G进行跳转，那么该命令则会在当前位置和跳转后的位置进行来回切换</p> <p>##滚动屏幕</p> <p><code>Ctrl+y</code>     向上一行</p> <p><code>Ctrl+e</code>     向下一行</p> <p><code>Ctrl+u</code>     向上半屏</p> <p><code>Ctrl+d</code>     向下半屏</p> <p><code>Ctrl+b</code>     向上整屏</p> <p><code>Ctrl+f</code>     向下整屏</p> <p><code>zt</code>     把当前行置于屏幕顶端</p> <p><code>zz</code>     把当前行置于屏幕中央</p> <p><code>zb</code>     把当前行置于屏幕底端</p> <h2 id="查找和替换"><a href="#查找和替换" class="header-anchor">#</a> 查找和替换</h2> <p><code>f+字符</code>     光标跳转到当前行的下一个该字符</p> <p><code>F+字符</code>     光标跳转到当前行的前一个该字符</p> <p><code>t+字符</code>     光标跳转到当前行的下一个该字符的前一个字符</p> <p><code>T+字符</code>     光标跳转到当前行的前一个该字符的前一个字符</p> <p><code>;</code>     用来重复  f  |  F  |  t  |  T  这四个命令</p> <p><code>%</code>     跳转到匹配成对的括号，包括小括号，中括号，大括号</p> <p><code>/ | ? +字符串</code>      搜索一个字符串，</p> <p><code>/</code>     用于向后查找</p> <p><code>?</code>     用于向前查找</p> <p><code>n</code>     用于该目标字符串的下一个位置（与 /  |  ?  指定方向同向）</p> <div class="language- extra-class"><pre><code>支持数字，3n，该目标字符串在当前查找方向同向的第三次出现的位置
+</code></pre></div><p><code>N</code>     用于该目标字符串的上一个位置（与 /  |  ?  指定方向反向）</p> <div class="language- extra-class"><pre><code>支持数字，3N，该目标字符串在当前查找方向反向的第三次出现的位置
+</code></pre></div><p><code>\&lt;</code> 单词开始</p> <p><code>\&gt;</code> 单词结尾</p> <div class="language- extra-class"><pre><code>/&lt;the\&gt;，这样只会搜索单词 &quot;the&quot;，而不会搜索到类似 &quot;there&quot;、&quot;them&quot;
+</code></pre></div><p><code>$</code>  匹配一行结尾</p> <p><code>.</code>  匹配任意字符</p> <p><code>\</code>  匹配特殊字符</p> <p><code>^</code>  匹配一行开头</p> <p><code>*</code>     选取光标当前所在单词向后进行搜索</p> <div class="language- extra-class"><pre><code>支持数字，3*，该单词第三次出现的位置
+</code></pre></div><p><code>#</code>     选取光标当前所在单词向前进行搜索</p> <div class="language- extra-class"><pre><code>支持数字，3#，该单词第三次出现的位置
+</code></pre></div><h2 id="替换文本"><a href="#替换文本" class="header-anchor">#</a> 替换文本</h2> <p><code>:s/文本1/文本2/</code>     用文本2替换第一次出现的文本1</p> <p><code>:s/文本1/文本2/g</code>     用文本2替换当前行所有匹配到的文本1</p> <p><code>:%s/文本1/文本2/g</code>     用文本2替换整个文件中所有匹配到的文本1</p> <p><code>:%s/文本1/文本2/gc</code>     用文本2替换整个文件中所有匹配到的文本1，并且每次替换时确认</p> <p><code>r</code>     等待键入下一个字符，用于替换当前光标处的字符</p> <div class="language- extra-class"><pre><code>支持数字，3r+键入字符，当前光标处开始，往后3个字符替换为键入的字符，如果替换为换行符，则只会替换为一个
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/jeremyjone/docs/edit/master/docs/document/vim/README.md" target="_blank" rel="noopener noreferrer">修改此页面</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">11/10/2021, 8:25:12 AM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.e0e238b2.js" defer></script><script src="/docs/assets/js/2.525f04cb.js" defer></script><script src="/docs/assets/js/31.a417ee06.js" defer></script>
+  </body>
+</html>
