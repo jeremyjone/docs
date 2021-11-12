@@ -1559,8 +1559,20 @@ yarn add jest@26 ts-jest@26 @vue/test-utils@next vue-jest@next @types/jest eslin
 同时测试需要 `babel`，所以再安装 `babel` 依赖：
 
 ```sh
-yarn add babel-jest @babel/core @babel/preset-env @babel/preset-typescript @vue/babel-plugin-jsx -D
+yarn add @babel/core @babel/preset-env @babel/preset-typescript @vue/babel-plugin-jsx -D
 ```
+
+```sh
+yarn add babel-jest@26
+```
+
+::: tip 安装提示
+错误日期：2021.11.8
+
+同样需要注意，`babel-jest` 由于版本问题，如果安装最新版 `^27`，会引起 `TypeError: babelJest.getCacheKey is not a function` 的错误，所以需要安装 `^26` 版本。
+
+详见 [ISSUE 344](https://github.com/vuejs/vue-jest/issues/344)
+:::
 
 ### 配置 jest
 
@@ -1662,3 +1674,46 @@ npx husky add .husky/pre-push "yarn test $1"
 该命令会在 `.husky` 文件夹下创建一个 `pre-push` 的钩子文件。
 
 现在，每次我们提交的时候都会执行测试，只有当测试通过才会进行 `push` 操作。
+
+## 测试常见问题
+
+### 配置全局 key 之后的 vuex 如何测试
+
+在测试中，可以发现，当页面中调用了之前我们配置的 `./useStore()` 之后，会报找不到 `key` 的错误：
+
+<img :src="$withBase('/assets/roadmap/vue/template/test_vuex_key_error.png')" alt="">
+
+此时我们需要对 `store` 进行一个全局注入，将 `key` 一并注入到测试组件中。
+
+```js{3,9-11}
+import { shallowMount } from "@vue/test-utils";
+import WelcomeComponent from "@/components/HelloWorld.vue";
+import store, { key } from "@/store/index";
+
+describe("Welcome Component Test", () => {
+  const wrapper = shallowMount(WelcomeComponent, {
+    props: { msg: "Hello Test!" },
+
+    global: {
+      plugins: [[store, key]]
+    }
+  });
+
+  it("load compoent", () => {
+    const html = wrapper.text();
+    expect(html).toContain("Hello Test!");
+  });
+});
+```
+
+需要注意的是，`JS` 中 `Symbol` 是唯一的，所以需要从 `store` 中导出。但是我们定义的 `key` 是 `InjectionKey` 类型，不能用作键，故不能使用：
+
+```js
+global: {
+  provide: {
+    [key]: store
+  },
+}
+```
+
+的方式，所以我们选择通过 `plugins` 的方式添加。更多参见 [文档](https://next.vue-test-utils.vuejs.org/guide/advanced/vuex.html#testing-components-that-utilize-usestore-with-an-injection-key)。
