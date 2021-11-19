@@ -1,6 +1,6 @@
 # HTML 学习之路
 
-## \<!DOCTYPE html\> 的用处
+## `<!DOCTYPE html>` 的用处
 
 `<!DOCTYPE html>` 是 `WEB` 的文档类型。它不是 HTML 标签，只是告诉浏览器当前 HTML 使用什么版本的文档类型编写的，该如何解析。
 
