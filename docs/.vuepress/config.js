@@ -58,10 +58,9 @@ module.exports = {
           {
             text: "学习手册",
             items: [
+              { text: "前端学习之路", link: "/roadmap/frontend/" },
               { text: ".NET 学习之路", link: "/roadmap/dotnetcore/" },
               { text: "Java 学习之路", link: "/roadmap/java/" },
-              { text: "Vue 学习之路", link: "/roadmap/vue/" },
-              { text: "React 学习之路", link: "/roadmap/react/" },
               { text: "Flutter 学习之路", link: "/roadmap/flutter/" },
               { text: "Android 学习之路", link: "/roadmap/android/" }
             ]
@@ -109,8 +108,7 @@ module.exports = {
       "/document/docker/": getDockerSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
-      "/roadmap/vue/": getVueSideBar(),
-      "/roadmap/react/": getReactSideBar(),
+      "/roadmap/frontend/": getFrontendSideBar(),
       "/roadmap/flutter/": getFlutterSideBar(),
       "/roadmap/android/": getAndroidSideBar(),
       "/codes/": getCodesSideBar()
@@ -165,22 +163,6 @@ function getStandardSideBar() {
     )
   ];
 }
-
-// function getDocumentSideBar() {
-//   return [
-//     _GetSubSideBar("Git 使用文档", "", ["git"]),
-//     _GetSubSideBar("Markdown 使用文档", "", ["markdown"]),
-//     _GetSubSideBar("Vim 使用文档", "", ["vim"]),
-//     _GetSubSideBar("Docker 使用文档", "", ["docker"]),
-//     // _GetSubSideBar("JzGantt 组件使用文档", "gantt", [
-//     //   ""
-//     //   // "root",
-//     //   // "column",
-//     //   // "slider",
-//     //   // "common"
-//     // ])
-//   ];
-// }
 
 function getGitSideBar() {
   return [
@@ -263,17 +245,19 @@ function getJavaSideBar() {
   return [_GetSubSideBar("Java 学习之路", "", [""])];
 }
 
-function getVueSideBar() {
+function getFrontendSideBar() {
   return [
-    _GetSubSideBar("Vue 学习之路", "", [
+    _GetSubSideBar("前端学习之路", "", [
+      _GetSubSideBar("HTML", "html", ["", "principle", "performance"]),
+      _GetSubSideBar("CSS", "css", [""]),
+      _GetSubSideBar("JavaScript", "js", [""])
+    ]),
+    _GetSubSideBar("Vue", "vue", [
       "",
-      _GetSubSideBar("项目模板", "template", ["", "setup-from-0"])
-    ])
+      _GetSubSideBar("项目模板", "vue/template", ["", "setup-from-0"])
+    ]),
+    _GetSubSideBar("React", "react", [""])
   ];
-}
-
-function getReactSideBar() {
-  return [_GetSubSideBar("React 学习之路", "", [""])];
 }
 
 function getFlutterSideBar() {
