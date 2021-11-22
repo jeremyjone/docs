@@ -1,1 +1,1 @@
-# JavaScript 学习之路
+# JavaScript 基础

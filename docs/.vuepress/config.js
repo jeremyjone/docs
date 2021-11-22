@@ -248,9 +248,14 @@ function getJavaSideBar() {
 function getFrontendSideBar() {
   return [
     _GetSubSideBar("前端学习之路", "", [
-      _GetSubSideBar("HTML", "html", ["", "principle", "performance"]),
-      _GetSubSideBar("CSS", "css", [""]),
-      _GetSubSideBar("JavaScript", "js", [""])
+      _GetSubSideBar("HTML 基础", "html", [""]),
+      _GetSubSideBar("CSS 基础", "css", [""]),
+      _GetSubSideBar("JavaScript 基础", "js", [""]),
+      _GetSubSideBar("前端进阶", "advanced", [
+        "network",
+        "principle",
+        "performance"
+      ])
     ]),
     _GetSubSideBar("Vue", "vue", [
       "",
