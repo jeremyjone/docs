@@ -12,7 +12,9 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "commit": "git commit -am \"update docs\"",
+    "push": "git push origin docs"
   },
   "dependencies": {
     "markdown-it-footnote": "^3.0.2",
