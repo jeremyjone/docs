@@ -28,4 +28,8 @@
 
 减少 `cookie` 的大小
 
+- 避免回流
+
+[避免 DOM 的回流](./principle.html#避免-dom-的回流) 可以有效提高前端性能。
+
 ## JavaScript 加载时的阻塞问题

@@ -44,3 +44,97 @@
 8、最后，浏览器会调用 GPU 进行图形渲染，将 `Render Tree` 的内容渲染并展示给用户。
 
 <img :src="$withBase('/assets/roadmap/frontend/render-process.png')" alt="">
+
+## 回流 Reflow 与重绘 Repaint
+
+- 回流：当元素的宽高、大小或者位置等影响布局的属性发生了变化，会触发重弄更新布局，导致渲染树重新计算布局和渲染，这个过程叫做回流。
+
+  如下等情况会发生回流：
+
+  - 页面初始化（即首次渲染）
+  - 添加或删除 DOM 元素
+  - 元素位置发生变化（left、right、top、bottom 等）
+  - 元素尺寸发生变化（size、width、height、margin、padding 等）
+  - 内容发生变化（图片大小、文本大小、内容增减等）
+  - 浏览器窗口发生变化
+
+- 重绘：当元素样式发生改变，但是宽高、大小、位置等影响布局的属性不发生变化时，浏览器会进行重绘。
+
+  如：outline、visibility、color 等不影响布局的属性发生变化
+
+::: tip 注意
+页面首次加载一定会回流
+回流一定触发重绘，而重绘不一定回流
+:::
+
+### 避免 DOM 的回流
+
+避免 DOM 的回流，可以有效提高前端性能。可以通过如下几点来避免：
+
+- 放弃传统操作 DOM 的方式（原生 js、jQuery 等），而是采用基于 vue、react 等框架，用数据影响视图的模式（MVVM）
+
+- 读写分离，利用现代浏览器的渲染队列机制
+
+  现代浏览器一般都会自动维护一个**渲染队列**，把所有会引起回流、重绘的操作放入队列，当操作一定数量或到达一定时间后，浏览器会自动刷新队列，批处理所有内容。
+
+  但是有一些属性，会导致浏览器立即刷新渲染队列：
+
+  - `offsetTop/Left/Width/Height`
+  - `clientTop/Left/Width/Height`
+  - `scrollTop/Left/Width/Height`
+  - `width`、`height`
+  - `getComputedStyle`、`currentStyle`
+
+  这些属性为了获取到最精确的数值，会立即刷新所有需要回流的内容。
+
+- 样式集中改变
+
+  不要一个一个属性的去改变，最好是一起写完样式，统一改变，这样可以减少回流次数。
+
+  ```js
+  ✔ div.style.cssText = "width:20px;height:20px";
+
+  // 而不是
+  ❌ div.style.width = "20px";
+  ❌ div.style.height = "20px";
+  ```
+
+  当然，现代浏览器已经在很大程度上帮我们做好了这样的规划，当读取到样式改变的内容时，不会第一时间去回流，而是尝试继续读取后面的内容，尽可能将所有改变样式都做完后再一次性的进行回流和重绘。但我们仍然需要养成良好的习惯。
+
+- 集中添加元素
+
+  添加元素时，不要一个一个直接往 DOM 中添加，而是将所有内容添加到 `fragment` 中，最后添加一次就好。
+
+  使用 `document.createDocumentFragment()` 创建临时容器，再把新元素添加到该容器中，最后将该容器添加到 DOM 中，引发一次回流：
+
+  <img :src="$withBase('/assets/roadmap/frontend/create-document-fragment.png')" alt="">
+
+  当然还可以使用文档字符串，拼接之后一次性添加到 HTML 中：
+
+  <img :src="$withBase('/assets/roadmap/frontend/document-str.png')" alt="">
+
+- 让动画效果脱离文档流
+
+  将具有动画效果的元素尽可能脱离文档流。通过 `position:absolute / fixed` 的方式，让元素在一个全新层级，这样就不会影响大部分的页面元素，减少回流的计算。
+
+- 使用 CSS3 的硬件加速
+
+  CSS3 提供了 GPU 加速功能。使用 `transform`、`opacity`、`filters` 等属性时会触发硬件加速，避免回流和重绘。
+
+  ```js
+  div.style.transform = "translateX(200px)";
+  // 效果等同于
+  div.style.left = "200px";
+  ```
+
+  同时也要注意，过多使用可能会导致大量占用内存，性能消耗严重，字体模糊等问题。这些是需要兼顾考虑的。
+
+- 牺牲平滑度换取速度
+
+  有时我们可以通过牺牲掉平滑度来换取更快的速度。因为每次元素移动 `1px` 都会引发回流，所以我们可以加大移动间距，比如尝试 `2px` 甚至 `3px`。
+
+- 避免 table 布局和使用 CSS 的 JavaScript 表达式
+
+  页面中 table 元素层级太多，会导致多次计算才能确定元素的属性，从而导致大量回流。
+
+  现在很多框架的表格并不使用 `<table>` 标签，这也一定程度上避免了该问题。
