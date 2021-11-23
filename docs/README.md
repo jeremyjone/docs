@@ -8,11 +8,11 @@ actionText: 查看学习手册 →
 actionLink: /roadmap/
 features:
   - title: 规范
-    details: 遵循代码编写规范，以编写更加成熟可维护的代码。
+    details: 遵循编写规范，编写可维护代码
   - title: 文档
-    details: 查看文档手册，快速导航需要的相关命令。
+    details: 查看文档手册，快速导航到相关内容
   - title: 代码
-    details: 世上武功，唯快不破，使用轮子，其乐无穷。
+    details: 学习代码，快乐无穷
 footer: MIT Licensed | Copyright © 2020-present Jeremy Jone
 ---
 
