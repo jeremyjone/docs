@@ -16,6 +16,4 @@ features:
 footer: MIT Licensed | Copyright © 2020-present Jeremy Jone
 ---
 
-<!-- <Home /> -->
-
-### JeremyJone 的文档站，旨在快速查询编写代码规范文档、使用命令和轮子。
+<Home />

@@ -1,39 +1,39 @@
 <template>
-    <div>
-        Home
-    </div>
+  <h1 style="text-align: center">
+    旨在快速查询文档，学习技术
+  </h1>
 </template>
 
 <script>
 export default {
-    name: "HomeComponent",
+  name: "HomeComponent",
 
-    props: {},
+  props: {},
 
-    beforeCreate() {},
+  beforeCreate() {},
 
-    created() {},
+  created() {},
 
-    beforeMount() {},
+  beforeMount() {},
 
-    mounted() {},
+  mounted() {},
 
-    beforeDestroy() {},
+  beforeDestroy() {},
 
-    destroyed() {},
+  destroyed() {},
 
-    data() {
-        return {};
-    },
+  data() {
+    return {};
+  },
 
-    computed: {},
+  computed: {},
 
-    watch: {},
+  watch: {},
 
-    methods: {},
+  methods: {},
 
-    components: {}
-}
+  components: {}
+};
 </script>
 
 <style lang="stylus" scoped></style>
