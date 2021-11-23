@@ -4,6 +4,8 @@
 
 ## 拷贝
 
+通过递归进行深拷贝
+
 ```js
 function clone(data) {
   if (!isObject(data)) {
@@ -16,8 +18,11 @@ function clone(data) {
     return d;
   }
 }
+```
 
-// 对 JSON 转换做了一些小处理，避免了转换出错，但仍然可能出现问题。
+对 JSON 转换做了一些小处理，避免了转换出错，但仍然可能出现问题。
+
+```js
 function clone(data) {
   const s = JSON.stringify(data);
   if (s) {
@@ -25,6 +30,18 @@ function clone(data) {
   }
 }
 ```
+
+::: warning 注意
+该方法通常情况下不能用于生产环境。
+
+因为：
+
+- 转换时会抛弃一些值，比如 `undefined`、`Symbol`
+- 转换时会做类型转换，比如 `RegExp`、`Map`
+
+<img :src="$withBase('/assets/code/json-stringify.png')" alt="">
+
+:::
 
 ## 无聊的等待方式
 

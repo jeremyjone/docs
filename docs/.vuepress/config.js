@@ -38,10 +38,9 @@ module.exports = {
         ariaLabel: "代码相关菜单",
         items: [
           { text: "代码编写规范", link: "/standard/" },
-          { text: "代码库", link: "/codes/" }
+          { text: "手撸代码", link: "/codes/" }
         ]
       },
-      // { text: "文档手册", ariaLabel: "文档手册菜单", link: "/document/" },
       {
         text: "文档手册",
         ariaLabel: "文档手册菜单",

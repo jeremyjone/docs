@@ -8,7 +8,7 @@ export const contains = (arr, val) => {
 };
 ```
 
-也可以将刚发挂载到 Array 中，但是不推荐。
+也可以将方法挂载到 Array 中，但是不推荐。
 
 ## 随机洗牌方法
 

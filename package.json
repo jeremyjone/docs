@@ -13,7 +13,6 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "docs:serve": "vuepress dev docs --port 9999",
     "commit": "git commit -am \"update docs\"",
     "push": "git push origin docs"
   },
