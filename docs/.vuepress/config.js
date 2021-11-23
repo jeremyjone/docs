@@ -249,9 +249,9 @@ function getFrontendSideBar() {
     _GetSubSideBar("前端学习之路", "", [
       _GetSubSideBar("HTML 基础", "html", [""]),
       _GetSubSideBar("CSS 基础", "css", [""]),
-      _GetSubSideBar("JavaScript 基础", "js", [""]),
+      _GetSubSideBar("JavaScript 基础", "js", ["", "prototype"]),
       _GetSubSideBar("前端进阶", "advanced", [
-        "network",
+        _GetSubSideBar("网络相关内容", "advanced/network", ["", "http"]),
         "principle",
         "performance"
       ])

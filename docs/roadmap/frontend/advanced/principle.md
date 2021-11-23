@@ -11,12 +11,12 @@
 
 ### 请求阶段
 
-1、当客户端开输入一个网址后，会向服务器发送一个 [Request 请求](network.html#请求-request)，首先需要 `DNS` 解析，然后进行 `TCP` 连接。
+1、当客户端开输入一个网址后，会向服务器发送一个 [Request 请求](network/http.html#请求-request)，首先需要 `DNS` 解析，然后进行 `TCP` 连接。
 
-2、服务器收到请求后，会发送一个 [Response 响应](./network.html#响应-response)给客户端，并将文件内容返回给客户端。
+2、服务器收到请求后，会发送一个 [Response 响应](./network/http.html#响应-response)给客户端，并将文件内容返回给客户端。
 
 ::: tip 说明
-[实际请求](./network.html#http)要比上述过程更加繁琐，但并不影响对于渲染的理解。
+[实际请求](./network/http.html)要比上述过程更加繁琐，但并不影响对于渲染的理解。
 :::
 
 ### 渲染阶段
