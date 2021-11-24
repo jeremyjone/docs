@@ -42,15 +42,23 @@ git --version
 
 - 提交名字
 
-  ```shell
-  git config --global user.name "yourname"
-  ```
+```shell
+# 全局
+git config --global user.name "yourname"
+
+# 当前仓库
+git config user.name "yourname"
+```
 
 - 提交邮箱
 
-  ```shell
-  git config --global user.email "yourname@example.com"
-  ```
+```shell
+# 全局
+git config --global user.email "yourname@example.com"
+
+# 当前仓库
+git config user.email "yourname@example.com"
+```
 
 - 创建 SSH
 
@@ -60,7 +68,7 @@ git --version
 
 - 将新生成的 SSH 全部拷贝并添加到远程仓库的相应设置中。
 
-## 提交
+## 使用
 
 ### 初始化本地仓库
 
@@ -68,24 +76,56 @@ git --version
 git init
 ```
 
-### 检查多余的空白字符
+### 帮助
+
+`git` 提供了完整的帮助，可以通过 `--help` 命令来查看。同时，在任何命令下使用 `--help` 就会显示当前命令的帮助文档。
 
 ```shell
-git diff --check
+git --help  # 会列出所有可用的命令
+
+git add --help  # 会打开关于 add 命令的帮助
+
+git log --help  # 会打开关于 log 命令的帮助
 ```
 
-### 暂存区
+### Git 的流程
+
+Git 分成 `local（本地）`、`staged（暂存区）` 以及 `Git（仓库）`，另外还包括 `远程仓库（Remote）`，如 GitHub 等。
+
+它的操作流程如下：
+
+<img :src="$withBase('/assets/pic/git-flow.png')" alt="">
+
+## 提交
+
+### 添加到暂存区
 
 - 存放指定文件
 
   ```shell
-  git add filename
+  git add <filename>
+
+  # 支持多个文件
+  git add <filename1> <filename2> [...]
+
+  # 支持通配符，比如添加所有 js 文件
+  git add *.js
   ```
 
-- 将文件的修改、新建添加到暂存区
+- 将所有文件的修改、新建添加到暂存区
+
+  该命令可以将所有内容都添加到暂存区
 
   ```shell
-  git add . //注意add后面是一个点,你没看错
+  git add -A
+  # 或者
+  git add --all
+  ```
+
+  该命令只能够添加当前目录或者子目录的文件
+
+  ```shell
+  git add . # 注意 add 后面的一个点，它表示所有文件
   ```
 
 - 将文件的修改、删除添加到暂存区
@@ -94,11 +134,98 @@ git diff --check
   git add -u
   ```
 
-- 将文件的修改、删除和新建添加到暂存区
+### 取消暂存区文件
+
+该命令会将暂存区的文件回退到工作区，并不会改变文件内容，如果需要重新添加到咱群去，只需要重新执行 `git add` 命令即可。
+
+```shell
+git reset HEAD  # 取消全部文件
+
+git reset HEAD <filename>  # 取消指定文件
+```
+
+### 删除文件
+
+如果文件还没有提交，可以通过 `.gitignore` 文件来忽略它。
+
+但是如果文件已经纳入管理，那么需要删除它：
+
+- 文件不再纳入版本管理，同时删除本地文件
 
   ```shell
-  git add -A
+  git rm filename
   ```
+
+- 文件不再纳入版本管理，同时保留本地文件
+
+  ```shell
+  git rm --cached filename
+  ```
+
+### 暂存工作现场
+
+将所有未提交的更改保存到本地，并隐藏它们，回退到当前分支的提交状态，通常是 `HEAD`。
+
+```shell
+git stash
+
+# 不跟参数等同于
+git stash push
+```
+
+### 查看工作现场
+
+查看已保存的工作现场列表，可以获取到工作现场的索引：
+
+```shell
+git stash list
+```
+
+<img :src="$withBase('/assets/pic/stash_index.png')" alt="">
+
+### 恢复工作现场
+
+- 恢复最近一次保存的工作现场
+
+```shell
+git stash apply
+```
+
+- 恢复后删除该工作现场
+
+```shell
+git stash pop
+```
+
+上面两个命令都支持通过索引恢复指定工作现场，具体索引按照实际填写即可：
+
+```shell
+git stash apply stash@{0}
+
+git stash pop stash@{0}
+```
+
+### 删除工作现场
+
+- 删除最近的一个工作现场
+
+```shell
+git stash drop
+```
+
+- 删除所有工作现场
+
+```shell
+git stash clear
+```
+
+### 查看工作区状态
+
+显示当前工作区中所有变化文件的状态
+
+```shell
+git status
+```
 
 ### 提交修改内容
 
@@ -107,8 +234,8 @@ git commit -m "desc"
 ```
 
 ```shell
-// 多行desc
-// 这里需要先暂时输入一个单引号，然后写多行信息，写完之后再输入下一个单引号
+# 多行desc
+# 这里需要先暂时输入一个单引号，然后写多行信息，写完之后再输入下一个单引号
 git commit -m '
 1. log1
 2. log2
@@ -116,7 +243,13 @@ git commit -m '
 '
 ```
 
+::: tip 建议
+提交内容应该严格按照现代[提交规范](#提交规范)，使用规范工具，不自行填写内容。
+:::
+
 ### 重新提交
+
+这将与上次提交内容合并为一次提交。
 
 ```shell
 git commit --amend -m "desc"
@@ -127,34 +260,98 @@ git commit --amend -m "desc"
 撤销对工作区文件的修改，若修改后没有放到暂存区，则与上个版本一致，若修改后放到暂存区，则和暂存区一致。
 
 ```shell
-git checkout -- filename
+git checkout -- <filename>
 ```
 
-### 取消暂存区的指定文件
+### 删除某次提交
 
 ```shell
-git reset HEAD filename
+git log  # 获取提交信息
+git rebase -i <commit-id>  # commit-id 为提交版本的hash code
 ```
 
-### 查看当前状态
+**注意：** 这里有个坑，commit-id 是需要删除的前一个 hash code，用图说明：
 
-显示当前工作区的状态
+ <img :src="$withBase('/assets/pic/rebase1.png')" alt="rebase">
+
+使用命令后，打开一个文件，将需要删除版本前面的 `pick` 改为 `drop`，用图说明：
+
+ <img :src="$withBase('/assets/pic/rebase2.png')" alt="rebase">
+
+修改后保存关闭，`ZZ` 或者 `:wq`，vim 的命令这里不赘述。
+
+退出后使用`git log`再次查看，可以看到对应版本已经没有了。
+
+### 合并提交
+
+分支开发时，会有很多提交，但是合并到主分支时，希望只有一个提交，此时需要合并提交。
+
+- 修改 HEAD 并重新提交
 
 ```shell
-git status
+git reset HEAD~<n>  # n 为需要合并提交的数量
+git add .
+git commit -am "desc"
 ```
+
+- 通过 rebase 界面自定义
+
+此方法更适合需要保留之前的所有/部分提交信息。
+
+```shell
+git rebase -i <remoteRepo>/<branchname>
+
+# 通常为
+git rebase -i origin/master
+```
+
+此时会打开一个 `vim` 界面：
+
+<img :src="$withBase('/assets/pic/rebase-merge-commit.png')" alt="">
+
+最上面会列出当前本地提交的所有内容（自与远程仓库不一致开始），按时间顺序依次向下列出，所以越下面的内容越新，最下面一行是最新提交的。
+
+根据下面的注释：
+
+```text
+pick：  正常选中
+reword：选中，并且修改提交信息；
+edit：  选中，rebase 时会暂停，允许你修改这个 commit（参考这里）
+squash：选中，会将当前 commit 与上一个 commit 合并
+fixup： 与 squash 相同，但不会保存当前 commit 的提交信息
+exec：  执行其他shell命令
+```
+
+根据需要将指定提交的 `pick` 修改为 `squash`（或 `s`） 或者 `fixup`（或 `f`），注意第一行不能修改，可以修改后面的内容。
+
+然后保存文件（`ZZ` 或者 `:wq`），就可以进行合并提交了。
+
+保存文件后，会跳转到另一个 `vim` 界面，显示了提交信息，如果填写的是 `squash`，则会显示所有提交的信息，这里做了一个合并。如果填写的是 `fixup`，则不会保留其他提交信息。
+
+填写好信息，保存文件，就可以看到只有一个（如果在基变文件中只保留了一个 `pick` 的话）提交信息了。
+
+## 日志
 
 ### 查看提交日志
 
 ```shell
-git log  // 从近到远显示提交日志
+git log  # 从近到远显示提交日志
 ```
+
+通过日志我们可以查询很多需要的数据
 
 ```shell
-git log --pretty=oneline  // 将每个提交记录放在一行显示，其它参数：oneline、short、full、fuller等
+git log --pretty=oneline  # 将每个提交记录放在一行显示，其它参数：oneline、short、full、fuller等
 ```
 
-**通过日志我们可以查询很多需要的数据**
+可以显示每次提交的轨迹，这在多分支下非常有用
+
+```shell
+git log --graph
+
+# 查看分支合并情况
+git log --graph --pretty=oneline --abbrev-commit
+```
 
 - 统计提交的行数
 
@@ -198,57 +395,40 @@ git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r
 git log --pretty='%aN' | sort | uniq -c | sort -k1 -n -r | head -n 5
 ```
 
-### 删除文件
-
-- 删除本地文件，不再纳入版本管理
-
-  ```shell
-  git rm filename
-  ```
-
-- 不纳入版本管理，但本地不删除文件
-
-  ```shell
-  git rm --cached filename
-  ```
-
-### 删除某次提交
-
-```shell
-git log  // 获取提交信息
-git rebase -i (commit-id)  // commit-id 为提交版本的hash code
-```
-
-**注意：** 这里有个坑，commit-id 是需要删除的前一个 hash code，用图说明：
-
- <img :src="$withBase('/assets/pic/rebase1.png')" alt="rebase">
-
-使用命令后，打开一个文件，将需要删除版本前面的 pick 改为 drop，用图说明：
-
- <img :src="$withBase('/assets/pic/rebase2.png')" alt="rebase">
-
-修改后保存关闭，`ZZ` 或者 `:wq`，vim 的命令这里不赘述。
-
-退出后使用`git log`再次查看，可以看到对应版本已经没有了。
-
 ## 回退
 
 ### 记录回退的命令
+
+该命令可以查看历史提交以及被回退的记录。但该记录仅在本地，且有时限。
 
 ```shell
 git reflog
 ```
 
-### 回退到上一版本
+### 回退到当前最新提交
 
 ```shell
 git reset --hard HEAD
 ```
 
-### 回退到指定版本
+### 回退到上次提交
 
 ```shell
-git reset --hard 哈希值  // 哈希值可以使用reflog命令查看
+git reset --hard HEAD^
+```
+
+### 回退到上 n 次提交
+
+```shell
+git reset --hard HEAD~<n>  #n 为一个数字
+```
+
+### 回退到指定版本
+
+该命令既可以回退到过去版本，也可以回到未来版本。
+
+```shell
+git reset --hard <commitId>  # commitId 可以使用 reflog 命令查看
 ```
 
 ## 分支
@@ -256,72 +436,62 @@ git reset --hard 哈希值  // 哈希值可以使用reflog命令查看
 ### 查看分支
 
 ```shell
+# 仅查看本地
 git branch
+
+# 查看本地和远程。远程名称为 <remoteRepo>/<branchname>
+git branch -a
 ```
 
 ### 创建分支
 
 ```shell
-git branch branchname
+git branch <branchname>
 ```
 
 ### 切换分支
 
 ```shell
-git checkout branchname
-git checkout -b branchname  // 创建并切换到该分支
-git checkout -f branchname  // 强制切换到该分支
+git checkout <branchname>
+git checkout -b <branchname>  # 创建并切换到该分支
+git checkout -f <branchname>  # 强制切换到该分支
 ```
 
 ### 删除分支
 
 ```shell
-git branch -D branchname
+# 删除为合并分支
+git branch -D <branchname>
+
+# 删除已合并分支
+git branch -d <branchname>
 ```
 
 ### 合并分支
 
+将某个分支合并到当前分支。
+
 ```shell
-git merge branchname
+git merge <branchname>
 ```
 
 ### 查看合并记录
 
 ```shell
-git log --graph --pretty=oneline --abbrev-commit  // 查看分支合并情况
-git branch --merged  // 查看已合并到当前分支的分支、上游分支
-git branch --no-merged  // 查看尚未合并的分支
+# 查看分支合并情况
+git log --graph --pretty=oneline --abbrev-commit
+
+# 查看已合并到当前分支的分支、上游分支
+git branch --merged
+
+# 查看尚未合并的分支
+git branch --no-merged
 ```
 
-## 操作 git 中的文件
-
-### 查看 git 占用空间
+### 将本地分支关联到远程分支
 
 ```shell
-du -sh
-```
-
-### 查找 git 中的文件
-
-```shell
-git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -g | tail -5  // 找出git中占空间最大的前5个文件的id
-
-git rev-list --objects --all | grep .  // 查看文件列表，可以和grep一起使用，grep后跟需要查找的文件名或id
-```
-
-### 删除匹配的\*.rar 文件
-
-```shell
-git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.rar' --prune-empty --tag-name-filter cat -- --all
-```
-
-### 回收空间
-
-```shell
-rm -rm .git/refs/original
-git reflog expire --expire=now --all
-git gc --prune=now
-git gc --aggressive --prune=now
+git branch --set-upstream <localBranch> origin/<remoteBranch>
 ```
 
 ## 比较
@@ -332,11 +502,17 @@ git gc --aggressive --prune=now
 git diff
 ```
 
+### 检查多余的空白字符
+
+```shell
+git diff --check
+```
+
 ### 比较工作区与当前分支库的差异
 
 ```shell
 git diff HEAD
-git diff HEAD -- path  // 与当前分支库同一目录比较
+git diff HEAD -- path  # 与当前分支库同一目录比较
 ```
 
 ### 比较暂存区与版本库的差异
@@ -348,18 +524,20 @@ git diff --cached (或 --staged)
 ### 比较不同版本库中不同文件的差异
 
 ```shell
-git diff HEAD:filename HEAD:filename
+git diff HEAD:<filename> HEAD:<filename>
 ```
 
 ### 查看每次提交差异
 
 ```shell
-git log -p -2  // 查询每次提交的行差异， 2查询的是提交次数，-p是展开显示每次提交的内容差异
-git log -U1 --word-diff  // 查询每次提交的单词差异
-git log --stat  // 显示改动的概要信息
+git log -p -2  # 查询每次提交的行差异， 2查询的是提交次数，-p是展开显示每次提交的内容差异
+git log -U1 --word-diff  # 查询每次提交的单词差异
+git log --stat  # 显示改动的概要信息
 ```
 
 ## 标签
+
+标签是用于特定版本的标记。
 
 ### 查看标签
 
@@ -370,25 +548,39 @@ git tag
 ### 创建标签
 
 ```shell
-git tag content  // content填写标签内容
+# 给当前版本添加标签
+git tag <content>
+
+# 给历史版本添加标签
+git tag <content> <commitId>
 ```
 
-### 删除本地标签
+### 删除标签
 
 ```shell
-git tag -d content
+# 删除本地标签
+git tag -d <content>
+
+# 删除远程标签
+git push <remoteRepo> -d <content>
 ```
 
 ### 发布标签
 
 ```shell
-git push -u origin content
+# 发布指定标签
+git push -u <remoteRepo> <content>
+
+# 发布所有未提交的标签
+git push <remoteRepo> --tags
 ```
 
-### 删除远程标签
+### 拉取标签
+
+从远程仓库更新本地标签内容。
 
 ```shell
-git push origin --delete tag content
+git pull <remoteRepo> --tags
 ```
 
 ## 远程操作
@@ -396,60 +588,115 @@ git push origin --delete tag content
 ### 查看仓库信息
 
 ```shell
+# 不详细信息
 git remote
+
+# 详细信息
+git remote -v
 ```
 
 ### 添加远程仓库
 
 ```shell
-git remote add [name] [url]
+git remote add <remoteRepo> <url>
 ```
+
+- `remoteRepo` 名称可以随意填写，通常默认填写 `origin`
+- `url` 可以在远程仓库网站找到
 
 ### 将远程仓库分支添加到本地
 
+该命令仅仅是拉取远程仓库内容并更新到本地，永远不会影响当前的工作区。
+
 ```shell
-git fetch origin mbranchname
+git fetch <remoteRepo> <branchname>
 ```
 
 ### 克隆远程仓库到本地
 
 ```shell
-git clone [url]  // [url]从远程仓库获取
+git clone <url>
 ```
 
 ### 拉取所有远程分支到本地
 
+三种方法都可以：
+
 ```shell
-git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#origin/}" "$remote"; done
+# 1  注意 remoteRepo 需要根据实际需要进行替换
+git branch -r | grep -v '\->' | while read remote; do git branch --track "${remote#remoteRepo/}" "$remote"; done
+
+# 2
 git fetch --all
+
+# 3 慎用，会覆盖当前工作区
 git pull --all
 ```
 
 ### 更新分支
 
+该命令相当于是 `git fetch` 与 `git merge FETCH_HEAD` 的合体，拉取远程仓库内容并且合并到当前工作区，该操作可能会出现冲突，需要注意。
+
+- 更新当前分支
+
 ```shell
-git pull  // 更新当前分支
-git pull branchname master  // 获取并合并远程分支到本地master分支
-git pull origin branchname  // 将远程仓库分支拉取到本地
+git pull
+```
+
+- 获取远程仓库的 master 分支，并合并到本地的 work 分支
+
+```shell
+git pull <remoteRepo> master:work
+```
+
+- 将远程仓库分支拉取到本地，分支名称相同
+
+```shell
+git pull <remoteRepo> <branchname>
 ```
 
 ### 推送分支
 
+- 向远程仓库推送当前分支
+
 ```shell
-git push  // 向远程仓库推送当前分支
-git push -f ...  // 强制推送
-git push branchname master  // 向远程仓库推送master分支
-git push origin branchname  // 将本地仓库提交到远程仓库
-git push -u origin branchname  // 第一次推送时需要 -u 参数
+git push
+```
+
+- 将本地仓库提交到远程仓库
+
+```shell
+git push <remoteRepo> <branchname>
+
+# 向远程仓库推送 master 分支
+git push <remoteRepo> master
+```
+
+- 强制推送需要添加参数 `-f`
+
+```shell
+git push -f <remoteRepo> <branchname>
+```
+
+- 第一次推送时需要参数 `-u`
+
+```shell
+git push -u <remoteRepo> <branchname>
+```
+
+- 推送发布版本时同时推送 tag
+
+```shell
+git push --follow-tags <remoteRepo> <branchname>
 ```
 
 ### 合并远程分支
 
 ```shell
-git merge fork  // 将fork分支合并到当前分支
-git checkout fork a.c b.c  // 将fork分支的a.c b.c文件强制覆盖当前分支的对应文件
-git merge origin branchname  // 将本地分支与远程分支合并
-git mergetool  // 使用工具比较查看冲突
+git merge fork               # 将fork分支合并到当前分支
+git checkout fork a.c b.c    # 将fork分支的a.c b.c文件强制覆盖当前分支的对应文件
+git merge origin branchname  # 将本地分支与远程分支合并
+git mergetool                # 使用工具比较查看冲突
 ```
 
 ### 将最近两次提交合并为一个提交，并强制提交到远程仓库
@@ -460,13 +707,10 @@ git commit -m "..."
 git push --force
 ```
 
-### _实例_
-
-<font color="#0E6DB0">将共享库添加到自己的仓库并拉到本地</font>
+### 删除远程分支
 
 ```shell
-git remote add gitignore https://github.com/github/gitignore
-git pull origin gitignore
+git push <remoteRepo> -d <branchname>
 ```
 
 ## 提交规范
@@ -595,6 +839,37 @@ Closes #1
 Closes #1, #2
 ```
 
+## 操作 git 中的文件
+
+### 查看 git 占用空间
+
+```shell
+du -sh
+```
+
+### 查找 git 中的文件
+
+```shell
+git verify-pack -v .git/objects/pack/pack-*.idx | sort -k 3 -g | tail -5  // 找出git中占空间最大的前5个文件的id
+
+git rev-list --objects --all | grep .  // 查看文件列表，可以和grep一起使用，grep后跟需要查找的文件名或id
+```
+
+### 删除匹配的\*.rar 文件
+
+```shell
+git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch *.rar' --prune-empty --tag-name-filter cat -- --all
+```
+
+### 回收空间
+
+```shell
+rm -r .git/refs/original
+git reflog expire --expire=now --all
+git gc --prune=now
+git gc --aggressive --prune=now
+```
+
 ## 常见操作
 
 一些具体的问题解决方案
@@ -604,14 +879,14 @@ Closes #1, #2
 - 从当前自己的项目中签出一个新的分支用于测试修改
 
 ```sh
-git checkout -b <new_branch_name> [<old_branch_name>]
-git pull <fork_source> <old_branch_name>
+git checkout -b <newBranch> [<oldBranch>]
+git pull <forkSource> <oldBranch>
 ```
 
 - 尝试合修改冲突并更新
 
 ```sh
-git checkout <old_branch_name>   # 如果有修改，无法切换，尝试先 git commit
-git merge --no-ff <new_branch_name>
-git push <remote_origin> <old_branch_name>
+git checkout <oldBranch>   # 如果有修改，无法切换，尝试先 git commit
+git merge --no-ff <newBranch>
+git push <remoteRepo> <oldBranch>
 ```
