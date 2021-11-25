@@ -252,7 +252,7 @@ git commit -m '
 这将与上次提交内容合并为一次提交。
 
 ```shell
-git commit --amend -m "desc"
+git commit --amend -m "desc"  # 注意 --amend 必须在 -m 的前面
 ```
 
 ### 撤销修改
