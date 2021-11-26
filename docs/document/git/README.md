@@ -68,6 +68,42 @@ git config user.email "yourname@example.com"
 
 - 将新生成的 SSH 全部拷贝并添加到远程仓库的相应设置中。
 
+### 多用户行为
+
+在配置全局 `--global` 用户之后，我们默认与远程仓库的联系都是该用户。如果我们需要通过其他账户进行远程操作，则可以变更远程仓库路径的办法。
+
+- 只是在域名前面加上用户名和 `token` 即可：
+
+```shell
+# 之前的路径
+https://github.com/<username>/<repository_name>.git
+
+# 那么现在天上用户名即可
+https://<username>:<personal_access_token>@github.com/<username>/<repository_name>.git
+```
+
+- 如果不希望 `git` 保存我们的 `token`，则可以只填用户名：
+
+```shell
+https://<username>@github.com/<username>/<repository_name>.git
+```
+
+之后会要求输入 ~~密码~~ 或 `token`。
+
+::: warning 注意
+**密码** 不再是认证方式之一。
+:::
+
+::: tip 提示
+`token` 需要在 [https://github.com/settings/tokens](https://github.com/settings/tokens) 中申请。
+
+填写一个描述（Note），选择有效时间，最后选择域（scopes）即可，通常选择第一个 `repo` 即可，点击 `生成 token`。
+
+页面会显示一个 `token` 字串，保存它，它就是每次需要填写的内容，该字串只显示一次，后续看不到它。
+
+<img :src="$withBase('/assets/pic/generate-token.png')" alt="">
+:::
+
 ## 使用
 
 ### 初始化本地仓库
