@@ -13,7 +13,7 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "commit": "git commit -am \"update docs\"",
+    "commit": "git add . && git commit -m \"update docs\"",
     "push": "git push origin docs"
   },
   "dependencies": {
