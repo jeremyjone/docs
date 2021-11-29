@@ -1,4 +1,10 @@
-# 网络基础
+# URL
+
+`URL`：`Uniform Resource Identifier`，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。`URL` 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。
+
+`URL` 相当于一个文件名在网络范围的扩展。因此 `URL` 是与因特网相连的机器上的任何可访问对象的一个指针。
+
+<img :src="$withBase('/assets/roadmap/base/network/url.png')" alt="">
 
 ## URI、URL 与 URN
 

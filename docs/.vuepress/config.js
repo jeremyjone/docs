@@ -57,6 +57,7 @@ module.exports = {
           {
             text: "学习手册",
             items: [
+              { text: "计算机基础", link: "/roadmap/base/" },
               { text: "前端学习之路", link: "/roadmap/frontend/" },
               { text: ".NET 学习之路", link: "/roadmap/dotnetcore/" },
               { text: "Java 学习之路", link: "/roadmap/java/" },
@@ -105,6 +106,7 @@ module.exports = {
       "/document/markdown/": getMarkdownSideBar(),
       "/document/vim/": getVimSideBar(),
       "/document/docker/": getDockerSideBar(),
+      "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
       "/roadmap/frontend/": getFrontendSideBar(),
@@ -246,18 +248,43 @@ function getJavaSideBar() {
 
 function getFrontendSideBar() {
   return [
-    _GetSubSideBar("前端学习之路", "", [
-      _GetSubSideBar("HTML 基础", "html", [""]),
-      _GetSubSideBar("CSS 基础", "css", [""]),
-      _GetSubSideBar("JavaScript 基础", "js", ["", "prototype"]),
-      _GetSubSideBar("前端进阶", "advanced", [
-        _GetSubSideBar("网络相关内容", "advanced/network", ["", "http"]),
-        "principle",
-        "performance"
-      ])
+    _GetSubSideBar("前端基础", "", [
+      _GetSubSideBar("HTML", "html", [""]),
+      _GetSubSideBar("CSS", "css", [""]),
+      _GetSubSideBar("JavaScript", "js", ["", "prototype"])
+    ]),
+    _GetSubSideBar("前端进阶", "advanced", [
+      "",
+      "principle",
+      "performance",
+      "css-processor",
+      "ts"
     ]),
     _GetSubSideBar("Vue", "vue", [
-      "",
+      _GetSubSideBar("Vue 基础", "vue/basic", [
+        "component",
+        "lifecycle",
+        "template",
+        "data-method",
+        "computed-watch",
+        "class-style-bind",
+        "if",
+        "for",
+        "slot",
+        "composition",
+        "render"
+      ]),
+      "mvvm",
+      "reactive",
+      "virtualdom",
+      _GetSubSideBar("Vue 生态", "vue/supports", [
+        "router",
+        "vuex",
+        "cli",
+        "test",
+        "tools"
+      ]),
+      "framework",
       _GetSubSideBar("项目模板", "vue/template", ["", "setup-from-0"])
     ]),
     _GetSubSideBar("React", "react", [""])
@@ -270,6 +297,25 @@ function getFlutterSideBar() {
 
 function getAndroidSideBar() {
   return [_GetSubSideBar("Android 学习之路", "", [""])];
+}
+
+function getComputerBaseSideBar() {
+  return [
+    _GetSubSideBar("计算机基础", "", [
+      "",
+      _GetSubSideBar("计算机基础", "computer", [""])
+    ]),
+    _GetSubSideBar("网络基础", "network", [
+      _GetSubSideBar("OSI 模型", "network/osi", ["", "layer-4", "layer-7"]),
+      _GetSubSideBar("网络协议", "network/protocol", ["tcp", "udp"]),
+      _GetSubSideBar("IP 地址", "network/ip", [""]),
+      _GetSubSideBar("域名", "network/domain", [""]),
+      _GetSubSideBar("万维网", "network/www", ["", "url", "http", "https"])
+    ]),
+    _GetSubSideBar("算法", "algorithm", [""]),
+    _GetSubSideBar("数据结构", "data-structure", [""]),
+    _GetSubSideBar("数据库基础", "database", [""])
+  ];
 }
 
 function _GetSubSideBar(title, path, name, collapsable = true) {
