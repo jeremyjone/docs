@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zn-cn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>定位演示</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 500px;
+            border: #ccc solid 1px;
+            position: relative;
+            margin-bottom: 10px;
+            overflow: auto;
+        }
+
+        .container>.bg-text {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #ccc;
+            font-size: 100px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <button onclick="addBlockElement()">添加一个块级元素</button>
+    <button onclick="addInlineElement()">添加一个内联元素</button>
+    <div id="block" class="container">
+        <div class="bg-text">块级容器</div>
+    </div>
+    <div id="inline" class="container">
+        <div class="bg-text">内联容器</div>
+    </div>
+
+    <script>
+        function randomColor() {
+            return '#' + Math.random().toString(16).slice(2, 8);
+        }
+
+        function randomStyle(width, height) {
+            return `
+                width: ${width}px;
+                height: ${height}px;
+                background-color: ${randomColor()}
+            `
+        }
+
+
+        function addBlockElement() {
+            var block = document.getElementById('block');
+            var newElement = document.createElement('div');
+            var style = randomStyle(Math.random() * 1000, Math.random() * 50);
+            newElement.style.cssText = style;
+            block.appendChild(newElement);
+        }
+
+        function addInlineElement() {
+            var inline = document.getElementById('inline');
+            var newElement = document.createElement('div');
+            newElement.style.cssText = `display:inline-block;${randomStyle(Math.random() * 800, Math.random() * 100)}`;
+            inline.appendChild(newElement);
+        }
+    </script>
+
+</body>
+
+</html>

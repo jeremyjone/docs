@@ -250,7 +250,14 @@ function getFrontendSideBar() {
   return [
     _GetSubSideBar("前端基础", "", [
       _GetSubSideBar("HTML", "html", [""]),
-      _GetSubSideBar("CSS", "css", [""]),
+      _GetSubSideBar("CSS", "css", [
+        "",
+        "selector",
+        "box",
+        "position",
+        _GetSubSideBar("布局", "css/layout", ["", "flex", "grid"]),
+        "media"
+      ]),
       _GetSubSideBar("JavaScript", "js", ["", "prototype"])
     ]),
     _GetSubSideBar("前端进阶", "advanced", [
