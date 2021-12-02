@@ -32,6 +32,10 @@ display: block;
 display: inline;
 ```
 
+::: tip 提示
+为了更好的展示块级与内联的区别，自己写了一个 <a :href="$withBase('/example/css/position.html')" target="_blank" rel="noopener noreferrer">演示页面</a>，有需要的小朋友可以去体验一下。
+:::
+
 ## 什么是盒模型
 
 完整的 `CSS` 盒模型应用于块级盒子，内联盒子只使用和模型中定义的部分内容。
