@@ -5,7 +5,7 @@ module.exports = {
   title: "JeremyJone 的文档站",
   description: "jeremyjone document web",
 
-  base: "/docs/",
+  // base: "/docs/",
 
   head: [
     ["link", { rel: "icon", href: "/assets/img/logo.png" }],
