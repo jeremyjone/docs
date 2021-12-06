@@ -152,3 +152,104 @@ ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
 | <a href="https://github.com/jeremyjone/docs/blob/docs/docs/.vuepress/public/assets/pic/github_workflow_add_secret_key1.png" target="_blank"><img :src="$withBase('/assets/pic/github_workflow_add_secret_key1.png')" alt=""></a> | <a href="https://github.com/jeremyjone/docs/blob/docs/docs/.vuepress/public/assets/pic/github_workflow_add_secret_key2.png" target="_blank"><img :src="$withBase('/assets/pic/github_workflow_add_secret_key2.png')" alt=""></a> | <a href="https://github.com/jeremyjone/docs/blob/docs/docs/.vuepress/public/assets/pic/github_workflow_add_secret_key3.png" target="_blank"><img :src="$withBase('/assets/pic/github_workflow_add_secret_key3.png')" alt=""></a> |
 
 > 注意，需要记住填写的私钥名称，这个需要用在 `secrets.ACTIONS_DEPLOY_KEY` 中。
+
+## 自动部署到自己的服务器
+
+上面都是在部署 Github Page，如果需要部署到自己的网站，当然也是可以的。
+
+这里我们以阿里云 ECS 为例。其部署流程也是差不多的，首先打包，然后连接到服务器，将指定文件拷贝到目标服务器的指定文件夹中即可。
+
+这里我们用到另一个插件：`easingthemes/ssh-deploy`，它可以帮助我们连接服务器并拷贝文件，只需要经过简单配置，就可以使用。
+
+### 生成连接秘钥
+
+首先，我们仍然需要 SSH Key 作为连接的钥匙。可以在服务器中生成：
+
+```sh
+ssh-keygen -m PEM -t rsa -b 4096
+```
+
+此时服务器 `~/.ssh` 下会生成 `id_ras` 与 `id_ras.pub`，后者是公钥，前者是私钥。
+
+### 部署公钥
+
+将公钥追加到 `~/.ssh/authorized_keys` 文件中，如果没有，就创建一个：
+
+```sh
+cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+
+# 然后给整个文件夹 600 权限即可
+chmod 600 -R ~/.ssh
+```
+
+::: tip 提示
+如果管理多个 SSH Key，每一次追加都需要确保有 `换行符` 存在。
+:::
+
+如果是 `root` 登录，需要修改 `/etc/ssh/sshd_config` 中的 `PermitRootLogin` 为 `yes`，然后重启 `service sshd restart` 即可。
+
+这样服务器就可以等待验证连接了。
+
+### 部署私钥
+
+将私钥 `id_rsa` 内容拷贝到 GitHub 中，添加方法与 [应用 SSH Deploy Key](#应用-SSH-Deploy-Key) 添加私钥的方法一样。
+
+### 配置变量
+
+需要用到 4 个变量：
+
+- `SSH_PRIVATE_KEY`：刚才添加的私钥
+- `REMOTE_HOST`：远程服务器地址，可以是域名，也可以是 IP
+- `REMOTE_USER`：远程服务器用户，需要有访问权限的用户
+- `TARGET`：服务器目标地址
+
+以上 4 个变量最好是添加到私钥用，这样就可以通过 `${{secrets.XXX}}`的方式读取到，文件中看不到私密信息。
+
+除此之外，还有几个变量，可以直接填写：
+
+- `REMOTE_PORT`：远程服务器端口，默认 22，如果没变，就不用写了
+- `ARGS`：参数，默认为 `-rltgoDzvO`，根据不同服务器进行修改。阿里云为 `-avzr --delete`
+- `SOURCE`：源地址，这个一般是打包时固定好的，默认为 `''`，通常打包路径为 `dist/`
+- `EXCLUDE`：排除的目录、文件等。默认为 `''`，根据需要填写即可。
+
+### 部署工作流
+
+最后就是完整的工作流配置文件：
+
+```yml{26-35}
+name: Deploy to my server
+on:
+  push:
+    branches:
+      - main
+    path-ignore:
+      - README.md
+      - gitignore
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # 切换分支
+      - name: Checkout
+        uses: actions/checkout@master
+
+      # 安装依赖
+      - name: Install dependencies
+        run: yarn
+
+      # 构建
+      - name: Build
+        run: yarn build
+
+      # 部署
+      - name: Deploy
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.REMOTE_SERVER_ACCESS_TOKEN }}
+          ARGS: "-avzr --delete"
+          SOURCE: "dist/"
+          REMOTE_HOST: ${{ secrets.REMOTE_SERVER_HOST }}
+          REMOTE_USER: ${{ secrets.REMOTE_SERVER_USER }}
+          TARGET: "${{ secrets.REMOTE_SERVER_TARGET }}"
+```
