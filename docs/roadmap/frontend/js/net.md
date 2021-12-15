@@ -1,10 +1,18 @@
 # 网络请求
 
-## XMLHttpRequest
+## Ajax
+
+`Ajax`，`Asynchronous JavaScript and XML`，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 `XMLHttpRequest` 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。
+
+### XMLHttpRequest
 
 随着网络应用的广泛，通过网络地址刷新整个页面的内容有时显得过于冗余，于是出现了 `XMLHttpRequest` 技术。它用于与服务器进行交互，在不刷新页面的情况下请求特定 `URL`。这允许网页在不影响用户操作的情况下，更新页面的局部内容。
 
 `XMLHttpRequest` 是一个内建的浏览器对象，允许使用 `JavaScript` 发送 `HTTP` 请求。虽然它有 `XML` 一词，但它不仅仅能发送 `XML`，而是可以发送任何数据内容。
+
+其工作原理：
+
+<img :src="$withBase('/assets/roadmap/frontend/js/xhr.gif')" alt="工作原理">
 
 ### 发送请求
 
@@ -129,6 +137,30 @@ xhr.onload = function() {
 xhr.send(null);
 ```
 
+::: tip 提示
+
+在一些比较旧的代码中，会看到 `onreadystatechange` 方法：
+
+```js
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === 4) {
+    // 请求完成
+    if (xhr.status === 200) {
+      // 请求成功，可以拿到响应体
+      console.log(xhr.response);
+    } else {
+      // 请求失败
+    }
+  } else {
+    // 未完成，状态还在继续
+  }
+};
+```
+
+这种方式现在基本上已经被 `onload`、`onerror` 的形式所取代。
+
+:::
+
 ### 终止请求
 
 在请求过程中，我们可以随时终止请求，让状态变为 `0`。
@@ -173,8 +205,63 @@ xhr.withCredentials = true;
 xhr.open("GET", "https://www.jeremyjone.com");
 ```
 
-## Ajax
-
-`Ajax`，`Asynchronous JavaScript and XML`，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 `XMLHttpRequest` 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。
-
 ## Fetch
+
+`fetch` 提供了一个获取资源的接口，相比 `XMLHttpRequest`，它们本质上做的都是同一件事，但是它更强大，也更灵活。
+
+### 基本语法
+
+```js
+let promise = fetch(input[, init]);
+```
+
+- `input`：要访问的资源，它可以是一个 URL，也可以是一个 Request 对象
+- `init`：配置对象，包含 `method`、`headers` 等。默认没有就是一个普通 GET 请求。
+
+它返回一个 `Promise` 对象，这个对象会在请求响应后被 `resolve`，并传回 `Response` 对象。
+
+当遇到网络错误时，它会被 `reject`，并传回 `TypeError`信息。
+
+::: warning 注意
+
+与 `XMLHttpRequest` 不同，`fetch` 只要服务器有返回值就算成功，没有返回值才算失败。所以在判断返回值是否成功时，我们不仅要判断 `Promise` 对象是否被 `resolve`，而且还要判断 `Response.status` 或 `Response.ok` 的值。
+
+:::
+
+### 接收响应
+
+响应体具有多种方法，用于返回不同格式的内容：
+
+- `response.text()`：直接返回文本格式
+- `response.json()`：解析为 JSON 格式内容
+- `response.formData()`：返回一个 FormData 对象
+- `response.blob()`：返回 Blob 格式对象
+- `response.arrayBuffer()`：返回 ArrayBuffer 对象
+
+这些方法同样返回一个 `Promise` 对象：
+
+```js{2,3}
+fetch(url, options)
+  .then(response => response.json())
+  .then(info => console.log(info));
+```
+
+### 设置请求头
+
+我们同样可以设置请求头：
+
+```js{3-5}
+let promise = fetch(url, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json;charset=utf-8"
+  },
+  body: JSON.stringify(info)
+});
+```
+
+### 封装
+
+对 `fetch` 可以进行二次封装，从而方便正常使用。
+
+[封装实例](https://www.jeremyjone.com/612/)
