@@ -181,7 +181,10 @@ function getVimSideBar() {
 }
 
 function getDockerSideBar() {
-  return [_GetSubSideBar("Docker 使用文档", "", [""])];
+  return [
+    _GetSubSideBar("Docker 使用文档", "", [""]),
+    _GetSubSideBar("Docker 实战内容", "example", ["npm"])
+  ];
 }
 
 function getCodesSideBar() {
@@ -258,7 +261,7 @@ function getFrontendSideBar() {
         _GetSubSideBar("布局", "css/layout", ["", "flex", "grid"]),
         "media"
       ]),
-      _GetSubSideBar("JavaScript", "js", ["", "prototype"])
+      _GetSubSideBar("JavaScript", "js", ["", "net", "prototype"])
     ]),
     _GetSubSideBar("前端进阶", "advanced", [
       "",
