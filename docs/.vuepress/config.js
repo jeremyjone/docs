@@ -261,7 +261,12 @@ function getFrontendSideBar() {
         _GetSubSideBar("布局", "css/layout", ["", "flex", "grid"]),
         "media"
       ]),
-      _GetSubSideBar("JavaScript", "js", ["", "net", "prototype"])
+      _GetSubSideBar("JavaScript", "js", [
+        "",
+        "net",
+        "asynchronous",
+        "prototype"
+      ])
     ]),
     _GetSubSideBar("前端进阶", "advanced", [
       "",
