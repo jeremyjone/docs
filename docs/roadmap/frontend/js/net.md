@@ -260,6 +260,48 @@ let promise = fetch(url, {
 });
 ```
 
+### 跨域请求
+
+通过设置 `credentials` 可以设置跨域请求，`fetch` 会携带我们的 `cookie` 发送到指定网站服务器：
+
+```js{2}
+fetch(url, {
+  credentials: "include"
+});
+```
+
+它可以设置三个值：
+
+- `same-origin`：同源可以，默认值
+- `include`：是否同源都可以
+- `omit`：都拒绝
+
+如果服务器同意了请求，那么会返回带有：
+
+```json
+Access-Control-Allow-Origin: * / URL // * 或具体的 URL 地址。非简单请求必须是具体地址
+Access-Control-Allow-Credentials: true // 非简单请求的响应头一定包含此项
+```
+
+的响应头内容。
+
+#### 简单的请求
+
+- 使用简单的方法，如 `GET`、`POST`、`HEAD`。
+- 简单的请求头
+  - `Accept`
+  - `Accept-Language`
+  - `Content-Language`
+  - `Content-Type`: 仅限 `application/x-www-form-urlencoded`，`multipart/form-data` 或 `text/plain`
+
+#### 非简单请求
+
+除了简单请求，剩下都是非简单请求。比如 `PATCH`、`DELETE` 方法，或者包含其他请求头内容（例如 `'API-Key'` 头，或者 `'Content-Type': 'application/json'`）的 `GET`、`POST` 请求等。
+
+非简单请求在实际过程中会比简单请求更加复杂，主要体现在它会有一次 `预检请求`。浏览器通过 `预检请求` 来请求服务器的许可，如果服务器同意处理请求，那么才会真正进行响应。
+
+<img :src="$withBase('/assets/roadmap/frontend/js/fetch-unsample-request.png')" alt="fetch-unsample-request">
+
 ### 封装
 
 对 `fetch` 可以进行二次封装，从而方便正常使用。
