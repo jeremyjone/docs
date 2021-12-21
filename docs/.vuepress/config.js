@@ -51,6 +51,7 @@ module.exports = {
               { text: "Git 使用文档", link: "/document/git/" },
               { text: "Markdown 使用文档", link: "/document/markdown/" },
               { text: "Vim 使用文档", link: "/document/vim/" },
+              { text: "npm 使用文档", link: "/document/npm/" },
               { text: "Docker 使用文档", link: "/document/docker/" }
             ]
           },
@@ -105,6 +106,7 @@ module.exports = {
       "/document/git/": getGitSideBar(),
       "/document/markdown/": getMarkdownSideBar(),
       "/document/vim/": getVimSideBar(),
+      "/document/npm/": getNpmSideBar(),
       "/document/docker/": getDockerSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
@@ -178,6 +180,10 @@ function getMarkdownSideBar() {
 
 function getVimSideBar() {
   return [_GetSubSideBar("Vim 使用文档", "", [""])];
+}
+
+function getNpmSideBar() {
+  return [_GetSubSideBar("npm 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
