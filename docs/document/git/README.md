@@ -511,6 +511,25 @@ git branch -d <branchname>
 git merge <branchname>
 ```
 
+### 忽略合并某些文件
+
+在合并时可以忽略特定文件。
+
+先配置一个 `merge.ours.driver`：
+
+```sh
+git config --global merge.ours.driver true
+```
+
+然后在被合并分支的根目录下添加一个 `.gitattributes` 文件，并把要忽略的文件填进去，例如：
+
+```txt
+config.js merge=ours
+scripts/index.js merge=ours
+```
+
+它会在合并过程中保持这些文件不变。
+
 ### 查看合并记录
 
 ```shell
