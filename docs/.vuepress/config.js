@@ -14,7 +14,6 @@ module.exports = config({
       lang: "zh-CN"
     }
   },
-  author: "JeremyJone",
 
   head: [
     ["link", { rel: "icon", href: "/assets/img/logo.png" }],
@@ -154,6 +153,7 @@ module.exports = config({
 
     // Hope主题配置
     hostname: "https://docs.jeremyjone.com/",
+    author: "JeremyJone",
     darkmode: "switch",
     themeColor: {
       blue: "#2196f3",
