@@ -127,13 +127,13 @@ module.exports = config({
     },
 
     // 禁用搜索
-    search: false,
+    // search: false,
 
-    algolia: {
-      apiKey: "3f94959dafef69821ece1276fc81cc05",
-      indexName: "my_document_search"
-    },
-    algoliaType: "full",
+    // algolia: {
+    //   apiKey: "3f94959dafef69821ece1276fc81cc05",
+    //   indexName: "my_document_search"
+    // },
+    // algoliaType: "full",
 
     // 设置最大显示数量
     searchMaxSuggertions: 10,
