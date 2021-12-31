@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://docs.jeremyjone.com/sitemap.xml
