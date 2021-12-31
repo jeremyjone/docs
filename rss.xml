@@ -6,28 +6,17 @@
     <link>https://docs.jeremyjone.com/</link>
     <description>一个快速学习、速查的站点</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 31 Dec 2021 06:28:09 GMT</pubDate>
-    <lastBuildDate>Fri, 31 Dec 2021 06:28:09 GMT</lastBuildDate>
+    <pubDate>Fri, 31 Dec 2021 06:45:03 GMT</pubDate>
+    <lastBuildDate>Fri, 31 Dec 2021 06:45:03 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2020-present &lt;a href="https://www.jeremyjone.com" target="_blank"&gt;JeremyJone&lt;/a&gt;</copyright>
-    <item>
-      <title>手撸代码</title>
-      <link>https://docs.jeremyjone.com/codes/</link>
-      <guid>https://docs.jeremyjone.com/codes/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">手撸代码</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
-<p>代码既可以学习，也可以拿来直接使用。</p>
-<p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>Home</title>
       <link>https://docs.jeremyjone.com/</link>
       <guid>https://docs.jeremyjone.com/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Home</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<Home />
 ]]></content:encoded>
     </item>
@@ -36,7 +25,7 @@
       <link>https://docs.jeremyjone.com/codes/js/</link>
       <guid>https://docs.jeremyjone.com/codes/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <p>一些通用函数。</p>
 <h2 id="拷贝"> 拷贝</h2>
@@ -358,11 +347,22 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br><span>130</span><br><span>131</span><br><span>132</span><br><span>133</span><br><span>134</span><br><span>135</span><br><span>136</span><br><span>137</span><br><span>138</span><br><span>139</span><br><span>140</span><br><span>141</span><br><span>142</span><br><span>143</span><br><span>144</span><br><span>145</span><br><span>146</span><br><span>147</span><br><span>148</span><br><span>149</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>手撸代码</title>
+      <link>https://docs.jeremyjone.com/codes/</link>
+      <guid>https://docs.jeremyjone.com/codes/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">手撸代码</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
+<p>代码既可以学习，也可以拿来直接使用。</p>
+<p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>数组的一些扩展方法</title>
       <link>https://docs.jeremyjone.com/codes/js/array/</link>
       <guid>https://docs.jeremyjone.com/codes/js/array/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数组的一些扩展方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数组的一些扩展方法"> 数组的一些扩展方法</h1>
 <h2 id="判断元素是否在数组中"> 判断元素是否在数组中</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>contains</span> <span>=</span> <span>(</span><span>arr<span>,</span> val</span><span>)</span> <span>=></span> <span>{</span>
@@ -482,7 +482,7 @@
       <link>https://docs.jeremyjone.com/codes/js/colors/</link>
       <guid>https://docs.jeremyjone.com/codes/js/colors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理颜色的方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理颜色的方法"> 处理颜色的方法</h1>
 <p>相信对于前端来说，颜色的处理一定是越来越多的。</p>
 <p>下面这些属性可以任意变换，使用时需要注意引用关系。</p>
@@ -754,79 +754,11 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>生成方法</title>
-      <link>https://docs.jeremyjone.com/codes/js/create/</link>
-      <guid>https://docs.jeremyjone.com/codes/js/create/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">生成方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="生成方法"> 生成方法</h1>
-<p>一些生成、创建的方法。</p>
-<h2 id="生成-uuid"> 生成 uuid</h2>
-<div><pre><code><span>/**
- * 生成uuid
- * @param {Number} len 指定uuid的长度
- * @param {Number} radix 进制，默认16进制
- */</span>
-<span>function</span> <span>uuid</span><span>(</span><span>len<span>,</span> radix <span>=</span> <span>16</span></span><span>)</span> <span>{</span>
-  <span>const</span> chars <span>=</span> <span>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"</span><span>.</span><span>split</span><span>(</span><span>""</span><span>)</span><span>;</span>
-  <span>const</span> uuid <span>=</span> <span>[</span><span>]</span><span>;</span>
-  <span>let</span> i<span>;</span>
-  radix <span>=</span> radix <span>||</span> chars<span>.</span>length<span>;</span>
-
-  <span>if</span> <span>(</span>len<span>)</span> <span>{</span>
-    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> len<span>;</span> i<span>++</span><span>)</span> <span>{</span>
-      uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span><span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> radix<span>)</span><span>]</span><span>;</span>
-    <span>}</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    <span>let</span> r<span>;</span>
-    uuid<span>[</span><span>8</span><span>]</span> <span>=</span> uuid<span>[</span><span>13</span><span>]</span> <span>=</span> uuid<span>[</span><span>18</span><span>]</span> <span>=</span> uuid<span>[</span><span>23</span><span>]</span> <span>=</span> <span>"-"</span><span>;</span>
-    uuid<span>[</span><span>14</span><span>]</span> <span>=</span> <span>"4"</span><span>;</span>
-
-    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>36</span><span>;</span> i<span>++</span><span>)</span> <span>{</span>
-      <span>if</span> <span>(</span><span>!</span>uuid<span>[</span>i<span>]</span><span>)</span> <span>{</span>
-        r <span>=</span> <span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>16</span><span>)</span><span>;</span>
-        uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span>i <span>==</span> <span>19</span> <span>?</span> <span>(</span>r <span>&amp;</span> <span>0x3</span><span>)</span> <span>|</span> <span>0x8</span> <span>:</span> r<span>]</span><span>;</span>
-      <span>}</span>
-    <span>}</span>
-  <span>}</span>
-
-  <span>return</span> uuid<span>.</span><span>join</span><span>(</span><span>""</span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="生成指定范围内的随机数"> 生成指定范围内的随机数</h2>
-<div><pre><code><span>export</span> <span>const</span> <span>random</span> <span>=</span> <span>(</span><span>min<span>,</span> max</span><span>)</span> <span>=></span> <span>{</span>
-  <span>if</span> <span>(</span>arguments<span>.</span>length <span>===</span> <span>2</span><span>)</span> <span>{</span>
-    <span>return</span> Math<span>.</span><span>floor</span><span>(</span>min <span>+</span> Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>(</span>max <span>+</span> <span>1</span> <span>-</span> min<span>)</span><span>)</span><span>;</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    <span>return</span> <span>null</span><span>;</span>
-  <span>}</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="base64-转-文件"> base64 转 文件</h2>
-<div><pre><code><span>// base64 转文件</span>
-<span>export</span> <span>function</span> <span>base64toFile</span><span>(</span><span>base64</span><span>)</span> <span>{</span>
-  <span>const</span> arr <span>=</span> base64<span>.</span><span>split</span><span>(</span><span>","</span><span>)</span><span>;</span>
-  <span>const</span> mime <span>=</span> arr<span>[</span><span>0</span><span>]</span><span>.</span><span>match</span><span>(</span><span><span>/</span><span>:(.*?);</span><span>/</span></span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
-  <span>const</span> ext <span>=</span> mime<span>.</span><span>split</span><span>(</span><span>"/"</span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
-  <span>const</span> bstr <span>=</span> <span>atob</span><span>(</span>arr<span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>)</span><span>;</span>
-  <span>let</span> n <span>=</span> bstr<span>.</span>length<span>;</span>
-  <span>const</span> u8arr <span>=</span> <span>new</span> <span>Uint8Array</span><span>(</span>n<span>)</span><span>;</span>
-  <span>const</span> name <span>=</span> <span><span>`</span><span><span>${</span><span>new</span> <span>Date</span><span>(</span><span>)</span><span>.</span><span>getTime</span><span>(</span><span>)</span><span>}</span></span><span>.</span><span><span>${</span>ext<span>}</span></span><span>`</span></span><span>;</span>
-
-  <span>while</span> <span>(</span>n<span>--</span><span>)</span> <span>{</span>
-    u8arr<span>[</span>n<span>]</span> <span>=</span> bstr<span>.</span><span>charCodeAt</span><span>(</span>n<span>)</span><span>;</span>
-  <span>}</span>
-  <span>return</span> <span>new</span> <span>File</span><span>(</span><span>[</span>u8arr<span>]</span><span>,</span> name<span>,</span> <span>{</span> type<span>:</span> mime <span>}</span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>处理日期方法</title>
       <link>https://docs.jeremyjone.com/codes/js/date/</link>
       <guid>https://docs.jeremyjone.com/codes/js/date/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理日期方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理日期方法"> 处理日期方法</h1>
 <h2 id="判断日期"> 判断日期</h2>
 <h3 id="日期是否有效"> 日期是否有效</h3>
@@ -979,11 +911,79 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>生成方法</title>
+      <link>https://docs.jeremyjone.com/codes/js/create/</link>
+      <guid>https://docs.jeremyjone.com/codes/js/create/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">生成方法</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="生成方法"> 生成方法</h1>
+<p>一些生成、创建的方法。</p>
+<h2 id="生成-uuid"> 生成 uuid</h2>
+<div><pre><code><span>/**
+ * 生成uuid
+ * @param {Number} len 指定uuid的长度
+ * @param {Number} radix 进制，默认16进制
+ */</span>
+<span>function</span> <span>uuid</span><span>(</span><span>len<span>,</span> radix <span>=</span> <span>16</span></span><span>)</span> <span>{</span>
+  <span>const</span> chars <span>=</span> <span>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"</span><span>.</span><span>split</span><span>(</span><span>""</span><span>)</span><span>;</span>
+  <span>const</span> uuid <span>=</span> <span>[</span><span>]</span><span>;</span>
+  <span>let</span> i<span>;</span>
+  radix <span>=</span> radix <span>||</span> chars<span>.</span>length<span>;</span>
+
+  <span>if</span> <span>(</span>len<span>)</span> <span>{</span>
+    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> len<span>;</span> i<span>++</span><span>)</span> <span>{</span>
+      uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span><span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> radix<span>)</span><span>]</span><span>;</span>
+    <span>}</span>
+  <span>}</span> <span>else</span> <span>{</span>
+    <span>let</span> r<span>;</span>
+    uuid<span>[</span><span>8</span><span>]</span> <span>=</span> uuid<span>[</span><span>13</span><span>]</span> <span>=</span> uuid<span>[</span><span>18</span><span>]</span> <span>=</span> uuid<span>[</span><span>23</span><span>]</span> <span>=</span> <span>"-"</span><span>;</span>
+    uuid<span>[</span><span>14</span><span>]</span> <span>=</span> <span>"4"</span><span>;</span>
+
+    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>36</span><span>;</span> i<span>++</span><span>)</span> <span>{</span>
+      <span>if</span> <span>(</span><span>!</span>uuid<span>[</span>i<span>]</span><span>)</span> <span>{</span>
+        r <span>=</span> <span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>16</span><span>)</span><span>;</span>
+        uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span>i <span>==</span> <span>19</span> <span>?</span> <span>(</span>r <span>&amp;</span> <span>0x3</span><span>)</span> <span>|</span> <span>0x8</span> <span>:</span> r<span>]</span><span>;</span>
+      <span>}</span>
+    <span>}</span>
+  <span>}</span>
+
+  <span>return</span> uuid<span>.</span><span>join</span><span>(</span><span>""</span><span>)</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="生成指定范围内的随机数"> 生成指定范围内的随机数</h2>
+<div><pre><code><span>export</span> <span>const</span> <span>random</span> <span>=</span> <span>(</span><span>min<span>,</span> max</span><span>)</span> <span>=></span> <span>{</span>
+  <span>if</span> <span>(</span>arguments<span>.</span>length <span>===</span> <span>2</span><span>)</span> <span>{</span>
+    <span>return</span> Math<span>.</span><span>floor</span><span>(</span>min <span>+</span> Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>(</span>max <span>+</span> <span>1</span> <span>-</span> min<span>)</span><span>)</span><span>;</span>
+  <span>}</span> <span>else</span> <span>{</span>
+    <span>return</span> <span>null</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="base64-转-文件"> base64 转 文件</h2>
+<div><pre><code><span>// base64 转文件</span>
+<span>export</span> <span>function</span> <span>base64toFile</span><span>(</span><span>base64</span><span>)</span> <span>{</span>
+  <span>const</span> arr <span>=</span> base64<span>.</span><span>split</span><span>(</span><span>","</span><span>)</span><span>;</span>
+  <span>const</span> mime <span>=</span> arr<span>[</span><span>0</span><span>]</span><span>.</span><span>match</span><span>(</span><span><span>/</span><span>:(.*?);</span><span>/</span></span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
+  <span>const</span> ext <span>=</span> mime<span>.</span><span>split</span><span>(</span><span>"/"</span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
+  <span>const</span> bstr <span>=</span> <span>atob</span><span>(</span>arr<span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>)</span><span>;</span>
+  <span>let</span> n <span>=</span> bstr<span>.</span>length<span>;</span>
+  <span>const</span> u8arr <span>=</span> <span>new</span> <span>Uint8Array</span><span>(</span>n<span>)</span><span>;</span>
+  <span>const</span> name <span>=</span> <span><span>`</span><span><span>${</span><span>new</span> <span>Date</span><span>(</span><span>)</span><span>.</span><span>getTime</span><span>(</span><span>)</span><span>}</span></span><span>.</span><span><span>${</span>ext<span>}</span></span><span>`</span></span><span>;</span>
+
+  <span>while</span> <span>(</span>n<span>--</span><span>)</span> <span>{</span>
+    u8arr<span>[</span>n<span>]</span> <span>=</span> bstr<span>.</span><span>charCodeAt</span><span>(</span>n<span>)</span><span>;</span>
+  <span>}</span>
+  <span>return</span> <span>new</span> <span>File</span><span>(</span><span>[</span>u8arr<span>]</span><span>,</span> name<span>,</span> <span>{</span> type<span>:</span> mime <span>}</span><span>)</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>HTML 处理方法</title>
       <link>https://docs.jeremyjone.com/codes/js/html/</link>
       <guid>https://docs.jeremyjone.com/codes/js/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 处理方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-处理方法"> HTML 处理方法</h1>
 <h2 id="去除-html-标签"> 去除 html 标签</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>removeHtmltag</span> <span>=</span> <span>str</span> <span>=></span> <span>{</span>
@@ -1155,7 +1155,7 @@
       <link>https://docs.jeremyjone.com/codes/js/judge/</link>
       <guid>https://docs.jeremyjone.com/codes/js/judge/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">判断方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="判断方法"> 判断方法</h1>
 <p>一些通用的判断方法。</p>
 <h2 id="判断类型"> 判断类型</h2>
@@ -1672,7 +1672,7 @@
       <link>https://docs.jeremyjone.com/document/</link>
       <guid>https://docs.jeremyjone.com/document/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">文档手册</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="文档手册"> 文档手册</h1>
 <p>持续完善的工具文档手册。</p>
 <ul>
@@ -1688,7 +1688,7 @@
       <link>https://docs.jeremyjone.com/document/docker/</link>
       <guid>https://docs.jeremyjone.com/document/docker/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 使用文档</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-使用文档"> Docker 使用文档</h1>
 <h2 id="安装"> 安装</h2>
 <p>以下以 <code>CentOS7+</code> 为例，其余请参考<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">官方文档</a>：</p>
@@ -1981,7 +1981,7 @@ docker <span>kill</span> <span>&lt;</span>容器ID<span>></span>     <span># 强
       <link>https://docs.jeremyjone.com/document/docker/example/npm/</link>
       <guid>https://docs.jeremyjone.com/document/docker/example/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 快速搭建 NPM 服务器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-快速搭建-npm-服务器"> Docker 快速搭建 NPM 服务器</h1>
 <p>我们使用 <a href="https://verdaccio.org/docs/docker/" target="_blank" rel="noopener noreferrer">verdaccio</a> 来快速搭建 NPM 服务器。</p>
 <h2 id="拉取镜像"> 拉取镜像</h2>
@@ -2014,7 +2014,7 @@ docker pull verdaccio/cerdaccio:4.0.0
       <link>https://docs.jeremyjone.com/document/gantt/README_old/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/README_old/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">入门</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="入门"> 入门</h1>
 <Description author="jeremyjone" version="0.0.17" date="2020-12-22" copyright="jeremyjone" />
 <p>通过入门的章节内容，可以快速引入并使用 JzGantt。</p>
@@ -2107,7 +2107,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/column/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/column/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">列组件 JGanttColumn</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="列组件-jganttcolumn"> 列组件 JGanttColumn</h1>
 <Description author="jeremyjone" date="2020-10-12" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2179,7 +2179,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/common/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/common/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <h2 id="日期格式化属性"> 日期格式化属性</h2>
 <p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
@@ -2232,7 +2232,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/root/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/root/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">根组件 JGantt</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="根组件-jgantt"> 根组件 JGantt</h1>
 <Description author="jeremyjone" date="2020-12-02" copyright="jeremyjone" />
 <p>对于 <code>JGantt</code> 组件，它具有非常丰富的属性。</p>
@@ -2438,7 +2438,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/slider/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/slider/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">滑块组件 JGanttSlider</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="滑块组件-jganttslider"> 滑块组件 JGanttSlider</h1>
 <Description author="jeremyjone" date="2020-11-05" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2579,7 +2579,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/git/</link>
       <guid>https://docs.jeremyjone.com/document/git/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GIT 命令</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="git-命令"> GIT 命令</h1>
 <h2 id="安装"> 安装</h2>
 <ul>
@@ -3257,7 +3257,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/git/github_workflow/</link>
       <guid>https://docs.jeremyjone.com/document/git/github_workflow/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GitHub Pages action 配置</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="github-pages-action-配置"> GitHub Pages action 配置</h1>
 <p>GitHub 给我们提供了非常方便的部署功能 <a href="https://github.com/marketplace/actions/github-pages-action" target="_blank" rel="noopener noreferrer">GitHub Pages action</a>。它可以帮助我们快速部署静态页面，省去了每次单独部署的繁琐操作，我们只需要通过简单的配置就可以实现该功能。</p>
 <p>我们以该 vuepress 文档为例。</p>
@@ -3483,7 +3483,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/markdown/</link>
       <guid>https://docs.jeremyjone.com/document/markdown/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Markdown 语法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="markdown-语法"> Markdown 语法</h1>
 <h2 id="标题"> 标题</h2>
 <p>使用 <code>#</code> 设置标题。
@@ -3987,7 +3987,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/document/npm/</link>
       <guid>https://docs.jeremyjone.com/document/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">npm 使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="npm-使用"> npm 使用</h1>
 <h2 id="安装"> 安装</h2>
 <p><code>npm</code> 是 <code>Node</code> 默认的模块管理器，同时也是模块登记和管理系统，它随 <code>Node</code> 环境一起安装，不需要单独安装。</p>
@@ -4368,7 +4368,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/document/vim/</link>
       <guid>https://docs.jeremyjone.com/document/vim/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vim 使用说明</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vim-使用说明"> Vim 使用说明</h1>
 <h2 id="打开文件"> 打开文件</h2>
 <p><code>vim filename</code>     打开文件</p>
@@ -4600,7 +4600,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/example/</link>
       <guid>https://docs.jeremyjone.com/example/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Example Page</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="example-page"> Example Page</h1>
 <p>YAML config</p>
 <div><pre><code><span>---</span>
@@ -4630,7 +4630,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/</link>
       <guid>https://docs.jeremyjone.com/roadmap/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">学习路线</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="学习路线"> 学习路线</h1>
 <p>保持学习，从 GitHub 搬运了一点学习路线图，以及对应的主页，方便查找和学习，可以快速查缺补漏。</p>
 <ul>
@@ -4647,7 +4647,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/android/</link>
       <guid>https://docs.jeremyjone.com/roadmap/android/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Android 学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="android-学习之路"> Android 学习之路</h1>
 <p>Android 的学习之路，页面只有图，不咋地。。。</p>
 <p><a href="https://github.com/mobile-roadmap/android-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -4660,7 +4660,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算机基础</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算机基础"> 计算机基础</h1>
 <p>计算机基础是计算机科学的重要基石。只有充分掌握了计算机的基础理论部分，才可以更快、更好的学习更高级的知识。</p>
 ]]></content:encoded>
@@ -4670,7 +4670,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/algorithm/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/algorithm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">算法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="算法"> 算法</h1>
 ]]></content:encoded>
     </item>
@@ -4679,7 +4679,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/computer/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/computer/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算机基础内容</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
 ]]></content:encoded>
     </item>
@@ -4688,7 +4688,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/data-structure/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/data-structure/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据结构</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据结构"> 数据结构</h1>
 ]]></content:encoded>
     </item>
@@ -4697,7 +4697,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/database/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/database/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据库</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据库"> 数据库</h1>
 ]]></content:encoded>
     </item>
@@ -4706,7 +4706,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络基础</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络基础"> 网络基础</h1>
 <h2 id="osi-模型"> OSI 模型</h2>
 <h3 id="七层模型"> 七层模型</h3>
@@ -4726,7 +4726,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/domain/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/domain/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">域名</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="域名"> 域名</h1>
 ]]></content:encoded>
     </item>
@@ -4735,7 +4735,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/ip/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/ip/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">IP 网际协议</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
 ]]></content:encoded>
     </item>
@@ -4744,7 +4744,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">OSI 模型</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="osi-模型"> OSI 模型</h1>
 ]]></content:encoded>
     </item>
@@ -4753,7 +4753,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">四层模型</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="四层模型"> 四层模型</h1>
 ]]></content:encoded>
     </item>
@@ -4762,7 +4762,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">七层模型</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="七层模型"> 七层模型</h1>
 ]]></content:encoded>
     </item>
@@ -4771,7 +4771,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TCP 协议</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="tcp-协议"> TCP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -4780,7 +4780,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">UDP 协议</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="udp-协议"> UDP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -4789,7 +4789,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">万维网</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="万维网"> 万维网</h1>
 ]]></content:encoded>
     </item>
@@ -4798,7 +4798,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/http/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/http/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTP</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="http"> HTTP</h1>
 <p><code>HTTP</code>：<code>hypertext transform protocol</code>，超文本传输协议。它允许将超文本标记语言（<code>HTML</code>）从 web 服务器传送到客户端的浏览器。为了使超文本的链接能够高效率的完成，需要使用 <code>HTTP</code> 协议来出阿松一些必需的信息。</p>
 <p>从层次的角度看，<code>HTTP</code> 是面向事务的应用层协议，它是万维网上能够可靠地交换文件的重要基础。</p>
@@ -5025,7 +5025,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/https/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/https/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTPS</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="https"> HTTPS</h1>
 <h2 id="什么是-https"> 什么是 HTTPS</h2>
 <p><code>HTTPS</code>：（Hyper Text Transfer Protocol over SecureSocket Layer），是以安全为目标的 <code>HTTP</code> 通道。在 <code>HTTP</code> 的基础上，通过传输加密和身份认证保证了传输过程的安全性。</p>
@@ -5072,7 +5072,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/url/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/url/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">URL</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="url"> URL</h1>
 <p><code>URL</code>：<code>Uniform Resource Identifier</code>，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。<code>URL</code> 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。</p>
 <p><code>URL</code> 相当于一个文件名在网络范围的扩展。因此 <code>URL</code> 是与因特网相连的机器上的任何可访问对象的一个指针。</p>
@@ -5097,7 +5097,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">ASP.NET Core 开发者学习路线图</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="asp-net-core-开发者学习路线图"> ASP.NET Core 开发者学习路线图</h1>
 <p>.NET Core 的学习之路，中文更新速度很好。</p>
 <p><a href="https://github.com/MoienTajik/AspNetCore-Developer-Roadmap" target="_blank" rel="noopener noreferrer">英文文档</a></p>
@@ -5111,7 +5111,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <h2 id="开始之前"> 开始之前</h2>
 <p>先贴上官方地址：
@@ -5161,7 +5161,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">在 ASP.NET 中使用授权与认证</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="在-asp-net-中使用授权与认证"> 在 ASP.NET 中使用授权与认证</h1>
 <p>下面通过一组渐进式的例子，来学习 ASP.NET 是如何认证并授权的。</p>
 <h2 id="添加认证中间件"> 添加认证中间件</h2>
@@ -5544,7 +5544,7 @@ services<span>.</span><span><span>AddSingleton</span><span><span>&lt;</span>IAut
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">IdentityServer4 的使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="identityserver4-的使用"> IdentityServer4 的使用</h1>
 <p>IdentityServer4 是基于 OpenId Connect（OIDC）、OAuth 2.0 统一的身份认证和授权系统。它拥有很多功能：</p>
 <ul>
@@ -5895,7 +5895,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">外部身份验证</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="外部身份验证"> 外部身份验证</h1>
 <p>基于 OAuth2 的特性，我们可以轻松通过外部账户进行登录。</p>
 <p>外部账户登录的好处：</p>
@@ -6037,7 +6037,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">详解认证中心的配置</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="详解认证中心的配置"> 详解认证中心的配置</h1>
 <p>在 <code>IdentityServer</code> 中，需要我们进行配置的内容，大体分成：<code>IdentityResource</code>、<code>ApiScope</code>、<code>ApiResource</code> 和 <code>Client</code>，它们都是在 <code>IdentityServer4.Models</code> 中定义的。</p>
 <p>我们在创建一个 Ids 服务之后，也要首先进行配置初始数据（之前写过的 Config.cs），也就是配置这些内容。</p>
@@ -6510,7 +6510,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据的持久化（使用数据库）</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据的持久化（使用数据库）"> 数据的持久化（使用数据库）</h1>
 <p>前面只是一个最简单的基础使用方案，虽然已经实现了认证与授权，但是明显并不能满足生产需求，下面就按不同需求进行配置。</p>
 <p>上面的例子中，所有数据都在内存中，并不能持久化。如果要数据持久化，上数据库是必然的。</p>
@@ -7138,7 +7138,7 @@ dotnet ef database update -c ApplicationDbContext
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JWT</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="jwt"> JWT</h1>
 <h2 id="什么是-jwt"> 什么是 JWT</h2>
 <p>Jwt，Json Web Token 是一个开放标准（<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">RFC 7519</a>），它定义了一种紧凑且独立的方法，用于在各方之间安全地将信息作为 JSON 对象传输。由于此信息是经过数字签名的，因此可以被验证和信任。可以使用密码（使用 HMAC 算法）或使用 RSA 或 ECDSA 的公钥/私钥对对 JWT 进行签名。</p>
@@ -7305,7 +7305,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">基础知识</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>本文将学习 <code>.NET</code> 需要的一些前置基础知识。</p>
 <blockquote>
@@ -7392,7 +7392,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>在互联网中，因为服务器性能、网络带宽等各种原因，传输数据时需要考虑的问题相比单机程序要更多。缓存的出现有效解决了这个问题。缓存可以有效降低服务器的重复工作量，进而提高服务器的性能和效率。</p>
 <p>缓存适用于不经常修改的数据，如媒体文件等。而且缓存一般存在于高速介质中，同时网络中各个节点均可设置缓存，所以使用缓存的效率会更高。</p>
@@ -7507,7 +7507,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">分布式缓存</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="分布式缓存"> 分布式缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>分布式缓存，顾名思义就是多个服务器共享一个缓存。</p>
@@ -7673,7 +7673,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">内存缓存</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="内存缓存"> 内存缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>ASP.NET 支持多个不同缓存。通过 <code>IMemoryCache</code> 可以创建一个简单的内存缓存，它用于在 web 服务器的内存中创建一块缓存。当服务器运行时应确保会话在使用内存中缓存时处于粘滞状态。粘滞会话确保来自客户端的后续请求都将发送到相同服务器。</p>
@@ -7749,7 +7749,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">跨域</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="跨域"> 跨域</h1>
 <h2 id="什么是跨域"> 什么是跨域</h2>
 <h2 id="配置-cors"> 配置 CORS</h2>
@@ -7777,7 +7777,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>数据库就是存储数据的仓库。数据库在保存数据上具有显而易见的优势：</p>
 <ul>
@@ -7864,7 +7864,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>Entity Framework (EF) Core 是轻量化、可扩展、开源和跨平台版的常用 Entity Framework 数据访问技术。
 EF Core 可用作对象关系映射程序 (O/RM)，这可以实现以下两点：</p>
@@ -8067,7 +8067,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">DbContext 的配置</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="dbcontext-的配置"> DbContext 的配置</h1>
 <p><code>DbContext</code> 实例表示与数据库的会话，可用于查询和保存实体实例。<code>DbContext</code> 是工作单元和存储库模式的组合。</p>
 <p>通常，你将创建一个从 <code>DbContext</code> 派生的类，并在 <code>DbSet&lt;TEntity&gt;</code> 模型中包含每个实体的属性。如果 <code>DbSet&lt;TEntity&gt;</code> 属性具有公共资源库，则在创建派生上下文的实例时，它们会自动初始化。</p>
@@ -8129,7 +8129,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">管理数据库</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="管理数据库"> 管理数据库</h1>
 <h2 id="迁移数据库"> 迁移数据库</h2>
 <p>迁移数据库是将模型转换为数据库表。</p>
@@ -8195,7 +8195,7 @@ Scaffold<span>-</span>DbContext <span>"server=localhost;userid=jeremyjone;pwd=12
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">模型</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="模型"> 模型</h1>
 <p>Entity Framework Core 使用一组约定来根据实体类的形状生成模型。可指定其他配置以补充或替代约定的内容。模型对应于数据库中的表，每一张数据表都应该对应一个数据模型。</p>
 <div><p>示例代码</p>
@@ -8451,7 +8451,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="使用"> 使用</h1>
 <h2 id="查询数据"> 查询数据</h2>
 <p>Entity Framework Core 使用语言集成查询 (LINQ) 来查询数据库中的数据。</p>
@@ -8531,7 +8531,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">其他映射工具</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="其他映射工具"> 其他映射工具</h1>
 <ul>
 <li><a href="http://www.donet5.com/Doc/1/1180" target="_blank" rel="noopener noreferrer">SqlSugar</a></li>
@@ -8544,7 +8544,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <blockquote>
 <p>高内聚，低耦合</p>
@@ -8650,7 +8650,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">服务容器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="服务容器"> 服务容器</h1>
 <h2 id="默认容器"> 默认容器</h2>
 <p>使用内置的服务容器可以满足框架和大多数消费者应用的需求。在一个基本框架的 <code>Startup.cs</code> 中已经添加好了相应的代码，我们只需要直接使用即可：</p>
@@ -8690,7 +8690,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
 <ul>
@@ -8725,7 +8725,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">应用性能监控系统</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="应用性能监控系统"> 应用性能监控系统</h1>
 <p>如今分布式架构越来越多，对于整套系统的监控越来越复杂，不单单是一个日志能够解决的，需要日志、追踪、分析等不同工具配合使用，才能满足需求。</p>
 <p>在众多 APM 系统中，<code>SkyWalking</code> 算是一款比较好用的 APM 系统。它包括 <code>服务端</code>、<code>界面</code>、以及 <code>探针</code>，其中 <code>探针</code> 是针对不同语言有不同的包，针对 ASP.NET 的探针包是 <code>SkyAPM-dotnet</code>，具体可以查看 <a href="https://github.com/SkyAPM" target="_blank" rel="noopener noreferrer">GitHub</a>。</p>
@@ -8868,7 +8868,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Serilog 的使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="serilog-的使用"> Serilog 的使用</h1>
 <p>Serilog 是第三方日志工具，拥有强大的插件功能和易用性。</p>
 <h2 id="安装"> 安装</h2>
@@ -8950,7 +8950,7 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
 <p>举个例子，一个用户对象，它有如下属性：</p>
@@ -9004,7 +9004,7 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">AutoMapper</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="automapper"> AutoMapper</h1>
 <p>正如前文说的那样，对象映射就是将一个对象中的属性按照一定规则映射到另一个对象中。这个操作是枯燥重复的，所以就有了 <code>AutoMapper</code> 这样的对象映射器。</p>
 <h2 id="映射规则"> 映射规则</h2>
@@ -9730,7 +9730,7 @@ services<span>.</span><span>AddAutoMapper</span><span>(</span><span>typeof</span
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">RabbitMQ 的使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
 <p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
 <h2 id="安装"> 安装</h2>
@@ -10096,7 +10096,7 @@ properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Swagger 文档的使用</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="swagger-文档的使用"> Swagger 文档的使用</h1>
 <p>相信能看到这里，你一定对 swagger 多少有了解。它是极具推崇的文档生成工具，在多种语言下都可以有良好的体验。有兴趣的朋友可以去看看 <a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
 <h2 id="安装"> 安装</h2>
@@ -10380,7 +10380,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/flutter/</link>
       <guid>https://docs.jeremyjone.com/roadmap/flutter/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Flutter 学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="flutter-学习之路"> Flutter 学习之路</h1>
 <p>Flutter 的学习之路，页面包含英文学习文章链接。</p>
 <p><a href="https://github.com/olexale/flutter_roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -10393,7 +10393,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">前端学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="前端学习之路"> 前端学习之路</h1>
 <p>前端学习，需要逐步进阶。从网络三剑客开始，<a href="./html">HTML</a>，<a href="./css">CSS</a>，<a href="./js">JavaScript</a>，然后逐步学习网络知识以，了解了网络原理后可以学习提升性能。</p>
 <p>然后可以开始学习框架内容。</p>
@@ -10404,7 +10404,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">前端进阶</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
 <h2 id="http-与-https"> HTTP 与 HTTPS</h2>
 <h2 id="cors"> CORS</h2>
@@ -10416,7 +10416,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 预处理器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-预处理器"> CSS 预处理器</h1>
 ]]></content:encoded>
     </item>
@@ -10425,7 +10425,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">性能部分</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="性能部分"> 性能部分</h1>
 <h2 id="网站的性能优化"> 网站的性能优化</h2>
 <p>网站的性能主要是指一个网站从请求到完全打开的过程是否顺畅以及用时是否能够达到用户的承受度。简单来说，就是用户打开网站，如果时间过长，或者打开时很不顺畅，那么这种体验是非常糟糕的，也就是性能不好。</p>
@@ -10463,7 +10463,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原理部分</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原理部分"> 原理部分</h1>
 <h2 id="浏览器的渲染机制和原理"> 浏览器的渲染机制和原理</h2>
 <p>当我们在浏览器地址栏中键入一个地址，然后按下回车，此时一个请求便开始了。</p>
@@ -10623,7 +10623,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TypeScript</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="typescript"> TypeScript</h1>
 ]]></content:encoded>
     </item>
@@ -10632,7 +10632,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 基础</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-基础"> CSS 基础</h1>
 <h2 id="什么是-css"> 什么是 CSS</h2>
 <p>CSS，<code>Cascading Style Sheets</code>，即 <code>层叠样式表</code>。它是一种样式表语言，用来描述 <code>HTML</code> 或 <code>XML</code> 文档的呈现。<code>CSS</code> 描述了在屏幕、纸质、音频等其他媒体上的元素应该如何被渲染的问题。</p>
@@ -10728,7 +10728,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/box/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/box/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">盒模型</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="盒模型"> 盒模型</h1>
 <p>盒模型是 <code>CSS</code> 中一个非常重要的概念。所有元素都被一个个盒子包裹，理解盒模型的原理，是我们使用 <code>CSS</code> 实现准确布局、处理元素排列的关键所在。</p>
 <h2 id="块级与内联"> 块级与内联</h2>
@@ -10894,7 +10894,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">布局</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="布局"> 布局</h1>
 <p><code>CSS</code> 页面布局技术允许我们拾取网页中的元素，并且控制它们相对正常布局流、周边元素、父容器或主视口的位置。</p>
 <h2 id="正常布局流"> 正常布局流</h2>
@@ -10915,7 +10915,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">弹性布局（Flexbox）</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="弹性布局（flexbox）"> 弹性布局（Flexbox）</h1>
 <p>弹性盒子布局是专门用于创建横向/纵向的一维页面布局。虽然它是一维页面布局，但是通过嵌套，可以在两个维度构建更加丰富的布局内容。</p>
 <p>要使用弹性盒子，只需要在父级元素中设置 <code>display:flex</code> 即可，所有子元素都将按照 <code>flex</code> 进行布局。</p>
@@ -11212,7 +11212,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">栅格布局（Grid）</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="栅格布局（grid）"> 栅格布局（Grid）</h1>
 <p>与弹性布局不同，栅格布局是一个<strong>二维布局系统</strong>。它可以用于布局页面中主要的区域以及小型组件。</p>
 <p>栅格布局是一组水平和垂直的 <strong>栅格线</strong> 相交，划分了 <strong>行</strong> 和 <strong>列</strong> 的轨道。</p>
@@ -11725,16 +11725,110 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/media/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/media/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">响应式与媒体查询</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="响应式与媒体查询"> 响应式与媒体查询</h1>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title>定位</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/css/position/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/css/position/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">定位</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="定位"> 定位</h1>
+<p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
+<p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
+<ul>
+<li>普通流定位（默认）</li>
+<li>浮动定位</li>
+<li>相对定位</li>
+<li>绝对定位</li>
+<li>固定定位</li>
+</ul>
+<h2 id="普通定位（文档流）"> 普通定位（文档流）</h2>
+<p>默认情况下，块级元素的内容宽度是其父元素宽度的 100%，并且与其内容一样高。内联元素的宽高则与它们内容的宽高一样。内联元素不能设置宽高。</p>
+<p>了解了单个元素的大小规则，再来看它们之间相互交互的关系。</p>
+<p>默认情况下，元素之间的交互使用正常的布局流，也就是块级元素在视口中垂直布局，每个都将显示在上一个元素下面的新行中，并且它们的外边距将它们分隔开。而内联元素则会紧邻前一个元素位于同一行中，如果空间不够，则会移到新的一行展示。</p>
+<p>类似这样的方式，我们一般称为 <strong>文档流</strong>。需要注意，它的英文是 <a href="http://www.w3.org/TR/CSS2/visuren.html#normal-flow" target="_blank" rel="noopener noreferrer">normal flow</a>。它很形象的描述了页面元素像 <code>流</code> 一样一个一个显示在页面中。</p>
+<p>文档流的特点：</p>
+<ul>
+<li>每个元素在页面中都有自己的位置，并占据一定的页面空间</li>
+<li>每个元素都是从父元素的左上角开始排列</li>
+<li>每个元素基本上都是按照从左到右、从上到下的方式排列</li>
+</ul>
+<p>根据以上特点，再回过头去看块级元素与内联元素的排列方式，就明了很多。</p>
+<h2 id="浮动定位（float）"> 浮动定位（float）</h2>
+<p>浮动定位的主要用处是将一个元素脱离文档流，使其排除在文档流之外，不再占据页面空间，此时后续的元素会依次递补到当前位置进行占位。它具有以下特点：</p>
+<ul>
+<li>不占据页面空间</li>
+<li>浮动的元素会停靠在父元素的左边或右边，或者其他已浮动元素的边缘</li>
+<li>只能在当前行浮动</li>
+</ul>
+<p>浮动可以使一个块级元素不再独占一行，多个块级元素可以同时处于一行之中。</p>
+<p>浮动通过 <code>float</code> 属性来实现，它的值：</p>
+<ul>
+<li><code>none</code>：没有浮动</li>
+<li><code>left</code>：浮动到左边，或者左边已浮动元素的边缘</li>
+<li><code>right</code>：浮动到右边，或者右边已浮动元素的边缘</li>
+</ul>
+<p>需要注意的是，浮动时：</p>
+<ul>
+<li>
+<p>如果父元素显示不下所有已浮动的子元素，那么最后一个将会换行，可能发生位置错误</p>
+<div><p>注意</p>
+<img :src="$withBase('/assets/roadmap/frontend/css-float-lock.png')" alt="">
+<p>红色框未浮动，绿色和蓝色框浮动，但父级元素宽度不够，蓝色框另起一行，由于高度差，蓝色框会浮动到红色框的右侧，从而导致位置错误。这在浮动中经常遇到，哪怕差 <code>1px</code> 也不行。</p>
+</div>
+</li>
+<li>
+<p>元素一旦浮动起来，都会变成块级元素，这意味着内联元素也可以修改尺寸</p>
+</li>
+<li>
+<p>元素一旦浮动起来，在未指定宽度的情况下，其宽度都由内容来决定，这意味着块级元素不再占据 100% 的宽度。</p>
+</li>
+<li>
+<p>文字、图片等内联元素采用环绕的方式排列，不会被浮动元素覆盖。按照左右显示、上下显示，显示不下的，则会溢出显示在元素下方。</p>
+</li>
+</ul>
+<h3 id="清除浮动（clear）"> 清除浮动（clear）</h3>
+<p>清除浮动可以帮助我们阻止浮动元素后面的元素上前占位。</p>
+<div><pre><code><span>/* 不做清除，默认 */</span>
+<span>clear</span><span>:</span> none<span>;</span>
+
+<span>/* 清除前面元素的左浮动 */</span>
+<span>clear</span><span>:</span> left<span>;</span>
+
+<span>/* 清除前面元素的右浮动 */</span>
+<span>clear</span><span>:</span> right<span>;</span>
+
+<span>/* 清除前面元素的所有浮动 */</span>
+<span>clear</span><span>:</span> both<span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="相对定位（relative）"> 相对定位（relative）</h2>
+<p>设置相对定位，可以实现元素偏移（位移），同时原有位置会被保留，不会被后续元素占位。</p>
+<div><pre><code><span>position</span><span>:</span> relative<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="绝对定位（absolute）"> 绝对定位（absolute）</h2>
+<p>设置绝对定位，元素会脱离文档流，不占据页面空间，后续的元素会上前占位。同时绝对定位会查询最近的已定位祖先（设置了 <code>position</code> 属性）进行定位，如果没有，则以 <code>body</code> 为参考定位，也就是 <code>0px 0px</code> 页面左上角。</p>
+<div><pre><code><span>position</span><span>:</span> absolute<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>很多时候，为了实现子元素的绝对定位，可以将父元素设置为 <code>position: relative;</code>。</p>
+<h2 id="固定定位（fixed）"> 固定定位（fixed）</h2>
+<p>设置固定定位，元素会变成块级元素，并且始终按照视口为参考系进行定位，即使页面滚动，它的位置仍然相对视口保持不变，非常适合工具栏、菜单栏、分享图标等。</p>
+<div><pre><code><span>position</span><span>:</span> fixed<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><h2 id="黏贴定位（sticky）"> 黏贴定位（sticky）</h2>
+<p>这个定位就很有意思了，它类似于相对和固定的混合体。它允许被定位元素表现的像相对定位一样，能够随元素移动，知道它滚动到某个阈值，就变成了固定定位。该方案非常适合用于导航头部、分段标题等。</p>
+<div><pre><code><span>position</span><span>:</span> sticky<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>选择器</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">选择器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="选择器"> 选择器</h1>
 <p>CSS 有一套完整的选择器规则，可以帮助我们快速获取任意指定元素或元素集。</p>
 <h2 id="元素选择器"> 元素选择器</h2>
@@ -12078,105 +12172,11 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
 ]]></content:encoded>
     </item>
     <item>
-      <title>定位</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/css/position/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/css/position/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">定位</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="定位"> 定位</h1>
-<p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
-<p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
-<ul>
-<li>普通流定位（默认）</li>
-<li>浮动定位</li>
-<li>相对定位</li>
-<li>绝对定位</li>
-<li>固定定位</li>
-</ul>
-<h2 id="普通定位（文档流）"> 普通定位（文档流）</h2>
-<p>默认情况下，块级元素的内容宽度是其父元素宽度的 100%，并且与其内容一样高。内联元素的宽高则与它们内容的宽高一样。内联元素不能设置宽高。</p>
-<p>了解了单个元素的大小规则，再来看它们之间相互交互的关系。</p>
-<p>默认情况下，元素之间的交互使用正常的布局流，也就是块级元素在视口中垂直布局，每个都将显示在上一个元素下面的新行中，并且它们的外边距将它们分隔开。而内联元素则会紧邻前一个元素位于同一行中，如果空间不够，则会移到新的一行展示。</p>
-<p>类似这样的方式，我们一般称为 <strong>文档流</strong>。需要注意，它的英文是 <a href="http://www.w3.org/TR/CSS2/visuren.html#normal-flow" target="_blank" rel="noopener noreferrer">normal flow</a>。它很形象的描述了页面元素像 <code>流</code> 一样一个一个显示在页面中。</p>
-<p>文档流的特点：</p>
-<ul>
-<li>每个元素在页面中都有自己的位置，并占据一定的页面空间</li>
-<li>每个元素都是从父元素的左上角开始排列</li>
-<li>每个元素基本上都是按照从左到右、从上到下的方式排列</li>
-</ul>
-<p>根据以上特点，再回过头去看块级元素与内联元素的排列方式，就明了很多。</p>
-<h2 id="浮动定位（float）"> 浮动定位（float）</h2>
-<p>浮动定位的主要用处是将一个元素脱离文档流，使其排除在文档流之外，不再占据页面空间，此时后续的元素会依次递补到当前位置进行占位。它具有以下特点：</p>
-<ul>
-<li>不占据页面空间</li>
-<li>浮动的元素会停靠在父元素的左边或右边，或者其他已浮动元素的边缘</li>
-<li>只能在当前行浮动</li>
-</ul>
-<p>浮动可以使一个块级元素不再独占一行，多个块级元素可以同时处于一行之中。</p>
-<p>浮动通过 <code>float</code> 属性来实现，它的值：</p>
-<ul>
-<li><code>none</code>：没有浮动</li>
-<li><code>left</code>：浮动到左边，或者左边已浮动元素的边缘</li>
-<li><code>right</code>：浮动到右边，或者右边已浮动元素的边缘</li>
-</ul>
-<p>需要注意的是，浮动时：</p>
-<ul>
-<li>
-<p>如果父元素显示不下所有已浮动的子元素，那么最后一个将会换行，可能发生位置错误</p>
-<div><p>注意</p>
-<img :src="$withBase('/assets/roadmap/frontend/css-float-lock.png')" alt="">
-<p>红色框未浮动，绿色和蓝色框浮动，但父级元素宽度不够，蓝色框另起一行，由于高度差，蓝色框会浮动到红色框的右侧，从而导致位置错误。这在浮动中经常遇到，哪怕差 <code>1px</code> 也不行。</p>
-</div>
-</li>
-<li>
-<p>元素一旦浮动起来，都会变成块级元素，这意味着内联元素也可以修改尺寸</p>
-</li>
-<li>
-<p>元素一旦浮动起来，在未指定宽度的情况下，其宽度都由内容来决定，这意味着块级元素不再占据 100% 的宽度。</p>
-</li>
-<li>
-<p>文字、图片等内联元素采用环绕的方式排列，不会被浮动元素覆盖。按照左右显示、上下显示，显示不下的，则会溢出显示在元素下方。</p>
-</li>
-</ul>
-<h3 id="清除浮动（clear）"> 清除浮动（clear）</h3>
-<p>清除浮动可以帮助我们阻止浮动元素后面的元素上前占位。</p>
-<div><pre><code><span>/* 不做清除，默认 */</span>
-<span>clear</span><span>:</span> none<span>;</span>
-
-<span>/* 清除前面元素的左浮动 */</span>
-<span>clear</span><span>:</span> left<span>;</span>
-
-<span>/* 清除前面元素的右浮动 */</span>
-<span>clear</span><span>:</span> right<span>;</span>
-
-<span>/* 清除前面元素的所有浮动 */</span>
-<span>clear</span><span>:</span> both<span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h2 id="相对定位（relative）"> 相对定位（relative）</h2>
-<p>设置相对定位，可以实现元素偏移（位移），同时原有位置会被保留，不会被后续元素占位。</p>
-<div><pre><code><span>position</span><span>:</span> relative<span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="绝对定位（absolute）"> 绝对定位（absolute）</h2>
-<p>设置绝对定位，元素会脱离文档流，不占据页面空间，后续的元素会上前占位。同时绝对定位会查询最近的已定位祖先（设置了 <code>position</code> 属性）进行定位，如果没有，则以 <code>body</code> 为参考定位，也就是 <code>0px 0px</code> 页面左上角。</p>
-<div><pre><code><span>position</span><span>:</span> absolute<span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>很多时候，为了实现子元素的绝对定位，可以将父元素设置为 <code>position: relative;</code>。</p>
-<h2 id="固定定位（fixed）"> 固定定位（fixed）</h2>
-<p>设置固定定位，元素会变成块级元素，并且始终按照视口为参考系进行定位，即使页面滚动，它的位置仍然相对视口保持不变，非常适合工具栏、菜单栏、分享图标等。</p>
-<div><pre><code><span>position</span><span>:</span> fixed<span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><h2 id="黏贴定位（sticky）"> 黏贴定位（sticky）</h2>
-<p>这个定位就很有意思了，它类似于相对和固定的混合体。它允许被定位元素表现的像相对定位一样，能够随元素移动，知道它滚动到某个阈值，就变成了固定定位。该方案非常适合用于导航头部、分段标题等。</p>
-<div><pre><code><span>position</span><span>:</span> sticky<span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>构建工具</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">构建工具</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="构建工具"> 构建工具</h1>
 <h2 id="webpack"> Webpack</h2>
 <h2 id="rollup"> Rollup</h2>
@@ -12188,7 +12188,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">格式化工具</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="格式化工具"> 格式化工具</h1>
 <h2 id="eslint"> ESLint</h2>
 <h2 id="prettier"> Prettier</h2>
@@ -12199,10 +12199,259 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">包管理器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="包管理器"> 包管理器</h1>
 <h2 id="npm"> npm</h2>
 <h2 id="yarn"> yarn</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>HTML 基础</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/html/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/html/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">HTML 基础</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
+<h2 id="什么是-html"> 什么是 HTML</h2>
+<p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
+<p><code>超文本</code> 是指链接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面，只要将内容上传到互联网，并将其与他人创建的页面相连接，你就是万维网的积极参与者。</p>
+<p>在 <code>HTML</code> 中，所有内容都应该包裹在 <code>标签</code> 中，<code>标签</code> 注明了文本、图片和其他内容，以便浏览器显示，除了首行的解释类型：</p>
+<img :src="$withBase('/assets/roadmap/frontend/html-struct.png')" alt="">
+<h2 id="html5-的变化"> HTML5 的变化</h2>
+<p><code>HTML5</code> 在 2014 年正式发布，并推荐使用。</p>
+<p>它添加了许多新的语法特性。</p>
+<ul>
+<li>
+<p>添加了一些新的标签内容：</p>
+<ul>
+<li>语义化标签：<code>section</code>、<code>header</code>、<code>nav</code> 等</li>
+<li>内容标签：<code>&lt;video&gt;</code>、<code>&lt;audio&gt;</code>、<code>canvas</code> 等</li>
+<li>集成了 <code>SVG</code> 内容</li>
+</ul>
+</li>
+<li>
+<p>修改了部分标签的定义。如 <code>&lt;a&gt;</code>、<code>&lt;menu&gt;</code> 等</p>
+</li>
+<li>
+<p>删除了部分标签和属性。如 <code>&lt;font&gt;</code>、<code>&lt;center&gt;</code> 等</p>
+</li>
+</ul>
+<p>同时，<code>APIs</code> 和 <code>DOM</code> 已经成为 <code>HTML5</code> 的基础部分。</p>
+<ul>
+<li>
+<p>新的 API</p>
+<ul>
+<li>Canvas</li>
+<li>定时媒体播放</li>
+<li>离线</li>
+<li>可编辑内容</li>
+<li>拖放</li>
+<li>历史</li>
+<li>MIME 和协议进程时表头登记</li>
+<li>微数据</li>
+<li>网络信息</li>
+<li>网络存储</li>
+<li>地理位置</li>
+<li>IndexedDB</li>
+</ul>
+</li>
+</ul>
+<p>等等。</p>
+<h2 id="文档解释类型"> 文档解释类型</h2>
+<p>不同版本的 <code>HTML</code> 其解释类型也不尽相同。最新的 <code>HTML5</code> 解释类型，写法非常简便：</p>
+<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p><code>&lt;!DOCTYPE html&gt;</code> 是 <code>WEB</code> 的文档类型。它不是 HTML 标签，只是告诉浏览器当前 HTML 使用什么版本的文档类型编写的，该如何解析。</p>
+<p>之前还有 <code>HTML4</code>、<code>XHTML 1.0</code> 等。它们的写法就相对比较繁琐了。</p>
+<ul>
+<li>HTML 4</li>
+</ul>
+<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span> <span>PUBLIC</span> <span>"-//W3C//DTD HTML 4.01 Transitional//EN"</span> <span>"http://www.w3.org/TR/html4/loose.dtd"</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li>XHTML 1.0</li>
+</ul>
+<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span> <span>PUBLIC</span> <span>"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span>"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>如果没有提供声明标识，那么浏览器就会使用默认方式进行渲染，也就是 <code>BackCompat</code> 模式，这样就会造成在不同浏览器下的显示会有所不同。</p>
+<p>而提供了声明标识，那么浏览器就会按照 <code>W3C</code> 的标准模式进行渲染，这样所有浏览器会得到同样的显示效果。</p>
+<h2 id="标签"> 标签</h2>
+<p><code>HTML</code> 中的所有内容都应该包裹在 <code>标签</code> 中。我们可以为标签设置内容、样式等。所有 <code>标签</code> 都需要放在 <code>&lt;</code> 与 <code>&gt;</code> 中，这样的一个标记叫做一个完整的标签。</p>
+<p>例如，键入下面内容：</p>
+<div><pre><code>我的猫非常脾气暴躁
+</code></pre>
+<div><span>1</span><br></div></div><p>可以将这行文字封装成一个段落（<code>&lt;p&gt;</code>）元素来使其在单独一行呈现：</p>
+<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫非常脾气暴躁<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><img :src="$withBase('/assets/roadmap/frontend/html-element.png')" alt="">
+<h3 id="标签属性"> 标签属性</h3>
+<p>还可以为标签添加属性。属性需要放在起始标签中，格式都为 <code>attr=&quot;xxx&quot;</code>，用空格分开：</p>
+<img :src="$withBase('/assets/roadmap/frontend/html-element-attribute.png')" alt="">
+<p>通常属性作用于当前标签与内容。不同标签自带不同的默认属性。</p>
+<h3 id="嵌套标签"> 嵌套标签</h3>
+<p>标签还可以嵌套：</p>
+<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫咪脾气<span><span><span>&lt;</span>strong</span><span>></span></span>暴躁<span><span><span>&lt;/</span>strong</span><span>></span></span>:)<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>不过嵌套需要确保正确，所有嵌套都应该遵循 <code>开始</code> 和 <code>结束</code> 标签相连。如下面的例子就会错误渲染：</p>
+<div><p>错误示例</p>
+<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫咪脾气<span><span><span>&lt;</span>strong</span><span>></span></span>爆:)<span><span><span>&lt;/</span>p</span><span>></span></span><span><span><span>&lt;/</span>strong</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div></div>
+<p>所有元素内容，可以参考 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element" target="_blank" rel="noopener noreferrer">Mozilla docs</a>。</p>
+<h3 id="自闭合标签"> 自闭合标签</h3>
+<p>对于无内容的标签，可以通过在 <code>开始标签</code> 的最后添加 <code>/</code> 的方式来结束，即：</p>
+<div><pre><code><span><span><span>&lt;</span>img</span> <span>/></span></span>
+
+<span><span><span>&lt;</span>div</span> <span>/></span></span>
+<span>&lt;!-- 等于 --></span>
+<span><span><span>&lt;</span>div</span><span>></span></span><span><span><span>&lt;/</span>div</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>它开始是一些单标签、空标签的结束简便写法。现在很多 <code>eslint</code> 中有明确要求。</p>
+<h2 id="注释"> 注释</h2>
+<p><code>HTML</code> 拥有自己的注释风格。与 <code>标签</code> 的要求一样，注释也必须在 <code>&lt;&gt;</code> 中。它可以是单行，也可以是多行。它的写法如下：</p>
+<div><pre><code><span>&lt;!-- 这是一段注释 --></span>
+
+<span>&lt;!-- 这是一个
+多行
+注释 --></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ul>
+<li>注释不能写在 <code>标签</code> 内部，</li>
+</ul>
+<div><p>错误示例</p>
+<div><pre><code><span><span><span>&lt;</span>p</span> <span>&lt;!--</span> <span>不能在这里写注释</span> <span>--</span><span>></span></span>>xxx<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div></div>
+<ul>
+<li>注释不能嵌套</li>
+</ul>
+<div><p>错误示例</p>
+<div><div><br><br><div>&nbsp;</div><br><br></div><pre><code><span><span><span>&lt;</span>!--</span>
+  <span>注释1</span>
+  <span>&lt;!--</span> <span>注释2</span> <span>--</span><span>></span></span>
+-->
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div></div>
+<h2 id="语义化"> 语义化</h2>
+<p>语义化就是用正确的标签来做正确的是。它让一个标签具有一定的意义，这种意义是可以让人和机器从字面上就能理解的。HTML 语义化可以让页面内容更加结构化，方便浏览器、搜索引擎进行分析，更有利于 SEO。</p>
+<p>语义化类似于给编程语言起变量名，可以一目了然看出这段内容的用处和含义。</p>
+<p>例如：</p>
+<p>我们可以使用 <code>h1</code> 标签来定义一个以及标题：</p>
+<div><pre><code><span><span><span>&lt;</span>h1</span><span>></span></span>This is a top level heading<span><span><span>&lt;/</span>h1</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>很简单的定义。但是我们同样可以通过其他标签来模拟实现该内容：</p>
+<div><pre><code><span><span><span>&lt;</span>span</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>font-size</span><span>:</span> 32px<span>;</span> <span>margin</span><span>:</span> 21px 0<span>;</span> <span>font-weight</span><span>:</span> bold<span>;</span></span><span>"</span></span></span><span>></span></span>
+  This is a top level heading
+<span><span><span>&lt;/</span>span</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>它们呈现的效果式样的：</p>
+<img :src="$withBase('/assets/roadmap/frontend/html-semantics.png')" alt="">
+<p>但是这样并不是我们推荐的。HTML 的编写应该着重于填充的数据，而不是表现样式，那是 CSS 的任务。</p>
+<p>使用语义化具有如下好处：</p>
+<ul>
+<li>搜索引擎将其内容视为影响页面搜索排名的重要关键字（<a href="https://developer.mozilla.org/zh-CN/docs/Glossary/SEO" target="_blank" rel="noopener noreferrer">SEO</a>）</li>
+<li>屏幕阅读器可以把它作为一个路标，帮助视障用户更高效地浏览页面</li>
+<li>找到有意义的代码块要比在无穷无尽的 <code>div</code> 中搜索语义类或命名空间类要容易的多</li>
+<li>向开发人员建议要填充的数据类型</li>
+<li>语义命名反映了恰当的自定义元素/组件命名</li>
+</ul>
+<p>随着 web 信息量的扩大，这样的优势/好处越来越突出，语义化可以让机器高效处理，为我们提供更准确的信息。</p>
+<hr />
+<p><strong>参考：</strong></p>
+<ul>
+<li><a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics#%E8%AF%AD%E4%B9%89%E5%8C%96%E5%85%83%E7%B4%A0" target="_blank" rel="noopener noreferrer">语义化元素</a></li>
+<li><a href="https://www.zhihu.com/question/20455165" target="_blank" rel="noopener noreferrer">如何理解 web 语义化</a></li>
+</ul>
+<h2 id="dom"> DOM</h2>
+<p>DOM: <code>Document Object Module</code>，即 <code>文档对象模型</code>。</p>
+<p>一个 DOM 有一个树形结构，标记语言中的每一个元素、属性以及每一段文字都对应着结构树中的一个节点。节点由节点本身和其他 DOM 节点的关系定义，有些节点有父节点，有些节点有兄弟节点。</p>
+<p>例如，我们有 html 以下代码：</p>
+<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>
+  Let's use:
+  <span><span><span>&lt;</span>span</span><span>></span></span>Cascading<span><span><span>&lt;/</span>span</span><span>></span></span>
+  <span><span><span>&lt;</span>span</span><span>></span></span>Style<span><span><span>&lt;/</span>span</span><span>></span></span>
+  <span><span><span>&lt;</span>span</span><span>></span></span>Sheets<span><span><span>&lt;/</span>span</span><span>></span></span>
+<span><span><span>&lt;/</span>p</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这段代码转换成 DOM 树之后，就变成了：</p>
+<div><pre><code>P
+├─ &quot;Let&#39;s use:&quot;
+├─ SPAN
+|  └─ &quot;Cascading&quot;
+├─ SPAN
+|  └─ &quot;Style&quot;
+└─ SPAN
+   └─ &quot;Sheets&quot;
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="习惯与最佳实践"> 习惯与最佳实践</h2>
+<p>良好的习惯会带来无穷的好处，最佳实践会帮助我们养成良好的习惯。</p>
+<h3 id="始终声明-doctype"> 始终声明 Doctype</h3>
+<p><code>doctype</code> 声明应该是编写 <code>HTML</code> 文档的第一件事。</p>
+<h3 id="使用语义化标签"> 使用语义化标签</h3>
+<p>使用语义化标签可以带来更好的使用体验。</p>
+<h3 id="使用描述性元标记"> 使用描述性元标记</h3>
+<p>元标记使页面可以在面对搜索引擎、爬虫等的时候更有意义。</p>
+<p>常用 meta 属性：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">属性</th>
+<th>值</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">name</td>
+<td><code>author</code> / <code>description</code> / <code>keywords</code> / <code>generator</code> / <code>revised</code> / <code>others</code></td>
+<td>指定名称</td>
+</tr>
+<tr>
+<td style="text-align:center">content</td>
+<td>任意</td>
+<td>信息内容</td>
+</tr>
+<tr>
+<td style="text-align:center">http-equiv</td>
+<td><code>content-type</code> / <code>expire</code> / <code>refresh</code> / <code>set-cookie</code></td>
+<td>指定属性，该属性的值会添加到 <code>HTTP</code> 请求头</td>
+</tr>
+</tbody>
+</table>
+<p>例如：</p>
+<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+<span><span><span>&lt;</span>html</span><span>></span></span>
+  <span><span><span>&lt;</span>head</span><span>></span></span>
+    <span><span><span>&lt;</span>title</span><span>></span></span>HTML Best Practices in Website Design<span><span><span>&lt;/</span>title</span><span>></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>keywords<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>HTML, Website Design, HTML Best Practices<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>description<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>Learn about HTML best practices.<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>author<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>John Doe<span>"</span></span> <span>/></span></span>
+    <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>Content-Type<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>text/html; charset = UTF-8<span>"</span></span> <span>/></span></span>
+  <span><span><span>&lt;/</span>head</span><span>></span></span>
+  <span><span><span>&lt;</span>body</span><span>></span></span>
+    <span><span><span>&lt;</span>p</span><span>></span></span>Let's learn how to code HTML5!<span><span><span>&lt;/</span>p</span><span>></span></span>
+  <span><span><span>&lt;/</span>body</span><span>></span></span>
+<span><span><span>&lt;/</span>html</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="良好的布局"> 良好的布局</h3>
+<p>一个页面应该具有一定的布局结构，而不仅仅是标题、文本、链接等。</p>
+<p>通常来说，它可以是 <code>&lt;header&gt;</code>、<code>&lt;section&gt;</code>、<code>&lt;footer&gt;</code> 组成。大部分内容应该包含在 <code>&lt;section&gt;</code> 中，比如标题、图片等。</p>
+<h3 id="使用外部样式表"> 使用外部样式表</h3>
+<p>尽量避免使用内联样式，大量内联样式会导致文件过大，加载缓慢，代码难以维护等问题。</p>
+<p>同样的，避免在 CSS 文件中使用 import 语句，这样会产生额外的服务器请求。</p>
+<h3 id="验证您的代码"> 验证您的代码</h3>
+<p>永远要验证代码。验证代码可以尽早识别错误，避免上线后带来的诸多不便和不友好的体验。</p>
+<p>最重要的，这是一个<strong>良好的，也是必须的习惯</strong>。</p>
+<hr />
+<p>参考：</p>
+<p><a href="https://www.wbolt.com/html-best-practices.html" target="_blank" rel="noopener noreferrer">构建可维护和可扩展网站的 HTML 最佳实践</a></p>
+<h2 id="seo"> SEO</h2>
+<ul>
+<li>高效的使用 H 标签（h1-h6）</li>
+<li>填写完整的 meta 标签内容</li>
+<li>使用语义化标签</li>
+<li>合理命名 css 变量</li>
+<li>图片添加 alt 属性</li>
+</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -12210,7 +12459,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 基础</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-基础"> JavaScript 基础</h1>
 <h2 id="什么是-javascript"> 什么是 JavaScript</h2>
 <p><code>JavaScript</code> 是一种具有函数优先的轻量级、解释型的脚本语言。它最初的设计是用来操作浏览器中的 <code>DOM</code> 元素的，但现在它也被应用到了很多非浏览器环境中，甚至开发后端应用。</p>
@@ -12355,7 +12604,7 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">异步编程</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="异步编程"> 异步编程</h1>
 <h2 id="异步的由来与实现"> 异步的由来与实现</h2>
 <p>JS 在设计之初就是单线程的，所以本质上并不存在异步编程。在经过不断的进化和改良之后，现在所谓的异步编程也只是利用任务队列来改变事件的触发顺序，从而在效果上达到异步。</p>
@@ -13578,7 +13827,7 @@ MyPromise<span>.</span><span>race</span><span>(</span><span>[</span>p3<span>,</s
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/net/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/net/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络请求</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络请求"> 网络请求</h1>
 <h2 id="ajax"> Ajax</h2>
 <p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
@@ -13805,25 +14054,11 @@ Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简
 ]]></content:encoded>
     </item>
     <item>
-      <title>React 学习之路</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/react/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/react/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">React 学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
-<p>React 的学习之路，英文比中文新。</p>
-<p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
-<p><a href="https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md" target="_blank" rel="noopener noreferrer">中文</a></p>
-<p><img src="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" alt="react roadmap" /></p>
-]]></content:encoded>
-      <enclosure url="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" type="image/png"/>
-    </item>
-    <item>
       <title>原型和原型链详解</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原型和原型链详解</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原型和原型链详解"> 原型和原型链详解</h1>
 <p>网上有很多相关的文章、视频等资料，但很多都是片面的，不完全的。我也为了自身加深理解，所以对其进行一下简单的总结。</p>
 <h2 id="两个属性"> 两个属性</h2>
@@ -14490,11 +14725,25 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>React 学习之路</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/react/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/react/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">React 学习之路</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
+<p>React 的学习之路，英文比中文新。</p>
+<p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
+<p><a href="https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md" target="_blank" rel="noopener noreferrer">中文</a></p>
+<p><img src="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" alt="react roadmap" /></p>
+]]></content:encoded>
+      <enclosure url="https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png" type="image/png"/>
+    </item>
+    <item>
       <title>Vue 学习之路</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-学习之路"> Vue 学习之路</h1>
 <p>Vue 的学习之路。</p>
 ]]></content:encoded>
@@ -14504,7 +14753,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">class 与 style 的绑定</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="class-与-style-的绑定"> class 与 style 的绑定</h1>
 ]]></content:encoded>
     </item>
@@ -14513,7 +14762,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">组件</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="组件"> 组件</h1>
 <h2 id="应用实例"> 应用实例</h2>
 <h2 id="根组件"> 根组件</h2>
@@ -14522,260 +14771,11 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>HTML 基础</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/html/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/html/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">HTML 基础</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
-<h2 id="什么是-html"> 什么是 HTML</h2>
-<p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
-<p><code>超文本</code> 是指链接单个网站内或多个网站间的网页的链接。链接是网络的一个基本方面，只要将内容上传到互联网，并将其与他人创建的页面相连接，你就是万维网的积极参与者。</p>
-<p>在 <code>HTML</code> 中，所有内容都应该包裹在 <code>标签</code> 中，<code>标签</code> 注明了文本、图片和其他内容，以便浏览器显示，除了首行的解释类型：</p>
-<img :src="$withBase('/assets/roadmap/frontend/html-struct.png')" alt="">
-<h2 id="html5-的变化"> HTML5 的变化</h2>
-<p><code>HTML5</code> 在 2014 年正式发布，并推荐使用。</p>
-<p>它添加了许多新的语法特性。</p>
-<ul>
-<li>
-<p>添加了一些新的标签内容：</p>
-<ul>
-<li>语义化标签：<code>section</code>、<code>header</code>、<code>nav</code> 等</li>
-<li>内容标签：<code>&lt;video&gt;</code>、<code>&lt;audio&gt;</code>、<code>canvas</code> 等</li>
-<li>集成了 <code>SVG</code> 内容</li>
-</ul>
-</li>
-<li>
-<p>修改了部分标签的定义。如 <code>&lt;a&gt;</code>、<code>&lt;menu&gt;</code> 等</p>
-</li>
-<li>
-<p>删除了部分标签和属性。如 <code>&lt;font&gt;</code>、<code>&lt;center&gt;</code> 等</p>
-</li>
-</ul>
-<p>同时，<code>APIs</code> 和 <code>DOM</code> 已经成为 <code>HTML5</code> 的基础部分。</p>
-<ul>
-<li>
-<p>新的 API</p>
-<ul>
-<li>Canvas</li>
-<li>定时媒体播放</li>
-<li>离线</li>
-<li>可编辑内容</li>
-<li>拖放</li>
-<li>历史</li>
-<li>MIME 和协议进程时表头登记</li>
-<li>微数据</li>
-<li>网络信息</li>
-<li>网络存储</li>
-<li>地理位置</li>
-<li>IndexedDB</li>
-</ul>
-</li>
-</ul>
-<p>等等。</p>
-<h2 id="文档解释类型"> 文档解释类型</h2>
-<p>不同版本的 <code>HTML</code> 其解释类型也不尽相同。最新的 <code>HTML5</code> 解释类型，写法非常简便：</p>
-<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p><code>&lt;!DOCTYPE html&gt;</code> 是 <code>WEB</code> 的文档类型。它不是 HTML 标签，只是告诉浏览器当前 HTML 使用什么版本的文档类型编写的，该如何解析。</p>
-<p>之前还有 <code>HTML4</code>、<code>XHTML 1.0</code> 等。它们的写法就相对比较繁琐了。</p>
-<ul>
-<li>HTML 4</li>
-</ul>
-<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span> <span>PUBLIC</span> <span>"-//W3C//DTD HTML 4.01 Transitional//EN"</span> <span>"http://www.w3.org/TR/html4/loose.dtd"</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><ul>
-<li>XHTML 1.0</li>
-</ul>
-<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span> <span>PUBLIC</span> <span>"-//W3C//DTD XHTML 1.0 Transitional//EN"</span> <span>"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>如果没有提供声明标识，那么浏览器就会使用默认方式进行渲染，也就是 <code>BackCompat</code> 模式，这样就会造成在不同浏览器下的显示会有所不同。</p>
-<p>而提供了声明标识，那么浏览器就会按照 <code>W3C</code> 的标准模式进行渲染，这样所有浏览器会得到同样的显示效果。</p>
-<h2 id="标签"> 标签</h2>
-<p><code>HTML</code> 中的所有内容都应该包裹在 <code>标签</code> 中。我们可以为标签设置内容、样式等。所有 <code>标签</code> 都需要放在 <code>&lt;</code> 与 <code>&gt;</code> 中，这样的一个标记叫做一个完整的标签。</p>
-<p>例如，键入下面内容：</p>
-<div><pre><code>我的猫非常脾气暴躁
-</code></pre>
-<div><span>1</span><br></div></div><p>可以将这行文字封装成一个段落（<code>&lt;p&gt;</code>）元素来使其在单独一行呈现：</p>
-<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫非常脾气暴躁<span><span><span>&lt;/</span>p</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><img :src="$withBase('/assets/roadmap/frontend/html-element.png')" alt="">
-<h3 id="标签属性"> 标签属性</h3>
-<p>还可以为标签添加属性。属性需要放在起始标签中，格式都为 <code>attr=&quot;xxx&quot;</code>，用空格分开：</p>
-<img :src="$withBase('/assets/roadmap/frontend/html-element-attribute.png')" alt="">
-<p>通常属性作用于当前标签与内容。不同标签自带不同的默认属性。</p>
-<h3 id="嵌套标签"> 嵌套标签</h3>
-<p>标签还可以嵌套：</p>
-<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫咪脾气<span><span><span>&lt;</span>strong</span><span>></span></span>暴躁<span><span><span>&lt;/</span>strong</span><span>></span></span>:)<span><span><span>&lt;/</span>p</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>不过嵌套需要确保正确，所有嵌套都应该遵循 <code>开始</code> 和 <code>结束</code> 标签相连。如下面的例子就会错误渲染：</p>
-<div><p>错误示例</p>
-<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>我的猫咪脾气<span><span><span>&lt;</span>strong</span><span>></span></span>爆:)<span><span><span>&lt;/</span>p</span><span>></span></span><span><span><span>&lt;/</span>strong</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div></div>
-<p>所有元素内容，可以参考 <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element" target="_blank" rel="noopener noreferrer">Mozilla docs</a>。</p>
-<h3 id="自闭合标签"> 自闭合标签</h3>
-<p>对于无内容的标签，可以通过在 <code>开始标签</code> 的最后添加 <code>/</code> 的方式来结束，即：</p>
-<div><pre><code><span><span><span>&lt;</span>img</span> <span>/></span></span>
-
-<span><span><span>&lt;</span>div</span> <span>/></span></span>
-<span>&lt;!-- 等于 --></span>
-<span><span><span>&lt;</span>div</span><span>></span></span><span><span><span>&lt;/</span>div</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><p>它开始是一些单标签、空标签的结束简便写法。现在很多 <code>eslint</code> 中有明确要求。</p>
-<h2 id="注释"> 注释</h2>
-<p><code>HTML</code> 拥有自己的注释风格。与 <code>标签</code> 的要求一样，注释也必须在 <code>&lt;&gt;</code> 中。它可以是单行，也可以是多行。它的写法如下：</p>
-<div><pre><code><span>&lt;!-- 这是一段注释 --></span>
-
-<span>&lt;!-- 这是一个
-多行
-注释 --></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><ul>
-<li>注释不能写在 <code>标签</code> 内部，</li>
-</ul>
-<div><p>错误示例</p>
-<div><pre><code><span><span><span>&lt;</span>p</span> <span>&lt;!--</span> <span>不能在这里写注释</span> <span>--</span><span>></span></span>>xxx<span><span><span>&lt;/</span>p</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div></div>
-<ul>
-<li>注释不能嵌套</li>
-</ul>
-<div><p>错误示例</p>
-<div><div><br><br><div>&nbsp;</div><br><br></div><pre><code><span><span><span>&lt;</span>!--</span>
-  <span>注释1</span>
-  <span>&lt;!--</span> <span>注释2</span> <span>--</span><span>></span></span>
--->
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div></div>
-<h2 id="语义化"> 语义化</h2>
-<p>语义化就是用正确的标签来做正确的是。它让一个标签具有一定的意义，这种意义是可以让人和机器从字面上就能理解的。HTML 语义化可以让页面内容更加结构化，方便浏览器、搜索引擎进行分析，更有利于 SEO。</p>
-<p>语义化类似于给编程语言起变量名，可以一目了然看出这段内容的用处和含义。</p>
-<p>例如：</p>
-<p>我们可以使用 <code>h1</code> 标签来定义一个以及标题：</p>
-<div><pre><code><span><span><span>&lt;</span>h1</span><span>></span></span>This is a top level heading<span><span><span>&lt;/</span>h1</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>很简单的定义。但是我们同样可以通过其他标签来模拟实现该内容：</p>
-<div><pre><code><span><span><span>&lt;</span>span</span> <span><span>style</span><span><span>=</span><span>"</span><span><span>font-size</span><span>:</span> 32px<span>;</span> <span>margin</span><span>:</span> 21px 0<span>;</span> <span>font-weight</span><span>:</span> bold<span>;</span></span><span>"</span></span></span><span>></span></span>
-  This is a top level heading
-<span><span><span>&lt;/</span>span</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>它们呈现的效果式样的：</p>
-<img :src="$withBase('/assets/roadmap/frontend/html-semantics.png')" alt="">
-<p>但是这样并不是我们推荐的。HTML 的编写应该着重于填充的数据，而不是表现样式，那是 CSS 的任务。</p>
-<p>使用语义化具有如下好处：</p>
-<ul>
-<li>搜索引擎将其内容视为影响页面搜索排名的重要关键字（<a href="https://developer.mozilla.org/zh-CN/docs/Glossary/SEO" target="_blank" rel="noopener noreferrer">SEO</a>）</li>
-<li>屏幕阅读器可以把它作为一个路标，帮助视障用户更高效地浏览页面</li>
-<li>找到有意义的代码块要比在无穷无尽的 <code>div</code> 中搜索语义类或命名空间类要容易的多</li>
-<li>向开发人员建议要填充的数据类型</li>
-<li>语义命名反映了恰当的自定义元素/组件命名</li>
-</ul>
-<p>随着 web 信息量的扩大，这样的优势/好处越来越突出，语义化可以让机器高效处理，为我们提供更准确的信息。</p>
-<hr />
-<p><strong>参考：</strong></p>
-<ul>
-<li><a href="https://developer.mozilla.org/zh-CN/docs/Glossary/Semantics#%E8%AF%AD%E4%B9%89%E5%8C%96%E5%85%83%E7%B4%A0" target="_blank" rel="noopener noreferrer">语义化元素</a></li>
-<li><a href="https://www.zhihu.com/question/20455165" target="_blank" rel="noopener noreferrer">如何理解 web 语义化</a></li>
-</ul>
-<h2 id="dom"> DOM</h2>
-<p>DOM: <code>Document Object Module</code>，即 <code>文档对象模型</code>。</p>
-<p>一个 DOM 有一个树形结构，标记语言中的每一个元素、属性以及每一段文字都对应着结构树中的一个节点。节点由节点本身和其他 DOM 节点的关系定义，有些节点有父节点，有些节点有兄弟节点。</p>
-<p>例如，我们有 html 以下代码：</p>
-<div><pre><code><span><span><span>&lt;</span>p</span><span>></span></span>
-  Let's use:
-  <span><span><span>&lt;</span>span</span><span>></span></span>Cascading<span><span><span>&lt;/</span>span</span><span>></span></span>
-  <span><span><span>&lt;</span>span</span><span>></span></span>Style<span><span><span>&lt;/</span>span</span><span>></span></span>
-  <span><span><span>&lt;</span>span</span><span>></span></span>Sheets<span><span><span>&lt;/</span>span</span><span>></span></span>
-<span><span><span>&lt;/</span>p</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>这段代码转换成 DOM 树之后，就变成了：</p>
-<div><pre><code>P
-├─ &quot;Let&#39;s use:&quot;
-├─ SPAN
-|  └─ &quot;Cascading&quot;
-├─ SPAN
-|  └─ &quot;Style&quot;
-└─ SPAN
-   └─ &quot;Sheets&quot;
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h2 id="习惯与最佳实践"> 习惯与最佳实践</h2>
-<p>良好的习惯会带来无穷的好处，最佳实践会帮助我们养成良好的习惯。</p>
-<h3 id="始终声明-doctype"> 始终声明 Doctype</h3>
-<p><code>doctype</code> 声明应该是编写 <code>HTML</code> 文档的第一件事。</p>
-<h3 id="使用语义化标签"> 使用语义化标签</h3>
-<p>使用语义化标签可以带来更好的使用体验。</p>
-<h3 id="使用描述性元标记"> 使用描述性元标记</h3>
-<p>元标记使页面可以在面对搜索引擎、爬虫等的时候更有意义。</p>
-<p>常用 meta 属性：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">属性</th>
-<th>值</th>
-<th>描述</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">name</td>
-<td><code>author</code> / <code>description</code> / <code>keywords</code> / <code>generator</code> / <code>revised</code> / <code>others</code></td>
-<td>指定名称</td>
-</tr>
-<tr>
-<td style="text-align:center">content</td>
-<td>任意</td>
-<td>信息内容</td>
-</tr>
-<tr>
-<td style="text-align:center">http-equiv</td>
-<td><code>content-type</code> / <code>expire</code> / <code>refresh</code> / <code>set-cookie</code></td>
-<td>指定属性，该属性的值会添加到 <code>HTTP</code> 请求头</td>
-</tr>
-</tbody>
-</table>
-<p>例如：</p>
-<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
-<span><span><span>&lt;</span>html</span><span>></span></span>
-  <span><span><span>&lt;</span>head</span><span>></span></span>
-    <span><span><span>&lt;</span>title</span><span>></span></span>HTML Best Practices in Website Design<span><span><span>&lt;/</span>title</span><span>></span></span>
-    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>keywords<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>HTML, Website Design, HTML Best Practices<span>"</span></span> <span>/></span></span>
-    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>description<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>Learn about HTML best practices.<span>"</span></span> <span>/></span></span>
-    <span><span><span>&lt;</span>meta</span> <span>name</span><span><span>=</span><span>"</span>author<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>John Doe<span>"</span></span> <span>/></span></span>
-    <span><span><span>&lt;</span>meta</span> <span>http-equiv</span><span><span>=</span><span>"</span>Content-Type<span>"</span></span> <span>content</span><span><span>=</span><span>"</span>text/html; charset = UTF-8<span>"</span></span> <span>/></span></span>
-  <span><span><span>&lt;/</span>head</span><span>></span></span>
-  <span><span><span>&lt;</span>body</span><span>></span></span>
-    <span><span><span>&lt;</span>p</span><span>></span></span>Let's learn how to code HTML5!<span><span><span>&lt;/</span>p</span><span>></span></span>
-  <span><span><span>&lt;/</span>body</span><span>></span></span>
-<span><span><span>&lt;/</span>html</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><h3 id="良好的布局"> 良好的布局</h3>
-<p>一个页面应该具有一定的布局结构，而不仅仅是标题、文本、链接等。</p>
-<p>通常来说，它可以是 <code>&lt;header&gt;</code>、<code>&lt;section&gt;</code>、<code>&lt;footer&gt;</code> 组成。大部分内容应该包含在 <code>&lt;section&gt;</code> 中，比如标题、图片等。</p>
-<h3 id="使用外部样式表"> 使用外部样式表</h3>
-<p>尽量避免使用内联样式，大量内联样式会导致文件过大，加载缓慢，代码难以维护等问题。</p>
-<p>同样的，避免在 CSS 文件中使用 import 语句，这样会产生额外的服务器请求。</p>
-<h3 id="验证您的代码"> 验证您的代码</h3>
-<p>永远要验证代码。验证代码可以尽早识别错误，避免上线后带来的诸多不便和不友好的体验。</p>
-<p>最重要的，这是一个<strong>良好的，也是必须的习惯</strong>。</p>
-<hr />
-<p>参考：</p>
-<p><a href="https://www.wbolt.com/html-best-practices.html" target="_blank" rel="noopener noreferrer">构建可维护和可扩展网站的 HTML 最佳实践</a></p>
-<h2 id="seo"> SEO</h2>
-<ul>
-<li>高效的使用 H 标签（h1-h6）</li>
-<li>填写完整的 meta 标签内容</li>
-<li>使用语义化标签</li>
-<li>合理命名 css 变量</li>
-<li>图片添加 alt 属性</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>组合式 API</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">组合式 API</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="组合式-api"> 组合式 API</h1>
 <h2 id="setup"> Setup</h2>
 <h2 id="生命周期钩子"> 生命周期钩子</h2>
@@ -14786,7 +14786,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算属性和侦听器</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算属性和侦听器"> 计算属性和侦听器</h1>
 ]]></content:encoded>
     </item>
@@ -14795,7 +14795,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据和方法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据和方法"> 数据和方法</h1>
 ]]></content:encoded>
     </item>
@@ -14804,7 +14804,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">循环渲染</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="循环渲染"> 循环渲染</h1>
 ]]></content:encoded>
     </item>
@@ -14813,7 +14813,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">条件渲染</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="条件渲染"> 条件渲染</h1>
 ]]></content:encoded>
     </item>
@@ -14822,7 +14822,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <h2 id="beforecreate"> beforeCreate</h2>
 <h2 id="created"> created</h2>
@@ -14839,7 +14839,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">渲染</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="渲染"> 渲染</h1>
 ]]></content:encoded>
     </item>
@@ -14848,17 +14848,17 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">插槽</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="插槽"> 插槽</h1>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Vue Cli</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">Vue Cli</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
+      <title>MVVM</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -14866,8 +14866,17 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">响应式的原理</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vue Cli</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Vue Cli</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -14875,7 +14884,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Router</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-router"> Vue Router</h1>
 <h2 id="路由原理"> 路由原理</h2>
 <h2 id="动态匹配"> 动态匹配</h2>
@@ -14890,9 +14899,18 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Test Utils</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
 <h2 id="jest"> Jest</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Devtools</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Devtools</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="devtools"> Devtools</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -14900,7 +14918,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vuex</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vuex"> Vuex</h1>
 <h2 id="state"> State</h2>
 <h2 id="getter"> Getter</h2>
@@ -14910,52 +14928,11 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Devtools</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">Devtools</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="devtools"> Devtools</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>使用项目模板</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">使用项目模板</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
-<h2 id="如何添加模板"> 如何添加模板</h2>
-<h3 id="方法一"> 方法一</h3>
-<p>通过 <a href="https://github.com/Rich-Harris/degit" target="_blank" rel="noopener noreferrer"><code>degit</code></a> 安装：</p>
-<p>首先安装 <code>degit</code></p>
-<div><pre><code><span>npm</span> <span>install</span> -g degit
-</code></pre>
-<div><span>1</span><br></div></div><p>然后可以下载模板。例如：</p>
-<div><pre><code>npx degit jeremyjone/<span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
-</code></pre>
-<div><span>1</span><br></div></div><div><p>提示</p>
-<p>方法一创建的项目模板不包含 <code>git</code>，需要进入目录后手动执行 <code>git init</code> 方可。</p>
-</div>
-<h3 id="方法二"> 方法二</h3>
-<p>可以直接 clone 项目到本地即可。例如：</p>
-<div><pre><code><span>git</span> clone https://github.com/jeremyjone/<span>&lt;</span>repertory_name<span>></span>.git
-<span>mv</span> <span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><h2 id="模板地址"> 模板地址</h2>
-<ul>
-<li><a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">vue3-ts-template</a> - 包括 <code>vue 3</code>、<code>vue-router 4</code>、<code>axios</code>、<code>vuex 4</code>、<code>vite 2</code> 等工程化项目模板。</li>
-</ul>
-<h2 id="社区模板"> 社区模板</h2>
-<p>vite 社区提供了很多免费模板，可以 <a href="https://github.com/vitejs/awesome-vite#templates" target="_blank" rel="noopener noreferrer">参考</a>。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title>从 0 搭建项目模板（vue3）</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">从 0 搭建项目模板（vue3）</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="从-0-搭建项目模板（vue3）"> 从 0 搭建项目模板（vue3）</h1>
 <p>为简化每次初始化项目，最好的方法就是搭建一个项目模板，这样每次初始化的时候直接拉取就好，不用再一个一个进行配置，省去了大量时间。</p>
 <p>该内容模板已经在 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a>，如果需要，可以直接下载使用。具体使用方法可以查看 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a> 或者 <a href="./">模板文档</a></p>
@@ -16232,11 +16209,43 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>使用项目模板</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">使用项目模板</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
+<h2 id="如何添加模板"> 如何添加模板</h2>
+<h3 id="方法一"> 方法一</h3>
+<p>通过 <a href="https://github.com/Rich-Harris/degit" target="_blank" rel="noopener noreferrer"><code>degit</code></a> 安装：</p>
+<p>首先安装 <code>degit</code></p>
+<div><pre><code><span>npm</span> <span>install</span> -g degit
+</code></pre>
+<div><span>1</span><br></div></div><p>然后可以下载模板。例如：</p>
+<div><pre><code>npx degit jeremyjone/<span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
+</code></pre>
+<div><span>1</span><br></div></div><div><p>提示</p>
+<p>方法一创建的项目模板不包含 <code>git</code>，需要进入目录后手动执行 <code>git init</code> 方可。</p>
+</div>
+<h3 id="方法二"> 方法二</h3>
+<p>可以直接 clone 项目到本地即可。例如：</p>
+<div><pre><code><span>git</span> clone https://github.com/jeremyjone/<span>&lt;</span>repertory_name<span>></span>.git
+<span>mv</span> <span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h2 id="模板地址"> 模板地址</h2>
+<ul>
+<li><a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">vue3-ts-template</a> - 包括 <code>vue 3</code>、<code>vue-router 4</code>、<code>axios</code>、<code>vuex 4</code>、<code>vite 2</code> 等工程化项目模板。</li>
+</ul>
+<h2 id="社区模板"> 社区模板</h2>
+<p>vite 社区提供了很多免费模板，可以 <a href="https://github.com/vitejs/awesome-vite#templates" target="_blank" rel="noopener noreferrer">参考</a>。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>虚拟 DOM</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">虚拟 DOM</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
 ]]></content:encoded>
     </item>
@@ -16245,7 +16254,7 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <link>https://docs.jeremyjone.com/roadmap/java/</link>
       <guid>https://docs.jeremyjone.com/roadmap/java/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Java 学习之路</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
 <p>Java 的学习之路，页面包含学习链接。</p>
 <p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -16254,11 +16263,20 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <enclosure url="https://github.com/s4kibs4mi/java-developer-roadmap/raw/master/java-developer-roadmap.png" type="image/png"/>
     </item>
     <item>
+      <title>C#</title>
+      <link>https://docs.jeremyjone.com/standard/csharp/</link>
+      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>代码书写规范总纲</title>
       <link>https://docs.jeremyjone.com/standard/</link>
       <guid>https://docs.jeremyjone.com/standard/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">代码书写规范总纲</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="代码书写规范总纲"> 代码书写规范总纲</h1>
 <Description author="JeremyJone" version="v1" copyright="Jz" />
 <p><strong>良好的规范，促进高质量的代码。</strong> --<em>与君共勉</em></p>
@@ -16503,20 +16521,11 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
 ]]></content:encoded>
     </item>
     <item>
-      <title>C#</title>
-      <link>https://docs.jeremyjone.com/standard/csharp/</link>
-      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>CSS 规范</title>
       <link>https://docs.jeremyjone.com/standard/css/</link>
       <guid>https://docs.jeremyjone.com/standard/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 规范</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-规范"> CSS 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本文档适用于所有css文件的开发编写。</p>
@@ -16558,7 +16567,7 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
       <link>https://docs.jeremyjone.com/standard/html/</link>
       <guid>https://docs.jeremyjone.com/standard/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 规范</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有Html页面的开发。</p>
@@ -16583,7 +16592,7 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
       <link>https://docs.jeremyjone.com/standard/javascript/</link>
       <guid>https://docs.jeremyjone.com/standard/javascript/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 开发规范</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-开发规范"> JavaScript 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有使用 JavaScript 以及相关框架的开发。</p>
@@ -16812,7 +16821,7 @@ Object<span>.</span><span>assign</span><span>(</span>object1<span>,</span> <span
       <link>https://docs.jeremyjone.com/standard/python/</link>
       <guid>https://docs.jeremyjone.com/standard/python/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Python 开发规范</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
 <Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
 <p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
@@ -16962,20 +16971,11 @@ pythonCode <span>=</span> <span>"python code"</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>MVVM</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Vue 开发规范</title>
       <link>https://docs.jeremyjone.com/standard/vue/</link>
       <guid>https://docs.jeremyjone.com/standard/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 开发规范</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-开发规范"> Vue 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有基于 Vue 框架的开发。</p>
@@ -17263,7 +17263,7 @@ component<span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">UI 框架</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="ui-框架"> UI 框架</h1>
 ]]></content:encoded>
     </item>
@@ -17272,7 +17272,7 @@ component<span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">模板语法</source>
-      <pubDate>Fri, 31 Dec 2021 06:19:11 GMT</pubDate>
+      <pubDate>Fri, 31 Dec 2021 06:41:58 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="模板语法"> 模板语法</h1>
 <h2 id="指令"> 指令</h2>
 <h3 id="自定义指令"> 自定义指令</h3>
