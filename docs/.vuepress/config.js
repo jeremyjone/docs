@@ -1,26 +1,34 @@
 // 配置文件的入口文件
 // 文档：https://vuepress.vuejs.org/zh/config/
+const { config } = require("vuepress-theme-hope");
 
-module.exports = {
+module.exports = config({
   title: "JeremyJone 的文档站",
-  description: "jeremyjone document web",
+  description: "一个快速学习、速查的站点",
 
   // base: "/docs/",
+
+  locales: {
+    "/": {
+      // 设置需要的语言
+      lang: "zh-CN"
+    }
+  },
 
   head: [
     ["link", { rel: "icon", href: "/assets/img/logo.png" }],
     [
-      "script",
-      {
-        src: "https://cdn.jsdelivr.net/npm/darkreader@4.9.32/darkreader.min.js"
-      }
-    ],
-    [
-      "script",
-      {
-        src: "/js/base.js"
-      }
+      // "script",
+      // {
+      //   src: "https://cdn.jsdelivr.net/npm/darkreader@4.9.32/darkreader.min.js"
+      // }
     ]
+    // [
+    //   "script",
+    //   {
+    //     src: "/js/base.js"
+    //   }
+    // ]
   ],
 
   themeConfig: {
@@ -51,6 +59,7 @@ module.exports = {
               { text: "Git 使用文档", link: "/document/git/" },
               { text: "Markdown 使用文档", link: "/document/markdown/" },
               { text: "Vim 使用文档", link: "/document/vim/" },
+              { text: "npm 使用文档", link: "/document/npm/" },
               { text: "Docker 使用文档", link: "/document/docker/" }
             ]
           },
@@ -105,6 +114,7 @@ module.exports = {
       "/document/git/": getGitSideBar(),
       "/document/markdown/": getMarkdownSideBar(),
       "/document/vim/": getVimSideBar(),
+      "/document/npm/": getNpmSideBar(),
       "/document/docker/": getDockerSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
@@ -117,6 +127,12 @@ module.exports = {
 
     // 禁用搜索
     // search: false,
+
+    // algolia: {
+    //   apiKey: "3f94959dafef69821ece1276fc81cc05",
+    //   indexName: "my_document_search"
+    // },
+    // algoliaType: "full",
 
     // 设置最大显示数量
     searchMaxSuggertions: 10,
@@ -133,7 +149,57 @@ module.exports = {
     repoLabel: "GitHub",
     docsDir: "docs",
     editLinks: true,
-    editLinkText: "修改此页面"
+    editLinkText: "修改此页面",
+
+    // Hope主题配置
+    hostname: "https://docs.jeremyjone.com/",
+    author: "JeremyJone",
+    darkmode: "switch",
+    themeColor: {
+      blue: "#2196f3",
+      green: "#3eaf7c",
+      orange: "#fb9b5f",
+      purple: "#8e44ad"
+    },
+
+    blog: {
+      // 移动端在侧边栏显示个人信息
+      sidebarDisplay: "mobile"
+    },
+
+    footer: {
+      display: true,
+      content:
+        "<a href='https://beian.miit.gov.cn/' target='_blank'>京ICP备19012859号-1</a>",
+      copyright: `MIT Licensed | Copyright © 2020-present <a href="https://www.jeremyjone.com" target="_blank">JeremyJone</a>`
+    },
+
+    // 配置评论
+    comment: {
+      type: "valine",
+      appId: "IkDyF2YTVTEXMbWOdViKT1tg-gzGzoHsz",
+      appKey: "0OOPotF5Po5U1YE4VnT1uYdz",
+      recordIP: true,
+      avatar: "monsterid"
+    },
+
+    git: {
+      timezone: "Asia/Shanghai"
+    },
+
+    // 配置 md
+    mdEnhance: {
+      // 启用增强模式
+      // enableAll: true
+      // 启用自定义对齐
+      align: true,
+      // 启用下角标功能
+      sub: true,
+      // 启用上角标
+      sup: true,
+      // 代码演示
+      demo: true
+    }
   },
 
   // 更多配置markdown的内容，参看 https://github.com/markdown-it/markdown-it
@@ -152,7 +218,7 @@ module.exports = {
         md.use(require("markdown-it-mathjax")());
     }
   }
-};
+});
 
 function getStandardSideBar() {
   return [
@@ -178,6 +244,10 @@ function getMarkdownSideBar() {
 
 function getVimSideBar() {
   return [_GetSubSideBar("Vim 使用文档", "", [""])];
+}
+
+function getNpmSideBar() {
+  return [_GetSubSideBar("npm 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
@@ -266,6 +336,7 @@ function getFrontendSideBar() {
         "net",
         "asynchronous",
         "prototype",
+        "this",
         "proxy"
       ])
     ]),

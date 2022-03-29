@@ -496,7 +496,6 @@ console.log(agent.name); // 此时打印的是 爱豆
 
 通过 `Reflect.get()` 可以保持 `this` 的指向。
 
-
 ### handler.getPrototypeOf()
 
 它是一个代理方法，当通过如下方法读取代理对象的原型时，该方法就会被调用：
