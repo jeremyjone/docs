@@ -265,7 +265,8 @@ function getFrontendSideBar() {
         "",
         "net",
         "asynchronous",
-        "prototype"
+        "prototype",
+        "proxy"
       ])
     ]),
     _GetSubSideBar("前端进阶", "advanced", [
