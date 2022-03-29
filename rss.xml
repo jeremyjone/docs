@@ -6,8 +6,8 @@
     <link>https://docs.jeremyjone.com/</link>
     <description>一个快速学习、速查的站点</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 18 Feb 2022 10:18:59 GMT</pubDate>
-    <lastBuildDate>Fri, 18 Feb 2022 10:18:59 GMT</lastBuildDate>
+    <pubDate>Tue, 29 Mar 2022 08:27:15 GMT</pubDate>
+    <lastBuildDate>Tue, 29 Mar 2022 08:27:15 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2020-present &lt;a href="https://www.jeremyjone.com" target="_blank"&gt;JeremyJone&lt;/a&gt;</copyright>
@@ -16,7 +16,7 @@
       <link>https://docs.jeremyjone.com/</link>
       <guid>https://docs.jeremyjone.com/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Home</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<Home />
 ]]></content:encoded>
     </item>
@@ -25,7 +25,7 @@
       <link>https://docs.jeremyjone.com/codes/</link>
       <guid>https://docs.jeremyjone.com/codes/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">手撸代码</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
 <p>代码既可以学习，也可以拿来直接使用。</p>
 <p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
@@ -36,7 +36,7 @@
       <link>https://docs.jeremyjone.com/codes/js/</link>
       <guid>https://docs.jeremyjone.com/codes/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <p>一些通用函数。</p>
 <h2 id="拷贝"> 拷贝</h2>
@@ -362,7 +362,7 @@
       <link>https://docs.jeremyjone.com/codes/js/array/</link>
       <guid>https://docs.jeremyjone.com/codes/js/array/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数组的一些扩展方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数组的一些扩展方法"> 数组的一些扩展方法</h1>
 <h2 id="判断元素是否在数组中"> 判断元素是否在数组中</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>contains</span> <span>=</span> <span>(</span><span>arr<span>,</span> val</span><span>)</span> <span>=></span> <span>{</span>
@@ -482,7 +482,7 @@
       <link>https://docs.jeremyjone.com/codes/js/colors/</link>
       <guid>https://docs.jeremyjone.com/codes/js/colors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理颜色的方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理颜色的方法"> 处理颜色的方法</h1>
 <p>相信对于前端来说，颜色的处理一定是越来越多的。</p>
 <p>下面这些属性可以任意变换，使用时需要注意引用关系。</p>
@@ -754,11 +754,79 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>生成方法</title>
+      <link>https://docs.jeremyjone.com/codes/js/create/</link>
+      <guid>https://docs.jeremyjone.com/codes/js/create/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">生成方法</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="生成方法"> 生成方法</h1>
+<p>一些生成、创建的方法。</p>
+<h2 id="生成-uuid"> 生成 uuid</h2>
+<div><pre><code><span>/**
+ * 生成uuid
+ * @param {Number} len 指定uuid的长度
+ * @param {Number} radix 进制，默认16进制
+ */</span>
+<span>function</span> <span>uuid</span><span>(</span><span>len<span>,</span> radix <span>=</span> <span>16</span></span><span>)</span> <span>{</span>
+  <span>const</span> chars <span>=</span> <span>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"</span><span>.</span><span>split</span><span>(</span><span>""</span><span>)</span><span>;</span>
+  <span>const</span> uuid <span>=</span> <span>[</span><span>]</span><span>;</span>
+  <span>let</span> i<span>;</span>
+  radix <span>=</span> radix <span>||</span> chars<span>.</span>length<span>;</span>
+
+  <span>if</span> <span>(</span>len<span>)</span> <span>{</span>
+    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> len<span>;</span> i<span>++</span><span>)</span> <span>{</span>
+      uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span><span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> radix<span>)</span><span>]</span><span>;</span>
+    <span>}</span>
+  <span>}</span> <span>else</span> <span>{</span>
+    <span>let</span> r<span>;</span>
+    uuid<span>[</span><span>8</span><span>]</span> <span>=</span> uuid<span>[</span><span>13</span><span>]</span> <span>=</span> uuid<span>[</span><span>18</span><span>]</span> <span>=</span> uuid<span>[</span><span>23</span><span>]</span> <span>=</span> <span>"-"</span><span>;</span>
+    uuid<span>[</span><span>14</span><span>]</span> <span>=</span> <span>"4"</span><span>;</span>
+
+    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>36</span><span>;</span> i<span>++</span><span>)</span> <span>{</span>
+      <span>if</span> <span>(</span><span>!</span>uuid<span>[</span>i<span>]</span><span>)</span> <span>{</span>
+        r <span>=</span> <span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>16</span><span>)</span><span>;</span>
+        uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span>i <span>==</span> <span>19</span> <span>?</span> <span>(</span>r <span>&amp;</span> <span>0x3</span><span>)</span> <span>|</span> <span>0x8</span> <span>:</span> r<span>]</span><span>;</span>
+      <span>}</span>
+    <span>}</span>
+  <span>}</span>
+
+  <span>return</span> uuid<span>.</span><span>join</span><span>(</span><span>""</span><span>)</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="生成指定范围内的随机数"> 生成指定范围内的随机数</h2>
+<div><pre><code><span>export</span> <span>const</span> <span>random</span> <span>=</span> <span>(</span><span>min<span>,</span> max</span><span>)</span> <span>=></span> <span>{</span>
+  <span>if</span> <span>(</span>arguments<span>.</span>length <span>===</span> <span>2</span><span>)</span> <span>{</span>
+    <span>return</span> Math<span>.</span><span>floor</span><span>(</span>min <span>+</span> Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>(</span>max <span>+</span> <span>1</span> <span>-</span> min<span>)</span><span>)</span><span>;</span>
+  <span>}</span> <span>else</span> <span>{</span>
+    <span>return</span> <span>null</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="base64-转-文件"> base64 转 文件</h2>
+<div><pre><code><span>// base64 转文件</span>
+<span>export</span> <span>function</span> <span>base64toFile</span><span>(</span><span>base64</span><span>)</span> <span>{</span>
+  <span>const</span> arr <span>=</span> base64<span>.</span><span>split</span><span>(</span><span>","</span><span>)</span><span>;</span>
+  <span>const</span> mime <span>=</span> arr<span>[</span><span>0</span><span>]</span><span>.</span><span>match</span><span>(</span><span><span>/</span><span>:(.*?);</span><span>/</span></span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
+  <span>const</span> ext <span>=</span> mime<span>.</span><span>split</span><span>(</span><span>"/"</span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
+  <span>const</span> bstr <span>=</span> <span>atob</span><span>(</span>arr<span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>)</span><span>;</span>
+  <span>let</span> n <span>=</span> bstr<span>.</span>length<span>;</span>
+  <span>const</span> u8arr <span>=</span> <span>new</span> <span>Uint8Array</span><span>(</span>n<span>)</span><span>;</span>
+  <span>const</span> name <span>=</span> <span><span>`</span><span><span>${</span><span>new</span> <span>Date</span><span>(</span><span>)</span><span>.</span><span>getTime</span><span>(</span><span>)</span><span>}</span></span><span>.</span><span><span>${</span>ext<span>}</span></span><span>`</span></span><span>;</span>
+
+  <span>while</span> <span>(</span>n<span>--</span><span>)</span> <span>{</span>
+    u8arr<span>[</span>n<span>]</span> <span>=</span> bstr<span>.</span><span>charCodeAt</span><span>(</span>n<span>)</span><span>;</span>
+  <span>}</span>
+  <span>return</span> <span>new</span> <span>File</span><span>(</span><span>[</span>u8arr<span>]</span><span>,</span> name<span>,</span> <span>{</span> type<span>:</span> mime <span>}</span><span>)</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>处理日期方法</title>
       <link>https://docs.jeremyjone.com/codes/js/date/</link>
       <guid>https://docs.jeremyjone.com/codes/js/date/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理日期方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理日期方法"> 处理日期方法</h1>
 <h2 id="判断日期"> 判断日期</h2>
 <h3 id="日期是否有效"> 日期是否有效</h3>
@@ -911,79 +979,11 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>生成方法</title>
-      <link>https://docs.jeremyjone.com/codes/js/create/</link>
-      <guid>https://docs.jeremyjone.com/codes/js/create/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">生成方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="生成方法"> 生成方法</h1>
-<p>一些生成、创建的方法。</p>
-<h2 id="生成-uuid"> 生成 uuid</h2>
-<div><pre><code><span>/**
- * 生成uuid
- * @param {Number} len 指定uuid的长度
- * @param {Number} radix 进制，默认16进制
- */</span>
-<span>function</span> <span>uuid</span><span>(</span><span>len<span>,</span> radix <span>=</span> <span>16</span></span><span>)</span> <span>{</span>
-  <span>const</span> chars <span>=</span> <span>"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"</span><span>.</span><span>split</span><span>(</span><span>""</span><span>)</span><span>;</span>
-  <span>const</span> uuid <span>=</span> <span>[</span><span>]</span><span>;</span>
-  <span>let</span> i<span>;</span>
-  radix <span>=</span> radix <span>||</span> chars<span>.</span>length<span>;</span>
-
-  <span>if</span> <span>(</span>len<span>)</span> <span>{</span>
-    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> len<span>;</span> i<span>++</span><span>)</span> <span>{</span>
-      uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span><span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> radix<span>)</span><span>]</span><span>;</span>
-    <span>}</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    <span>let</span> r<span>;</span>
-    uuid<span>[</span><span>8</span><span>]</span> <span>=</span> uuid<span>[</span><span>13</span><span>]</span> <span>=</span> uuid<span>[</span><span>18</span><span>]</span> <span>=</span> uuid<span>[</span><span>23</span><span>]</span> <span>=</span> <span>"-"</span><span>;</span>
-    uuid<span>[</span><span>14</span><span>]</span> <span>=</span> <span>"4"</span><span>;</span>
-
-    <span>for</span> <span>(</span>i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>36</span><span>;</span> i<span>++</span><span>)</span> <span>{</span>
-      <span>if</span> <span>(</span><span>!</span>uuid<span>[</span>i<span>]</span><span>)</span> <span>{</span>
-        r <span>=</span> <span>0</span> <span>|</span> <span>(</span>Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>16</span><span>)</span><span>;</span>
-        uuid<span>[</span>i<span>]</span> <span>=</span> chars<span>[</span>i <span>==</span> <span>19</span> <span>?</span> <span>(</span>r <span>&amp;</span> <span>0x3</span><span>)</span> <span>|</span> <span>0x8</span> <span>:</span> r<span>]</span><span>;</span>
-      <span>}</span>
-    <span>}</span>
-  <span>}</span>
-
-  <span>return</span> uuid<span>.</span><span>join</span><span>(</span><span>""</span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br></div></div><h2 id="生成指定范围内的随机数"> 生成指定范围内的随机数</h2>
-<div><pre><code><span>export</span> <span>const</span> <span>random</span> <span>=</span> <span>(</span><span>min<span>,</span> max</span><span>)</span> <span>=></span> <span>{</span>
-  <span>if</span> <span>(</span>arguments<span>.</span>length <span>===</span> <span>2</span><span>)</span> <span>{</span>
-    <span>return</span> Math<span>.</span><span>floor</span><span>(</span>min <span>+</span> Math<span>.</span><span>random</span><span>(</span><span>)</span> <span>*</span> <span>(</span>max <span>+</span> <span>1</span> <span>-</span> min<span>)</span><span>)</span><span>;</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    <span>return</span> <span>null</span><span>;</span>
-  <span>}</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h2 id="base64-转-文件"> base64 转 文件</h2>
-<div><pre><code><span>// base64 转文件</span>
-<span>export</span> <span>function</span> <span>base64toFile</span><span>(</span><span>base64</span><span>)</span> <span>{</span>
-  <span>const</span> arr <span>=</span> base64<span>.</span><span>split</span><span>(</span><span>","</span><span>)</span><span>;</span>
-  <span>const</span> mime <span>=</span> arr<span>[</span><span>0</span><span>]</span><span>.</span><span>match</span><span>(</span><span><span>/</span><span>:(.*?);</span><span>/</span></span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
-  <span>const</span> ext <span>=</span> mime<span>.</span><span>split</span><span>(</span><span>"/"</span><span>)</span><span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>;</span>
-  <span>const</span> bstr <span>=</span> <span>atob</span><span>(</span>arr<span>?.</span><span>[</span><span>1</span><span>]</span> <span>??</span> <span>""</span><span>)</span><span>;</span>
-  <span>let</span> n <span>=</span> bstr<span>.</span>length<span>;</span>
-  <span>const</span> u8arr <span>=</span> <span>new</span> <span>Uint8Array</span><span>(</span>n<span>)</span><span>;</span>
-  <span>const</span> name <span>=</span> <span><span>`</span><span><span>${</span><span>new</span> <span>Date</span><span>(</span><span>)</span><span>.</span><span>getTime</span><span>(</span><span>)</span><span>}</span></span><span>.</span><span><span>${</span>ext<span>}</span></span><span>`</span></span><span>;</span>
-
-  <span>while</span> <span>(</span>n<span>--</span><span>)</span> <span>{</span>
-    u8arr<span>[</span>n<span>]</span> <span>=</span> bstr<span>.</span><span>charCodeAt</span><span>(</span>n<span>)</span><span>;</span>
-  <span>}</span>
-  <span>return</span> <span>new</span> <span>File</span><span>(</span><span>[</span>u8arr<span>]</span><span>,</span> name<span>,</span> <span>{</span> type<span>:</span> mime <span>}</span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>HTML 处理方法</title>
       <link>https://docs.jeremyjone.com/codes/js/html/</link>
       <guid>https://docs.jeremyjone.com/codes/js/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 处理方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-处理方法"> HTML 处理方法</h1>
 <h2 id="去除-html-标签"> 去除 html 标签</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>removeHtmltag</span> <span>=</span> <span>str</span> <span>=></span> <span>{</span>
@@ -1155,7 +1155,7 @@
       <link>https://docs.jeremyjone.com/codes/js/judge/</link>
       <guid>https://docs.jeremyjone.com/codes/js/judge/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">判断方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="判断方法"> 判断方法</h1>
 <p>一些通用的判断方法。</p>
 <h2 id="判断类型"> 判断类型</h2>
@@ -1668,27 +1668,11 @@
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br><span>110</span><br><span>111</span><br><span>112</span><br><span>113</span><br><span>114</span><br><span>115</span><br><span>116</span><br><span>117</span><br><span>118</span><br><span>119</span><br><span>120</span><br><span>121</span><br><span>122</span><br><span>123</span><br><span>124</span><br><span>125</span><br><span>126</span><br><span>127</span><br><span>128</span><br><span>129</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>文档手册</title>
-      <link>https://docs.jeremyjone.com/document/</link>
-      <guid>https://docs.jeremyjone.com/document/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">文档手册</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="文档手册"> 文档手册</h1>
-<p>持续完善的工具文档手册。</p>
-<ul>
-<li><a href="./git">Git</a></li>
-<li><a href="./markdown">Markdown</a></li>
-<li><a href="./vim">Vim</a></li>
-<li><a href="./docker">Docker</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Docker 使用文档</title>
       <link>https://docs.jeremyjone.com/document/docker/</link>
       <guid>https://docs.jeremyjone.com/document/docker/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 使用文档</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-使用文档"> Docker 使用文档</h1>
 <h2 id="安装"> 安装</h2>
 <p>以下以 <code>CentOS7+</code> 为例，其余请参考<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">官方文档</a>：</p>
@@ -1977,11 +1961,27 @@ docker <span>kill</span> <span>&lt;</span>容器ID<span>></span>     <span># 强
 ]]></content:encoded>
     </item>
     <item>
+      <title>文档手册</title>
+      <link>https://docs.jeremyjone.com/document/</link>
+      <guid>https://docs.jeremyjone.com/document/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">文档手册</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="文档手册"> 文档手册</h1>
+<p>持续完善的工具文档手册。</p>
+<ul>
+<li><a href="./git">Git</a></li>
+<li><a href="./markdown">Markdown</a></li>
+<li><a href="./vim">Vim</a></li>
+<li><a href="./docker">Docker</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Docker 快速搭建 NPM 服务器</title>
       <link>https://docs.jeremyjone.com/document/docker/example/npm/</link>
       <guid>https://docs.jeremyjone.com/document/docker/example/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 快速搭建 NPM 服务器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-快速搭建-npm-服务器"> Docker 快速搭建 NPM 服务器</h1>
 <p>我们使用 <a href="https://verdaccio.org/docs/docker/" target="_blank" rel="noopener noreferrer">verdaccio</a> 来快速搭建 NPM 服务器。</p>
 <h2 id="拉取镜像"> 拉取镜像</h2>
@@ -2014,7 +2014,7 @@ docker pull verdaccio/cerdaccio:4.0.0
       <link>https://docs.jeremyjone.com/document/gantt/README_old/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/README_old/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">入门</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="入门"> 入门</h1>
 <Description author="jeremyjone" version="0.0.17" date="2020-12-22" copyright="jeremyjone" />
 <p>通过入门的章节内容，可以快速引入并使用 JzGantt。</p>
@@ -2107,7 +2107,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/column/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/column/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">列组件 JGanttColumn</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="列组件-jganttcolumn"> 列组件 JGanttColumn</h1>
 <Description author="jeremyjone" date="2020-10-12" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2175,11 +2175,64 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>通用方法</title>
+      <link>https://docs.jeremyjone.com/document/gantt/common/</link>
+      <guid>https://docs.jeremyjone.com/document/gantt/common/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
+<h2 id="日期格式化属性"> 日期格式化属性</h2>
+<p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">fotmat</th>
+<th style="text-align:center">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">y</td>
+<td style="text-align:center">年</td>
+</tr>
+<tr>
+<td style="text-align:center">q</td>
+<td style="text-align:center">季度</td>
+</tr>
+<tr>
+<td style="text-align:center">M</td>
+<td style="text-align:center">月</td>
+</tr>
+<tr>
+<td style="text-align:center">d</td>
+<td style="text-align:center">日</td>
+</tr>
+<tr>
+<td style="text-align:center">H</td>
+<td style="text-align:center">时</td>
+</tr>
+<tr>
+<td style="text-align:center">m</td>
+<td style="text-align:center">分</td>
+</tr>
+<tr>
+<td style="text-align:center">s</td>
+<td style="text-align:center">秒</td>
+</tr>
+<tr>
+<td style="text-align:center">S</td>
+<td style="text-align:center">毫秒</td>
+</tr>
+</tbody>
+</table>
+]]></content:encoded>
+    </item>
+    <item>
       <title>根组件 JGantt</title>
       <link>https://docs.jeremyjone.com/document/gantt/root/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/root/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">根组件 JGantt</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="根组件-jgantt"> 根组件 JGantt</h1>
 <Description author="jeremyjone" date="2020-12-02" copyright="jeremyjone" />
 <p>对于 <code>JGantt</code> 组件，它具有非常丰富的属性。</p>
@@ -2381,64 +2434,11 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>通用方法</title>
-      <link>https://docs.jeremyjone.com/document/gantt/common/</link>
-      <guid>https://docs.jeremyjone.com/document/gantt/common/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
-<h2 id="日期格式化属性"> 日期格式化属性</h2>
-<p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">fotmat</th>
-<th style="text-align:center">description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">y</td>
-<td style="text-align:center">年</td>
-</tr>
-<tr>
-<td style="text-align:center">q</td>
-<td style="text-align:center">季度</td>
-</tr>
-<tr>
-<td style="text-align:center">M</td>
-<td style="text-align:center">月</td>
-</tr>
-<tr>
-<td style="text-align:center">d</td>
-<td style="text-align:center">日</td>
-</tr>
-<tr>
-<td style="text-align:center">H</td>
-<td style="text-align:center">时</td>
-</tr>
-<tr>
-<td style="text-align:center">m</td>
-<td style="text-align:center">分</td>
-</tr>
-<tr>
-<td style="text-align:center">s</td>
-<td style="text-align:center">秒</td>
-</tr>
-<tr>
-<td style="text-align:center">S</td>
-<td style="text-align:center">毫秒</td>
-</tr>
-</tbody>
-</table>
-]]></content:encoded>
-    </item>
-    <item>
       <title>滑块组件 JGanttSlider</title>
       <link>https://docs.jeremyjone.com/document/gantt/slider/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/slider/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">滑块组件 JGanttSlider</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="滑块组件-jganttslider"> 滑块组件 JGanttSlider</h1>
 <Description author="jeremyjone" date="2020-11-05" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2579,7 +2579,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/git/</link>
       <guid>https://docs.jeremyjone.com/document/git/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GIT 命令</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="git-命令"> GIT 命令</h1>
 <h2 id="安装"> 安装</h2>
 <ul>
@@ -3257,7 +3257,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/git/github_workflow/</link>
       <guid>https://docs.jeremyjone.com/document/git/github_workflow/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GitHub Pages action 配置</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="github-pages-action-配置"> GitHub Pages action 配置</h1>
 <p>GitHub 给我们提供了非常方便的部署功能 <a href="https://github.com/marketplace/actions/github-pages-action" target="_blank" rel="noopener noreferrer">GitHub Pages action</a>。它可以帮助我们快速部署静态页面，省去了每次单独部署的繁琐操作，我们只需要通过简单的配置就可以实现该功能。</p>
 <p>我们以该 vuepress 文档为例。</p>
@@ -3483,7 +3483,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/markdown/</link>
       <guid>https://docs.jeremyjone.com/document/markdown/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Markdown 语法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="markdown-语法"> Markdown 语法</h1>
 <h2 id="标题"> 标题</h2>
 <p>使用 <code>#</code> 设置标题。
@@ -3987,7 +3987,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/document/npm/</link>
       <guid>https://docs.jeremyjone.com/document/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">npm 使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="npm-使用"> npm 使用</h1>
 <h2 id="安装"> 安装</h2>
 <p><code>npm</code> 是 <code>Node</code> 默认的模块管理器，同时也是模块登记和管理系统，它随 <code>Node</code> 环境一起安装，不需要单独安装。</p>
@@ -4364,41 +4364,11 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 ]]></content:encoded>
     </item>
     <item>
-      <title>Example Page</title>
-      <link>https://docs.jeremyjone.com/example/</link>
-      <guid>https://docs.jeremyjone.com/example/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">Example Page</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="example-page"> Example Page</h1>
-<p>YAML config</p>
-<div><pre><code><span>---</span>
-<span>title</span><span>:</span> YAML front matter example
-<span>lang</span><span>:</span> zh<span>-</span>CN
-<span>description</span><span>:</span> 具体内容，参看 https<span>:</span>//vuepress.vuejs.org/zh/guide/frontmatter.html
-<span>layout</span><span>:</span> CostomLayout  // 使用自定义布局页面替代当前默认布局页面
-<span>permalink</span><span>:</span> 永久链接，参看 https<span>:</span>//vuepress.vuejs.org/zh/guide/permalinks.html
-<span>metaTitle</span><span>:</span> 重写title
-<span>meta</span><span>:</span> 注入额外的meta标签
-<span>footer</span><span>:</span> Foo/Bar
-
-<span>navbar</span><span>:</span> <span>true</span>
-<span>sidebar</span><span>:</span> auto
-<span>prev</span><span>:</span> <span>true</span>
-<span>next</span><span>:</span> <span>true</span>
-<span>search</span><span>:</span> <span>true</span>
-<span>tags</span><span>:</span>
-  <span>-</span> 一个Array
-  <span>-</span> 用于优化搜索
-<span>---</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>Vim 使用说明</title>
       <link>https://docs.jeremyjone.com/document/vim/</link>
       <guid>https://docs.jeremyjone.com/document/vim/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vim 使用说明</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vim-使用说明"> Vim 使用说明</h1>
 <h2 id="打开文件"> 打开文件</h2>
 <p><code>vim filename</code>     打开文件</p>
@@ -4626,11 +4596,41 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 </div>]]></content:encoded>
     </item>
     <item>
+      <title>Example Page</title>
+      <link>https://docs.jeremyjone.com/example/</link>
+      <guid>https://docs.jeremyjone.com/example/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Example Page</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="example-page"> Example Page</h1>
+<p>YAML config</p>
+<div><pre><code><span>---</span>
+<span>title</span><span>:</span> YAML front matter example
+<span>lang</span><span>:</span> zh<span>-</span>CN
+<span>description</span><span>:</span> 具体内容，参看 https<span>:</span>//vuepress.vuejs.org/zh/guide/frontmatter.html
+<span>layout</span><span>:</span> CostomLayout  // 使用自定义布局页面替代当前默认布局页面
+<span>permalink</span><span>:</span> 永久链接，参看 https<span>:</span>//vuepress.vuejs.org/zh/guide/permalinks.html
+<span>metaTitle</span><span>:</span> 重写title
+<span>meta</span><span>:</span> 注入额外的meta标签
+<span>footer</span><span>:</span> Foo/Bar
+
+<span>navbar</span><span>:</span> <span>true</span>
+<span>sidebar</span><span>:</span> auto
+<span>prev</span><span>:</span> <span>true</span>
+<span>next</span><span>:</span> <span>true</span>
+<span>search</span><span>:</span> <span>true</span>
+<span>tags</span><span>:</span>
+  <span>-</span> 一个Array
+  <span>-</span> 用于优化搜索
+<span>---</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div>]]></content:encoded>
+    </item>
+    <item>
       <title>学习路线</title>
       <link>https://docs.jeremyjone.com/roadmap/</link>
       <guid>https://docs.jeremyjone.com/roadmap/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">学习路线</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="学习路线"> 学习路线</h1>
 <p>保持学习，从 GitHub 搬运了一点学习路线图，以及对应的主页，方便查找和学习，可以快速查缺补漏。</p>
 <ul>
@@ -4647,7 +4647,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/android/</link>
       <guid>https://docs.jeremyjone.com/roadmap/android/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Android 学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="android-学习之路"> Android 学习之路</h1>
 <p>Android 的学习之路，页面只有图，不咋地。。。</p>
 <p><a href="https://github.com/mobile-roadmap/android-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -4660,7 +4660,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算机基础</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算机基础"> 计算机基础</h1>
 <p>计算机基础是计算机科学的重要基石。只有充分掌握了计算机的基础理论部分，才可以更快、更好的学习更高级的知识。</p>
 ]]></content:encoded>
@@ -4670,7 +4670,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/algorithm/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/algorithm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">算法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="算法"> 算法</h1>
 ]]></content:encoded>
     </item>
@@ -4679,7 +4679,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/computer/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/computer/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算机基础内容</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
 ]]></content:encoded>
     </item>
@@ -4688,7 +4688,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/data-structure/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/data-structure/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据结构</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据结构"> 数据结构</h1>
 ]]></content:encoded>
     </item>
@@ -4697,7 +4697,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/database/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/database/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据库</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据库"> 数据库</h1>
 ]]></content:encoded>
     </item>
@@ -4706,7 +4706,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络基础</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络基础"> 网络基础</h1>
 <h2 id="osi-模型"> OSI 模型</h2>
 <h3 id="七层模型"> 七层模型</h3>
@@ -4722,21 +4722,21 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 ]]></content:encoded>
     </item>
     <item>
-      <title>IP 网际协议</title>
-      <link>https://docs.jeremyjone.com/roadmap/base/network/ip/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/base/network/ip/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">IP 网际协议</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>域名</title>
       <link>https://docs.jeremyjone.com/roadmap/base/network/domain/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/domain/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">域名</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="域名"> 域名</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>IP 网际协议</title>
+      <link>https://docs.jeremyjone.com/roadmap/base/network/ip/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/base/network/ip/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">IP 网际协议</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -4744,7 +4744,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">OSI 模型</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="osi-模型"> OSI 模型</h1>
 ]]></content:encoded>
     </item>
@@ -4753,7 +4753,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">四层模型</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="四层模型"> 四层模型</h1>
 ]]></content:encoded>
     </item>
@@ -4762,7 +4762,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">七层模型</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="七层模型"> 七层模型</h1>
 ]]></content:encoded>
     </item>
@@ -4771,7 +4771,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TCP 协议</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="tcp-协议"> TCP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -4780,7 +4780,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">UDP 协议</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="udp-协议"> UDP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -4789,7 +4789,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">万维网</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="万维网"> 万维网</h1>
 ]]></content:encoded>
     </item>
@@ -4798,7 +4798,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/http/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/http/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTP</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="http"> HTTP</h1>
 <p><code>HTTP</code>：<code>hypertext transform protocol</code>，超文本传输协议。它允许将超文本标记语言（<code>HTML</code>）从 web 服务器传送到客户端的浏览器。为了使超文本的链接能够高效率的完成，需要使用 <code>HTTP</code> 协议来出阿松一些必需的信息。</p>
 <p>从层次的角度看，<code>HTTP</code> 是面向事务的应用层协议，它是万维网上能够可靠地交换文件的重要基础。</p>
@@ -5025,7 +5025,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/https/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/https/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTPS</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="https"> HTTPS</h1>
 <h2 id="什么是-https"> 什么是 HTTPS</h2>
 <p><code>HTTPS</code>：（Hyper Text Transfer Protocol over SecureSocket Layer），是以安全为目标的 <code>HTTP</code> 通道。在 <code>HTTP</code> 的基础上，通过传输加密和身份认证保证了传输过程的安全性。</p>
@@ -5072,7 +5072,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/url/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/url/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">URL</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="url"> URL</h1>
 <p><code>URL</code>：<code>Uniform Resource Identifier</code>，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。<code>URL</code> 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。</p>
 <p><code>URL</code> 相当于一个文件名在网络范围的扩展。因此 <code>URL</code> 是与因特网相连的机器上的任何可访问对象的一个指针。</p>
@@ -5097,7 +5097,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">ASP.NET Core 开发者学习路线图</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="asp-net-core-开发者学习路线图"> ASP.NET Core 开发者学习路线图</h1>
 <p>.NET Core 的学习之路，中文更新速度很好。</p>
 <p><a href="https://github.com/MoienTajik/AspNetCore-Developer-Roadmap" target="_blank" rel="noopener noreferrer">英文文档</a></p>
@@ -5111,7 +5111,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <h2 id="开始之前"> 开始之前</h2>
 <p>先贴上官方地址：
@@ -5161,7 +5161,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">在 ASP.NET 中使用授权与认证</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="在-asp-net-中使用授权与认证"> 在 ASP.NET 中使用授权与认证</h1>
 <p>下面通过一组渐进式的例子，来学习 ASP.NET 是如何认证并授权的。</p>
 <h2 id="添加认证中间件"> 添加认证中间件</h2>
@@ -5544,7 +5544,7 @@ services<span>.</span><span><span>AddSingleton</span><span><span>&lt;</span>IAut
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">IdentityServer4 的使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="identityserver4-的使用"> IdentityServer4 的使用</h1>
 <p>IdentityServer4 是基于 OpenId Connect（OIDC）、OAuth 2.0 统一的身份认证和授权系统。它拥有很多功能：</p>
 <ul>
@@ -5895,7 +5895,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">外部身份验证</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="外部身份验证"> 外部身份验证</h1>
 <p>基于 OAuth2 的特性，我们可以轻松通过外部账户进行登录。</p>
 <p>外部账户登录的好处：</p>
@@ -6037,7 +6037,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">详解认证中心的配置</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="详解认证中心的配置"> 详解认证中心的配置</h1>
 <p>在 <code>IdentityServer</code> 中，需要我们进行配置的内容，大体分成：<code>IdentityResource</code>、<code>ApiScope</code>、<code>ApiResource</code> 和 <code>Client</code>，它们都是在 <code>IdentityServer4.Models</code> 中定义的。</p>
 <p>我们在创建一个 Ids 服务之后，也要首先进行配置初始数据（之前写过的 Config.cs），也就是配置这些内容。</p>
@@ -6510,7 +6510,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据的持久化（使用数据库）</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据的持久化（使用数据库）"> 数据的持久化（使用数据库）</h1>
 <p>前面只是一个最简单的基础使用方案，虽然已经实现了认证与授权，但是明显并不能满足生产需求，下面就按不同需求进行配置。</p>
 <p>上面的例子中，所有数据都在内存中，并不能持久化。如果要数据持久化，上数据库是必然的。</p>
@@ -7138,7 +7138,7 @@ dotnet ef database update -c ApplicationDbContext
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JWT</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="jwt"> JWT</h1>
 <h2 id="什么是-jwt"> 什么是 JWT</h2>
 <p>Jwt，Json Web Token 是一个开放标准（<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">RFC 7519</a>），它定义了一种紧凑且独立的方法，用于在各方之间安全地将信息作为 JSON 对象传输。由于此信息是经过数字签名的，因此可以被验证和信任。可以使用密码（使用 HMAC 算法）或使用 RSA 或 ECDSA 的公钥/私钥对对 JWT 进行签名。</p>
@@ -7305,7 +7305,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">基础知识</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>本文将学习 <code>.NET</code> 需要的一些前置基础知识。</p>
 <blockquote>
@@ -7392,7 +7392,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>在互联网中，因为服务器性能、网络带宽等各种原因，传输数据时需要考虑的问题相比单机程序要更多。缓存的出现有效解决了这个问题。缓存可以有效降低服务器的重复工作量，进而提高服务器的性能和效率。</p>
 <p>缓存适用于不经常修改的数据，如媒体文件等。而且缓存一般存在于高速介质中，同时网络中各个节点均可设置缓存，所以使用缓存的效率会更高。</p>
@@ -7507,7 +7507,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">分布式缓存</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="分布式缓存"> 分布式缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>分布式缓存，顾名思义就是多个服务器共享一个缓存。</p>
@@ -7673,7 +7673,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">内存缓存</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="内存缓存"> 内存缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>ASP.NET 支持多个不同缓存。通过 <code>IMemoryCache</code> 可以创建一个简单的内存缓存，它用于在 web 服务器的内存中创建一块缓存。当服务器运行时应确保会话在使用内存中缓存时处于粘滞状态。粘滞会话确保来自客户端的后续请求都将发送到相同服务器。</p>
@@ -7749,7 +7749,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">跨域</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="跨域"> 跨域</h1>
 <h2 id="什么是跨域"> 什么是跨域</h2>
 <h2 id="配置-cors"> 配置 CORS</h2>
@@ -7777,7 +7777,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>数据库就是存储数据的仓库。数据库在保存数据上具有显而易见的优势：</p>
 <ul>
@@ -7864,7 +7864,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>Entity Framework (EF) Core 是轻量化、可扩展、开源和跨平台版的常用 Entity Framework 数据访问技术。
 EF Core 可用作对象关系映射程序 (O/RM)，这可以实现以下两点：</p>
@@ -8067,7 +8067,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">DbContext 的配置</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="dbcontext-的配置"> DbContext 的配置</h1>
 <p><code>DbContext</code> 实例表示与数据库的会话，可用于查询和保存实体实例。<code>DbContext</code> 是工作单元和存储库模式的组合。</p>
 <p>通常，你将创建一个从 <code>DbContext</code> 派生的类，并在 <code>DbSet&lt;TEntity&gt;</code> 模型中包含每个实体的属性。如果 <code>DbSet&lt;TEntity&gt;</code> 属性具有公共资源库，则在创建派生上下文的实例时，它们会自动初始化。</p>
@@ -8129,7 +8129,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">管理数据库</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="管理数据库"> 管理数据库</h1>
 <h2 id="迁移数据库"> 迁移数据库</h2>
 <p>迁移数据库是将模型转换为数据库表。</p>
@@ -8195,7 +8195,7 @@ Scaffold<span>-</span>DbContext <span>"server=localhost;userid=jeremyjone;pwd=12
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">模型</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="模型"> 模型</h1>
 <p>Entity Framework Core 使用一组约定来根据实体类的形状生成模型。可指定其他配置以补充或替代约定的内容。模型对应于数据库中的表，每一张数据表都应该对应一个数据模型。</p>
 <div><p>示例代码</p>
@@ -8451,7 +8451,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="使用"> 使用</h1>
 <h2 id="查询数据"> 查询数据</h2>
 <p>Entity Framework Core 使用语言集成查询 (LINQ) 来查询数据库中的数据。</p>
@@ -8531,7 +8531,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">其他映射工具</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="其他映射工具"> 其他映射工具</h1>
 <ul>
 <li><a href="http://www.donet5.com/Doc/1/1180" target="_blank" rel="noopener noreferrer">SqlSugar</a></li>
@@ -8544,7 +8544,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <blockquote>
 <p>高内聚，低耦合</p>
@@ -8646,46 +8646,11 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
 ]]></content:encoded>
     </item>
     <item>
-      <title>生命周期</title>
-      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
-<p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
-<ul>
-<li>Transient（暂时）</li>
-<li>Scoped（作用域）</li>
-<li>Singleton（单例）</li>
-</ul>
-<h2 id="transient（暂时）"> Transient（暂时）</h2>
-<p><strong>暂时</strong> 是每次从服务容器进行请求时创建的。这种生存期适合轻量级、 无状态的服务。在处理请求的应用中，在请求结束时会释放暂时服务。</p>
-<p>通过 <code>AddTransient&lt;&gt;()</code> 进行注册。</p>
-<h2 id="scoped（作用域）"> Scoped（作用域）</h2>
-<p><strong>作用域</strong> 对于 Web 应用，每个客户端请求（连接）就创建一次服务。在处理请求的应用中，在请求结束时会释放有作用域的服务。</p>
-<p>通过 <code>Add?Scoped&lt;&gt;()</code> 进行注册。</p>
-<p>默认情况下，<code>AddDbContext</code> 就是作用域的生命周期。</p>
-<h2 id="singleton（单例）"> Singleton（单例）</h2>
-<p><strong>单例</strong> 最好理解，首次请求时创建，或者在添加注册时直接创建，虽然这样很少使用。</p>
-<p>单例服务应该由 DI 容器进行管理其生命周期，不要在代码中提供释放。</p>
-<p>通过 <code>AddSingleton&lt;&gt;()</code> 进行注册。单例服务必须是线程安全的，通常在无状态服务中使用它。</p>
-<h2 id="注意事项"> 注意事项</h2>
-<p>需要注意的是，因为生命周期不一致，所以不要：</p>
-<ul>
-<li>从<strong>单例</strong>服务中解析<strong>作用域</strong>或<strong>暂时</strong>服务</li>
-</ul>
-<p>因为这样可能会导致服务处于不正确的状态。你可以：</p>
-<ul>
-<li>从<strong>作用域</strong>或<strong>暂时</strong>服务中解析<strong>单例</strong>服务</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>服务容器</title>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">服务容器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="服务容器"> 服务容器</h1>
 <h2 id="默认容器"> 默认容器</h2>
 <p>使用内置的服务容器可以满足框架和大多数消费者应用的需求。在一个基本框架的 <code>Startup.cs</code> 中已经添加好了相应的代码，我们只需要直接使用即可：</p>
@@ -8721,11 +8686,46 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
 ]]></content:encoded>
     </item>
     <item>
+      <title>生命周期</title>
+      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
+<p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
+<ul>
+<li>Transient（暂时）</li>
+<li>Scoped（作用域）</li>
+<li>Singleton（单例）</li>
+</ul>
+<h2 id="transient（暂时）"> Transient（暂时）</h2>
+<p><strong>暂时</strong> 是每次从服务容器进行请求时创建的。这种生存期适合轻量级、 无状态的服务。在处理请求的应用中，在请求结束时会释放暂时服务。</p>
+<p>通过 <code>AddTransient&lt;&gt;()</code> 进行注册。</p>
+<h2 id="scoped（作用域）"> Scoped（作用域）</h2>
+<p><strong>作用域</strong> 对于 Web 应用，每个客户端请求（连接）就创建一次服务。在处理请求的应用中，在请求结束时会释放有作用域的服务。</p>
+<p>通过 <code>Add?Scoped&lt;&gt;()</code> 进行注册。</p>
+<p>默认情况下，<code>AddDbContext</code> 就是作用域的生命周期。</p>
+<h2 id="singleton（单例）"> Singleton（单例）</h2>
+<p><strong>单例</strong> 最好理解，首次请求时创建，或者在添加注册时直接创建，虽然这样很少使用。</p>
+<p>单例服务应该由 DI 容器进行管理其生命周期，不要在代码中提供释放。</p>
+<p>通过 <code>AddSingleton&lt;&gt;()</code> 进行注册。单例服务必须是线程安全的，通常在无状态服务中使用它。</p>
+<h2 id="注意事项"> 注意事项</h2>
+<p>需要注意的是，因为生命周期不一致，所以不要：</p>
+<ul>
+<li>从<strong>单例</strong>服务中解析<strong>作用域</strong>或<strong>暂时</strong>服务</li>
+</ul>
+<p>因为这样可能会导致服务处于不正确的状态。你可以：</p>
+<ul>
+<li>从<strong>作用域</strong>或<strong>暂时</strong>服务中解析<strong>单例</strong>服务</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>应用性能监控系统</title>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">应用性能监控系统</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="应用性能监控系统"> 应用性能监控系统</h1>
 <p>如今分布式架构越来越多，对于整套系统的监控越来越复杂，不单单是一个日志能够解决的，需要日志、追踪、分析等不同工具配合使用，才能满足需求。</p>
 <p>在众多 APM 系统中，<code>SkyWalking</code> 算是一款比较好用的 APM 系统。它包括 <code>服务端</code>、<code>界面</code>、以及 <code>探针</code>，其中 <code>探针</code> 是针对不同语言有不同的包，针对 ASP.NET 的探针包是 <code>SkyAPM-dotnet</code>，具体可以查看 <a href="https://github.com/SkyAPM" target="_blank" rel="noopener noreferrer">GitHub</a>。</p>
@@ -8868,7 +8868,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Serilog 的使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="serilog-的使用"> Serilog 的使用</h1>
 <p>Serilog 是第三方日志工具，拥有强大的插件功能和易用性。</p>
 <h2 id="安装"> 安装</h2>
@@ -8950,7 +8950,7 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
 <p>举个例子，一个用户对象，它有如下属性：</p>
@@ -9004,7 +9004,7 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">AutoMapper</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="automapper"> AutoMapper</h1>
 <p>正如前文说的那样，对象映射就是将一个对象中的属性按照一定规则映射到另一个对象中。这个操作是枯燥重复的，所以就有了 <code>AutoMapper</code> 这样的对象映射器。</p>
 <h2 id="映射规则"> 映射规则</h2>
@@ -9730,7 +9730,7 @@ services<span>.</span><span>AddAutoMapper</span><span>(</span><span>typeof</span
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">RabbitMQ 的使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
 <p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
 <h2 id="安装"> 安装</h2>
@@ -10096,7 +10096,7 @@ properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Swagger 文档的使用</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="swagger-文档的使用"> Swagger 文档的使用</h1>
 <p>相信能看到这里，你一定对 swagger 多少有了解。它是极具推崇的文档生成工具，在多种语言下都可以有良好的体验。有兴趣的朋友可以去看看 <a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
 <h2 id="安装"> 安装</h2>
@@ -10380,7 +10380,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/flutter/</link>
       <guid>https://docs.jeremyjone.com/roadmap/flutter/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Flutter 学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="flutter-学习之路"> Flutter 学习之路</h1>
 <p>Flutter 的学习之路，页面包含英文学习文章链接。</p>
 <p><a href="https://github.com/olexale/flutter_roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -10393,7 +10393,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">前端学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="前端学习之路"> 前端学习之路</h1>
 <p>前端学习，需要逐步进阶。从网络三剑客开始，<a href="./html">HTML</a>，<a href="./css">CSS</a>，<a href="./js">JavaScript</a>，然后逐步学习网络知识以，了解了网络原理后可以学习提升性能。</p>
 <p>然后可以开始学习框架内容。</p>
@@ -10404,7 +10404,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">前端进阶</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
 <h2 id="http-与-https"> HTTP 与 HTTPS</h2>
 <h2 id="cors"> CORS</h2>
@@ -10416,7 +10416,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 预处理器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-预处理器"> CSS 预处理器</h1>
 ]]></content:encoded>
     </item>
@@ -10425,7 +10425,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">性能部分</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="性能部分"> 性能部分</h1>
 <h2 id="网站的性能优化"> 网站的性能优化</h2>
 <p>网站的性能主要是指一个网站从请求到完全打开的过程是否顺畅以及用时是否能够达到用户的承受度。简单来说，就是用户打开网站，如果时间过长，或者打开时很不顺畅，那么这种体验是非常糟糕的，也就是性能不好。</p>
@@ -10463,7 +10463,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原理部分</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原理部分"> 原理部分</h1>
 <h2 id="浏览器的渲染机制和原理"> 浏览器的渲染机制和原理</h2>
 <p>当我们在浏览器地址栏中键入一个地址，然后按下回车，此时一个请求便开始了。</p>
@@ -10623,7 +10623,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TypeScript</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="typescript"> TypeScript</h1>
 ]]></content:encoded>
     </item>
@@ -10632,7 +10632,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 基础</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-基础"> CSS 基础</h1>
 <h2 id="什么是-css"> 什么是 CSS</h2>
 <p>CSS，<code>Cascading Style Sheets</code>，即 <code>层叠样式表</code>。它是一种样式表语言，用来描述 <code>HTML</code> 或 <code>XML</code> 文档的呈现。<code>CSS</code> 描述了在屏幕、纸质、音频等其他媒体上的元素应该如何被渲染的问题。</p>
@@ -10728,7 +10728,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/box/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/box/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">盒模型</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="盒模型"> 盒模型</h1>
 <p>盒模型是 <code>CSS</code> 中一个非常重要的概念。所有元素都被一个个盒子包裹，理解盒模型的原理，是我们使用 <code>CSS</code> 实现准确布局、处理元素排列的关键所在。</p>
 <h2 id="块级与内联"> 块级与内联</h2>
@@ -10894,7 +10894,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">布局</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="布局"> 布局</h1>
 <p><code>CSS</code> 页面布局技术允许我们拾取网页中的元素，并且控制它们相对正常布局流、周边元素、父容器或主视口的位置。</p>
 <h2 id="正常布局流"> 正常布局流</h2>
@@ -10915,7 +10915,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">弹性布局（Flexbox）</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="弹性布局（flexbox）"> 弹性布局（Flexbox）</h1>
 <p>弹性盒子布局是专门用于创建横向/纵向的一维页面布局。虽然它是一维页面布局，但是通过嵌套，可以在两个维度构建更加丰富的布局内容。</p>
 <p>要使用弹性盒子，只需要在父级元素中设置 <code>display:flex</code> 即可，所有子元素都将按照 <code>flex</code> 进行布局。</p>
@@ -11212,7 +11212,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">栅格布局（Grid）</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="栅格布局（grid）"> 栅格布局（Grid）</h1>
 <p>与弹性布局不同，栅格布局是一个<strong>二维布局系统</strong>。它可以用于布局页面中主要的区域以及小型组件。</p>
 <p>栅格布局是一组水平和垂直的 <strong>栅格线</strong> 相交，划分了 <strong>行</strong> 和 <strong>列</strong> 的轨道。</p>
@@ -11725,7 +11725,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/media/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/media/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">响应式与媒体查询</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="响应式与媒体查询"> 响应式与媒体查询</h1>
 ]]></content:encoded>
     </item>
@@ -11734,7 +11734,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/position/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/position/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">定位</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="定位"> 定位</h1>
 <p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
 <p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
@@ -11828,7 +11828,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">选择器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="选择器"> 选择器</h1>
 <p>CSS 有一套完整的选择器规则，可以帮助我们快速获取任意指定元素或元素集。</p>
 <h2 id="元素选择器"> 元素选择器</h2>
@@ -12176,7 +12176,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">构建工具</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="构建工具"> 构建工具</h1>
 <h2 id="webpack"> Webpack</h2>
 <h2 id="rollup"> Rollup</h2>
@@ -12188,7 +12188,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">格式化工具</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="格式化工具"> 格式化工具</h1>
 <h2 id="eslint"> ESLint</h2>
 <h2 id="prettier"> Prettier</h2>
@@ -12199,7 +12199,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">包管理器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="包管理器"> 包管理器</h1>
 <h2 id="npm"> npm</h2>
 <h2 id="yarn"> yarn</h2>
@@ -12210,7 +12210,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/html/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 基础</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
 <h2 id="什么是-html"> 什么是 HTML</h2>
 <p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
@@ -12459,7 +12459,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 基础</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-基础"> JavaScript 基础</h1>
 <h2 id="什么是-javascript"> 什么是 JavaScript</h2>
 <p><code>JavaScript</code> 是一种具有函数优先的轻量级、解释型的脚本语言。它最初的设计是用来操作浏览器中的 <code>DOM</code> 元素的，但现在它也被应用到了很多非浏览器环境中，甚至开发后端应用。</p>
@@ -12596,7 +12596,6 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
 </div>
 <h4 id="委托"> 委托</h4>
 <p>冒泡允许我们利用事件委托。它允许我们在父节点上设置事件，然后所有子节点都可以通过冒泡调用到父节点的对应事件。这样的方式适用于每一个子节点都需要执行相同内容，它省去了为每一个子节点单独设置事件监听器。<em>例如一个列表。</em></p>
-<h3 id="promise"> Promise</h3>
 ]]></content:encoded>
     </item>
     <item>
@@ -12604,7 +12603,7 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">异步编程</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="异步编程"> 异步编程</h1>
 <h2 id="异步的由来与实现"> 异步的由来与实现</h2>
 <p>JS 在设计之初就是单线程的，所以本质上并不存在异步编程。在经过不断的进化和改良之后，现在所谓的异步编程也只是利用任务队列来改变事件的触发顺序，从而在效果上达到异步。</p>
@@ -13827,7 +13826,7 @@ MyPromise<span>.</span><span>race</span><span>(</span><span>[</span>p3<span>,</s
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/net/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/net/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络请求</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络请求"> 网络请求</h1>
 <h2 id="ajax"> Ajax</h2>
 <p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
@@ -14058,7 +14057,7 @@ Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原型和原型链详解</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原型和原型链详解"> 原型和原型链详解</h1>
 <p>网上有很多相关的文章、视频等资料，但很多都是片面的，不完全的。我也为了自身加深理解，所以对其进行一下简单的总结。</p>
 <h2 id="两个属性"> 两个属性</h2>
@@ -14725,11 +14724,528 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>Proxy 与 Reflect</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Proxy 与 Reflect</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="proxy-与-reflect"> Proxy 与 Reflect</h1>
+<h2 id="proxy"> Proxy</h2>
+<p><code>Proxy</code> 是一个对象，用于创建一个对象的代理，从而实现基本操作的拦截和自定义（如属性查找、赋值、枚举、函数调用等）。</p>
+<p>简单来说，<code>Proxy</code> 就是一个对象代理器，它可以劫持一个对象，并且当这个对象发生变化时，代理器可以同步进行一些变化操作，这也就是 <code>vue3</code> 会使用它的根本。</p>
+<p>举个栗子：</p>
+<blockquote>
+<p>我们有一个明星 <code>张xx</code>，他很忙，不可能每件事情都自己处理，所以他需要一个代理人，也就是我们平时说的经纪人。当公司A希望请该明星做代言时，公司A会无法直接联系到明星，而是联系经纪人。这个经纪人就是我们说的代理模式，他就是一个代理器。</p>
+</blockquote>
+<div><pre><code><span>// 定义一个明星 张xx</span>
+<span>let</span> star <span>=</span> <span>{</span>
+    name<span>:</span> <span>"张xx"</span><span>,</span>
+    age <span>:</span> <span>25</span><span>,</span>
+    phone<span>:</span> <span>"138123456789"</span>
+<span>}</span>
+
+<span>// 使用 Proxy 对张xx明星进行代理</span>
+<span>let</span> agent <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>star<span>,</span> <span>{</span>
+    <span>// 我们在这里对代理做了一些配置：</span>
+    <span>// 1、当寻求明星电话时，返回经纪人的电话</span>
+    <span>// 2、当询问代言费用时，直接返回一个心理价位</span>
+    <span>get</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> key</span><span>)</span> <span>{</span>
+        <span>if</span> <span>(</span>key <span>===</span> <span>"phone"</span><span>)</span> <span>{</span>
+            <span>return</span> <span>"agent phone: 13555555555"</span><span>;</span>
+        <span>}</span>
+        <span>else</span> <span>if</span> <span>(</span>key <span>===</span> <span>"price"</span><span>)</span> <span>{</span>
+            <span>return</span> <span>150000</span><span>;</span>
+        <span>}</span>
+        <span>return</span> target<span>[</span>key<span>]</span><span>;</span>
+    <span>}</span><span>,</span>
+    <span>set</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> key<span>,</span> val</span><span>)</span> <span>{</span>
+        <span>// 对报价进行一个自定义设置，如果低于了10000，那么直接报错，也就是谈崩了</span>
+        <span>if</span> <span>(</span>key <span>===</span> <span>"customPrice"</span><span>)</span> <span>{</span>
+            <span>if</span> <span>(</span>val <span>&lt;</span> <span>10000</span><span>)</span> <span>{</span>
+                <span>throw</span> <span>new</span> <span>Error</span><span>(</span><span>"价格太低"</span><span>)</span><span>;</span>
+            <span>}</span> <span>else</span> <span>{</span>
+                target<span>[</span>key<span>]</span> <span>=</span> val<span>;</span>
+                <span>return</span> <span>true</span><span>;</span>
+            <span>}</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span><span>)</span>
+
+<span>// test</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span>     <span>// 张xx</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>phone<span>)</span><span>;</span>    <span>// agent phone: 13555555555</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>age<span>)</span><span>;</span>      <span>// 25</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>price<span>)</span><span>;</span>    <span>// 150000</span>
+
+agent<span>.</span>customPrice <span>=</span> <span>120000</span><span>;</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>customPrice<span>)</span><span>;</span>  <span>// 120000</span>
+
+agent<span>.</span>customPrice <span>=</span> <span>1000</span><span>;</span> <span>// Uncaught Error: 价格太低</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>customPrice<span>)</span>  <span>// 120000</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br></div></div><p>可以看到，代理器可以将目标对象进行有效的保护，同时也可以对某些数据、方法进行特定的修改。</p>
+<h3 id="proxy-的语法"> Proxy 的语法</h3>
+<p>从上面的例子可以看出，它的语法应该是：</p>
+<div><pre><code><span>const</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>target<span>,</span> handler<span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>其中：</p>
+<ul>
+<li>target：要包装的目标对象，可以是任何类型，包括原生数组、函数、甚至是另一个代理</li>
+<li>handler：一个通常以函数作为属性的对象，各属性中的函数分别定义了在执行各种操作时代理的行为</li>
+</ul>
+<h4 id="创建可撤销的-proxy"> 创建可撤销的 Proxy</h4>
+<div><pre><code><span>const</span> p <span>=</span> Proxy<span>.</span><span>revocable</span><span>(</span>target<span>,</span> handler<span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>这可以创建一个可撤销的 <code>Proxy</code> 对象，创建后 <code>p</code> 结构为：</p>
+<div><pre><code><span>{</span>
+    <span>"proxy"</span><span>:</span> proxy<span>,</span>   <span>// 新生成的代理对象本身，与 new Proxy(target, handler) 生成的一样</span>
+    <span>"revoke"</span><span>:</span> revoke  <span>// 撤销方法，直接调用它可以撤销代理</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>一旦某个代理对象被撤销，它将变得几乎完全不可调用，所有可代理操作都将抛出异常。同时这个代理对象也不可能被恢复到原来状态，其目标对象和处理器对象都有可能被垃圾回收掉。再次调用无任何效果。</p>
+<div><pre><code><span>// 官方示例</span>
+
+<span>var</span> revocable <span>=</span> Proxy<span>.</span><span>revocable</span><span>(</span><span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>get</span><span>(</span>target<span>,</span> name<span>)</span> <span>{</span>
+    <span>return</span> <span>"[["</span> <span>+</span> name <span>+</span> <span>"]]"</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+<span>var</span> proxy <span>=</span> revocable<span>.</span>proxy<span>;</span>
+proxy<span>.</span>foo<span>;</span>              <span>// "[[foo]]"</span>
+
+revocable<span>.</span><span>revoke</span><span>(</span><span>)</span><span>;</span>
+
+console<span>.</span><span>log</span><span>(</span>proxy<span>.</span>foo<span>)</span><span>;</span> <span>// 抛出 TypeError</span>
+proxy<span>.</span>foo <span>=</span> <span>1</span>           <span>// 还是 TypeError</span>
+<span>delete</span> proxy<span>.</span>foo<span>;</span>       <span>// 又是 TypeError</span>
+<span>typeof</span> proxy            <span>// "object"，因为 typeof 不属于可代理操作</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><h2 id="reflect"> Reflect</h2>
+<p><code>Reflect</code> 是一个内置对象，它提供拦截 <code>JavaScript</code> 操作的方法。与大多数全局对象不同，<code>Reflect</code> 不是一个构造函数，所以不能通过 <code>new</code> 运算符调用，或者作为一个函数调用。<code>Reflect</code> 的所有属性和方法都是静态的，类似 <code>Math</code> 对象。</p>
+<p><code>Reflect</code> 提供的方法与 <code>Proxy</code> 保持完全对应，帮助我们在使用上更加便捷。</p>
+<p><code>Reflect</code> 的方法与 <code>Obejct</code> 的一些方法非常相似，甚至看上去是一样的，但还是存在一些差别。具体内容可以参看 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect/Comparing_Reflect_and_Object_methods" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+<p><code>Reflect</code> 提供的方法与 <code>Object</code> 一样，可以单独使用，但通常它都是配合 <code>Proxy</code> 一起使用的。</p>
+<div><pre><code><span>const</span> star <span>=</span> <span>{</span> name<span>:</span> <span>"张xx"</span> <span>}</span><span>;</span>
+
+<span>// 以下两个效果类似</span>
+Object<span>.</span><span>getOwnPropertyNames</span><span>(</span>star1<span>)</span><span>;</span> <span>// ['name']</span>
+Reflect<span>.</span><span>ownKeys</span><span>(</span>star<span>)</span><span>;</span> <span>// ['name']</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div><blockquote>
+<p>实际上 <code>Reflect.ownKeys</code> 的结果等于 <code>Object.getOwnPropertyNames</code> 与 <code>Object.getOwnPropertySymbols</code> 的总和。</p>
+</blockquote>
+<h3 id="reflect-的静态方法"> Reflect 的静态方法</h3>
+<p>静态方法一共 13 个。</p>
+<ul>
+<li>
+<p>1、<code>Reflect.apply(target, thisArgument, aargumentsList)</code></p>
+<p>对一个函数进行调用操作，同时传入一个数组作为调用参数。与 <code>Function.prototype.apply()</code> 方法一样。</p>
+<div><pre><code><span>Reflect</span><span>.</span><span>apply</span><span>(</span>Math<span>.</span>floor<span>,</span> <span>undefined</span><span>,</span> <span>[</span><span>1.75</span><span>]</span><span>)</span><span>;</span>  <span>// 1</span>
+<span>Function</span><span>.</span>prototype<span>.</span><span>apply</span><span>.</span><span>call</span><span>(</span>Math<span>.</span>floor<span>,</span> <span>undefined</span><span>,</span> <span>[</span><span>1.75</span><span>]</span><span>)</span><span>;</span>  <span>// 1</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div></li>
+<li>
+<p>2、<code>Reflect.construct(target, argumentsList[, newTarget])</code></p>
+<p>对构造函数进行 <code>new</code> 操作，相当于 <code>new target(...args)</code>。这里的 <code>target</code> 如果存在 <code>newTarget</code> 则为 <code>newTarget</code>，否则就是 <code>target</code>。</p>
+<div><pre><code><span>var</span> obj <span>=</span> <span>new</span> <span>Foo</span><span>(</span><span>...</span>args<span>)</span><span>;</span>
+<span>var</span> obj <span>=</span> Reflect<span>.</span><span>construct</span><span>(</span>Foo<span>,</span> args<span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>同样的，它基本等效于 <code>Object.create()</code> 与 <code>Function.prototype.apply()</code> 的和。区别在于构造函数内部的 <code>new.target</code> 指向不同，前者明确指向了 <code>target</code>，而后者则为 <code>undefined</code>。<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect/construct#reflect.construct_vs_object.create" target="_blank" rel="noopener noreferrer">参考</a></p>
+</li>
+<li>
+<p>3、<code>Reflect.defineProperty(target, propertyKey, attributes)</code></p>
+<p>与 <code>Object.defineProperty()</code> 类似，唯一不同的就是返回 <code>Boolean</code> 值，设置成功就会返回 <code>true</code>，失败则返回 <code>false</code>。</p>
+</li>
+<li>
+<p>4、<code>Reflect.deleteProperty(target, propertyKey)</code></p>
+<p>作为函数的 <code>delete</code> 操作符，相当于执行了 <code>delete target[propertyKey]</code>。该方法同样返回一个 <code>Boolean</code> 值用于判断是否操作成功。</p>
+</li>
+<li>
+<p>5、<code>Reflect.get(target, propertyKey[, receiver])</code></p>
+<p>获取对象身上某个属性的值，类似于 <code>target[propertyKey]</code>。对于 <code>receiver</code>，如果 <code>target</code> 对象中指定了 <code>getter</code>，那么 <code>receiver</code> 则为 <code>getter</code> 调用时的 <code>this</code> 值。</p>
+<p>举个简单的例子：</p>
+<div><pre><code><span>var</span> obj1 <span>=</span> <span>{</span>
+    a<span>:</span> <span>1</span><span>,</span>
+    b<span>:</span> <span>2</span><span>,</span>
+    <span>get</span> <span>add</span><span>(</span><span>)</span> <span>{</span>
+        <span>return</span> <span>this</span><span>.</span>a <span>+</span> <span>this</span><span>.</span>b<span>;</span>
+    <span>}</span>
+<span>}</span>
+
+<span>var</span> obj2 <span>=</span> <span>{</span>
+    a<span>:</span> <span>3</span><span>,</span>
+    b<span>:</span> <span>4</span>
+<span>}</span>
+
+Reflect<span>.</span><span>get</span><span>(</span>obj1<span>,</span> <span>'add'</span><span>)</span><span>;</span> <span>// 3</span>
+Reflect<span>.</span><span>get</span><span>(</span>obj1<span>,</span> <span>'add'</span><span>,</span> obj2<span>)</span><span>;</span> <span>// 7</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>那这有什么用呢？这在 <code>Proxy</code> 的 <code>get</code> 捕获器中有很多作用，最重要的是解决 <code>this</code> 指向问题。<em>具体看下面的捕获器的内容。</em></p>
+</li>
+<li>
+<p>6、<code>Reflect.getOwnPropertyDescriptor(target, propertyKey)</code></p>
+<p>该方法类似于 <code>Object.getOwnPropertyDescriptor()</code>。如果存在该属性，则返回对应的描述符，否则返回 <code>undefined</code>。</p>
+<p>注意该方法第一个参数如果不是一个对象的话，那么将造成 <code>TypeError</code> 错误，而 <code>Object.getOwnPropertyDescriptor</code> 则会强制转为对象处理。</p>
+<div><pre><code>Reflect<span>.</span><span>getOwnPropertyDescriptor</span><span>(</span><span>{</span>x<span>:</span> <span>"hello"</span><span>}</span><span>,</span> <span>"x"</span><span>)</span><span>;</span> <span>// {value: "hello", writable: true, enumerable: true, configurable: true}</span>
+Reflect<span>.</span><span>getOwnPropertyDescriptor</span><span>(</span><span>[</span><span>]</span><span>,</span> <span>"length"</span><span>)</span><span>;</span> <span>// {value: 0, writable: true, enumerable: false, configurable: false}</span>
+
+Reflect<span>.</span><span>getOwnPropertyDescriptor</span><span>(</span><span>"foo"</span><span>,</span> <span>0</span><span>)</span><span>;</span> <span>// TypeError: "foo" is not non-null object</span>
+Object<span>.</span><span>getOwnPropertyDescriptor</span><span>(</span><span>"foo"</span><span>,</span> <span>0</span><span>)</span><span>;</span> <span>// { value: "f", writable: false, enumerable: true, configurable: false }</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
+<li>
+<p>7、<code>Reflect.getPrototypeOf(target)</code></p>
+<p>该方法几乎与 <code>Object.getPrototypeOf()</code> 一样，都是返回指定对象的原型。区别在于参数如果不是对象，则抛出 <code>TypeError</code> 异常。</p>
+<div><pre><code><span>// 如果参数为 Object，返回结果相同</span>
+Reflect<span>.</span><span>getPrototypeOf</span><span>(</span><span>{</span><span>}</span><span>)</span>  <span>// Object.prototype</span>
+Object<span>.</span><span>getPrototypeOf</span><span>(</span><span>{</span><span>}</span><span>)</span>   <span>// Object.prototype</span>
+
+Reflect<span>.</span><span>getPrototypeOf</span><span>(</span><span>'foo'</span><span>)</span>  <span>// Throws TypeError</span>
+<span>// 在 ES5 规范下，Object 抛异常；而在 ES2015 规范下，Object 强转为对象</span>
+Object<span>.</span><span>getPrototypeOf</span><span>(</span><span>'foo'</span><span>)</span>   <span>// String.prototype</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></li>
+<li>
+<p>8、<code>Reflect.has(target, propertyKey)</code></p>
+<p>判断一个对象是否存在某个属性，并返回 <code>Boolean</code> 值，和 <code>in</code> 运算符完全相同。</p>
+</li>
+<li>
+<p>9、<code>Reflect.isExtensible(target)</code></p>
+<p>类似 <code>Object.isExtensible()</code>，判断一个对象是否可扩展。与上面类似，当 <code>target</code> 不是对象时，抛出 <code>TypeError</code> 异常，而 <code>Object.isExtensible</code> 则返回 <code>false</code>。</p>
+</li>
+<li>
+<p>10、<code>Reflect.ownKeys(target)</code></p>
+<p>返回一个包含所有自身元素的数组（不包含继承属性），类似 <code>Object.keys</code>。它等同于 <code>Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbols(target))</code>，这样的写法更加简洁。</p>
+</li>
+<li>
+<p>11、<code>Reflect.preventExtensions(target)</code></p>
+<p>该方法阻止新属性添加到对象，与 <code>Object.preventExtensions()</code> 类似，与上面相同，它的第一个参数如果不是对象，则抛出 <code>TypeError</code> 异常，而 <code>Object.preventExtensions</code> 则会强转处理。</p>
+</li>
+<li>
+<p>12、<code>Reflect.set(target, propertyKey, value[, receiver])</code></p>
+<p>该方法将值分配给一个属性，并返回 <code>Boolean</code> 值表示成功与否。相当于 <code>target[propertyKey] = value</code>，如果成功，则返回 <code>true</code>，否则返回 <code>false</code>。</p>
+<p>至于 <code>receiver</code>，与 <code>get</code> 类似，遇到 <code>setter</code>，则为 <code>setter</code> 调用时的 <code>this</code> 值。举个栗子：</p>
+<div><pre><code><span>var</span> obj1 <span>=</span> <span>{</span>
+    a<span>:</span> <span>1</span><span>,</span>
+    b<span>:</span> <span>2</span><span>,</span>
+    <span>set</span> <span>add</span><span>(</span><span>val</span><span>)</span> <span>{</span>
+        <span>this</span><span>.</span>a <span>+=</span> val<span>;</span>
+    <span>}</span>
+<span>}</span>
+
+<span>var</span> obj2 <span>=</span> <span>{</span>
+    a<span>:</span> <span>"a"</span><span>,</span>
+    b<span>:</span> <span>"b"</span>
+<span>}</span>
+
+Reflect<span>.</span><span>set</span><span>(</span>obj1<span>,</span> <span>'add'</span><span>,</span> <span>1</span><span>)</span><span>;</span>
+console<span>.</span><span>log</span><span>(</span>obj1<span>.</span>a<span>)</span><span>;</span> <span>// 2</span>
+
+Reflect<span>.</span><span>set</span><span>(</span>obj1<span>,</span> <span>'add'</span><span>,</span> <span>1</span><span>,</span> obj2<span>)</span><span>;</span>
+console<span>.</span><span>log</span><span>(</span>obj1<span>.</span>a<span>)</span><span>;</span> <span>// 2</span>
+console<span>.</span><span>log</span><span>(</span>obj2<span>.</span>a<span>)</span><span>;</span> <span>// 'a1'</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br></div></div></li>
+<li>
+<p>13、<code>Reflect.setPrototypeOf(target, prototype)</code></p>
+<p>设置对象原型的函数，返回 <code>Boolean</code> 值表示是否成功。它与 <code>Object.setPrototypeOf()</code> 方法除了返回类型，其余是一样的。</p>
+</li>
+</ul>
+<h2 id="handler-对象"> handler 对象</h2>
+<p><code>handler</code> 对象是一个容纳一批特性属性的占位符对象，它包含有 <code>Proxy</code> 的各个捕获器。这些捕获器其实都类似 <code>Object</code> 的方法。所有捕获器如果没有定义，那么就是默认行为。捕获器最大的作用就是修改目标值的一系列默认动作。</p>
+<blockquote>
+<p>上面例子的 <code>get</code> 和 <code>set</code> 就是其中两个捕获器。</p>
+</blockquote>
+<p>整个 <code>handler</code> 对象支持 13 种捕获拦截，对应 <code>Reflect</code> 的方法，且方法名相同，参数相同。如果没有自定义某种捕获操作，则会默认转发到目标身上。</p>
+<p>这里重点讨论一下常用用法，其他方法可以参考 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Proxy#handler_%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%96%B9%E6%B3%95" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+<h3 id="handler-apply"> handler.apply()</h3>
+<p>用于拦截函数的调用操作：</p>
+<ul>
+<li>proxy(...args)</li>
+<li>Function.prototype.apply()</li>
+<li>Function.prototype.call()</li>
+<li>Reflect.apply()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li><code>target</code> 必须是可被调用的，它应当是一个对象，否则抛出 <code>TypeError</code> 错误</li>
+</ul>
+<div><pre><code><span>var</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>function</span><span>(</span><span>)</span> <span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>apply</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> thisArg<span>,</span> argumentsList</span><span>)</span> <span>{</span>
+    console<span>.</span><span>log</span><span>(</span><span>'called: '</span> <span>+</span> argumentsList<span>.</span><span>join</span><span>(</span><span>', '</span><span>)</span><span>)</span><span>;</span>
+    <span>return</span> argumentsList<span>[</span><span>0</span><span>]</span> <span>+</span> argumentsList<span>[</span><span>1</span><span>]</span> <span>+</span> argumentsList<span>[</span><span>2</span><span>]</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+console<span>.</span><span>log</span><span>(</span><span>p</span><span>(</span><span>1</span><span>,</span> <span>2</span><span>,</span> <span>3</span><span>)</span><span>)</span><span>;</span> <span>// "called: 1, 2, 3"</span>
+                         <span>// 6</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><h3 id="handler-construct"> handler.construct()</h3>
+<p>用于拦截 <code>new</code> 操作符的相关操作：</p>
+<ul>
+<li>new proxy(...args)</li>
+<li>Reflect.construct()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>用于初始化的代理目标必须具有 <code>[[Construct]]</code> 内部方法，即 <code>new target</code> 必须是有效的</li>
+<li>必须返回一个对象</li>
+</ul>
+<div><pre><code><span>var</span> p1 <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>function</span><span>(</span><span>)</span> <span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>construct</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> argumentsList<span>,</span> newTarget</span><span>)</span> <span>{</span>
+    console<span>.</span><span>log</span><span>(</span><span>'called: '</span> <span>+</span> argumentsList<span>.</span><span>join</span><span>(</span><span>', '</span><span>)</span><span>)</span><span>;</span>
+    <span>return</span> <span>{</span> value<span>:</span> argumentsList<span>[</span><span>0</span><span>]</span> <span>*</span> <span>10</span> <span>}</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+console<span>.</span><span>log</span><span>(</span><span>new</span> <span>p1</span><span>(</span><span>1</span><span>)</span><span>.</span>value<span>)</span><span>;</span> <span>// "called: 1"</span>
+                              <span>// 10</span>
+
+
+<span>// 反例1</span>
+<span>var</span> p2 <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>construct</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> argumentsList<span>,</span> newTarget</span><span>)</span> <span>{</span>
+    <span>return</span> <span>{</span><span>}</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+<span>new</span> <span>p2</span><span>(</span><span>)</span><span>;</span> <span>// TypeError is thrown, "p2" is not a constructor</span>
+
+<span>// 反例2</span>
+<span>var</span> p3 <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>function</span><span>(</span><span>)</span> <span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>construct</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> argumentsList<span>,</span> newTarget</span><span>)</span> <span>{</span>
+    <span>return</span> <span>1</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+<span>new</span> <span>p3</span><span>(</span><span>)</span><span>;</span> <span>// TypeError is thrown</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br></div></div><h3 id="handler-defineproperty"> handler.defineProperty()</h3>
+<p>用于拦截对象的 <code>Object.defineProperty()</code> 操作：</p>
+<ul>
+<li>Object.defineProperty()</li>
+<li>Reflect.defineProperty()</li>
+<li>proxy.property = 'value'</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>如果目标对象不可扩展（non-extensible），则不能添加属性</li>
+<li>如果属性不是目标对象自身的不可配置属性（non-configurable），则不能将其添加或修改为不可配置属性</li>
+</ul>
+<p>在传递时，只有如下属性才有作用：</p>
+<ul>
+<li>enumerable</li>
+<li>configurable</li>
+<li>writable</li>
+<li>value</li>
+<li>get</li>
+<li>set</li>
+</ul>
+<p>其余的非标准属性将被无视。</p>
+<div><pre><code><span>var</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>defineProperty</span><span>(</span><span>target<span>,</span> prop<span>,</span> descriptor</span><span>)</span> <span>{</span>
+    console<span>.</span><span>log</span><span>(</span>descriptor<span>)</span><span>;</span>
+    <span>return</span> Reflect<span>.</span><span>defineProperty</span><span>(</span>target<span>,</span> prop<span>,</span> descriptor<span>)</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+Object<span>.</span><span>defineProperty</span><span>(</span>p<span>,</span> <span>'name'</span><span>,</span> <span>{</span>
+  value<span>:</span> <span>'proxy'</span><span>,</span>
+  type<span>:</span> <span>'custom'</span>
+<span>}</span><span>)</span><span>;</span>  <span>// { value: 'proxy' }</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><h3 id="handler-deleteproperty"> handler.deleteProperty()</h3>
+<p>用于拦截对象的删除属性操作：</p>
+<ul>
+<li>delete proxy[key]</li>
+<li>delete proxy.key</li>
+<li>Reflect.deleteProperty()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>如果目标对象的属性是不可配置的，那么该属性不能被删除</li>
+</ul>
+<p>需要注意的是，该方法必须返回一个 <code>Boolean</code> 类型的值，表示是否成功删除。</p>
+<div><pre><code><span>var</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span><span>{</span><span>}</span><span>,</span> <span>{</span>
+  <span>deleteProperty</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> prop</span><span>)</span> <span>{</span>
+    console<span>.</span><span>log</span><span>(</span><span>'called: '</span> <span>+</span> prop<span>)</span><span>;</span>
+    <span>return</span> <span>true</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+
+<span>delete</span> p<span>.</span>a<span>;</span> <span>// "called: a"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><h3 id="handler-get"> handler.get()</h3>
+<p>用于拦截对象的读取属性操作：</p>
+<ul>
+<li>访问属性：proxy[key]</li>
+<li>访问原型链上的属性：Object.create(proxy)[key]</li>
+<li>Reflect.get()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>如果要访问的目标属性是不可写或者不可配置的，则返回的值必须与目标的值相同</li>
+<li>如果要访问的目标属性没有配置访问方法（<code>get</code> 方法是 <code>undefined</code> 的），则返回值也必须是 <code>undefined</code></li>
+</ul>
+<div><pre><code><span>var</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>target<span>,</span> <span>{</span>
+    <span>/**
+     * @param target {any} 目标对象
+     * @param property {string | Symbol} 被获取的属性名
+     * @param receiver {Proxy} 指向 Proxy 或者继承 Proxy 的对象
+     */</span>
+    <span>get</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> property<span>,</span> receiver</span><span>)</span> <span>{</span>
+        <span>// ...自定义内容</span>
+    <span>}</span>
+<span>}</span><span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br></div></div><p>针对前两个参数，其实很简单，就是目标对象和键名，通过 <code>target[property]</code> 可以获取到具体的数据。但是最后一个参数就有一些复杂了，它其实是配合 <code>Reflect.get()</code> 来使用会有预期效果。主要是可以正确的将 <code>this</code> 值绑定在目标数据中。举个栗子：</p>
+<div><pre><code><span>// 还是上面 star 的例子。做一些简化</span>
+
+<span>// 定义一个明星 张xx，名字是不能随便更改的，但是可以有昵称。</span>
+<span>// 这里 _name 表示昵称，刚开始只有真实名字，没有昵称</span>
+<span>let</span> star <span>=</span> <span>{</span>
+    _name<span>:</span> <span>"张xx"</span><span>,</span>
+    <span>get</span> <span>name</span><span>(</span><span>)</span> <span>{</span><span>return</span> <span>this</span><span>.</span>_name<span>}</span>
+<span>}</span>
+
+<span>let</span> agent <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>star<span>,</span> <span>{</span>
+    <span>get</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> key<span>,</span> receiver</span><span>)</span> <span>{</span>
+        <span>if</span> <span>(</span>key <span>===</span> <span>"name"</span><span>)</span> <span>{</span>
+            <span>return</span> target<span>.</span>name
+        <span>}</span> <span>else</span> <span>{</span>
+            <span>return</span> target<span>[</span>key<span>]</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span><span>)</span>
+
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的是 张xx</span>
+agent<span>.</span>_name <span>=</span> <span>"爱豆"</span><span>;</span> <span>// 此时流量上来了，大家叫他 爱豆</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的是 爱豆</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br></div></div><p>这看上去好像没什么问题，但是如果我们现在又有了一个包装对象，此时要保证 <code>this</code> 值的指向，就需要用到 <code>receiver</code>：</p>
+<div><pre><code><span>let</span> agent <span>=</span> Object<span>.</span><span>create</span><span>(</span><span>new</span> <span>Proxy</span><span>(</span>star<span>,</span> <span>{</span>
+    <span>get</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> key<span>,</span> receiver</span><span>)</span> <span>{</span>
+        <span>if</span> <span>(</span>key <span>===</span> <span>"name"</span><span>)</span> <span>{</span>
+            <span>return</span> target<span>.</span>name
+        <span>}</span> <span>else</span> <span>{</span>
+            <span>return</span> target<span>[</span>key<span>]</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span><span>)</span><span>)</span>
+
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的是 张xx</span>
+agent<span>.</span>_name <span>=</span> <span>"爱豆"</span><span>;</span> <span>// 此时流量上来了，大家叫他 爱豆</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的还是 张xx</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>最后打印出来的结果这说明 this 指向出现了偏差，这时就需要通过对应的 <code>Reflect</code> 来解决，否则自己写一个方法还是很麻烦的~</p>
+<div><pre><code><span>let</span> agent <span>=</span> Object<span>.</span><span>create</span><span>(</span><span>new</span> <span>Proxy</span><span>(</span>star<span>,</span> <span>{</span>
+    <span>get</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> key<span>,</span> receiver</span><span>)</span> <span>{</span>
+        <span>if</span> <span>(</span>key <span>===</span> <span>"name"</span><span>)</span> <span>{</span>
+            <span>// return target.name</span>
+            <span>return</span> Reflect<span>.</span><span>get</span><span>(</span>target<span>,</span> <span>"name"</span><span>,</span> receiver<span>)</span>
+        <span>}</span> <span>else</span> <span>{</span>
+            <span>return</span> target<span>[</span>key<span>]</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span><span>)</span><span>)</span>
+
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的是 张xx</span>
+agent<span>.</span>_name <span>=</span> <span>"爱豆"</span><span>;</span> <span>// 此时流量上来了，大家叫他 爱豆</span>
+console<span>.</span><span>log</span><span>(</span>agent<span>.</span>name<span>)</span><span>;</span> <span>// 此时打印的是 爱豆</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>通过 <code>Reflect.get()</code> 可以保持 <code>this</code> 的指向。</p>
+<h3 id="handler-getprototypeof"> handler.getPrototypeOf()</h3>
+<p>它是一个代理方法，当通过如下方法读取代理对象的原型时，该方法就会被调用：</p>
+<ul>
+<li>Object.getPrototypeOf()</li>
+<li>Reflect.getPrototypeOf()</li>
+<li><strong>proto</strong></li>
+<li>Object.prototype.isPrototypeOf()</li>
+<li>instanceof</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li><code>getPrototypeOf()</code> 方法返回的不是对象也不是 <code>null</code>，则会抛出 <code>TypeError</code> 异常</li>
+<li>目标对象是不可扩展的，且 <code>getPrototypeOf()</code> 方法返回的原型不是目标对象本身的原型，也会抛出 <code>TypeError</code> 异常</li>
+</ul>
+<h3 id="handler-has"> handler.has()</h3>
+<p>用于拦截 <code>in</code> 操作符方法的操作：</p>
+<ul>
+<li>key in proxy</li>
+<li>key in Object.create(proxy)</li>
+<li>with(proxy) {(key);}</li>
+<li>Reflect.has()</li>
+</ul>
+<p>同时遇到如下情况，会抛出异常：</p>
+<ul>
+<li>如果目标对象的某一属性本身是不可配置的，则该属性不能被代理隐藏</li>
+<li>如果目标对象为不可扩展的，则该对象的属性不能够被代理隐藏</li>
+</ul>
+<h3 id="handler-ownkeys"> handler.ownKeys()</h3>
+<p>该方法用于拦截 <code>Reflect.ownKeys()</code> 操作：</p>
+<ul>
+<li>Object.getOwnPropertyNames()</li>
+<li>Object.getOwnPropertySymbols()</li>
+<li>Object.keys()</li>
+<li>Reflect.ownKeys()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>结果必须是一个数组</li>
+<li>数组的元素类型必须是 <code>String</code> 或 <code>Symbol</code></li>
+<li>结果数组必须包含目标对象的所有不可配置、自有属性的 key</li>
+<li>如果目标对象不可扩展，那么结果数组必须包含目标对象的所有自有属性的 key，不能有其他值</li>
+</ul>
+<h3 id="handler-set"> handler.set()</h3>
+<p>该方法用于拦截设置属性值的操作：</p>
+<ul>
+<li>指定属性值：proxy[key] = val</li>
+<li>指定继承者的属性值：Object.create(proxy)[key] = val</li>
+<li>Reflect.set()</li>
+</ul>
+<p>同时：</p>
+<ul>
+<li>若目标属性是一个不可写以及不可配置的属性，那么就不能改变它的值</li>
+<li>如果目标属性没有配置存储方法（<code>set</code> 方法为 <code>undefined</code> 的），则不能设置它的值</li>
+<li>在严格模式下，如果 <code>set()</code> 方法返回 <code>false</code>，则会抛出 <code>TypeError</code> 异常</li>
+</ul>
+<div><pre><code><span>const</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>target<span>,</span> <span>{</span>
+    <span>/**
+     * @param target {any} 目标对象
+     * @param property {string | Symbol} 被获取的属性名
+     * @param value {any} 新的值
+     * @param receiver {Proxy} 最初被调用的对象
+     */</span>
+    <span>set</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> property<span>,</span> value<span>,</span> receiver</span><span>)</span> <span>{</span>
+        <span>// 自定义内容</span>
+    <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>通过 <code>target[property] = value</code> 同时配上 <code>return true</code> 来表示赋值成功。</p>
+<p>针对 <code>receiver</code> 的作用对象，通常是 <code>proxy</code> 本身，但 <code>handler</code> 的 <code>set</code> 方法也可能在原型链上，或以其他方式被间接调用。可以理解为父类可以对子类进行一些作用：</p>
+<div><pre><code><span>const</span> star <span>=</span> <span>{</span>name<span>:</span> <span>"张xx"</span><span>}</span><span>;</span>
+
+<span>const</span> p <span>=</span> <span>new</span> <span>Proxy</span><span>(</span>star<span>,</span> <span>{</span>
+    <span>set</span><span>:</span> <span>function</span><span>(</span><span>target<span>,</span> property<span>,</span> value<span>,</span> receiver</span><span>)</span> <span>{</span>
+        console<span>.</span><span>log</span><span>(</span>target<span>,</span> receiver<span>)</span><span>;</span>
+        <span>return</span> Reflect<span>.</span><span>set</span><span>(</span>target<span>,</span> property<span>,</span> value<span>,</span> receiver<span>)</span><span>;</span>
+    <span>}</span>
+<span>}</span><span>)</span>
+
+<span>const</span> star2 <span>=</span> <span>{</span><span>}</span><span>;</span>
+star2<span>.</span>__proto__ <span>=</span> p<span>;</span>
+
+star2<span>.</span>name <span>=</span> <span>"王xx"</span><span>;</span> <span>// 此时触发打印：{name: '张xx'} {}，可以看到 target 指向 star，而 receiver 指向 star2</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>通常，<code>set</code> 方法可以进行对数据的验证、处理等非常有用的操作。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>this 关键字</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/this/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/this/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">this 关键字</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="this-关键字"> this 关键字</h1>
 <p>JavaScript 中的 <code>this</code> 关键字与其他语言略有不同，<strong>在绝大多数情况下，函数的调用方式决定了 <code>this</code> 的值（运行时绑定）</strong>。<code>this</code> 不能在执行期间被赋值，并且在每次函数被调用时 <code>this</code> 的值也可能不同。</p>
 <p>ES5 引入了 <code>bind</code> 方法来设置函数的 <code>this</code> 值，而不用考虑函数是如何被调用的。同时，箭头函数不提供自身的 <code>this</code> 绑定。</p>
@@ -14970,7 +15486,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/react/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/react/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">React 学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
 <p>React 的学习之路，英文比中文新。</p>
 <p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -14984,7 +15500,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-学习之路"> Vue 学习之路</h1>
 <p>Vue 的学习之路。</p>
 ]]></content:encoded>
@@ -14994,7 +15510,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">class 与 style 的绑定</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="class-与-style-的绑定"> class 与 style 的绑定</h1>
 ]]></content:encoded>
     </item>
@@ -15003,7 +15519,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">组件</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="组件"> 组件</h1>
 <h2 id="应用实例"> 应用实例</h2>
 <h2 id="根组件"> 根组件</h2>
@@ -15016,7 +15532,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">组合式 API</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="组合式-api"> 组合式 API</h1>
 <h2 id="setup"> Setup</h2>
 <h2 id="生命周期钩子"> 生命周期钩子</h2>
@@ -15027,7 +15543,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算属性和侦听器</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算属性和侦听器"> 计算属性和侦听器</h1>
 ]]></content:encoded>
     </item>
@@ -15036,7 +15552,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据和方法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据和方法"> 数据和方法</h1>
 ]]></content:encoded>
     </item>
@@ -15045,7 +15561,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">循环渲染</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="循环渲染"> 循环渲染</h1>
 ]]></content:encoded>
     </item>
@@ -15054,17 +15570,8 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">条件渲染</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="条件渲染"> 条件渲染</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>渲染</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">渲染</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="渲染"> 渲染</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -15072,7 +15579,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <h2 id="beforecreate"> beforeCreate</h2>
 <h2 id="created"> created</h2>
@@ -15085,24 +15592,48 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>渲染</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">渲染</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="渲染"> 渲染</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>插槽</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">插槽</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="插槽"> 插槽</h1>
 ]]></content:encoded>
     </item>
     <item>
-      <title>模板语法</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">模板语法</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="模板语法"> 模板语法</h1>
-<h2 id="指令"> 指令</h2>
-<h3 id="自定义指令"> 自定义指令</h3>
-<h2 id="修饰符"> 修饰符</h2>
+      <title>响应式的原理</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">响应式的原理</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MVVM</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Vue Cli</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Vue Cli</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -15110,7 +15641,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Router</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-router"> Vue Router</h1>
 <h2 id="路由原理"> 路由原理</h2>
 <h2 id="动态匹配"> 动态匹配</h2>
@@ -15121,20 +15652,11 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Vue Cli</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">Vue Cli</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Vue Test Utils</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Test Utils</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
 <h2 id="jest"> Jest</h2>
 ]]></content:encoded>
@@ -15144,7 +15666,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Devtools</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="devtools"> Devtools</h1>
 ]]></content:encoded>
     </item>
@@ -15153,7 +15675,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vuex</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vuex"> Vuex</h1>
 <h2 id="state"> State</h2>
 <h2 id="getter"> Getter</h2>
@@ -15167,7 +15689,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">使用项目模板</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
 <h2 id="如何添加模板"> 如何添加模板</h2>
 <h3 id="方法一"> 方法一</h3>
@@ -15199,7 +15721,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">从 0 搭建项目模板（vue3）</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="从-0-搭建项目模板（vue3）"> 从 0 搭建项目模板（vue3）</h1>
 <p>为简化每次初始化项目，最好的方法就是搭建一个项目模板，这样每次初始化的时候直接拉取就好，不用再一个一个进行配置，省去了大量时间。</p>
 <p>该内容模板已经在 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a>，如果需要，可以直接下载使用。具体使用方法可以查看 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a> 或者 <a href="./">模板文档</a></p>
@@ -16480,7 +17002,7 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">虚拟 DOM</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
 ]]></content:encoded>
     </item>
@@ -16489,7 +17011,7 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <link>https://docs.jeremyjone.com/roadmap/java/</link>
       <guid>https://docs.jeremyjone.com/roadmap/java/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Java 学习之路</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
 <p>Java 的学习之路，页面包含学习链接。</p>
 <p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -16498,20 +17020,11 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <enclosure url="https://github.com/s4kibs4mi/java-developer-roadmap/raw/master/java-developer-roadmap.png" type="image/png"/>
     </item>
     <item>
-      <title>响应式的原理</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">响应式的原理</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>代码书写规范总纲</title>
       <link>https://docs.jeremyjone.com/standard/</link>
       <guid>https://docs.jeremyjone.com/standard/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">代码书写规范总纲</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="代码书写规范总纲"> 代码书写规范总纲</h1>
 <Description author="JeremyJone" version="v1" copyright="Jz" />
 <p><strong>良好的规范，促进高质量的代码。</strong> --<em>与君共勉</em></p>
@@ -16756,11 +17269,20 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
 ]]></content:encoded>
     </item>
     <item>
+      <title>C#</title>
+      <link>https://docs.jeremyjone.com/standard/csharp/</link>
+      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>CSS 规范</title>
       <link>https://docs.jeremyjone.com/standard/css/</link>
       <guid>https://docs.jeremyjone.com/standard/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 规范</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-规范"> CSS 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本文档适用于所有css文件的开发编写。</p>
@@ -16798,20 +17320,11 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
 ]]></content:encoded>
     </item>
     <item>
-      <title>C#</title>
-      <link>https://docs.jeremyjone.com/standard/csharp/</link>
-      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>HTML 规范</title>
       <link>https://docs.jeremyjone.com/standard/html/</link>
       <guid>https://docs.jeremyjone.com/standard/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 规范</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有Html页面的开发。</p>
@@ -16836,7 +17349,7 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
       <link>https://docs.jeremyjone.com/standard/javascript/</link>
       <guid>https://docs.jeremyjone.com/standard/javascript/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 开发规范</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-开发规范"> JavaScript 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有使用 JavaScript 以及相关框架的开发。</p>
@@ -17061,165 +17574,11 @@ Object<span>.</span><span>assign</span><span>(</span>object1<span>,</span> <span
 ]]></content:encoded>
     </item>
     <item>
-      <title>Python 开发规范</title>
-      <link>https://docs.jeremyjone.com/standard/python/</link>
-      <guid>https://docs.jeremyjone.com/standard/python/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">Python 开发规范</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
-<Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
-<p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
-<h2 id="for-environment"> For Environment</h2>
-<ul>
-<li>
-<p>【<strong>compulsory</strong>】Try not to change the production environment, if necessary change, need to apply, Amendments may be made only after the application is approved.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】If a new package needs to be installed, it needs to be submitted with SVN updates and tell everyone.</p>
-</li>
-</ul>
-<h2 id="for-style"> For Style</h2>
-<ul>
-<li>
-<p>【<strong>compulsory</strong>】Should be follow Pythonic style. PEP8 format.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】Code is strictly prohibited to use <strong>pinyin</strong> and <strong>English</strong> mixed way, not to allow direct use of the <strong>Chinese way</strong>.
-<em>Explanation: correct English spelling and grammar can make readers understand easily and avoid ambiguity. Note that even pure pinyin naming should be avoided.</em></p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】Every methods, variables name should be meaningful, use descriptive names with one or more simple English words by <strong>camelCaseStyle</strong>.</p>
-<div><pre><code><span>def</span> <span>pythonFunction</span><span>(</span><span>)</span><span>:</span>
-    varNum <span>=</span> <span>1</span>
-    varStr <span>=</span> <span>'a'</span>
-    vardict <span>=</span> <span>dict</span><span>(</span><span>)</span>
-    pyFuncAttr <span>=</span> <span>"python function attribute"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
-<li>
-<p>【<strong>compulsory</strong>】Class name must be start with a capital letter, overall use camel case style. And there should be <code>_init__()</code> constructors.</p>
-<div><pre><code><span>class</span> <span>PythonClassCode</span><span>(</span><span>object</span><span>)</span><span>:</span>
-    <span>def</span> <span>__init__</span><span>(</span>self<span>)</span><span>:</span>
-        <span>pass</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>【<strong>compulsory</strong>】Private members should be represented by a double underscore.</p>
-<div><pre><code>__privateNum <span>=</span> <span>1</span>
-<span>def</span> <span>__privateFunction</span><span>(</span><span>)</span><span>:</span>
-    <span>pass</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
-<li>
-<p>【<strong>compulsory</strong>】Constant name all uppercase, words with underline between, strive to semantic expression complete and clear, not too long name.</p>
-<div><pre><code>MAX_COUNT <span>=</span> <span>10</span>
-MAX_LETTER_PER_LINE <span>=</span> <span>80</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div></li>
-<li>
-<p>【<strong>compulsory</strong>】Avoid abbreviations that are completely unregulated, <code>condition</code> &quot;abbreviation&quot; is named <code>condi</code>. Such arbitrary abbreviations seriously reduce the readability of the code.</p>
-</li>
-<li>
-<p>【<strong>suggestion</strong>】Single letter strings should use single quotation marks.</p>
-<div><pre><code>oneLetter <span>=</span> <span>'a'</span>
-</code></pre>
-<div><span>1</span><br></div></div></li>
-<li>
-<p>【<strong>suggestion</strong>】Double quotation marks should be used for multi-letter strings.</p>
-<div><pre><code>moreLetter <span>=</span> <span>"abc"</span>
-</code></pre>
-<div><span>1</span><br></div></div></li>
-<li>
-<p>【<strong>suggestion</strong>】Create empty dict, list, tuple, don't use <code>{}, [], ()</code>, expect to use <code>dict(), list(), tuple()</code></p>
-<div><pre><code><span># Wrong</span>
-myDict <span>=</span> <span>{</span><span>}</span>
-myList <span>=</span> <span>[</span><span>]</span>
-myTuple <span>=</span> <span>(</span><span>)</span>
-
-<span># Right</span>
-myDict <span>=</span> <span>dict</span><span>(</span><span>)</span>
-myList <span>=</span> <span>list</span><span>(</span><span>)</span>
-myTuple <span>=</span> <span>tuple</span><span>(</span><span>)</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div></li>
-</ul>
-<h2 id="for-format"> For Format</h2>
-<ul>
-<li>
-<p>【<strong>compulsory</strong>】4 Spaces are indented. TAB characters are not allowed.
-<em>If TAB indentation is used, one TAB must be set to four Spaces.</em></p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】An empty line of functions within the class. Two lines between different class.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】Empty two lines between the import package statement and the function or class.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】The contents of dict, list, or tuple must be presented in multiple lines if they exceed 80 characters.</p>
-<div><pre><code>listContent <span>=</span> <span>[</span>
-    <span>"first"</span><span>,</span>
-    <span>"second"</span><span>,</span>
-    <span>"third"</span>
-<span>]</span>
-
-dictContent <span>=</span> <span>{</span>
-    a <span>=</span> <span>'1'</span><span>,</span>
-    b <span>=</span> <span>'2'</span><span>,</span>
-    c <span>=</span> <span>'3'</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></li>
-<li>
-<p>【<strong>compulsory</strong>】Comments line must be above the commented code.</p>
-<div><pre><code><span># Comments line</span>
-pythonCode <span>=</span> <span>"python code"</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div></li>
-<li>
-<p>【<strong>suggestion</strong>】Comments in class, function should be used <strong>Document string</strong>.</p>
-<div><pre><code> <span>class</span> <span>pythonClass</span><span>(</span><span>object</span><span>)</span><span>:</span>
-    <span>"""class comment. (Document string)"""</span>
-    <span>def</span> <span>__init__</span><span>(</span><span>)</span><span>:</span>
-        <span>pass</span>
-
-    <span>def</span> <span>clsFunc</span><span>(</span>arg1<span>,</span> arg2<span>)</span><span>:</span>
-        <span>"""
-        this function comment. (Document string)
-
-        :param arg1: ...
-        :param arg2: ...
-        :return: ...
-        """</span>
-        <span>pass</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></li>
-<li>
-<p>【<strong>suggestion</strong>】The code should be clear enough, and the comments should be detailed enough to help us understand the code better. Comments help us understand and maintain code better.
-<em>If the code is simple and clear enough, no comments are required.</em>
-<em>Conversely, if the code is logically complex, detailed comments are required.</em></p>
-</li>
-</ul>
-<h2 id="for-test"> For Test</h2>
-<ul>
-<li>
-<p>【<strong>compulsory</strong>】All modules should have independent unit testing capabilities.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】Test units should not call and depend on each other, nor can it depend on the order of execution.</p>
-</li>
-<li>
-<p>【<strong>compulsory</strong>】Unit tests are repeatable and cannot be affected by the environment.</p>
-</li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
       <title>Vue 开发规范</title>
       <link>https://docs.jeremyjone.com/standard/vue/</link>
       <guid>https://docs.jeremyjone.com/standard/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 开发规范</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-开发规范"> Vue 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有基于 Vue 框架的开发。</p>
@@ -17503,21 +17862,178 @@ component<span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div>]]></content:encoded>
     </item>
     <item>
+      <title>Python 开发规范</title>
+      <link>https://docs.jeremyjone.com/standard/python/</link>
+      <guid>https://docs.jeremyjone.com/standard/python/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">Python 开发规范</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
+<Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
+<p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
+<h2 id="for-environment"> For Environment</h2>
+<ul>
+<li>
+<p>【<strong>compulsory</strong>】Try not to change the production environment, if necessary change, need to apply, Amendments may be made only after the application is approved.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】If a new package needs to be installed, it needs to be submitted with SVN updates and tell everyone.</p>
+</li>
+</ul>
+<h2 id="for-style"> For Style</h2>
+<ul>
+<li>
+<p>【<strong>compulsory</strong>】Should be follow Pythonic style. PEP8 format.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】Code is strictly prohibited to use <strong>pinyin</strong> and <strong>English</strong> mixed way, not to allow direct use of the <strong>Chinese way</strong>.
+<em>Explanation: correct English spelling and grammar can make readers understand easily and avoid ambiguity. Note that even pure pinyin naming should be avoided.</em></p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】Every methods, variables name should be meaningful, use descriptive names with one or more simple English words by <strong>camelCaseStyle</strong>.</p>
+<div><pre><code><span>def</span> <span>pythonFunction</span><span>(</span><span>)</span><span>:</span>
+    varNum <span>=</span> <span>1</span>
+    varStr <span>=</span> <span>'a'</span>
+    vardict <span>=</span> <span>dict</span><span>(</span><span>)</span>
+    pyFuncAttr <span>=</span> <span>"python function attribute"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
+<li>
+<p>【<strong>compulsory</strong>】Class name must be start with a capital letter, overall use camel case style. And there should be <code>_init__()</code> constructors.</p>
+<div><pre><code><span>class</span> <span>PythonClassCode</span><span>(</span><span>object</span><span>)</span><span>:</span>
+    <span>def</span> <span>__init__</span><span>(</span>self<span>)</span><span>:</span>
+        <span>pass</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>【<strong>compulsory</strong>】Private members should be represented by a double underscore.</p>
+<div><pre><code>__privateNum <span>=</span> <span>1</span>
+<span>def</span> <span>__privateFunction</span><span>(</span><span>)</span><span>:</span>
+    <span>pass</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div></li>
+<li>
+<p>【<strong>compulsory</strong>】Constant name all uppercase, words with underline between, strive to semantic expression complete and clear, not too long name.</p>
+<div><pre><code>MAX_COUNT <span>=</span> <span>10</span>
+MAX_LETTER_PER_LINE <span>=</span> <span>80</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div></li>
+<li>
+<p>【<strong>compulsory</strong>】Avoid abbreviations that are completely unregulated, <code>condition</code> &quot;abbreviation&quot; is named <code>condi</code>. Such arbitrary abbreviations seriously reduce the readability of the code.</p>
+</li>
+<li>
+<p>【<strong>suggestion</strong>】Single letter strings should use single quotation marks.</p>
+<div><pre><code>oneLetter <span>=</span> <span>'a'</span>
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>【<strong>suggestion</strong>】Double quotation marks should be used for multi-letter strings.</p>
+<div><pre><code>moreLetter <span>=</span> <span>"abc"</span>
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>【<strong>suggestion</strong>】Create empty dict, list, tuple, don't use <code>{}, [], ()</code>, expect to use <code>dict(), list(), tuple()</code></p>
+<div><pre><code><span># Wrong</span>
+myDict <span>=</span> <span>{</span><span>}</span>
+myList <span>=</span> <span>[</span><span>]</span>
+myTuple <span>=</span> <span>(</span><span>)</span>
+
+<span># Right</span>
+myDict <span>=</span> <span>dict</span><span>(</span><span>)</span>
+myList <span>=</span> <span>list</span><span>(</span><span>)</span>
+myTuple <span>=</span> <span>tuple</span><span>(</span><span>)</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div></li>
+</ul>
+<h2 id="for-format"> For Format</h2>
+<ul>
+<li>
+<p>【<strong>compulsory</strong>】4 Spaces are indented. TAB characters are not allowed.
+<em>If TAB indentation is used, one TAB must be set to four Spaces.</em></p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】An empty line of functions within the class. Two lines between different class.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】Empty two lines between the import package statement and the function or class.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】The contents of dict, list, or tuple must be presented in multiple lines if they exceed 80 characters.</p>
+<div><pre><code>listContent <span>=</span> <span>[</span>
+    <span>"first"</span><span>,</span>
+    <span>"second"</span><span>,</span>
+    <span>"third"</span>
+<span>]</span>
+
+dictContent <span>=</span> <span>{</span>
+    a <span>=</span> <span>'1'</span><span>,</span>
+    b <span>=</span> <span>'2'</span><span>,</span>
+    c <span>=</span> <span>'3'</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div></li>
+<li>
+<p>【<strong>compulsory</strong>】Comments line must be above the commented code.</p>
+<div><pre><code><span># Comments line</span>
+pythonCode <span>=</span> <span>"python code"</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div></li>
+<li>
+<p>【<strong>suggestion</strong>】Comments in class, function should be used <strong>Document string</strong>.</p>
+<div><pre><code> <span>class</span> <span>pythonClass</span><span>(</span><span>object</span><span>)</span><span>:</span>
+    <span>"""class comment. (Document string)"""</span>
+    <span>def</span> <span>__init__</span><span>(</span><span>)</span><span>:</span>
+        <span>pass</span>
+
+    <span>def</span> <span>clsFunc</span><span>(</span>arg1<span>,</span> arg2<span>)</span><span>:</span>
+        <span>"""
+        this function comment. (Document string)
+
+        :param arg1: ...
+        :param arg2: ...
+        :return: ...
+        """</span>
+        <span>pass</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div></li>
+<li>
+<p>【<strong>suggestion</strong>】The code should be clear enough, and the comments should be detailed enough to help us understand the code better. Comments help us understand and maintain code better.
+<em>If the code is simple and clear enough, no comments are required.</em>
+<em>Conversely, if the code is logically complex, detailed comments are required.</em></p>
+</li>
+</ul>
+<h2 id="for-test"> For Test</h2>
+<ul>
+<li>
+<p>【<strong>compulsory</strong>】All modules should have independent unit testing capabilities.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】Test units should not call and depend on each other, nor can it depend on the order of execution.</p>
+</li>
+<li>
+<p>【<strong>compulsory</strong>】Unit tests are repeatable and cannot be affected by the environment.</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
       <title>UI 框架</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">UI 框架</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="ui-框架"> UI 框架</h1>
 ]]></content:encoded>
     </item>
     <item>
-      <title>MVVM</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
-      <pubDate>Fri, 18 Feb 2022 10:17:52 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
+      <title>模板语法</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">模板语法</source>
+      <pubDate>Tue, 29 Mar 2022 08:25:49 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="模板语法"> 模板语法</h1>
+<h2 id="指令"> 指令</h2>
+<h3 id="自定义指令"> 自定义指令</h3>
+<h2 id="修饰符"> 修饰符</h2>
 ]]></content:encoded>
     </item>
   </channel>
