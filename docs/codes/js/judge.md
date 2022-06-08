@@ -76,6 +76,13 @@ export const isSet = o => {
 };
 ```
 
+```ts
+// 上述方法添加类型，同时添加返回断言类型
+export const isNull = (o: any): o is null => {
+  return Object.prototype.toString.call(o).slice(8, -1) === "Null";
+};
+```
+
 ## 判断内容
 
 ### 是否为邮箱
