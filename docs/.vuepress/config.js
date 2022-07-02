@@ -269,6 +269,7 @@ function getCodesSideBar() {
       "array",
       "create",
       "judge",
+      "transform",
       "date",
       "colors",
       "html"
