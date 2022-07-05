@@ -302,3 +302,34 @@ export const convertNumbersToChineseCapitalAmount = Num => {
   return newchar;
 };
 ```
+
+## 格式化数字
+
+例如：12345678.9
+
+'0,000.0' -> '12,345,678.9'
+'0.00'    -> '12345678.90'
+'0,000'   -> '12,345,678'
+'0,00.0'  -> '12,34,56,78.9'
+
+```js
+export const formatNumber = (value, format) => {
+  if (!value) return '';
+  if (!format) return value;
+
+  const decimal = format.split('.')?.[1] ?? 0;
+  const integer =
+    `${format.split('.')?.[0]?.split(',')?.[1]}`.length ??
+    `${format.split('.')?.[0]}`.length ??
+    `${value}`.length;
+
+  const reg = new RegExp(`(\\d{1,${integer}})(?=(\\d{${integer}})+$)`, 'g');
+
+  return `${value.toFixed(Math.max(0, decimal.length))}`.replace(
+    /^(\d+)((\.\d+)?)$/,
+    (s, s1, s2) => {
+      return s1.replace(reg, '$&,') + s2;
+    }
+  );
+};
+```
