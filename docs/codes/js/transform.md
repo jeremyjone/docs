@@ -319,7 +319,7 @@ export const convertNumbersToChineseCapitalAmount = Num => {
  * 通过格式化文本转换数字的显示格式
  */
 export const formatNumber = (value, format) => {
-  if (!value) return '';
+  if (typeof value !== 'number') return '';
   if (!format) return value;
 
   const r = RegExp('^([^\\d]*)?(\\d*,?\\d*)*(\\.?\\d*)*([^\\d]*)?$').exec(
