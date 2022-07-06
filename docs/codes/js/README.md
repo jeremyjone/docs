@@ -94,3 +94,37 @@ export const trim = (str, type) => {
   }
 };
 ```
+
+## 处理 await 异常
+
+对于 `await` 的异常，虽然可以使用 `try-catch`，但实属有一些麻烦。
+
+可以使用下面方法来解决。
+
+```ts
+/**
+ * @param { Promise } promise
+ * @param { Object= } errorExt - Additional Information you can pass to the err object
+ * @return { Promise }
+ */
+export function to<T, U = any>(
+  promise: Promise<T>,
+  errorExt?: object
+): Promise<[U | null, T | undefined]> {
+  return promise
+    .then<[null, T]>((data: T) => [null, data])
+    .catch<[U, undefined]>(err => {
+      if (errorExt) {
+        Object.assign(err, errorExt);
+      }
+
+      return [err, undefined];
+    });
+}
+```
+
+基本使用方法：
+
+```js
+const [err, res] = await to(Promise.resolve(1));
+```
