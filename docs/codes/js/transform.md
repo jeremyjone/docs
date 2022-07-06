@@ -307,12 +307,17 @@ export const convertNumbersToChineseCapitalAmount = Num => {
 
 例如：12345678.9
 
-'0,000.0' -> '12,345,678.9'
-'0.00'    -> '12345678.90'
-'0,000'   -> '12,345,678'
-'0,00.0'  -> '12,34,56,78.9'
+ '0,000.00'   -> '12,345,678.90'
+ '0,000'      -> '12,345,678'
+ '0.0'        -> '12345678.9'
+ '0,000.0'    -> '12,345,678.9'
+ '0,000.00%'  -> '12,345,678.90%'
+ '$0,000.00'  -> '$12,345,678.90'
 
 ```js
+/**
+ * 通过格式化文本转换数字的显示格式
+ */
 export const formatNumber = (value, format) => {
   if (!value) return '';
   if (!format) return value;
@@ -323,13 +328,16 @@ export const formatNumber = (value, format) => {
     `${format.split('.')?.[0]}`.length ??
     `${value}`.length;
 
+  const [, prefix, , , suffix] = Array.from(
+    RegExp('^([^\\d]+)?(\\d+)(\\.\\d+)?([^\\d]+)?$').exec(format)
+  );
+
   const reg = new RegExp(`(\\d{1,${integer}})(?=(\\d{${integer}})+$)`, 'g');
 
-  return `${value.toFixed(Math.max(0, decimal.length))}`.replace(
-    /^(\d+)((\.\d+)?)$/,
-    (s, s1, s2) => {
-      return s1.replace(reg, '$&,') + s2;
-    }
-  );
+  return `${prefix ?? ''}${value.toFixed(Math.max(0, decimal.length))}${
+    suffix ?? ''
+  }`.replace(/^(\d+)((\.\d+)?)$/, (s, s1, s2) => {
+    return s1.replace(reg, '$&,') + s2;
+  });
 };
 ```
