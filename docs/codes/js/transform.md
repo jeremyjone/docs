@@ -322,22 +322,28 @@ export const formatNumber = (value, format) => {
   if (!value) return '';
   if (!format) return value;
 
-  const decimal = format.split('.')?.[1] ?? 0;
-  const integer =
-    `${format.split('.')?.[0]?.split(',')?.[1]}`.length ??
-    `${format.split('.')?.[0]}`.length ??
-    `${value}`.length;
+  const r = RegExp('^([^\\d]*)?(\\d*,?\\d*)*(\\.?\\d*)*([^\\d]*)?$').exec(
+    format
+  );
+  const [, prefix, i, decimal, suffix] = Array.from(r ?? []);
 
-  const [, prefix, , , suffix] = Array.from(
-    RegExp('^([^\\d]+)?(\\d+)(\\.\\d+)?([^\\d]+)?$').exec(format)
+  const integer = (i?.includes(',') ? i?.replace(/^(\d+,)*/g, '') : -1) ?? -1;
+
+  if (suffix === '%') {
+    // eslint-disable-next-line no-param-reassign
+    value *= 100;
+  }
+
+  // 千分位
+  const reg = new RegExp(
+    `(\\d{1,${integer.length}})(?=(\\d{${integer.length}})+$)`,
+    'g'
   );
 
-  const reg = new RegExp(`(\\d{1,${integer}})(?=(\\d{${integer}})+$)`, 'g');
-
-  return `${prefix ?? ''}${value.toFixed(Math.max(0, decimal.length))}${
-    suffix ?? ''
-  }`.replace(/^(\d+)((\.\d+)?)$/, (s, s1, s2) => {
-    return s1.replace(reg, '$&,') + s2;
-  });
+  return `${prefix ?? ''}${value
+    .toFixed(Math.max(0, (decimal?.length ?? 1) - 1))
+    .replace(/^(\d+)((\.\d+)?)$/, (s, s1, s2) => {
+      return (integer === -1 ? s1 : s1.replace(reg, '$&,')) + s2;
+    })}${suffix ?? ''}`;
 };
 ```
