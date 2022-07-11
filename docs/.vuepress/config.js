@@ -60,7 +60,8 @@ module.exports = config({
               { text: "Markdown 使用文档", link: "/document/markdown/" },
               { text: "Vim 使用文档", link: "/document/vim/" },
               { text: "npm 使用文档", link: "/document/npm/" },
-              { text: "Docker 使用文档", link: "/document/docker/" }
+              { text: "Docker 使用文档", link: "/document/docker/" },
+              { text: "正则表达式 使用文档", link: "/document/regexp/" }
             ]
           },
           {
@@ -106,7 +107,7 @@ module.exports = config({
     // displayAllHeaders: true,
 
     // 当用户滚动页面时，实时更新激活的标题
-    // activeHeaderLinks: true,
+    activeHeaderLinks: true,
 
     // 侧边栏，手动配置，根据目录结构，生成不同的配置
     sidebar: {
@@ -116,6 +117,7 @@ module.exports = config({
       "/document/vim/": getVimSideBar(),
       "/document/npm/": getNpmSideBar(),
       "/document/docker/": getDockerSideBar(),
+      "/document/regexp/": getRegExpSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
@@ -248,6 +250,10 @@ function getVimSideBar() {
 
 function getNpmSideBar() {
   return [_GetSubSideBar("npm 使用文档", "", [""])];
+}
+
+function getRegExpSideBar() {
+  return [_GetSubSideBar("正则表达式 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
