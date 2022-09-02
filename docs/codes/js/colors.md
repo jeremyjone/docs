@@ -158,6 +158,39 @@ export function rgbToHsv({ r, g, b, a }) {
 }
 ```
 
+### text -> rgb
+
+```js
+const reRGBA = /^rgb(a)?\((\d{1,3}),(\d{1,3}),(\d{1,3}),?([01]?\.?\d*?)?\)$/;
+
+export function textToRgb(str) {
+  if (typeof str !== "string") {
+    throw new TypeError("Expected a string");
+  }
+
+  const color = str.replace(/ /g, "");
+
+  const m = reRGBA.exec(color);
+
+  if (m === null) {
+    return hexToRgb(color);
+  }
+
+  const rgb = {
+    r: Math.min(255, parseInt(m[2], 10)),
+    g: Math.min(255, parseInt(m[3], 10)),
+    b: Math.min(255, parseInt(m[4], 10))
+  };
+
+  if (m[1]) {
+    const alpha = parseFloat(m[5]);
+    rgb.a = Math.min(1, isNaN(alpha) === true ? 1 : alpha) * 100;
+  }
+
+  return rgb;
+}
+```
+
 ## 颜色的处理
 
 ### 变亮/变暗
@@ -296,6 +329,32 @@ export function changeAlpha(color, offset) {
     g,
     b,
     a: Math.round(Math.min(1, Math.max(0, alpha + offset)) * 100)
+  });
+}
+```
+
+### 合并透明度
+
+有时候我们需要将一个带透明度的颜色，转换为一个不带透明度的颜色，同时要保持颜色看上去没有变化，就不能单单使用合并两个颜色的方法或者修改透明度的方法。
+
+此时需要一个背景颜色。因为带透明度的颜色看上去的效果一定是和背景色有关，默认白色。
+
+```js
+export function rgbaToRgb(color, bg = "#fff") {
+  if (typeof color !== "string" || typeof bg !== "string") {
+    throw new TypeError("Expected a string as color");
+  }
+
+  const { r, g, b, a } = textToRgb(color);
+
+  if (!a) return color;
+
+  const bgColor = textToRgb(bg);
+
+  return rgbToHex({
+    r: (r * a) / 100 + (bgColor.r * (100 - a)) / 100,
+    g: (g * a) / 100 + (bgColor.g * (100 - a)) / 100,
+    b: (b * a) / 100 + (bgColor.b * (100 - a)) / 100
   });
 }
 ```
