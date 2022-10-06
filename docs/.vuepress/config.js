@@ -119,6 +119,7 @@ module.exports = config({
       "/document/npm/": getNpmSideBar(),
       "/document/docker/": getDockerSideBar(),
       "/document/regexp/": getRegExpSideBar(),
+      "/document/emmet/": getEmmetSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
@@ -255,6 +256,10 @@ function getNpmSideBar() {
 
 function getRegExpSideBar() {
   return [_GetSubSideBar("正则表达式 使用文档", "", [""])];
+}
+
+function getEmmetSideBar() {
+  return [_GetSubSideBar("Emmet 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
