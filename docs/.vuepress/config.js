@@ -61,7 +61,8 @@ module.exports = config({
               { text: "Vim 使用文档", link: "/document/vim/" },
               { text: "npm 使用文档", link: "/document/npm/" },
               { text: "Docker 使用文档", link: "/document/docker/" },
-              { text: "正则表达式 使用文档", link: "/document/regexp/" }
+              { text: "正则表达式 使用文档", link: "/document/regexp/" },
+              { text: "Emmet 使用文档", link: "/document/emmet/" }
             ]
           },
           {
