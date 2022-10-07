@@ -37,9 +37,8 @@
 
 语法：元素名，如：`div`
 
-生成：
-
 ```html
+<!-- div -->
 <div></div>
 ```
 
@@ -47,9 +46,8 @@
 
 语法：`#`，如：`div#id`
 
-生成：
-
 ```html
+<!-- div#id -->
 <div id="id"></div>
 ```
 
@@ -57,9 +55,8 @@
 
 语法：`.`，如：`div.className`
 
-生成：
-
 ```html
+<!-- div.className -->
 <div class="className"></div>
 ```
 
@@ -67,9 +64,8 @@
 
 语法：`[]`，多个属性空格分开，如：`div[name=jeremyjone value=20]`
 
-生成：
-
 ```html
+<!-- div[name=jeremyjone value=20] -->
 <div name="jeremyjone" value="20"></div>
 ```
 
@@ -77,19 +73,17 @@
 
 语法：`{}`，可以生成文本内容，如：`div{jeremyjone}`
 
-生成：
-
 ```html
+<!-- div{jeremyjone} -->
 <div>jeremyjone</div>
 ```
 
 ### 生成多个重复元素
 
-语法：`*n`，会自动将元素重复n次遇到序号会自增，如：`div.className*2`
-
-生成：
+语法：`*n`，会自动将元素重复n次，如：`div.className*2`
 
 ```html
+<!-- div.className*2 -->
 <div class="className"></div>
 <div class="className"></div>
 ```
@@ -98,11 +92,11 @@
 
 语法：`$`，序列从1开始，遇到多个自动增加1，如：`div.className$`、`div{$}*3`
 
-生成：
-
 ```html
+<!-- div.className$ -->
 <div class="className1"></div>
 
+<!-- div{$}*3 -->
 <div>1</div>
 <div>2</div>
 <div>3</div>
@@ -115,6 +109,7 @@
     多个 `$` 使用可以生成多占位字符的数字，如：`div{jeremyjone$$}*20`
 
     ```html
+    <!-- div{jeremyjone$$}*20 -->
     <div>jeremyjone01</div>
     <div>jeremyjone02</div>
     <div>jeremyjone03</div>
@@ -137,6 +132,7 @@
     使用 `@-` 跟在 `$` 后面即可，如：`div{$@-}*3`
 
     ```html
+    <!-- div{$@-}*3 -->
     <div>3</div>
     <div>2</div>
     <div>1</div>
@@ -147,6 +143,7 @@
     使用 `@n` 跟在 `$` 后面即可，如：`div{$@3}*3`
 
     ```html
+    <!-- div{$@3}*3 -->
     <div>3</div>
     <div>4</div>
     <div>5</div>
@@ -155,6 +152,7 @@
     该方法如果是倒叙，则指定的是截止序号，如：`div{$@-3}*3`
 
     ```html
+    <!-- div{$@-3}*3 -->
     <div>5</div>
     <div>4</div>
     <div>3</div>
@@ -164,9 +162,8 @@
 
 语法：`>`，如：`div>span>ul>li*3`
 
-生成：
-
 ```html
+<!-- div>span>ul>li*3 -->
 <div>
     <span>
         <ul>
@@ -182,9 +179,8 @@
 
 语法：`+`，如：`div>span+ul>li*2`
 
-生成：
-
 ```html
+<!-- div>span+ul>li*2 -->
 <div>
     <span></span>
     <ul>
@@ -198,20 +194,20 @@
 
 语法：`^`，它会在当前元素的父级元素之后生成接下来的元素，如：`div>span^ul>li`
 
-生成：
-
 ```html
-<div><span></span></div>
+<!-- div>span^ul>li -->
+<div>
+    <span></span>
+</div>
 <ul>
     <li></li>
 </ul>
 ```
 
-遇到多层元素，还可以使用多个 `^` 来返回更高层级，每一个 `^` 表示返回一层，这在编写多层级多元素时非常高效：
-
-如：`div>span>div>ul>li*2^^^span>img`
+遇到多层元素，还可以使用多个 `^` 来返回更高层级，每一个 `^` 表示返回一层，这在编写多层级多元素时非常高效。如：`div>span>div>ul>li*2^^^span>img`
 
 ```html
+<!-- div>span>div>ul>li*2^^^span>img -->
 <div>
     <span>
         <div>
@@ -231,9 +227,8 @@
 
 语法：`()`，分组在多级元素中非常有用，如：`div>span>(ul>li*3)+img`、`div>(span>img.className$[alt=imgName$])*3`
 
-生成：
-
 ```html
+<!-- div>span>(ul>li*3)+img -->
 <div>
     <span>
         <ul>
@@ -245,6 +240,7 @@
     </span>
 </div>
 
+<!-- div>(span>img.className$[alt=imgName$])*3 -->
 <div>
     <span>
         <img src="" alt="imgName1" class="className1">
