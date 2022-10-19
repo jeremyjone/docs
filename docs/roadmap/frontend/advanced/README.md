@@ -17,7 +17,7 @@
 - 端口不同
 - 子域名不同
 
-<img :src="$withBase('/assets/roadmap/frontend/cors01.png')" alt="cors01">
+<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
 
 只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。
 
