@@ -2,3 +2,4 @@ node_modules
 release
 docs/.vuepress/dist
 gh-pages*
+.idea
