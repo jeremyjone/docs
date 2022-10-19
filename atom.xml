@@ -6,7 +6,7 @@
   <author>
     <name>JeremyJone</name>
   </author>
-  <updated>2022-10-19T07:01:53.894Z</updated>
+  <updated>2022-10-19T07:37:35.211Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://docs.jeremyjone.com/atom.xml"/>
   <link rel="alternate" href="https://docs.jeremyjone.com/"/>
@@ -15,10 +15,26 @@
     <name>JeremyJone</name>
   </contributor>
   <entry>
+    <title type="html">Home</title>
+    <id>https://docs.jeremyjone.com/</id>
+    <link href="https://docs.jeremyjone.com/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<Home />
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
     <title type="html">手撸代码</title>
     <id>https://docs.jeremyjone.com/codes/</id>
     <link href="https://docs.jeremyjone.com/codes/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
 <p>代码既可以学习，也可以拿来直接使用。</p>
 <p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
@@ -29,30 +45,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">Home</title>
-    <id>https://docs.jeremyjone.com/</id>
-    <link href="https://docs.jeremyjone.com/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<Home />
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">通用方法</title>
     <id>https://docs.jeremyjone.com/codes/js/</id>
     <link href="https://docs.jeremyjone.com/codes/js/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <p>一些通用函数。</p>
 <h2 id="拷贝"> 拷贝</h2>
@@ -164,14 +164,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数组的一些扩展方法</title>
     <id>https://docs.jeremyjone.com/codes/js/array/</id>
     <link href="https://docs.jeremyjone.com/codes/js/array/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数组的一些扩展方法"> 数组的一些扩展方法</h1>
 <h2 id="判断元素是否在数组中"> 判断元素是否在数组中</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>contains</span> <span>=</span> <span>(</span><span>arr<span>,</span> val</span><span>)</span> <span>=></span> <span>{</span>
@@ -291,14 +291,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">处理颜色的方法</title>
     <id>https://docs.jeremyjone.com/codes/js/colors/</id>
     <link href="https://docs.jeremyjone.com/codes/js/colors/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="处理颜色的方法"> 处理颜色的方法</h1>
 <p>相信对于前端来说，颜色的处理一定是越来越多的。</p>
 <p>下面这些属性可以任意变换，使用时需要注意引用关系。</p>
@@ -625,14 +625,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">生成方法</title>
     <id>https://docs.jeremyjone.com/codes/js/create/</id>
     <link href="https://docs.jeremyjone.com/codes/js/create/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="生成方法"> 生成方法</h1>
 <p>一些生成、创建的方法。</p>
 <h2 id="生成-uuid"> 生成 uuid</h2>
@@ -700,14 +700,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">处理日期方法</title>
     <id>https://docs.jeremyjone.com/codes/js/date/</id>
     <link href="https://docs.jeremyjone.com/codes/js/date/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="处理日期方法"> 处理日期方法</h1>
 <h2 id="判断日期"> 判断日期</h2>
 <h3 id="日期是否有效"> 日期是否有效</h3>
@@ -864,14 +864,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTML 处理方法</title>
     <id>https://docs.jeremyjone.com/codes/js/html/</id>
     <link href="https://docs.jeremyjone.com/codes/js/html/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="html-处理方法"> HTML 处理方法</h1>
 <h2 id="去除-html-标签"> 去除 html 标签</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>removeHtmltag</span> <span>=</span> <span>str</span> <span>=></span> <span>{</span>
@@ -1043,14 +1043,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">判断方法</title>
     <id>https://docs.jeremyjone.com/codes/js/judge/</id>
     <link href="https://docs.jeremyjone.com/codes/js/judge/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="判断方法"> 判断方法</h1>
 <p>一些通用的判断方法。</p>
 <h2 id="判断类型"> 判断类型</h2>
@@ -1572,14 +1572,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">常用的转换方法</title>
     <id>https://docs.jeremyjone.com/codes/js/transform/</id>
     <link href="https://docs.jeremyjone.com/codes/js/transform/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="常用的转换方法"> 常用的转换方法</h1>
 <h2 id="字符串大小写转换"> 字符串大小写转换</h2>
 <div><pre><code><span>/**
@@ -1909,14 +1909,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">文档手册</title>
     <id>https://docs.jeremyjone.com/document/</id>
     <link href="https://docs.jeremyjone.com/document/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="文档手册"> 文档手册</h1>
 <p>持续完善的工具文档手册。</p>
 <ul>
@@ -1932,14 +1932,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Docker 使用文档</title>
     <id>https://docs.jeremyjone.com/document/docker/</id>
     <link href="https://docs.jeremyjone.com/document/docker/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="docker-使用文档"> Docker 使用文档</h1>
 <h2 id="安装"> 安装</h2>
 <p>以下以 <code>CentOS7+</code> 为例，其余请参考<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">官方文档</a>：</p>
@@ -2232,14 +2232,14 @@ docker <span>kill</span> <span>&lt;</span>容器ID<span>></span>     <span># 强
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Docker 快速搭建 NPM 服务器</title>
     <id>https://docs.jeremyjone.com/document/docker/example/npm/</id>
     <link href="https://docs.jeremyjone.com/document/docker/example/npm/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="docker-快速搭建-npm-服务器"> Docker 快速搭建 NPM 服务器</h1>
 <p>我们使用 <a href="https://verdaccio.org/docs/docker/" target="_blank" rel="noopener noreferrer">verdaccio</a> 来快速搭建 NPM 服务器。</p>
 <h2 id="拉取镜像"> 拉取镜像</h2>
@@ -2272,14 +2272,14 @@ docker pull verdaccio/cerdaccio:4.0.0
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Emmet 使用文档</title>
     <id>https://docs.jeremyjone.com/document/emmet/</id>
     <link href="https://docs.jeremyjone.com/document/emmet/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="emmet-使用文档"> Emmet 使用文档</h1>
 <p><code>Emmet</code> 可以帮助我们快速开发页面代码，通过固定语法，快速生成 <code>HTML</code>、<code>CSS</code> 代码的一种工具。</p>
 <h2 id="使用方法"> 使用方法</h2>
@@ -2530,14 +2530,14 @@ docker pull verdaccio/cerdaccio:4.0.0
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">入门</title>
     <id>https://docs.jeremyjone.com/document/gantt/README_old/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/README_old/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="入门"> 入门</h1>
 <Description author="jeremyjone" version="0.0.17" date="2020-12-22" copyright="jeremyjone" />
 <p>通过入门的章节内容，可以快速引入并使用 JzGantt。</p>
@@ -2630,14 +2630,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">列组件 JGanttColumn</title>
     <id>https://docs.jeremyjone.com/document/gantt/column/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/column/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="列组件-jganttcolumn"> 列组件 JGanttColumn</h1>
 <Description author="jeremyjone" date="2020-10-12" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2709,14 +2709,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">通用方法</title>
     <id>https://docs.jeremyjone.com/document/gantt/common/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/common/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <h2 id="日期格式化属性"> 日期格式化属性</h2>
 <p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
@@ -2769,14 +2769,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">根组件 JGantt</title>
     <id>https://docs.jeremyjone.com/document/gantt/root/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/root/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="根组件-jgantt"> 根组件 JGantt</h1>
 <Description author="jeremyjone" date="2020-12-02" copyright="jeremyjone" />
 <p>对于 <code>JGantt</code> 组件，它具有非常丰富的属性。</p>
@@ -2982,14 +2982,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">滑块组件 JGanttSlider</title>
     <id>https://docs.jeremyjone.com/document/gantt/slider/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/slider/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="滑块组件-jganttslider"> 滑块组件 JGanttSlider</h1>
 <Description author="jeremyjone" date="2020-11-05" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -3130,14 +3130,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">GIT 命令</title>
     <id>https://docs.jeremyjone.com/document/git/</id>
     <link href="https://docs.jeremyjone.com/document/git/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="git-命令"> GIT 命令</h1>
 <h2 id="安装"> 安装</h2>
 <ul>
@@ -3820,14 +3820,14 @@ Closes #1, #2
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">GitHub Pages action 配置</title>
     <id>https://docs.jeremyjone.com/document/git/github_workflow/</id>
     <link href="https://docs.jeremyjone.com/document/git/github_workflow/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-pages-action-配置"> GitHub Pages action 配置</h1>
 <p>GitHub 给我们提供了非常方便的部署功能 <a href="https://github.com/marketplace/actions/github-pages-action" target="_blank" rel="noopener noreferrer">GitHub Pages action</a>。它可以帮助我们快速部署静态页面，省去了每次单独部署的繁琐操作，我们只需要通过简单的配置就可以实现该功能。</p>
 <p>我们以该 vuepress 文档为例。</p>
@@ -4053,14 +4053,14 @@ Closes #1, #2
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Markdown 语法</title>
     <id>https://docs.jeremyjone.com/document/markdown/</id>
     <link href="https://docs.jeremyjone.com/document/markdown/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="markdown-语法"> Markdown 语法</h1>
 <h2 id="标题"> 标题</h2>
 <p>使用 <code>#</code> 设置标题。
@@ -4564,14 +4564,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">npm 使用</title>
     <id>https://docs.jeremyjone.com/document/npm/</id>
     <link href="https://docs.jeremyjone.com/document/npm/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="npm-使用"> npm 使用</h1>
 <h2 id="安装"> 安装</h2>
 <p><code>npm</code> 是 <code>Node</code> 默认的模块管理器，同时也是模块登记和管理系统，它随 <code>Node</code> 环境一起安装，不需要单独安装。</p>
@@ -4952,14 +4952,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">正则表达式的使用</title>
     <id>https://docs.jeremyjone.com/document/regexp/</id>
     <link href="https://docs.jeremyjone.com/document/regexp/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="正则表达式的使用"> 正则表达式的使用</h1>
 <h2 id="什么是正则表达式"> 什么是正则表达式</h2>
 <p>正则表达式是高级文本匹配模式，用于搜索文本中的指定字符串。其本质是由一些字符和特殊字符组成的字符串，其中的字符可以是字母，数字，特殊字符，可以是零个或多个。这个字符串可以用来搜索文本中的指定字符串。</p>
@@ -5276,14 +5276,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vim 使用说明</title>
     <id>https://docs.jeremyjone.com/document/vim/</id>
     <link href="https://docs.jeremyjone.com/document/vim/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vim-使用说明"> Vim 使用说明</h1>
 <h2 id="打开文件"> 打开文件</h2>
 <p><code>vim filename</code>     打开文件</p>
@@ -5515,14 +5515,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Example Page</title>
     <id>https://docs.jeremyjone.com/example/</id>
     <link href="https://docs.jeremyjone.com/example/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="example-page"> Example Page</h1>
 <p>YAML config</p>
 <div><pre><code><span>---</span>
@@ -5552,14 +5552,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">学习路线</title>
     <id>https://docs.jeremyjone.com/roadmap/</id>
     <link href="https://docs.jeremyjone.com/roadmap/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="学习路线"> 学习路线</h1>
 <p>保持学习，从 GitHub 搬运了一点学习路线图，以及对应的主页，方便查找和学习，可以快速查缺补漏。</p>
 <ul>
@@ -5576,14 +5576,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Android 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/android/</id>
     <link href="https://docs.jeremyjone.com/roadmap/android/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="android-学习之路"> Android 学习之路</h1>
 <p>Android 的学习之路，页面只有图，不咋地。。。</p>
 <p><a href="https://github.com/mobile-roadmap/android-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -5595,14 +5595,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">计算机基础</title>
     <id>https://docs.jeremyjone.com/roadmap/base/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="计算机基础"> 计算机基础</h1>
 <p>计算机基础是计算机科学的重要基石。只有充分掌握了计算机的基础理论部分，才可以更快、更好的学习更高级的知识。</p>
 ]]></content>
@@ -5612,14 +5612,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">算法</title>
     <id>https://docs.jeremyjone.com/roadmap/base/algorithm/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/algorithm/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="算法"> 算法</h1>
 ]]></content>
     <author>
@@ -5628,14 +5628,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">计算机基础内容</title>
     <id>https://docs.jeremyjone.com/roadmap/base/computer/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/computer/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
 ]]></content>
     <author>
@@ -5644,14 +5644,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据结构</title>
     <id>https://docs.jeremyjone.com/roadmap/base/data-structure/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/data-structure/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据结构"> 数据结构</h1>
 ]]></content>
     <author>
@@ -5660,14 +5660,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据库</title>
     <id>https://docs.jeremyjone.com/roadmap/base/database/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/database/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据库"> 数据库</h1>
 ]]></content>
     <author>
@@ -5676,14 +5676,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">网络基础</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="网络基础"> 网络基础</h1>
 <h2 id="osi-模型"> OSI 模型</h2>
 <h3 id="七层模型"> 七层模型</h3>
@@ -5703,14 +5703,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">域名</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/domain/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/domain/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="域名"> 域名</h1>
 ]]></content>
     <author>
@@ -5719,14 +5719,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">IP 网际协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/ip/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/ip/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
 ]]></content>
     <author>
@@ -5735,14 +5735,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">OSI 模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="osi-模型"> OSI 模型</h1>
 ]]></content>
     <author>
@@ -5751,14 +5751,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">四层模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="四层模型"> 四层模型</h1>
 ]]></content>
     <author>
@@ -5767,14 +5767,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">七层模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="七层模型"> 七层模型</h1>
 ]]></content>
     <author>
@@ -5783,14 +5783,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">TCP 协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="tcp-协议"> TCP 协议</h1>
 ]]></content>
     <author>
@@ -5799,14 +5799,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">UDP 协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="udp-协议"> UDP 协议</h1>
 ]]></content>
     <author>
@@ -5815,30 +5815,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">万维网</title>
-    <id>https://docs.jeremyjone.com/roadmap/base/network/www/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/base/network/www/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="万维网"> 万维网</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTTP</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/http/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/http/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="http"> HTTP</h1>
 <p><code>HTTP</code>：<code>hypertext transform protocol</code>，超文本传输协议。它允许将超文本标记语言（<code>HTML</code>）从 web 服务器传送到客户端的浏览器。为了使超文本的链接能够高效率的完成，需要使用 <code>HTTP</code> 协议来出阿松一些必需的信息。</p>
 <p>从层次的角度看，<code>HTTP</code> 是面向事务的应用层协议，它是万维网上能够可靠地交换文件的重要基础。</p>
@@ -6065,14 +6049,30 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">万维网</title>
+    <id>https://docs.jeremyjone.com/roadmap/base/network/www/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/base/network/www/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="万维网"> 万维网</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTTPS</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/https/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/https/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="https"> HTTPS</h1>
 <h2 id="什么是-https"> 什么是 HTTPS</h2>
 <p><code>HTTPS</code>：（Hyper Text Transfer Protocol over SecureSocket Layer），是以安全为目标的 <code>HTTP</code> 通道。在 <code>HTTP</code> 的基础上，通过传输加密和身份认证保证了传输过程的安全性。</p>
@@ -6119,14 +6119,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">URL</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/url/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/url/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="url"> URL</h1>
 <p><code>URL</code>：<code>Uniform Resource Identifier</code>，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。<code>URL</code> 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。</p>
 <p><code>URL</code> 相当于一个文件名在网络范围的扩展。因此 <code>URL</code> 是与因特网相连的机器上的任何可访问对象的一个指针。</p>
@@ -6151,14 +6151,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">ASP.NET Core 开发者学习路线图</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="asp-net-core-开发者学习路线图"> ASP.NET Core 开发者学习路线图</h1>
 <p>.NET Core 的学习之路，中文更新速度很好。</p>
 <p><a href="https://github.com/MoienTajik/AspNetCore-Developer-Roadmap" target="_blank" rel="noopener noreferrer">英文文档</a></p>
@@ -6171,14 +6171,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <h2 id="开始之前"> 开始之前</h2>
 <p>先贴上官方地址：
@@ -6227,14 +6227,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">在 ASP.NET 中使用授权与认证</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="在-asp-net-中使用授权与认证"> 在 ASP.NET 中使用授权与认证</h1>
 <p>下面通过一组渐进式的例子，来学习 ASP.NET 是如何认证并授权的。</p>
 <h2 id="添加认证中间件"> 添加认证中间件</h2>
@@ -6617,14 +6617,14 @@ services<span>.</span><span><span>AddSingleton</span><span><span>&lt;</span>IAut
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">IdentityServer4 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="identityserver4-的使用"> IdentityServer4 的使用</h1>
 <p>IdentityServer4 是基于 OpenId Connect（OIDC）、OAuth 2.0 统一的身份认证和授权系统。它拥有很多功能：</p>
 <ul>
@@ -6975,14 +6975,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">外部身份验证</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="外部身份验证"> 外部身份验证</h1>
 <p>基于 OAuth2 的特性，我们可以轻松通过外部账户进行登录。</p>
 <p>外部账户登录的好处：</p>
@@ -7124,14 +7124,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">详解认证中心的配置</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="详解认证中心的配置"> 详解认证中心的配置</h1>
 <p>在 <code>IdentityServer</code> 中，需要我们进行配置的内容，大体分成：<code>IdentityResource</code>、<code>ApiScope</code>、<code>ApiResource</code> 和 <code>Client</code>，它们都是在 <code>IdentityServer4.Models</code> 中定义的。</p>
 <p>我们在创建一个 Ids 服务之后，也要首先进行配置初始数据（之前写过的 Config.cs），也就是配置这些内容。</p>
@@ -7604,14 +7604,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据的持久化（使用数据库）</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据的持久化（使用数据库）"> 数据的持久化（使用数据库）</h1>
 <p>前面只是一个最简单的基础使用方案，虽然已经实现了认证与授权，但是明显并不能满足生产需求，下面就按不同需求进行配置。</p>
 <p>上面的例子中，所有数据都在内存中，并不能持久化。如果要数据持久化，上数据库是必然的。</p>
@@ -8239,14 +8239,14 @@ dotnet ef database update -c ApplicationDbContext
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JWT</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="jwt"> JWT</h1>
 <h2 id="什么是-jwt"> 什么是 JWT</h2>
 <p>Jwt，Json Web Token 是一个开放标准（<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">RFC 7519</a>），它定义了一种紧凑且独立的方法，用于在各方之间安全地将信息作为 JSON 对象传输。由于此信息是经过数字签名的，因此可以被验证和信任。可以使用密码（使用 HMAC 算法）或使用 RSA 或 ECDSA 的公钥/私钥对对 JWT 进行签名。</p>
@@ -8412,14 +8412,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">基础知识</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/basic/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>本文将学习 <code>.NET</code> 需要的一些前置基础知识。</p>
 <blockquote>
@@ -8506,14 +8506,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>在互联网中，因为服务器性能、网络带宽等各种原因，传输数据时需要考虑的问题相比单机程序要更多。缓存的出现有效解决了这个问题。缓存可以有效降低服务器的重复工作量，进而提高服务器的性能和效率。</p>
 <p>缓存适用于不经常修改的数据，如媒体文件等。而且缓存一般存在于高速介质中，同时网络中各个节点均可设置缓存，所以使用缓存的效率会更高。</p>
@@ -8628,14 +8628,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">分布式缓存</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="分布式缓存"> 分布式缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>分布式缓存，顾名思义就是多个服务器共享一个缓存。</p>
@@ -8801,14 +8801,14 @@ GO
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">内存缓存</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="内存缓存"> 内存缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>ASP.NET 支持多个不同缓存。通过 <code>IMemoryCache</code> 可以创建一个简单的内存缓存，它用于在 web 服务器的内存中创建一块缓存。当服务器运行时应确保会话在使用内存中缓存时处于粘滞状态。粘滞会话确保来自客户端的后续请求都将发送到相同服务器。</p>
@@ -8884,14 +8884,14 @@ GO
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">跨域</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cors/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="跨域"> 跨域</h1>
 <h2 id="什么是跨域"> 什么是跨域</h2>
 <h2 id="配置-cors"> 配置 CORS</h2>
@@ -8919,14 +8919,14 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>数据库就是存储数据的仓库。数据库在保存数据上具有显而易见的优势：</p>
 <ul>
@@ -9013,14 +9013,14 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>Entity Framework (EF) Core 是轻量化、可扩展、开源和跨平台版的常用 Entity Framework 数据访问技术。
 EF Core 可用作对象关系映射程序 (O/RM)，这可以实现以下两点：</p>
@@ -9223,14 +9223,14 @@ dotnet ef database update
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">DbContext 的配置</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="dbcontext-的配置"> DbContext 的配置</h1>
 <p><code>DbContext</code> 实例表示与数据库的会话，可用于查询和保存实体实例。<code>DbContext</code> 是工作单元和存储库模式的组合。</p>
 <p>通常，你将创建一个从 <code>DbContext</code> 派生的类，并在 <code>DbSet&lt;TEntity&gt;</code> 模型中包含每个实体的属性。如果 <code>DbSet&lt;TEntity&gt;</code> 属性具有公共资源库，则在创建派生上下文的实例时，它们会自动初始化。</p>
@@ -9292,14 +9292,14 @@ dotnet ef database update
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">管理数据库</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="管理数据库"> 管理数据库</h1>
 <h2 id="迁移数据库"> 迁移数据库</h2>
 <p>迁移数据库是将模型转换为数据库表。</p>
@@ -9365,14 +9365,14 @@ Scaffold<span>-</span>DbContext <span>"server=localhost;userid=jeremyjone;pwd=12
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">模型</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="模型"> 模型</h1>
 <p>Entity Framework Core 使用一组约定来根据实体类的形状生成模型。可指定其他配置以补充或替代约定的内容。模型对应于数据库中的表，每一张数据表都应该对应一个数据模型。</p>
 <div><p>示例代码</p>
@@ -9628,14 +9628,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="使用"> 使用</h1>
 <h2 id="查询数据"> 查询数据</h2>
 <p>Entity Framework Core 使用语言集成查询 (LINQ) 来查询数据库中的数据。</p>
@@ -9715,14 +9715,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">其他映射工具</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="其他映射工具"> 其他映射工具</h1>
 <ul>
 <li><a href="http://www.donet5.com/Doc/1/1180" target="_blank" rel="noopener noreferrer">SqlSugar</a></li>
@@ -9735,14 +9735,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <blockquote>
 <p>高内聚，低耦合</p>
@@ -9848,14 +9848,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">服务容器</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="服务容器"> 服务容器</h1>
 <h2 id="默认容器"> 默认容器</h2>
 <p>使用内置的服务容器可以满足框架和大多数消费者应用的需求。在一个基本框架的 <code>Startup.cs</code> 中已经添加好了相应的代码，我们只需要直接使用即可：</p>
@@ -9895,14 +9895,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">生命周期</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
 <ul>
@@ -9937,14 +9937,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">应用性能监控系统</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="应用性能监控系统"> 应用性能监控系统</h1>
 <p>如今分布式架构越来越多，对于整套系统的监控越来越复杂，不单单是一个日志能够解决的，需要日志、追踪、分析等不同工具配合使用，才能满足需求。</p>
 <p>在众多 APM 系统中，<code>SkyWalking</code> 算是一款比较好用的 APM 系统。它包括 <code>服务端</code>、<code>界面</code>、以及 <code>探针</code>，其中 <code>探针</code> 是针对不同语言有不同的包，针对 ASP.NET 的探针包是 <code>SkyAPM-dotnet</code>，具体可以查看 <a href="https://github.com/SkyAPM" target="_blank" rel="noopener noreferrer">GitHub</a>。</p>
@@ -10087,14 +10087,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Serilog 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="serilog-的使用"> Serilog 的使用</h1>
 <p>Serilog 是第三方日志工具，拥有强大的插件功能和易用性。</p>
 <h2 id="安装"> 安装</h2>
@@ -10176,14 +10176,14 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
 <p>举个例子，一个用户对象，它有如下属性：</p>
@@ -10237,14 +10237,14 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">AutoMapper</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="automapper"> AutoMapper</h1>
 <p>正如前文说的那样，对象映射就是将一个对象中的属性按照一定规则映射到另一个对象中。这个操作是枯燥重复的，所以就有了 <code>AutoMapper</code> 这样的对象映射器。</p>
 <h2 id="映射规则"> 映射规则</h2>
@@ -10970,14 +10970,14 @@ services<span>.</span><span>AddAutoMapper</span><span>(</span><span>typeof</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">RabbitMQ 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
 <p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
 <h2 id="安装"> 安装</h2>
@@ -11343,14 +11343,14 @@ properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Swagger 文档的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="swagger-文档的使用"> Swagger 文档的使用</h1>
 <p>相信能看到这里，你一定对 swagger 多少有了解。它是极具推崇的文档生成工具，在多种语言下都可以有良好的体验。有兴趣的朋友可以去看看 <a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
 <h2 id="安装"> 安装</h2>
@@ -11634,14 +11634,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Flutter 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/flutter/</id>
     <link href="https://docs.jeremyjone.com/roadmap/flutter/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="flutter-学习之路"> Flutter 学习之路</h1>
 <p>Flutter 的学习之路，页面包含英文学习文章链接。</p>
 <p><a href="https://github.com/olexale/flutter_roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -11653,14 +11653,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">前端学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="前端学习之路"> 前端学习之路</h1>
 <p>前端学习，需要逐步进阶。从网络三剑客开始，<a href="./html">HTML</a>，<a href="./css">CSS</a>，<a href="./js">JavaScript</a>，然后逐步学习网络知识以，了解了网络原理后可以学习提升性能。</p>
 <p>然后可以开始学习框架内容。</p>
@@ -11671,14 +11671,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">前端进阶</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
 <h2 id="cors-详解"> CORS 详解</h2>
 <p><code>CORS</code> 全称是 <code>Cross-origin Resource Sharing</code>，即 <code>跨域资源共享</code>。它解决了浏览器中只能同源请求数据的限制。</p>
@@ -11692,7 +11692,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
 <li>端口不同</li>
 <li>子域名不同</li>
 </ul>
-<img :src="$withBase('/assets/roadmap/frontend/cors01.png')" alt="cors01">
+<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
 <p>只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。</p>
 <h3 id="cors-的两种请求模式"> CORS 的两种请求模式</h3>
 <p>随着 Ajax 请求的使用越来越频繁，网页跨域请求急需解决，于是 W3C 在 2014 年发布了一个正式推荐的通信标准来解决该问题，它就是 <code>CORS</code>。</p>
@@ -11747,14 +11747,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 预处理器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-预处理器"> CSS 预处理器</h1>
 ]]></content>
     <author>
@@ -11763,14 +11763,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">性能部分</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="性能部分"> 性能部分</h1>
 <h2 id="网站的性能优化"> 网站的性能优化</h2>
 <p>网站的性能主要是指一个网站从请求到完全打开的过程是否顺畅以及用时是否能够达到用户的承受度。简单来说，就是用户打开网站，如果时间过长，或者打开时很不顺畅，那么这种体验是非常糟糕的，也就是性能不好。</p>
@@ -11808,14 +11808,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">原理部分</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="原理部分"> 原理部分</h1>
 <h2 id="浏览器的渲染机制和原理"> 浏览器的渲染机制和原理</h2>
 <p>当我们在浏览器地址栏中键入一个地址，然后按下回车，此时一个请求便开始了。</p>
@@ -11975,14 +11975,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">TypeScript</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="typescript"> TypeScript</h1>
 ]]></content>
     <author>
@@ -11991,14 +11991,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-基础"> CSS 基础</h1>
 <h2 id="什么是-css"> 什么是 CSS</h2>
 <p>CSS，<code>Cascading Style Sheets</code>，即 <code>层叠样式表</code>。它是一种样式表语言，用来描述 <code>HTML</code> 或 <code>XML</code> 文档的呈现。<code>CSS</code> 描述了在屏幕、纸质、音频等其他媒体上的元素应该如何被渲染的问题。</p>
@@ -12094,14 +12094,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">盒模型</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/box/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/box/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="盒模型"> 盒模型</h1>
 <p>盒模型是 <code>CSS</code> 中一个非常重要的概念。所有元素都被一个个盒子包裹，理解盒模型的原理，是我们使用 <code>CSS</code> 实现准确布局、处理元素排列的关键所在。</p>
 <h2 id="块级与内联"> 块级与内联</h2>
@@ -12267,14 +12267,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">布局</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="布局"> 布局</h1>
 <p><code>CSS</code> 页面布局技术允许我们拾取网页中的元素，并且控制它们相对正常布局流、周边元素、父容器或主视口的位置。</p>
 <h2 id="正常布局流"> 正常布局流</h2>
@@ -12295,14 +12295,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">弹性布局（Flexbox）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="弹性布局（flexbox）"> 弹性布局（Flexbox）</h1>
 <p>弹性盒子布局是专门用于创建横向/纵向的一维页面布局。虽然它是一维页面布局，但是通过嵌套，可以在两个维度构建更加丰富的布局内容。</p>
 <p>要使用弹性盒子，只需要在父级元素中设置 <code>display:flex</code> 即可，所有子元素都将按照 <code>flex</code> 进行布局。</p>
@@ -12599,14 +12599,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">栅格布局（Grid）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="栅格布局（grid）"> 栅格布局（Grid）</h1>
 <p>与弹性布局不同，栅格布局是一个<strong>二维布局系统</strong>。它可以用于布局页面中主要的区域以及小型组件。</p>
 <p>栅格布局是一组水平和垂直的 <strong>栅格线</strong> 相交，划分了 <strong>行</strong> 和 <strong>列</strong> 的轨道。</p>
@@ -13119,15 +13119,85 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">响应式与媒体查询</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/media/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/media/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="响应式与媒体查询"> 响应式与媒体查询</h1>
+<p>媒体查询是 <code>CSS2</code> 引入的，它让不同媒体类型定义不同样式成为了可能。</p>
+<h2 id="媒体查询的作用"> 媒体查询的作用</h2>
+<p>媒体查询可以：</p>
+<ul>
+<li>查询设备类型</li>
+<li>查询设备视口</li>
+<li>查询属性</li>
+<li>查询横屏/竖屏</li>
+</ul>
+<p>等等。</p>
+<p>媒体查询使用 <code>@media</code> 语法使用：</p>
+<div><pre><code><span>body</span> <span>{</span>
+    <span>display</span><span>:</span> block<span>;</span>
+<span>}</span>
+
+<span><span>@media</span> screen <span>and</span> <span>(</span><span>max-width</span><span>:</span> 768px<span>)</span></span> <span>{</span>
+    <span>body</span> <span>{</span>
+        <span>display</span><span>:</span> flex<span>;</span>
+    <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>上面语法的意义：当浏览器视口为 <code>768px</code> 或更小时，<code>body</code> 标签的 <code>display</code> 属性值改为 <code>flex</code>。</p>
+<h2 id="关键字"> 关键字</h2>
+<h3 id="and、-、not"> <code>and</code>、<code>,</code>、<code>not</code></h3>
+<p>分别对应 与、或、非</p>
+<ul>
+<li>
+<p>多个混合媒体特征，使用 <code>and</code> 来关联：</p>
+<blockquote>
+<div><pre><code><span><span>@media</span> screen <span>and</span> <span>(</span><span>min-width</span><span>:</span> 400px<span>)</span> <span>and</span> <span>(</span><span>orientation</span><span>:</span> landscape<span>)</span></span> <span>{</span>
+  <span>body</span> <span>{</span>
+    <span>color</span><span>:</span> blue<span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></blockquote>
+</li>
+<li>
+<p>多个条件，匹配任何一个都可以生效，使用 <code>,</code> 直接分隔开即可：</p>
+<blockquote>
+<div><pre><code><span><span>@media</span> screen <span>and</span> <span>(</span><span>min-width</span><span>:</span> 400px<span>)</span><span>,</span> screen <span>and</span> <span>(</span><span>orientation</span><span>:</span> landscape<span>)</span></span> <span>{</span>
+  <span>body</span> <span>{</span>
+    <span>color</span><span>:</span> blue<span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></blockquote>
+</li>
+<li>
+<p>让某个媒体失效，使用 <code>not</code> 来实现：</p>
+<blockquote>
+<div><pre><code><span><span>@media</span> <span>not</span> all <span>and</span> <span>(</span><span>orientation</span><span>:</span> landscape<span>)</span></span> <span>{</span>
+  <span>body</span> <span>{</span>
+    <span>color</span><span>:</span> blue<span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></blockquote>
+</li>
+</ul>
+<h3 id="only"> <code>only</code></h3>
+<p><code>only</code> 可防止旧版浏览器应用指定样式，这对现代浏览器没有任何影响。</p>
+<h3 id="使用范围"> 使用范围</h3>
+<p>这些关键字不仅可以在 css 中使用，还可以在 link 标签中使用：</p>
+<div><pre><code><span><span><span>&lt;</span>link</span> <span>rel</span><span><span>=</span><span>"</span>stylesheet<span>"</span></span> <span>media</span><span><span>=</span><span>"</span>screen and (min-width: 900px)<span>"</span></span> <span>href</span><span><span>=</span><span>"</span>widescreen.css<span>"</span></span><span>></span></span>
+<span><span><span>&lt;</span>link</span> <span>rel</span><span><span>=</span><span>"</span>stylesheet<span>"</span></span> <span>media</span><span><span>=</span><span>"</span>screen and (max-width: 600px)<span>"</span></span> <span>href</span><span><span>=</span><span>"</span>smallscreen.css<span>"</span></span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>这样可以根据不同尺寸来导入不同样式文件。</p>
+<h2 id="创建响应式"> 创建响应式</h2>
+<p>编写不同的样式文件，再通过媒体查询，根据不同视口大小来分别引入，这样就可以编写出一套响应式界面。</p>
 ]]></content>
     <author>
       <name>JeremyJone</name>
@@ -13135,14 +13205,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">定位</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/position/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/position/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="定位"> 定位</h1>
 <p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
 <p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
@@ -13236,14 +13306,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">选择器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/selector/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="选择器"> 选择器</h1>
 <p>CSS 有一套完整的选择器规则，可以帮助我们快速获取任意指定元素或元素集。</p>
 <h2 id="元素选择器"> 元素选择器</h2>
@@ -13591,14 +13661,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">构建工具</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/build/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="构建工具"> 构建工具</h1>
 <h2 id="webpack"> Webpack</h2>
 <h2 id="rollup"> Rollup</h2>
@@ -13610,14 +13680,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">格式化工具</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/format/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="格式化工具"> 格式化工具</h1>
 <h2 id="eslint"> ESLint</h2>
 <h2 id="prettier"> Prettier</h2>
@@ -13628,14 +13698,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">包管理器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/package/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="包管理器"> 包管理器</h1>
 <h2 id="npm"> npm</h2>
 <h2 id="yarn"> yarn</h2>
@@ -13646,14 +13716,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTML 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/html/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/html/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
 <h2 id="什么是-html"> 什么是 HTML</h2>
 <p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
@@ -13902,14 +13972,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JavaScript 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="javascript-基础"> JavaScript 基础</h1>
 <h2 id="什么是-javascript"> 什么是 JavaScript</h2>
 <p><code>JavaScript</code> 是一种具有函数优先的轻量级、解释型的脚本语言。它最初的设计是用来操作浏览器中的 <code>DOM</code> 元素的，但现在它也被应用到了很多非浏览器环境中，甚至开发后端应用。</p>
@@ -14053,252 +14123,14 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">网络请求</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/js/net/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/js/net/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="网络请求"> 网络请求</h1>
-<h2 id="ajax"> Ajax</h2>
-<p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
-<h3 id="xmlhttprequest"> XMLHttpRequest</h3>
-<p>随着网络应用的广泛，通过网络地址刷新整个页面的内容有时显得过于冗余，于是出现了 <code>XMLHttpRequest</code> 技术。它用于与服务器进行交互，在不刷新页面的情况下请求特定 <code>URL</code>。这允许网页在不影响用户操作的情况下，更新页面的局部内容。</p>
-<p><code>XMLHttpRequest</code> 是一个内建的浏览器对象，允许使用 <code>JavaScript</code> 发送 <code>HTTP</code> 请求。虽然它有 <code>XML</code> 一词，但它不仅仅能发送 <code>XML</code>，而是可以发送任何数据内容。</p>
-<p>其工作原理：</p>
-<img :src="$withBase('/assets/roadmap/frontend/js/xhr.gif')" alt="工作原理">
-<h3 id="发送请求"> 发送请求</h3>
-<p>发送一个 <code>XMLHttpRequest</code> 请求，大致需要三步：</p>
-<ul>
-<li>
-<p>1、创建 <code>XMLHttpRequest</code> 对象</p>
-<div><pre><code><span>let</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span> <span>// 没有任何参数</span>
-</code></pre>
-<div><span>1</span><br></div></div></li>
-<li>
-<p>2、初始化对象</p>
-<div><pre><code>xhr<span>.</span><span>open</span><span>(</span>method<span>,</span> <span>URL</span><span>,</span> <span>[</span>async<span>,</span> user<span>,</span> password<span>]</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><ul>
-<li><code>method</code>：要是用的 <code>HTTP</code> 方法</li>
-<li><code>URL</code>：请求路径</li>
-<li><code>async</code>：可选，默认 <code>true</code>，表示是否异步执行。如果为 <code>true</code>，则在 <code>send()</code> 方法受到答复前不会返回</li>
-<li><code>user</code>：认证用户名，默认 <code>null</code></li>
-<li><code>password</code>：认证密码，默认 <code>null</code></li>
-</ul>
-<p>这里的 <code>open</code> 并不会真正建立连接，而是仅仅配置请求对象。</p>
-<div><p>注意</p>
-<p>需要注意的是，<code>async</code> 参数在很多浏览器上已经废弃支持同步，因为它在主线程上，容易破坏用户体验。但在 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Worker" target="_blank" rel="noopener noreferrer">Worker</a> 线程上允许同步请求。</p>
-</div>
-</li>
-<li>
-<p>3、发送请求</p>
-<div><pre><code>xhr<span>.</span><span>send</span><span>(</span><span>[</span>body<span>]</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><ul>
-<li><code>body</code>：发送请求时的可选请求体。在某些请求中（如 GET 请求），是不包含请求体的。</li>
-</ul>
-<p>该方法会建立连接，并将请求发送到服务器。</p>
-</li>
-</ul>
-<h3 id="接收响应"> 接收响应</h3>
-<p>发送之后，可以通过回调方法获取响应：</p>
-<div><pre><code><span>// 请求完成，响应已经完全下载，可以显示响应信息</span>
-xhr<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  console<span>.</span><span>log</span><span>(</span><span><span>`</span><span><span>${</span>xhr<span>.</span>status<span>}</span></span><span>, </span><span><span>${</span>xhr<span>.</span>response<span>}</span></span><span>`</span></span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-
-<span>// 请求错误，或无法发出请求</span>
-xhr<span>.</span><span>onerror</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  console<span>.</span><span>log</span><span>(</span><span>"error"</span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-
-<span>// 定时触发，可以显示进度</span>
-xhr<span>.</span><span>onprogress</span> <span>=</span> <span>function</span><span>(</span><span>event</span><span>)</span> <span>{</span>
-  <span>// 如果服务器发送了 Content-Length 响应头，event.lengthComputable 会为 true，此时可以调用 event.total 属性</span>
-  console<span>.</span><span>log</span><span>(</span><span><span>`</span><span><span>${</span>event<span>.</span>loaded<span>}</span></span><span> / </span><span><span>${</span>event<span>.</span>total<span>}</span></span><span>`</span></span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>一旦接收到响应，<code>xhr</code> 中会接收到：</p>
-<ul>
-<li><code>status</code>：状态码</li>
-<li><code>statusText</code>：状态消息，一般对应于状态码</li>
-<li><code>response</code>：服务器返回的响应体</li>
-</ul>
-<h3 id="设置参数"> 设置参数</h3>
-<p>此外，我们在发送请求之前，还可以设置一些常用参数。</p>
-<h4 id="设置响应时间"> 设置响应时间</h4>
-<div><pre><code>xhr<span>.</span>timeout <span>=</span> <span>10000</span><span>;</span> <span>// 10秒超时</span>
-</code></pre>
-<div><span>1</span><br></div></div><h4 id="设置响应格式"> 设置响应格式</h4>
-<div><pre><code>xhr<span>.</span>responseType <span>=</span> <span>"json"</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>格式可以是如下内容：</p>
-<ul>
-<li><code>&quot;&quot;</code>：默认，响应格式为字符串</li>
-<li><code>&quot;text&quot;</code>：响应格式为字符串</li>
-<li><code>&quot;arraybuffer&quot;</code>：响应格式为 <code>ArrayBuffer</code>一组二进制数据</li>
-<li><code>&quot;blob&quot;</code>：响应格式为 <code>Blob</code>，一组二进制数据</li>
-<li><code>&quot;document&quot;</code>：响应格式为 <code>XML document</code></li>
-<li><code>&quot;json&quot;</code>：响应格式为 <code>JSON</code></li>
-</ul>
-<h3 id="状态"> 状态</h3>
-<p><code>XMLHttpRequest</code> 的状态会随着进度变化而变化。通过 <code>readyState</code> 可以了解实时状态。</p>
-<p>具体状态分为：</p>
-<ul>
-<li>UNSENT = 0; // 初始状态</li>
-<li>OPENED = 1; // open 被调用</li>
-<li>HEADERS_RECEIVED = 2; // 接收到响应头</li>
-<li>LOADING = 3; // 响应体正在加载</li>
-<li>DONE = 4; // 请求完成</li>
-</ul>
-<div><pre><code><span>var</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span>
-console<span>.</span><span>log</span><span>(</span><span>"UNSENT"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 0</span>
-
-xhr<span>.</span><span>open</span><span>(</span><span>"GET"</span><span>,</span> <span>"/api"</span><span>,</span> <span>true</span><span>)</span><span>;</span>
-console<span>.</span><span>log</span><span>(</span><span>"OPENED"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 1</span>
-
-xhr<span>.</span><span>onprogress</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  console<span>.</span><span>log</span><span>(</span><span>"LOADING"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 3</span>
-<span>}</span><span>;</span>
-
-xhr<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  console<span>.</span><span>log</span><span>(</span><span>"DONE"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 4</span>
-<span>}</span><span>;</span>
-
-xhr<span>.</span><span>send</span><span>(</span><span>null</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><div><p>提示</p>
-<p>在一些比较旧的代码中，会看到 <code>onreadystatechange</code> 方法：</p>
-<div><pre><code>xhr<span>.</span><span>onreadystatechange</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
-  <span>if</span> <span>(</span>xhr<span>.</span>readyState <span>===</span> <span>4</span><span>)</span> <span>{</span>
-    <span>// 请求完成</span>
-    <span>if</span> <span>(</span>xhr<span>.</span>status <span>===</span> <span>200</span><span>)</span> <span>{</span>
-      <span>// 请求成功，可以拿到响应体</span>
-      console<span>.</span><span>log</span><span>(</span>xhr<span>.</span>response<span>)</span><span>;</span>
-    <span>}</span> <span>else</span> <span>{</span>
-      <span>// 请求失败</span>
-    <span>}</span>
-  <span>}</span> <span>else</span> <span>{</span>
-    <span>// 未完成，状态还在继续</span>
-  <span>}</span>
-<span>}</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>这种方式现在基本上已经被 <code>onload</code>、<code>onerror</code> 的形式所取代。</p>
-</div>
-<h3 id="终止请求"> 终止请求</h3>
-<p>在请求过程中，我们可以随时终止请求，让状态变为 <code>0</code>。</p>
-<div><pre><code>xhr<span>.</span><span>abort</span><span>(</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><h3 id="设置请求头"> 设置请求头</h3>
-<p>我们可以自定义请求头：</p>
-<div><pre><code>xhr<span>.</span><span>setRequestHeader</span><span>(</span><span>"Content-Type"</span><span>,</span> <span>"application/json"</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><p>注意该方法不会覆盖请求头，只是添加值。如果一个请求头被多次赋值，那么会生成一个合并多值的请求头。</p>
-<h3 id="formdata"> FormData</h3>
-<p>如果建立一个 POST 请求，很多时候需要使用 <code>FormData</code> 对象，它用来创建一个表单数据对象。</p>
-<div><pre><code><span>let</span> formData <span>=</span> <span>new</span> <span>FormData</span><span>(</span>data<span>)</span><span>;</span>
-formData<span>.</span><span>append</span><span>(</span>name<span>,</span> value<span>)</span><span>;</span>
-
-<span>// 让表单以 json 格式发送。还可以以 multipart/form-data 格式发送，但 json 更加灵活高效</span>
-xhr<span>.</span><span>setRequestHeader</span><span>(</span><span>"Content-type"</span><span>,</span> <span>"application/json; charset=utf-8"</span><span>)</span><span>;</span>
-xhr<span>.</span><span>send</span><span>(</span>formData<span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h3 id="跨域请求"> 跨域请求</h3>
-<p>通过设置 <code>withCredentials</code> 属性来实现跨域请求。它指示了是否该使用类似 <code>cookie</code>、<code>authorization headers</code> 或者 <code>TLS</code> 客户端证书这一类资格证书来创建一个跨站点访问控制请求。</p>
-<p>这个属性在同站点下无效。同时，该指示也会被用作响应中 <code>cookie</code> 被忽视的标识。</p>
-<div><div><br><div>&nbsp;</div><br><br><br></div><pre><code><span>let</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span>
-xhr<span>.</span>withCredentials <span>=</span> <span>true</span><span>;</span>
-
-xhr<span>.</span><span>open</span><span>(</span><span>"GET"</span><span>,</span> <span>"https://www.jeremyjone.com"</span><span>)</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="fetch"> Fetch</h2>
-<p><code>fetch</code> 提供了一个获取资源的接口，相比 <code>XMLHttpRequest</code>，它们本质上做的都是同一件事，但是它更强大，也更灵活。</p>
-<h3 id="基本语法"> 基本语法</h3>
-<div><pre><code><span>let</span> promise <span>=</span> <span>fetch</span><span>(</span>input<span>[</span><span>,</span> init<span>]</span><span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br></div></div><ul>
-<li><code>input</code>：要访问的资源，它可以是一个 URL，也可以是一个 Request 对象</li>
-<li><code>init</code>：配置对象，包含 <code>method</code>、<code>headers</code> 等。默认没有就是一个普通 GET 请求。</li>
-</ul>
-<p>它返回一个 <code>Promise</code> 对象，这个对象会在请求响应后被 <code>resolve</code>，并传回 <code>Response</code> 对象。</p>
-<p>当遇到网络错误时，它会被 <code>reject</code>，并传回 <code>TypeError</code>信息。</p>
-<div><p>注意</p>
-<p>与 <code>XMLHttpRequest</code> 不同，<code>fetch</code> 只要服务器有返回值就算成功，没有返回值才算失败。所以在判断返回值是否成功时，我们不仅要判断 <code>Promise</code> 对象是否被 <code>resolve</code>，而且还要判断 <code>Response.status</code> 或 <code>Response.ok</code> 的值。</p>
-</div>
-<h3 id="接收响应-2"> 接收响应</h3>
-<p>响应体具有多种方法，用于返回不同格式的内容：</p>
-<ul>
-<li><code>response.text()</code>：直接返回文本格式</li>
-<li><code>response.json()</code>：解析为 JSON 格式内容</li>
-<li><code>response.formData()</code>：返回一个 FormData 对象</li>
-<li><code>response.blob()</code>：返回 Blob 格式对象</li>
-<li><code>response.arrayBuffer()</code>：返回 ArrayBuffer 对象</li>
-</ul>
-<p>这些方法同样返回一个 <code>Promise</code> 对象：</p>
-<div><div><br><div>&nbsp;</div><div>&nbsp;</div><br></div><pre><code><span>fetch</span><span>(</span>url<span>,</span> options<span>)</span>
-  <span>.</span><span>then</span><span>(</span><span>response</span> <span>=></span> response<span>.</span><span>json</span><span>(</span><span>)</span><span>)</span>
-  <span>.</span><span>then</span><span>(</span><span>info</span> <span>=></span> console<span>.</span><span>log</span><span>(</span>info<span>)</span><span>)</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="设置请求头-2"> 设置请求头</h3>
-<p>我们同样可以设置请求头：</p>
-<div><div><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>let</span> promise <span>=</span> <span>fetch</span><span>(</span>url<span>,</span> <span>{</span>
-  method<span>:</span> <span>"POST"</span><span>,</span>
-  headers<span>:</span> <span>{</span>
-    <span>"Content-Type"</span><span>:</span> <span>"application/json;charset=utf-8"</span>
-  <span>}</span><span>,</span>
-  body<span>:</span> <span>JSON</span><span>.</span><span>stringify</span><span>(</span>info<span>)</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h3 id="跨域请求-2"> 跨域请求</h3>
-<p>通过设置 <code>credentials</code> 可以设置跨域请求，<code>fetch</code> 会携带我们的 <code>cookie</code> 发送到指定网站服务器：</p>
-<div><div><br><div>&nbsp;</div><br><br></div><pre><code><span>fetch</span><span>(</span>url<span>,</span> <span>{</span>
-  credentials<span>:</span> <span>"include"</span>
-<span>}</span><span>)</span><span>;</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>它可以设置三个值：</p>
-<ul>
-<li><code>same-origin</code>：同源可以，默认值</li>
-<li><code>include</code>：是否同源都可以</li>
-<li><code>omit</code>：都拒绝</li>
-</ul>
-<p>如果服务器同意了请求，那么会返回带有：</p>
-<div><pre><code>Access-Control-Allow-Origin<span>:</span> * / URL <span>// * 或具体的 URL 地址。非简单请求必须是具体地址</span>
-Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简单请求的响应头一定包含此项</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><p>的响应头内容。</p>
-<h4 id="简单的请求"> 简单的请求</h4>
-<ul>
-<li>使用简单的方法，如 <code>GET</code>、<code>POST</code>、<code>HEAD</code>。</li>
-<li>简单的请求头
-<ul>
-<li><code>Accept</code></li>
-<li><code>Accept-Language</code></li>
-<li><code>Content-Language</code></li>
-<li><code>Content-Type</code>: 仅限 <code>application/x-www-form-urlencoded</code>，<code>multipart/form-data</code> 或 <code>text/plain</code></li>
-</ul>
-</li>
-</ul>
-<h4 id="非简单请求"> 非简单请求</h4>
-<p>除了简单请求，剩下都是非简单请求。比如 <code>PATCH</code>、<code>DELETE</code> 方法，或者包含其他请求头内容（例如 <code>'API-Key'</code> 头，或者 <code>'Content-Type': 'application/json'</code>）的 <code>GET</code>、<code>POST</code> 请求等。</p>
-<p>非简单请求在实际过程中会比简单请求更加复杂，主要体现在它会有一次 <code>预检请求</code>。浏览器通过 <code>预检请求</code> 来请求服务器的许可，如果服务器同意处理请求，那么才会真正进行响应。</p>
-<img :src="$withBase('/assets/roadmap/frontend/js/fetch-unsample-request.png')" alt="fetch-unsample-request">
-<h3 id="封装"> 封装</h3>
-<p>对 <code>fetch</code> 可以进行二次封装，从而方便正常使用。</p>
-<p><a href="https://www.jeremyjone.com/612/" target="_blank" rel="noopener noreferrer">封装实例</a></p>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">异步编程</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="异步编程"> 异步编程</h1>
 <h2 id="异步的由来与实现"> 异步的由来与实现</h2>
 <p>JS 在设计之初就是单线程的，所以本质上并不存在异步编程。在经过不断的进化和改良之后，现在所谓的异步编程也只是利用任务队列来改变事件的触发顺序，从而在效果上达到异步。</p>
@@ -15521,14 +15353,252 @@ MyPromise<span>.</span><span>race</span><span>(</span><span>[</span>p3<span>,</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">网络请求</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/js/net/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/js/net/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="网络请求"> 网络请求</h1>
+<h2 id="ajax"> Ajax</h2>
+<p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
+<h3 id="xmlhttprequest"> XMLHttpRequest</h3>
+<p>随着网络应用的广泛，通过网络地址刷新整个页面的内容有时显得过于冗余，于是出现了 <code>XMLHttpRequest</code> 技术。它用于与服务器进行交互，在不刷新页面的情况下请求特定 <code>URL</code>。这允许网页在不影响用户操作的情况下，更新页面的局部内容。</p>
+<p><code>XMLHttpRequest</code> 是一个内建的浏览器对象，允许使用 <code>JavaScript</code> 发送 <code>HTTP</code> 请求。虽然它有 <code>XML</code> 一词，但它不仅仅能发送 <code>XML</code>，而是可以发送任何数据内容。</p>
+<p>其工作原理：</p>
+<img :src="$withBase('/assets/roadmap/frontend/js/xhr.gif')" alt="工作原理">
+<h3 id="发送请求"> 发送请求</h3>
+<p>发送一个 <code>XMLHttpRequest</code> 请求，大致需要三步：</p>
+<ul>
+<li>
+<p>1、创建 <code>XMLHttpRequest</code> 对象</p>
+<div><pre><code><span>let</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span> <span>// 没有任何参数</span>
+</code></pre>
+<div><span>1</span><br></div></div></li>
+<li>
+<p>2、初始化对象</p>
+<div><pre><code>xhr<span>.</span><span>open</span><span>(</span>method<span>,</span> <span>URL</span><span>,</span> <span>[</span>async<span>,</span> user<span>,</span> password<span>]</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li><code>method</code>：要是用的 <code>HTTP</code> 方法</li>
+<li><code>URL</code>：请求路径</li>
+<li><code>async</code>：可选，默认 <code>true</code>，表示是否异步执行。如果为 <code>true</code>，则在 <code>send()</code> 方法受到答复前不会返回</li>
+<li><code>user</code>：认证用户名，默认 <code>null</code></li>
+<li><code>password</code>：认证密码，默认 <code>null</code></li>
+</ul>
+<p>这里的 <code>open</code> 并不会真正建立连接，而是仅仅配置请求对象。</p>
+<div><p>注意</p>
+<p>需要注意的是，<code>async</code> 参数在很多浏览器上已经废弃支持同步，因为它在主线程上，容易破坏用户体验。但在 <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Worker" target="_blank" rel="noopener noreferrer">Worker</a> 线程上允许同步请求。</p>
+</div>
+</li>
+<li>
+<p>3、发送请求</p>
+<div><pre><code>xhr<span>.</span><span>send</span><span>(</span><span>[</span>body<span>]</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li><code>body</code>：发送请求时的可选请求体。在某些请求中（如 GET 请求），是不包含请求体的。</li>
+</ul>
+<p>该方法会建立连接，并将请求发送到服务器。</p>
+</li>
+</ul>
+<h3 id="接收响应"> 接收响应</h3>
+<p>发送之后，可以通过回调方法获取响应：</p>
+<div><pre><code><span>// 请求完成，响应已经完全下载，可以显示响应信息</span>
+xhr<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  console<span>.</span><span>log</span><span>(</span><span><span>`</span><span><span>${</span>xhr<span>.</span>status<span>}</span></span><span>, </span><span><span>${</span>xhr<span>.</span>response<span>}</span></span><span>`</span></span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>// 请求错误，或无法发出请求</span>
+xhr<span>.</span><span>onerror</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  console<span>.</span><span>log</span><span>(</span><span>"error"</span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>// 定时触发，可以显示进度</span>
+xhr<span>.</span><span>onprogress</span> <span>=</span> <span>function</span><span>(</span><span>event</span><span>)</span> <span>{</span>
+  <span>// 如果服务器发送了 Content-Length 响应头，event.lengthComputable 会为 true，此时可以调用 event.total 属性</span>
+  console<span>.</span><span>log</span><span>(</span><span><span>`</span><span><span>${</span>event<span>.</span>loaded<span>}</span></span><span> / </span><span><span>${</span>event<span>.</span>total<span>}</span></span><span>`</span></span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><p>一旦接收到响应，<code>xhr</code> 中会接收到：</p>
+<ul>
+<li><code>status</code>：状态码</li>
+<li><code>statusText</code>：状态消息，一般对应于状态码</li>
+<li><code>response</code>：服务器返回的响应体</li>
+</ul>
+<h3 id="设置参数"> 设置参数</h3>
+<p>此外，我们在发送请求之前，还可以设置一些常用参数。</p>
+<h4 id="设置响应时间"> 设置响应时间</h4>
+<div><pre><code>xhr<span>.</span>timeout <span>=</span> <span>10000</span><span>;</span> <span>// 10秒超时</span>
+</code></pre>
+<div><span>1</span><br></div></div><h4 id="设置响应格式"> 设置响应格式</h4>
+<div><pre><code>xhr<span>.</span>responseType <span>=</span> <span>"json"</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>格式可以是如下内容：</p>
+<ul>
+<li><code>&quot;&quot;</code>：默认，响应格式为字符串</li>
+<li><code>&quot;text&quot;</code>：响应格式为字符串</li>
+<li><code>&quot;arraybuffer&quot;</code>：响应格式为 <code>ArrayBuffer</code>一组二进制数据</li>
+<li><code>&quot;blob&quot;</code>：响应格式为 <code>Blob</code>，一组二进制数据</li>
+<li><code>&quot;document&quot;</code>：响应格式为 <code>XML document</code></li>
+<li><code>&quot;json&quot;</code>：响应格式为 <code>JSON</code></li>
+</ul>
+<h3 id="状态"> 状态</h3>
+<p><code>XMLHttpRequest</code> 的状态会随着进度变化而变化。通过 <code>readyState</code> 可以了解实时状态。</p>
+<p>具体状态分为：</p>
+<ul>
+<li>UNSENT = 0; // 初始状态</li>
+<li>OPENED = 1; // open 被调用</li>
+<li>HEADERS_RECEIVED = 2; // 接收到响应头</li>
+<li>LOADING = 3; // 响应体正在加载</li>
+<li>DONE = 4; // 请求完成</li>
+</ul>
+<div><pre><code><span>var</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span>
+console<span>.</span><span>log</span><span>(</span><span>"UNSENT"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 0</span>
+
+xhr<span>.</span><span>open</span><span>(</span><span>"GET"</span><span>,</span> <span>"/api"</span><span>,</span> <span>true</span><span>)</span><span>;</span>
+console<span>.</span><span>log</span><span>(</span><span>"OPENED"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 1</span>
+
+xhr<span>.</span><span>onprogress</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  console<span>.</span><span>log</span><span>(</span><span>"LOADING"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 3</span>
+<span>}</span><span>;</span>
+
+xhr<span>.</span><span>onload</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  console<span>.</span><span>log</span><span>(</span><span>"DONE"</span><span>,</span> xhr<span>.</span>readyState<span>)</span><span>;</span> <span>// readyState 为 4</span>
+<span>}</span><span>;</span>
+
+xhr<span>.</span><span>send</span><span>(</span><span>null</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br></div></div><div><p>提示</p>
+<p>在一些比较旧的代码中，会看到 <code>onreadystatechange</code> 方法：</p>
+<div><pre><code>xhr<span>.</span><span>onreadystatechange</span> <span>=</span> <span>function</span><span>(</span><span>)</span> <span>{</span>
+  <span>if</span> <span>(</span>xhr<span>.</span>readyState <span>===</span> <span>4</span><span>)</span> <span>{</span>
+    <span>// 请求完成</span>
+    <span>if</span> <span>(</span>xhr<span>.</span>status <span>===</span> <span>200</span><span>)</span> <span>{</span>
+      <span>// 请求成功，可以拿到响应体</span>
+      console<span>.</span><span>log</span><span>(</span>xhr<span>.</span>response<span>)</span><span>;</span>
+    <span>}</span> <span>else</span> <span>{</span>
+      <span>// 请求失败</span>
+    <span>}</span>
+  <span>}</span> <span>else</span> <span>{</span>
+    <span>// 未完成，状态还在继续</span>
+  <span>}</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>这种方式现在基本上已经被 <code>onload</code>、<code>onerror</code> 的形式所取代。</p>
+</div>
+<h3 id="终止请求"> 终止请求</h3>
+<p>在请求过程中，我们可以随时终止请求，让状态变为 <code>0</code>。</p>
+<div><pre><code>xhr<span>.</span><span>abort</span><span>(</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><h3 id="设置请求头"> 设置请求头</h3>
+<p>我们可以自定义请求头：</p>
+<div><pre><code>xhr<span>.</span><span>setRequestHeader</span><span>(</span><span>"Content-Type"</span><span>,</span> <span>"application/json"</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>注意该方法不会覆盖请求头，只是添加值。如果一个请求头被多次赋值，那么会生成一个合并多值的请求头。</p>
+<h3 id="formdata"> FormData</h3>
+<p>如果建立一个 POST 请求，很多时候需要使用 <code>FormData</code> 对象，它用来创建一个表单数据对象。</p>
+<div><pre><code><span>let</span> formData <span>=</span> <span>new</span> <span>FormData</span><span>(</span>data<span>)</span><span>;</span>
+formData<span>.</span><span>append</span><span>(</span>name<span>,</span> value<span>)</span><span>;</span>
+
+<span>// 让表单以 json 格式发送。还可以以 multipart/form-data 格式发送，但 json 更加灵活高效</span>
+xhr<span>.</span><span>setRequestHeader</span><span>(</span><span>"Content-type"</span><span>,</span> <span>"application/json; charset=utf-8"</span><span>)</span><span>;</span>
+xhr<span>.</span><span>send</span><span>(</span>formData<span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><h3 id="跨域请求"> 跨域请求</h3>
+<p>通过设置 <code>withCredentials</code> 属性来实现跨域请求。它指示了是否该使用类似 <code>cookie</code>、<code>authorization headers</code> 或者 <code>TLS</code> 客户端证书这一类资格证书来创建一个跨站点访问控制请求。</p>
+<p>这个属性在同站点下无效。同时，该指示也会被用作响应中 <code>cookie</code> 被忽视的标识。</p>
+<div><div><br><div>&nbsp;</div><br><br><br></div><pre><code><span>let</span> xhr <span>=</span> <span>new</span> <span>XMLHttpRequest</span><span>(</span><span>)</span><span>;</span>
+xhr<span>.</span>withCredentials <span>=</span> <span>true</span><span>;</span>
+
+xhr<span>.</span><span>open</span><span>(</span><span>"GET"</span><span>,</span> <span>"https://www.jeremyjone.com"</span><span>)</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h2 id="fetch"> Fetch</h2>
+<p><code>fetch</code> 提供了一个获取资源的接口，相比 <code>XMLHttpRequest</code>，它们本质上做的都是同一件事，但是它更强大，也更灵活。</p>
+<h3 id="基本语法"> 基本语法</h3>
+<div><pre><code><span>let</span> promise <span>=</span> <span>fetch</span><span>(</span>input<span>[</span><span>,</span> init<span>]</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><ul>
+<li><code>input</code>：要访问的资源，它可以是一个 URL，也可以是一个 Request 对象</li>
+<li><code>init</code>：配置对象，包含 <code>method</code>、<code>headers</code> 等。默认没有就是一个普通 GET 请求。</li>
+</ul>
+<p>它返回一个 <code>Promise</code> 对象，这个对象会在请求响应后被 <code>resolve</code>，并传回 <code>Response</code> 对象。</p>
+<p>当遇到网络错误时，它会被 <code>reject</code>，并传回 <code>TypeError</code>信息。</p>
+<div><p>注意</p>
+<p>与 <code>XMLHttpRequest</code> 不同，<code>fetch</code> 只要服务器有返回值就算成功，没有返回值才算失败。所以在判断返回值是否成功时，我们不仅要判断 <code>Promise</code> 对象是否被 <code>resolve</code>，而且还要判断 <code>Response.status</code> 或 <code>Response.ok</code> 的值。</p>
+</div>
+<h3 id="接收响应-2"> 接收响应</h3>
+<p>响应体具有多种方法，用于返回不同格式的内容：</p>
+<ul>
+<li><code>response.text()</code>：直接返回文本格式</li>
+<li><code>response.json()</code>：解析为 JSON 格式内容</li>
+<li><code>response.formData()</code>：返回一个 FormData 对象</li>
+<li><code>response.blob()</code>：返回 Blob 格式对象</li>
+<li><code>response.arrayBuffer()</code>：返回 ArrayBuffer 对象</li>
+</ul>
+<p>这些方法同样返回一个 <code>Promise</code> 对象：</p>
+<div><div><br><div>&nbsp;</div><div>&nbsp;</div><br></div><pre><code><span>fetch</span><span>(</span>url<span>,</span> options<span>)</span>
+  <span>.</span><span>then</span><span>(</span><span>response</span> <span>=></span> response<span>.</span><span>json</span><span>(</span><span>)</span><span>)</span>
+  <span>.</span><span>then</span><span>(</span><span>info</span> <span>=></span> console<span>.</span><span>log</span><span>(</span>info<span>)</span><span>)</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><h3 id="设置请求头-2"> 设置请求头</h3>
+<p>我们同样可以设置请求头：</p>
+<div><div><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br><br></div><pre><code><span>let</span> promise <span>=</span> <span>fetch</span><span>(</span>url<span>,</span> <span>{</span>
+  method<span>:</span> <span>"POST"</span><span>,</span>
+  headers<span>:</span> <span>{</span>
+    <span>"Content-Type"</span><span>:</span> <span>"application/json;charset=utf-8"</span>
+  <span>}</span><span>,</span>
+  body<span>:</span> <span>JSON</span><span>.</span><span>stringify</span><span>(</span>info<span>)</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><h3 id="跨域请求-2"> 跨域请求</h3>
+<p>通过设置 <code>credentials</code> 可以设置跨域请求，<code>fetch</code> 会携带我们的 <code>cookie</code> 发送到指定网站服务器：</p>
+<div><div><br><div>&nbsp;</div><br><br></div><pre><code><span>fetch</span><span>(</span>url<span>,</span> <span>{</span>
+  credentials<span>:</span> <span>"include"</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>它可以设置三个值：</p>
+<ul>
+<li><code>same-origin</code>：同源可以，默认值</li>
+<li><code>include</code>：是否同源都可以</li>
+<li><code>omit</code>：都拒绝</li>
+</ul>
+<p>如果服务器同意了请求，那么会返回带有：</p>
+<div><pre><code>Access-Control-Allow-Origin<span>:</span> * / URL <span>// * 或具体的 URL 地址。非简单请求必须是具体地址</span>
+Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简单请求的响应头一定包含此项</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><p>的响应头内容。</p>
+<h4 id="简单的请求"> 简单的请求</h4>
+<ul>
+<li>使用简单的方法，如 <code>GET</code>、<code>POST</code>、<code>HEAD</code>。</li>
+<li>简单的请求头
+<ul>
+<li><code>Accept</code></li>
+<li><code>Accept-Language</code></li>
+<li><code>Content-Language</code></li>
+<li><code>Content-Type</code>: 仅限 <code>application/x-www-form-urlencoded</code>，<code>multipart/form-data</code> 或 <code>text/plain</code></li>
+</ul>
+</li>
+</ul>
+<h4 id="非简单请求"> 非简单请求</h4>
+<p>除了简单请求，剩下都是非简单请求。比如 <code>PATCH</code>、<code>DELETE</code> 方法，或者包含其他请求头内容（例如 <code>'API-Key'</code> 头，或者 <code>'Content-Type': 'application/json'</code>）的 <code>GET</code>、<code>POST</code> 请求等。</p>
+<p>非简单请求在实际过程中会比简单请求更加复杂，主要体现在它会有一次 <code>预检请求</code>。浏览器通过 <code>预检请求</code> 来请求服务器的许可，如果服务器同意处理请求，那么才会真正进行响应。</p>
+<img :src="$withBase('/assets/roadmap/frontend/js/fetch-unsample-request.png')" alt="fetch-unsample-request">
+<h3 id="封装"> 封装</h3>
+<p>对 <code>fetch</code> 可以进行二次封装，从而方便正常使用。</p>
+<p><a href="https://www.jeremyjone.com/612/" target="_blank" rel="noopener noreferrer">封装实例</a></p>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">原型和原型链详解</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/prototype/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="原型和原型链详解"> 原型和原型链详解</h1>
 <p>网上有很多相关的文章、视频等资料，但很多都是片面的，不完全的。我也为了自身加深理解，所以对其进行一下简单的总结。</p>
 <h2 id="两个属性"> 两个属性</h2>
@@ -16199,14 +16269,14 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Proxy 与 Reflect</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/proxy/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="proxy-与-reflect"> Proxy 与 Reflect</h1>
 <h2 id="proxy"> Proxy</h2>
 <p><code>Proxy</code> 是一个对象，用于创建一个对象的代理，从而实现基本操作的拦截和自定义（如属性查找、赋值、枚举、函数调用等）。</p>
@@ -16723,14 +16793,14 @@ star2<span>.</span>name <span>=</span> <span>"王xx"</span><span>;</span> <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">this 关键字</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/this/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/this/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="this-关键字"> this 关键字</h1>
 <p>JavaScript 中的 <code>this</code> 关键字与其他语言略有不同，<strong>在绝大多数情况下，函数的调用方式决定了 <code>this</code> 的值（运行时绑定）</strong>。<code>this</code> 不能在执行期间被赋值，并且在每次函数被调用时 <code>this</code> 的值也可能不同。</p>
 <p>ES5 引入了 <code>bind</code> 方法来设置函数的 <code>this</code> 值，而不用考虑函数是如何被调用的。同时，箭头函数不提供自身的 <code>this</code> 绑定。</p>
@@ -16971,14 +17041,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">React 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/react/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/react/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
 <p>React 的学习之路，英文比中文新。</p>
 <p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -16991,14 +17061,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-学习之路"> Vue 学习之路</h1>
 <p>Vue 的学习之路。</p>
 ]]></content>
@@ -17008,30 +17078,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">class 与 style 的绑定</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="class-与-style-的绑定"> class 与 style 的绑定</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">组件</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="组件"> 组件</h1>
 <h2 id="应用实例"> 应用实例</h2>
 <h2 id="根组件"> 根组件</h2>
@@ -17044,14 +17098,30 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">class 与 style 的绑定</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/class-style-bind/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="class-与-style-的绑定"> class 与 style 的绑定</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">组合式 API</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/composition/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="组合式-api"> 组合式 API</h1>
 <h2 id="setup"> Setup</h2>
 <h2 id="生命周期钩子"> 生命周期钩子</h2>
@@ -17062,14 +17132,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">计算属性和侦听器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/computed-watch/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="计算属性和侦听器"> 计算属性和侦听器</h1>
 ]]></content>
     <author>
@@ -17078,14 +17148,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据和方法</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/data-method/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据和方法"> 数据和方法</h1>
 ]]></content>
     <author>
@@ -17094,14 +17164,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">循环渲染</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/for/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="循环渲染"> 循环渲染</h1>
 ]]></content>
     <author>
@@ -17110,30 +17180,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">条件渲染</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="条件渲染"> 条件渲染</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">模板语法</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/template/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="模板语法"> 模板语法</h1>
 <h2 id="指令"> 指令</h2>
 <h3 id="自定义指令"> 自定义指令</h3>
@@ -17145,14 +17199,30 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">条件渲染</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/if/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="条件渲染"> 条件渲染</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">UI 框架</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/framework/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="ui-框架"> UI 框架</h1>
 ]]></content>
     <author>
@@ -17161,30 +17231,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">插槽</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="插槽"> 插槽</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">MVVM</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="mvvm"> MVVM</h1>
 ]]></content>
     <author>
@@ -17193,14 +17247,30 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">插槽</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/slot/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="插槽"> 插槽</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue Cli</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
 ]]></content>
     <author>
@@ -17209,14 +17279,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">响应式的原理</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
 ]]></content>
     <author>
@@ -17225,14 +17295,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue Router</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-router"> Vue Router</h1>
 <h2 id="路由原理"> 路由原理</h2>
 <h2 id="动态匹配"> 动态匹配</h2>
@@ -17247,14 +17317,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue Test Utils</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
 <h2 id="jest"> Jest</h2>
 ]]></content>
@@ -17264,14 +17334,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Devtools</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="devtools"> Devtools</h1>
 ]]></content>
     <author>
@@ -17280,14 +17350,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vuex</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vuex"> Vuex</h1>
 <h2 id="state"> State</h2>
 <h2 id="getter"> Getter</h2>
@@ -17301,14 +17371,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">使用项目模板</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/template/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
 <h2 id="如何添加模板"> 如何添加模板</h2>
 <h3 id="方法一"> 方法一</h3>
@@ -17340,14 +17410,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">从 0 搭建项目模板（vue3）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="从-0-搭建项目模板（vue3）"> 从 0 搭建项目模板（vue3）</h1>
 <p>为简化每次初始化项目，最好的方法就是搭建一个项目模板，这样每次初始化的时候直接拉取就好，不用再一个一个进行配置，省去了大量时间。</p>
 <p>该内容模板已经在 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a>，如果需要，可以直接下载使用。具体使用方法可以查看 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a> 或者 <a href="./">模板文档</a></p>
@@ -18628,14 +18698,14 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">虚拟 DOM</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
 ]]></content>
     <author>
@@ -18644,33 +18714,14 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">Java 学习之路</title>
-    <id>https://docs.jeremyjone.com/roadmap/java/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/java/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
-<p>Java 的学习之路，页面包含学习链接。</p>
-<p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
-<p><img src="https://github.com/s4kibs4mi/java-developer-roadmap/raw/master/java-developer-roadmap.png" alt="java roadmap" /></p>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">代码书写规范总纲</title>
     <id>https://docs.jeremyjone.com/standard/</id>
     <link href="https://docs.jeremyjone.com/standard/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="代码书写规范总纲"> 代码书写规范总纲</h1>
 <Description author="JeremyJone" version="v1" copyright="Jz" />
 <p><strong>良好的规范，促进高质量的代码。</strong> --<em>与君共勉</em></p>
@@ -18919,14 +18970,33 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">Java 学习之路</title>
+    <id>https://docs.jeremyjone.com/roadmap/java/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/java/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
+<p>Java 的学习之路，页面包含学习链接。</p>
+<p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
+<p><img src="https://github.com/s4kibs4mi/java-developer-roadmap/raw/master/java-developer-roadmap.png" alt="java roadmap" /></p>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">C#</title>
     <id>https://docs.jeremyjone.com/standard/csharp/</id>
     <link href="https://docs.jeremyjone.com/standard/csharp/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="c"> C#</h1>
 ]]></content>
     <author>
@@ -18935,46 +19005,14 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">HTML 规范</title>
-    <id>https://docs.jeremyjone.com/standard/html/</id>
-    <link href="https://docs.jeremyjone.com/standard/html/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
-<Description author="jeremyjone" version="v1" />
-<p>本规范适用于所有Html页面的开发。</p>
-<p>开发工具，推荐使用 <code>VS Code</code>，或者 <code>WebStorm</code>。</p>
-<p>使用 <code>VS Code</code> 的话，需要安装 <code>HTML CSS Support</code>、<code>HTML Snippets</code>、<code>Live Server</code> 等插件以实现更快、更好的开发。</p>
-<p>Html 文档总是应当使用 HTML5 标准。</p>
-<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>Html 标签应当按照 H5 的使用规则，适当使用语义化标签，可以使整个页面变得更加具有可读性。</p>
-<p>所有没有子标签的标签，都应当使用闭合方式。
-所有的子标签，都应当自动缩进。</p>
-<div><pre><code><span><span><span>&lt;</span>img</span> <span>/></span></span>
-
-<span><span><span>&lt;</span>div</span><span>></span></span>
-  <span><span><span>&lt;</span>button</span> <span>/></span></span>
-<span><span><span>&lt;/</span>div</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 规范</title>
     <id>https://docs.jeremyjone.com/standard/css/</id>
     <link href="https://docs.jeremyjone.com/standard/css/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-规范"> CSS 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本文档适用于所有css文件的开发编写。</p>
@@ -19016,14 +19054,46 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">HTML 规范</title>
+    <id>https://docs.jeremyjone.com/standard/html/</id>
+    <link href="https://docs.jeremyjone.com/standard/html/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
+<Description author="jeremyjone" version="v1" />
+<p>本规范适用于所有Html页面的开发。</p>
+<p>开发工具，推荐使用 <code>VS Code</code>，或者 <code>WebStorm</code>。</p>
+<p>使用 <code>VS Code</code> 的话，需要安装 <code>HTML CSS Support</code>、<code>HTML Snippets</code>、<code>Live Server</code> 等插件以实现更快、更好的开发。</p>
+<p>Html 文档总是应当使用 HTML5 标准。</p>
+<div><pre><code><span><span>&lt;!</span><span>DOCTYPE</span> <span>html</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>Html 标签应当按照 H5 的使用规则，适当使用语义化标签，可以使整个页面变得更加具有可读性。</p>
+<p>所有没有子标签的标签，都应当使用闭合方式。
+所有的子标签，都应当自动缩进。</p>
+<div><pre><code><span><span><span>&lt;</span>img</span> <span>/></span></span>
+
+<span><span><span>&lt;</span>div</span><span>></span></span>
+  <span><span><span>&lt;</span>button</span> <span>/></span></span>
+<span><span><span>&lt;/</span>div</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div>]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JavaScript 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/javascript/</id>
     <link href="https://docs.jeremyjone.com/standard/javascript/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="javascript-开发规范"> JavaScript 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有使用 JavaScript 以及相关框架的开发。</p>
@@ -19252,14 +19322,14 @@ Object<span>.</span><span>assign</span><span>(</span>object1<span>,</span> <span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Python 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/python/</id>
     <link href="https://docs.jeremyjone.com/standard/python/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
 <Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
 <p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
@@ -19413,14 +19483,14 @@ pythonCode <span>=</span> <span>"python code"</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/vue/</id>
     <link href="https://docs.jeremyjone.com/standard/vue/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-开发规范"> Vue 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有基于 Vue 框架的开发。</p>
@@ -19708,30 +19778,14 @@ component<span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">渲染</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="渲染"> 渲染</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">生命周期</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/lifecycle/"/>
-    <updated>2022-10-19T07:00:42.000Z</updated>
+    <updated>2022-10-19T07:34:49.000Z</updated>
     <content type="html"><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <h2 id="beforecreate"> beforeCreate</h2>
 <h2 id="created"> created</h2>
@@ -19748,7 +19802,23 @@ component<span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2022-10-19T07:00:42.000Z</published>
+    <published>2022-10-19T07:34:49.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">渲染</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/render/"/>
+    <updated>2022-10-19T07:34:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="渲染"> 渲染</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2022-10-19T07:34:49.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
 </feed>
