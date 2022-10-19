@@ -56,13 +56,13 @@ module.exports = config({
           {
             text: "使用文档",
             items: [
+              { text: "Docker 使用文档", link: "/document/docker/" },
+              { text: "Emmet 使用文档", link: "/document/emmet/" },
               { text: "Git 使用文档", link: "/document/git/" },
               { text: "Markdown 使用文档", link: "/document/markdown/" },
-              { text: "Vim 使用文档", link: "/document/vim/" },
               { text: "npm 使用文档", link: "/document/npm/" },
-              { text: "Docker 使用文档", link: "/document/docker/" },
-              { text: "正则表达式 使用文档", link: "/document/regexp/" },
-              { text: "Emmet 使用文档", link: "/document/emmet/" }
+              { text: "Vim 使用文档", link: "/document/vim/" },
+              { text: "正则表达式 使用文档", link: "/document/regexp/" }
             ]
           },
           {
