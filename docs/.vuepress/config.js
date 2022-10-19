@@ -61,7 +61,8 @@ module.exports = config({
               { text: "Vim 使用文档", link: "/document/vim/" },
               { text: "npm 使用文档", link: "/document/npm/" },
               { text: "Docker 使用文档", link: "/document/docker/" },
-              { text: "正则表达式 使用文档", link: "/document/regexp/" }
+              { text: "正则表达式 使用文档", link: "/document/regexp/" },
+              { text: "Emmet 使用文档", link: "/document/emmet/" }
             ]
           },
           {
@@ -118,6 +119,7 @@ module.exports = config({
       "/document/npm/": getNpmSideBar(),
       "/document/docker/": getDockerSideBar(),
       "/document/regexp/": getRegExpSideBar(),
+      "/document/emmet/": getEmmetSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
@@ -254,6 +256,10 @@ function getNpmSideBar() {
 
 function getRegExpSideBar() {
   return [_GetSubSideBar("正则表达式 使用文档", "", [""])];
+}
+
+function getEmmetSideBar() {
+  return [_GetSubSideBar("Emmet 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
