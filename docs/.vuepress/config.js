@@ -363,16 +363,7 @@ function getFrontendSideBar() {
     _GetSubSideBar("Vue", "vue", [
       _GetSubSideBar("Vue 基础", "vue/basic", [
         "component",
-        "lifecycle",
-        "template",
-        "data-method",
-        "computed-watch",
-        "class-style-bind",
-        "if",
-        "for",
-        "slot",
-        "composition",
-        "render"
+        "v-model"
       ]),
       "mvvm",
       "reactive",
