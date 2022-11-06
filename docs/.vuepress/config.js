@@ -46,7 +46,8 @@ module.exports = config({
         ariaLabel: "代码相关菜单",
         items: [
           { text: "代码编写规范", link: "/standard/" },
-          { text: "手撸代码", link: "/codes/" }
+          { text: "手撸代码", link: "/codes/" },
+          { text: "样例", link: "/demo/" }
         ]
       },
       {
@@ -126,7 +127,8 @@ module.exports = config({
       "/roadmap/frontend/": getFrontendSideBar(),
       "/roadmap/flutter/": getFlutterSideBar(),
       "/roadmap/android/": getAndroidSideBar(),
-      "/codes/": getCodesSideBar()
+      "/codes/": getCodesSideBar(),
+      "/demo/": getDemoSideBar()
     },
 
     // 禁用搜索
@@ -406,6 +408,15 @@ function getComputerBaseSideBar() {
     _GetSubSideBar("算法", "algorithm", [""]),
     _GetSubSideBar("数据结构", "data-structure", [""]),
     _GetSubSideBar("数据库基础", "database", [""])
+  ];
+}
+
+function getDemoSideBar() {
+  return [
+    _GetSubSideBar("前端样例", "css", [
+      "",
+      "adv"
+    ])
   ];
 }
 
