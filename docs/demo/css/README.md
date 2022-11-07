@@ -7,3 +7,7 @@
 ## 旋转的方块
 
 <IFrameWrapper src="https://desktop.jeremyjone.com/example/3d-cube.html" />
+
+## 相册列表
+
+<IFrameWrapper src="https://desktop.jeremyjone.com/example/list/show1.html" />
