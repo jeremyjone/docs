@@ -7,13 +7,13 @@
 从 `v2.x` 开始，可以拉取指定版本：
 
 ```docker
-docker pull verdaccio/cerdaccio
+docker pull verdaccio/verdaccio
 
-docker pull verdaccio/cerdaccio:4
+docker pull verdaccio/verdaccio:4
 
-docker pull verdaccio/cerdaccio:4.0
+docker pull verdaccio/verdaccio:4.0
 
-docker pull verdaccio/cerdaccio:4.0.0
+docker pull verdaccio/verdaccio:4.0.0
 ```
 
 ## 运行
