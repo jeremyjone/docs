@@ -454,3 +454,27 @@ docker build [-f <filename>] -t <target_name>[:<tag>] .
 
 - `filename` 如果文件名为 Dockerfile 就不用写了，指令会自动在当前目录下查找。
 - `tag` 如果给了 tag，则会生成指定版本。默认生成 `lastest` 的版本。
+
+### 本地打包
+
+如果修改了本地容器，可以先提交更改：
+
+```shell
+docker commit <容器ID>
+```
+
+然后打包镜像
+
+```shell
+docker save <镜像名称>[:<版本>] > [路径]<包名>.tar
+```
+
+此时本地对应路径细啊会多一个 tar 文件。可以将该文件发送给别人直接使用
+
+### 使用打包的镜像
+
+收到别人打包的镜像 tar 文件，通过 load 加载：
+
+```shell
+docker load -i <包名>.tar
+```
