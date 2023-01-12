@@ -6,7 +6,7 @@
   <author>
     <name>JeremyJone</name>
   </author>
-  <updated>2023-01-05T02:48:37.191Z</updated>
+  <updated>2023-01-12T08:32:32.012Z</updated>
   <generator>@mr-hope/vuepress-plugin-feed</generator>
   <link rel="self" href="https://docs.jeremyjone.com/atom.xml"/>
   <link rel="alternate" href="https://docs.jeremyjone.com/"/>
@@ -18,7 +18,7 @@
     <title type="html">Home</title>
     <id>https://docs.jeremyjone.com/</id>
     <link href="https://docs.jeremyjone.com/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<Home />
 ]]></content>
     <author>
@@ -27,14 +27,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">手撸代码</title>
     <id>https://docs.jeremyjone.com/codes/</id>
     <link href="https://docs.jeremyjone.com/codes/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
 <p>代码既可以学习，也可以拿来直接使用。</p>
 <p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
@@ -45,14 +45,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">通用方法</title>
     <id>https://docs.jeremyjone.com/codes/js/</id>
     <link href="https://docs.jeremyjone.com/codes/js/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <p>一些通用函数。</p>
 <h2 id="拷贝"> 拷贝</h2>
@@ -164,14 +164,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数组的一些扩展方法</title>
     <id>https://docs.jeremyjone.com/codes/js/array/</id>
     <link href="https://docs.jeremyjone.com/codes/js/array/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数组的一些扩展方法"> 数组的一些扩展方法</h1>
 <h2 id="判断元素是否在数组中"> 判断元素是否在数组中</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>contains</span> <span>=</span> <span>(</span><span>arr<span>,</span> val</span><span>)</span> <span>=></span> <span>{</span>
@@ -291,14 +291,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">处理颜色的方法</title>
     <id>https://docs.jeremyjone.com/codes/js/colors/</id>
     <link href="https://docs.jeremyjone.com/codes/js/colors/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="处理颜色的方法"> 处理颜色的方法</h1>
 <p>相信对于前端来说，颜色的处理一定是越来越多的。</p>
 <p>下面这些属性可以任意变换，使用时需要注意引用关系。</p>
@@ -625,14 +625,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">生成方法</title>
     <id>https://docs.jeremyjone.com/codes/js/create/</id>
     <link href="https://docs.jeremyjone.com/codes/js/create/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="生成方法"> 生成方法</h1>
 <p>一些生成、创建的方法。</p>
 <h2 id="生成-uuid"> 生成 uuid</h2>
@@ -700,14 +700,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">处理日期方法</title>
     <id>https://docs.jeremyjone.com/codes/js/date/</id>
     <link href="https://docs.jeremyjone.com/codes/js/date/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="处理日期方法"> 处理日期方法</h1>
 <h2 id="判断日期"> 判断日期</h2>
 <h3 id="日期是否有效"> 日期是否有效</h3>
@@ -864,14 +864,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTML 处理方法</title>
     <id>https://docs.jeremyjone.com/codes/js/html/</id>
     <link href="https://docs.jeremyjone.com/codes/js/html/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="html-处理方法"> HTML 处理方法</h1>
 <h2 id="去除-html-标签"> 去除 html 标签</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>removeHtmltag</span> <span>=</span> <span>str</span> <span>=></span> <span>{</span>
@@ -1043,14 +1043,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">判断方法</title>
     <id>https://docs.jeremyjone.com/codes/js/judge/</id>
     <link href="https://docs.jeremyjone.com/codes/js/judge/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="判断方法"> 判断方法</h1>
 <p>一些通用的判断方法。</p>
 <h2 id="判断类型"> 判断类型</h2>
@@ -1572,14 +1572,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">常用的转换方法</title>
     <id>https://docs.jeremyjone.com/codes/js/transform/</id>
     <link href="https://docs.jeremyjone.com/codes/js/transform/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="常用的转换方法"> 常用的转换方法</h1>
 <h2 id="字符串大小写转换"> 字符串大小写转换</h2>
 <div><pre><code><span>/**
@@ -1909,14 +1909,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">样例</title>
     <id>https://docs.jeremyjone.com/demo/</id>
     <link href="https://docs.jeremyjone.com/demo/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="样例"> 样例</h1>
 <p>各种样例，可以直接运行使用的那种</p>
 ]]></content>
@@ -1926,14 +1926,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 样例</title>
     <id>https://docs.jeremyjone.com/demo/css/</id>
     <link href="https://docs.jeremyjone.com/demo/css/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-样例"> CSS 样例</h1>
 <h2 id="跳动的心"> 跳动的心</h2>
 <IFrameWrapper src="https://desktop.jeremyjone.com/example/jump-heart.html" />
@@ -1948,14 +1948,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">高级样例</title>
     <id>https://docs.jeremyjone.com/demo/css/adv/</id>
     <link href="https://docs.jeremyjone.com/demo/css/adv/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="高级样例"> 高级样例</h1>
 <h2 id="瀑布流"> 瀑布流</h2>
 <IFrameWrapper src="https://desktop.jeremyjone.com/example/waterfall.html" />
@@ -1967,14 +1967,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">文档手册</title>
     <id>https://docs.jeremyjone.com/document/</id>
     <link href="https://docs.jeremyjone.com/document/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="文档手册"> 文档手册</h1>
 <p>持续完善的工具文档手册。</p>
 <ul>
@@ -1990,14 +1990,14 @@
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Docker 使用文档</title>
     <id>https://docs.jeremyjone.com/document/docker/</id>
     <link href="https://docs.jeremyjone.com/document/docker/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="docker-使用文档"> Docker 使用文档</h1>
 <h2 id="安装"> 安装</h2>
 <p>以下以 <code>CentOS7+</code> 为例，其余请参考<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">官方文档</a>：</p>
@@ -2302,14 +2302,14 @@ docker <span>kill</span> <span>&lt;</span>容器ID<span>></span>     <span># 强
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Docker 快速搭建 NPM 服务器</title>
     <id>https://docs.jeremyjone.com/document/docker/example/npm/</id>
     <link href="https://docs.jeremyjone.com/document/docker/example/npm/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="docker-快速搭建-npm-服务器"> Docker 快速搭建 NPM 服务器</h1>
 <p>我们使用 <a href="https://verdaccio.org/docs/docker/" target="_blank" rel="noopener noreferrer">verdaccio</a> 来快速搭建 NPM 服务器。</p>
 <h2 id="拉取镜像"> 拉取镜像</h2>
@@ -2342,14 +2342,14 @@ docker pull verdaccio/verdaccio:4.0.0
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Emmet 使用文档</title>
     <id>https://docs.jeremyjone.com/document/emmet/</id>
     <link href="https://docs.jeremyjone.com/document/emmet/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="emmet-使用文档"> Emmet 使用文档</h1>
 <p><code>Emmet</code> 可以帮助我们快速开发页面代码，通过固定语法，快速生成 <code>HTML</code>、<code>CSS</code> 代码的一种工具。</p>
 <h2 id="使用方法"> 使用方法</h2>
@@ -2600,14 +2600,14 @@ docker pull verdaccio/verdaccio:4.0.0
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">入门</title>
     <id>https://docs.jeremyjone.com/document/gantt/README_old/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/README_old/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="入门"> 入门</h1>
 <Description author="jeremyjone" version="0.0.17" date="2020-12-22" copyright="jeremyjone" />
 <p>通过入门的章节内容，可以快速引入并使用 JzGantt。</p>
@@ -2700,14 +2700,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">列组件 JGanttColumn</title>
     <id>https://docs.jeremyjone.com/document/gantt/column/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/column/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="列组件-jganttcolumn"> 列组件 JGanttColumn</h1>
 <Description author="jeremyjone" date="2020-10-12" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2779,14 +2779,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">通用方法</title>
     <id>https://docs.jeremyjone.com/document/gantt/common/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/common/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <h2 id="日期格式化属性"> 日期格式化属性</h2>
 <p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
@@ -2839,14 +2839,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">根组件 JGantt</title>
     <id>https://docs.jeremyjone.com/document/gantt/root/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/root/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="根组件-jgantt"> 根组件 JGantt</h1>
 <Description author="jeremyjone" date="2020-12-02" copyright="jeremyjone" />
 <p>对于 <code>JGantt</code> 组件，它具有非常丰富的属性。</p>
@@ -3052,14 +3052,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">滑块组件 JGanttSlider</title>
     <id>https://docs.jeremyjone.com/document/gantt/slider/</id>
     <link href="https://docs.jeremyjone.com/document/gantt/slider/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="滑块组件-jganttslider"> 滑块组件 JGanttSlider</h1>
 <Description author="jeremyjone" date="2020-11-05" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -3200,14 +3200,14 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">GIT 命令</title>
     <id>https://docs.jeremyjone.com/document/git/</id>
     <link href="https://docs.jeremyjone.com/document/git/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="git-命令"> GIT 命令</h1>
 <h2 id="安装"> 安装</h2>
 <ul>
@@ -3890,14 +3890,14 @@ Closes #1, #2
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">GitHub Pages action 配置</title>
     <id>https://docs.jeremyjone.com/document/git/github_workflow/</id>
     <link href="https://docs.jeremyjone.com/document/git/github_workflow/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="github-pages-action-配置"> GitHub Pages action 配置</h1>
 <p>GitHub 给我们提供了非常方便的部署功能 <a href="https://github.com/marketplace/actions/github-pages-action" target="_blank" rel="noopener noreferrer">GitHub Pages action</a>。它可以帮助我们快速部署静态页面，省去了每次单独部署的繁琐操作，我们只需要通过简单的配置就可以实现该功能。</p>
 <p>我们以该 vuepress 文档为例。</p>
@@ -4123,14 +4123,14 @@ Closes #1, #2
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Markdown 语法</title>
     <id>https://docs.jeremyjone.com/document/markdown/</id>
     <link href="https://docs.jeremyjone.com/document/markdown/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="markdown-语法"> Markdown 语法</h1>
 <h2 id="标题"> 标题</h2>
 <p>使用 <code>#</code> 设置标题。
@@ -4634,14 +4634,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">npm 使用</title>
     <id>https://docs.jeremyjone.com/document/npm/</id>
     <link href="https://docs.jeremyjone.com/document/npm/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="npm-使用"> npm 使用</h1>
 <h2 id="安装"> 安装</h2>
 <p><code>npm</code> 是 <code>Node</code> 默认的模块管理器，同时也是模块登记和管理系统，它随 <code>Node</code> 环境一起安装，不需要单独安装。</p>
@@ -5022,14 +5022,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">正则表达式的使用</title>
     <id>https://docs.jeremyjone.com/document/regexp/</id>
     <link href="https://docs.jeremyjone.com/document/regexp/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="正则表达式的使用"> 正则表达式的使用</h1>
 <h2 id="什么是正则表达式"> 什么是正则表达式</h2>
 <p>正则表达式是高级文本匹配模式，用于搜索文本中的指定字符串。其本质是由一些字符和特殊字符组成的字符串，其中的字符可以是字母，数字，特殊字符，可以是零个或多个。这个字符串可以用来搜索文本中的指定字符串。</p>
@@ -5346,14 +5346,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vim 使用说明</title>
     <id>https://docs.jeremyjone.com/document/vim/</id>
     <link href="https://docs.jeremyjone.com/document/vim/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vim-使用说明"> Vim 使用说明</h1>
 <h2 id="打开文件"> 打开文件</h2>
 <p><code>vim filename</code>     打开文件</p>
@@ -5585,14 +5585,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Example Page</title>
     <id>https://docs.jeremyjone.com/example/</id>
     <link href="https://docs.jeremyjone.com/example/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="example-page"> Example Page</h1>
 <p>YAML config</p>
 <div><pre><code><span>---</span>
@@ -5622,14 +5622,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">学习路线</title>
     <id>https://docs.jeremyjone.com/roadmap/</id>
     <link href="https://docs.jeremyjone.com/roadmap/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="学习路线"> 学习路线</h1>
 <p>保持学习，从 GitHub 搬运了一点学习路线图，以及对应的主页，方便查找和学习，可以快速查缺补漏。</p>
 <ul>
@@ -5646,14 +5646,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Android 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/android/</id>
     <link href="https://docs.jeremyjone.com/roadmap/android/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="android-学习之路"> Android 学习之路</h1>
 <p>Android 的学习之路，页面只有图，不咋地。。。</p>
 <p><a href="https://github.com/mobile-roadmap/android-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -5665,14 +5665,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">计算机基础</title>
     <id>https://docs.jeremyjone.com/roadmap/base/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="计算机基础"> 计算机基础</h1>
 <p>计算机基础是计算机科学的重要基石。只有充分掌握了计算机的基础理论部分，才可以更快、更好的学习更高级的知识。</p>
 ]]></content>
@@ -5682,14 +5682,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">算法</title>
     <id>https://docs.jeremyjone.com/roadmap/base/algorithm/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/algorithm/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="算法"> 算法</h1>
 ]]></content>
     <author>
@@ -5698,30 +5698,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">计算机基础内容</title>
-    <id>https://docs.jeremyjone.com/roadmap/base/computer/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/base/computer/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据结构</title>
     <id>https://docs.jeremyjone.com/roadmap/base/data-structure/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/data-structure/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据结构"> 数据结构</h1>
 ]]></content>
     <author>
@@ -5730,14 +5714,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据库</title>
     <id>https://docs.jeremyjone.com/roadmap/base/database/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/database/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据库"> 数据库</h1>
 ]]></content>
     <author>
@@ -5746,30 +5730,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">域名</title>
-    <id>https://docs.jeremyjone.com/roadmap/base/network/domain/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/base/network/domain/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="域名"> 域名</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">网络基础</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="网络基础"> 网络基础</h1>
 <h2 id="osi-模型"> OSI 模型</h2>
 <h3 id="七层模型"> 七层模型</h3>
@@ -5789,14 +5757,30 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">域名</title>
+    <id>https://docs.jeremyjone.com/roadmap/base/network/domain/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/base/network/domain/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="域名"> 域名</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">IP 网际协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/ip/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/ip/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
 ]]></content>
     <author>
@@ -5805,14 +5789,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">OSI 模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="osi-模型"> OSI 模型</h1>
 ]]></content>
     <author>
@@ -5821,14 +5805,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">四层模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="四层模型"> 四层模型</h1>
 ]]></content>
     <author>
@@ -5837,14 +5821,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">七层模型</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="七层模型"> 七层模型</h1>
 ]]></content>
     <author>
@@ -5853,14 +5837,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">TCP 协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="tcp-协议"> TCP 协议</h1>
 ]]></content>
     <author>
@@ -5869,14 +5853,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">UDP 协议</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="udp-协议"> UDP 协议</h1>
 ]]></content>
     <author>
@@ -5885,14 +5869,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">万维网</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="万维网"> 万维网</h1>
 ]]></content>
     <author>
@@ -5901,14 +5885,30 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">计算机基础内容</title>
+    <id>https://docs.jeremyjone.com/roadmap/base/computer/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/base/computer/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTTP</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/http/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/http/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="http"> HTTP</h1>
 <p><code>HTTP</code>：<code>hypertext transform protocol</code>，超文本传输协议。它允许将超文本标记语言（<code>HTML</code>）从 web 服务器传送到客户端的浏览器。为了使超文本的链接能够高效率的完成，需要使用 <code>HTTP</code> 协议来出阿松一些必需的信息。</p>
 <p>从层次的角度看，<code>HTTP</code> 是面向事务的应用层协议，它是万维网上能够可靠地交换文件的重要基础。</p>
@@ -6135,14 +6135,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTTPS</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/https/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/https/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="https"> HTTPS</h1>
 <h2 id="什么是-https"> 什么是 HTTPS</h2>
 <p><code>HTTPS</code>：（Hyper Text Transfer Protocol over SecureSocket Layer），是以安全为目标的 <code>HTTP</code> 通道。在 <code>HTTP</code> 的基础上，通过传输加密和身份认证保证了传输过程的安全性。</p>
@@ -6189,14 +6189,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">URL</title>
     <id>https://docs.jeremyjone.com/roadmap/base/network/www/url/</id>
     <link href="https://docs.jeremyjone.com/roadmap/base/network/www/url/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="url"> URL</h1>
 <p><code>URL</code>：<code>Uniform Resource Identifier</code>，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。<code>URL</code> 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。</p>
 <p><code>URL</code> 相当于一个文件名在网络范围的扩展。因此 <code>URL</code> 是与因特网相连的机器上的任何可访问对象的一个指针。</p>
@@ -6221,14 +6221,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">ASP.NET Core 开发者学习路线图</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="asp-net-core-开发者学习路线图"> ASP.NET Core 开发者学习路线图</h1>
 <p>.NET Core 的学习之路，中文更新速度很好。</p>
 <p><a href="https://github.com/MoienTajik/AspNetCore-Developer-Roadmap" target="_blank" rel="noopener noreferrer">英文文档</a></p>
@@ -6241,14 +6241,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <h2 id="开始之前"> 开始之前</h2>
 <p>先贴上官方地址：
@@ -6297,14 +6297,14 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">在 ASP.NET 中使用授权与认证</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="在-asp-net-中使用授权与认证"> 在 ASP.NET 中使用授权与认证</h1>
 <p>下面通过一组渐进式的例子，来学习 ASP.NET 是如何认证并授权的。</p>
 <h2 id="添加认证中间件"> 添加认证中间件</h2>
@@ -6687,14 +6687,14 @@ services<span>.</span><span><span>AddSingleton</span><span><span>&lt;</span>IAut
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">IdentityServer4 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="identityserver4-的使用"> IdentityServer4 的使用</h1>
 <p>IdentityServer4 是基于 OpenId Connect（OIDC）、OAuth 2.0 统一的身份认证和授权系统。它拥有很多功能：</p>
 <ul>
@@ -7045,14 +7045,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">外部身份验证</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="外部身份验证"> 外部身份验证</h1>
 <p>基于 OAuth2 的特性，我们可以轻松通过外部账户进行登录。</p>
 <p>外部账户登录的好处：</p>
@@ -7194,14 +7194,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">详解认证中心的配置</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="详解认证中心的配置"> 详解认证中心的配置</h1>
 <p>在 <code>IdentityServer</code> 中，需要我们进行配置的内容，大体分成：<code>IdentityResource</code>、<code>ApiScope</code>、<code>ApiResource</code> 和 <code>Client</code>，它们都是在 <code>IdentityServer4.Models</code> 中定义的。</p>
 <p>我们在创建一个 Ids 服务之后，也要首先进行配置初始数据（之前写过的 Config.cs），也就是配置这些内容。</p>
@@ -7674,14 +7674,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">数据的持久化（使用数据库）</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="数据的持久化（使用数据库）"> 数据的持久化（使用数据库）</h1>
 <p>前面只是一个最简单的基础使用方案，虽然已经实现了认证与授权，但是明显并不能满足生产需求，下面就按不同需求进行配置。</p>
 <p>上面的例子中，所有数据都在内存中，并不能持久化。如果要数据持久化，上数据库是必然的。</p>
@@ -8309,14 +8309,14 @@ dotnet ef database update -c ApplicationDbContext
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JWT</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="jwt"> JWT</h1>
 <h2 id="什么是-jwt"> 什么是 JWT</h2>
 <p>Jwt，Json Web Token 是一个开放标准（<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">RFC 7519</a>），它定义了一种紧凑且独立的方法，用于在各方之间安全地将信息作为 JSON 对象传输。由于此信息是经过数字签名的，因此可以被验证和信任。可以使用密码（使用 HMAC 算法）或使用 RSA 或 ECDSA 的公钥/私钥对对 JWT 进行签名。</p>
@@ -8482,14 +8482,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">基础知识</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/basic/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>本文将学习 <code>.NET</code> 需要的一些前置基础知识。</p>
 <blockquote>
@@ -8576,14 +8576,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>在互联网中，因为服务器性能、网络带宽等各种原因，传输数据时需要考虑的问题相比单机程序要更多。缓存的出现有效解决了这个问题。缓存可以有效降低服务器的重复工作量，进而提高服务器的性能和效率。</p>
 <p>缓存适用于不经常修改的数据，如媒体文件等。而且缓存一般存在于高速介质中，同时网络中各个节点均可设置缓存，所以使用缓存的效率会更高。</p>
@@ -8698,14 +8698,14 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">分布式缓存</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="分布式缓存"> 分布式缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>分布式缓存，顾名思义就是多个服务器共享一个缓存。</p>
@@ -8871,14 +8871,14 @@ GO
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">内存缓存</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="内存缓存"> 内存缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>ASP.NET 支持多个不同缓存。通过 <code>IMemoryCache</code> 可以创建一个简单的内存缓存，它用于在 web 服务器的内存中创建一块缓存。当服务器运行时应确保会话在使用内存中缓存时处于粘滞状态。粘滞会话确保来自客户端的后续请求都将发送到相同服务器。</p>
@@ -8954,14 +8954,14 @@ GO
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">跨域</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/cors/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="跨域"> 跨域</h1>
 <h2 id="什么是跨域"> 什么是跨域</h2>
 <h2 id="配置-cors"> 配置 CORS</h2>
@@ -8989,14 +8989,14 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>数据库就是存储数据的仓库。数据库在保存数据上具有显而易见的优势：</p>
 <ul>
@@ -9083,14 +9083,14 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>Entity Framework (EF) Core 是轻量化、可扩展、开源和跨平台版的常用 Entity Framework 数据访问技术。
 EF Core 可用作对象关系映射程序 (O/RM)，这可以实现以下两点：</p>
@@ -9293,14 +9293,14 @@ dotnet ef database update
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">DbContext 的配置</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="dbcontext-的配置"> DbContext 的配置</h1>
 <p><code>DbContext</code> 实例表示与数据库的会话，可用于查询和保存实体实例。<code>DbContext</code> 是工作单元和存储库模式的组合。</p>
 <p>通常，你将创建一个从 <code>DbContext</code> 派生的类，并在 <code>DbSet&lt;TEntity&gt;</code> 模型中包含每个实体的属性。如果 <code>DbSet&lt;TEntity&gt;</code> 属性具有公共资源库，则在创建派生上下文的实例时，它们会自动初始化。</p>
@@ -9362,14 +9362,14 @@ dotnet ef database update
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">管理数据库</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="管理数据库"> 管理数据库</h1>
 <h2 id="迁移数据库"> 迁移数据库</h2>
 <p>迁移数据库是将模型转换为数据库表。</p>
@@ -9435,14 +9435,14 @@ Scaffold<span>-</span>DbContext <span>"server=localhost;userid=jeremyjone;pwd=12
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">模型</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="模型"> 模型</h1>
 <p>Entity Framework Core 使用一组约定来根据实体类的形状生成模型。可指定其他配置以补充或替代约定的内容。模型对应于数据库中的表，每一张数据表都应该对应一个数据模型。</p>
 <div><p>示例代码</p>
@@ -9698,14 +9698,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="使用"> 使用</h1>
 <h2 id="查询数据"> 查询数据</h2>
 <p>Entity Framework Core 使用语言集成查询 (LINQ) 来查询数据库中的数据。</p>
@@ -9785,14 +9785,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">其他映射工具</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="其他映射工具"> 其他映射工具</h1>
 <ul>
 <li><a href="http://www.donet5.com/Doc/1/1180" target="_blank" rel="noopener noreferrer">SqlSugar</a></li>
@@ -9805,14 +9805,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <blockquote>
 <p>高内聚，低耦合</p>
@@ -9918,14 +9918,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">服务容器</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="服务容器"> 服务容器</h1>
 <h2 id="默认容器"> 默认容器</h2>
 <p>使用内置的服务容器可以满足框架和大多数消费者应用的需求。在一个基本框架的 <code>Startup.cs</code> 中已经添加好了相应的代码，我们只需要直接使用即可：</p>
@@ -9965,14 +9965,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">生命周期</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
 <ul>
@@ -10007,14 +10007,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">应用性能监控系统</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="应用性能监控系统"> 应用性能监控系统</h1>
 <p>如今分布式架构越来越多，对于整套系统的监控越来越复杂，不单单是一个日志能够解决的，需要日志、追踪、分析等不同工具配合使用，才能满足需求。</p>
 <p>在众多 APM 系统中，<code>SkyWalking</code> 算是一款比较好用的 APM 系统。它包括 <code>服务端</code>、<code>界面</code>、以及 <code>探针</code>，其中 <code>探针</code> 是针对不同语言有不同的包，针对 ASP.NET 的探针包是 <code>SkyAPM-dotnet</code>，具体可以查看 <a href="https://github.com/SkyAPM" target="_blank" rel="noopener noreferrer">GitHub</a>。</p>
@@ -10157,14 +10157,14 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Serilog 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="serilog-的使用"> Serilog 的使用</h1>
 <p>Serilog 是第三方日志工具，拥有强大的插件功能和易用性。</p>
 <h2 id="安装"> 安装</h2>
@@ -10246,14 +10246,14 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">概述</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="概述"> 概述</h1>
 <p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
 <p>举个例子，一个用户对象，它有如下属性：</p>
@@ -10307,14 +10307,14 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">AutoMapper</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="automapper"> AutoMapper</h1>
 <p>正如前文说的那样，对象映射就是将一个对象中的属性按照一定规则映射到另一个对象中。这个操作是枯燥重复的，所以就有了 <code>AutoMapper</code> 这样的对象映射器。</p>
 <h2 id="映射规则"> 映射规则</h2>
@@ -11040,14 +11040,14 @@ services<span>.</span><span>AddAutoMapper</span><span>(</span><span>typeof</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">RabbitMQ 的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
 <p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
 <h2 id="安装"> 安装</h2>
@@ -11413,14 +11413,14 @@ properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Swagger 文档的使用</title>
     <id>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</id>
     <link href="https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="swagger-文档的使用"> Swagger 文档的使用</h1>
 <p>相信能看到这里，你一定对 swagger 多少有了解。它是极具推崇的文档生成工具，在多种语言下都可以有良好的体验。有兴趣的朋友可以去看看 <a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
 <h2 id="安装"> 安装</h2>
@@ -11704,14 +11704,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Flutter 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/flutter/</id>
     <link href="https://docs.jeremyjone.com/roadmap/flutter/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="flutter-学习之路"> Flutter 学习之路</h1>
 <p>Flutter 的学习之路，页面包含英文学习文章链接。</p>
 <p><a href="https://github.com/olexale/flutter_roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -11723,14 +11723,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">前端学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="前端学习之路"> 前端学习之路</h1>
 <p>前端学习，需要逐步进阶。从网络三剑客开始，<a href="./html">HTML</a>，<a href="./css">CSS</a>，<a href="./js">JavaScript</a>，然后逐步学习网络知识以，了解了网络原理后可以学习提升性能。</p>
 <p>然后可以开始学习框架内容。</p>
@@ -11741,90 +11741,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">前端进阶</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
-<h2 id="cors-详解"> CORS 详解</h2>
-<p><code>CORS</code> 全称是 <code>Cross-origin Resource Sharing</code>，即 <code>跨域资源共享</code>。它解决了浏览器中只能同源请求数据的限制。</p>
-<p>那么我们首先要知道什么是 <code>跨域</code> 和 <code>同源</code>？</p>
-<h3 id="什么是跨域"> 什么是跨域</h3>
-<p>浏览器都是同源策略，即可以访问同一资源域。对于需要访问不同的资源域，就属于跨域范畴，这在浏览器中是被严格禁止的。</p>
-<p>不同域包括：</p>
-<ul>
-<li>协议不同</li>
-<li>域名不同</li>
-<li>端口不同</li>
-<li>子域名不同</li>
-</ul>
-<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
-<p>只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。</p>
-<h3 id="cors-的两种请求模式"> CORS 的两种请求模式</h3>
-<p>随着 Ajax 请求的使用越来越频繁，网页跨域请求急需解决，于是 W3C 在 2014 年发布了一个正式推荐的通信标准来解决该问题，它就是 <code>CORS</code>。</p>
-<p>该方案需要服务端配置相关功能，然后由浏览器自动为每一个跨域请求都自动携带上 <code>Origin</code> 等 http 请求头信息，后台服务检索判定允许或者拒绝即可，这样就可以请求跨域的资源了。</p>
-<p>CORS请求分为两种：</p>
-<ul>
-<li>
-<p>简单请求</p>
-<blockquote>
-<p>简单请求就是使用设定的请求方式来请求数据</p>
-<p>简单请求的条件：</p>
-<ul>
-<li>使用 <code>HEAD</code>、<code>GET</code>、<code>POST</code> 方法</li>
-<li><code>HTTP</code> 头信息不超过以下：
-<ul>
-<li>Accept</li>
-<li>Accept-Language</li>
-<li>Content-Language</li>
-<li>Last-Event-ID</li>
-<li>Content-Type，该属性仅限三个值：(application/x-www-form-urlencoded、multipart/form-data、text/plain)</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-</li>
-<li>
-<p>非简单请求</p>
-<blockquote>
-<p>非简单请求则是在使用设定的请求方式请求数据之前，先发送一个 <code>OPTIONS</code> 请求，确定服务端是否允许发送非简单请求，如果可以，才真正发送请求。这个过程叫做 <code>预检</code>。</p>
-</blockquote>
-</li>
-</ul>
-<p>了解了 CORS 的请求方式，也就知道，在<strong>浏览器</strong>中，仅仅支持默认的同源访问策略。如果需要访问跨域资源，浏览器会根据请求类型自动处理，整个过程没有人工干预。至于可不可以访问，需要后台服务来判断批准。</p>
-<h3 id="前端处理跨域问题"> 前端处理跨域问题</h3>
-<p>1、使用 JSONP 请求资源</p>
-<p>该方式只支持 GET 请求，它利用浏览器允许跨域请求一些 link、img、script 标签上的内容，实现在一个 script 标签中请求一个链接并返回相应内容进行处理。</p>
-<blockquote>
-<p>该方式单一、不安全，尽量不要使用。</p>
-</blockquote>
-<p>2、单独请求</p>
-<p>前端遇到跨域问题，常规情况下是解决不了的，这个问题一般来说都是后端来控制的，包括但不限于：</p>
-<ul>
-<li>反向代理配置，如 nginx、apache 等配置相关字段</li>
-<li>后端服务代码中直接添加 <code>AddPolicy.WithOrigins(xxx)</code> 之类的方法来允许某些特定域可以访问当前服务资源</li>
-</ul>
-<p>这些都是最根本的方案，但有些时候，比如开发期间，我们需要本地调试，这个时候，可以单独请求，这也是我们现在开发中常用的方法。</p>
-<p>现在，我们创建一个前端项目之后，通常回本地启动服务，比如 vue，启动后，会在本地开启一个 <code>http://localhost:8080</code> 的服务，浏览器中的每一个请求其实都请求到这里，再通过该服务请求到真正的后台服务。</p>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 预处理器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-预处理器"> CSS 预处理器</h1>
 ]]></content>
     <author>
@@ -11833,14 +11757,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">性能部分</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="性能部分"> 性能部分</h1>
 <h2 id="网站的性能优化"> 网站的性能优化</h2>
 <p>网站的性能主要是指一个网站从请求到完全打开的过程是否顺畅以及用时是否能够达到用户的承受度。简单来说，就是用户打开网站，如果时间过长，或者打开时很不顺畅，那么这种体验是非常糟糕的，也就是性能不好。</p>
@@ -11878,14 +11802,14 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">原理部分</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="原理部分"> 原理部分</h1>
 <h2 id="浏览器的渲染机制和原理"> 浏览器的渲染机制和原理</h2>
 <p>当我们在浏览器地址栏中键入一个地址，然后按下回车，此时一个请求便开始了。</p>
@@ -12045,14 +11969,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">TypeScript</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="typescript"> TypeScript</h1>
 ]]></content>
     <author>
@@ -12061,14 +11985,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-基础"> CSS 基础</h1>
 <h2 id="什么是-css"> 什么是 CSS</h2>
 <p>CSS，<code>Cascading Style Sheets</code>，即 <code>层叠样式表</code>。它是一种样式表语言，用来描述 <code>HTML</code> 或 <code>XML</code> 文档的呈现。<code>CSS</code> 描述了在屏幕、纸质、音频等其他媒体上的元素应该如何被渲染的问题。</p>
@@ -12164,14 +12088,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">盒模型</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/box/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/box/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="盒模型"> 盒模型</h1>
 <p>盒模型是 <code>CSS</code> 中一个非常重要的概念。所有元素都被一个个盒子包裹，理解盒模型的原理，是我们使用 <code>CSS</code> 实现准确布局、处理元素排列的关键所在。</p>
 <h2 id="块级与内联"> 块级与内联</h2>
@@ -12337,14 +12261,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">布局</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="布局"> 布局</h1>
 <p><code>CSS</code> 页面布局技术允许我们拾取网页中的元素，并且控制它们相对正常布局流、周边元素、父容器或主视口的位置。</p>
 <h2 id="正常布局流"> 正常布局流</h2>
@@ -12365,14 +12289,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">弹性布局（Flexbox）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="弹性布局（flexbox）"> 弹性布局（Flexbox）</h1>
 <p>弹性盒子布局是专门用于创建横向/纵向的一维页面布局。虽然它是一维页面布局，但是通过嵌套，可以在两个维度构建更加丰富的布局内容。</p>
 <p>要使用弹性盒子，只需要在父级元素中设置 <code>display:flex</code> 即可，所有子元素都将按照 <code>flex</code> 进行布局。</p>
@@ -12669,14 +12593,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">栅格布局（Grid）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="栅格布局（grid）"> 栅格布局（Grid）</h1>
 <p>与弹性布局不同，栅格布局是一个<strong>二维布局系统</strong>。它可以用于布局页面中主要的区域以及小型组件。</p>
 <p>栅格布局是一组水平和垂直的 <strong>栅格线</strong> 相交，划分了 <strong>行</strong> 和 <strong>列</strong> 的轨道。</p>
@@ -13189,14 +13113,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">响应式与媒体查询</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/media/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/media/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="响应式与媒体查询"> 响应式与媒体查询</h1>
 <p>媒体查询是 <code>CSS2</code> 引入的，它让不同媒体类型定义不同样式成为了可能。</p>
 <h2 id="媒体查询的作用"> 媒体查询的作用</h2>
@@ -13275,14 +13199,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">定位</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/position/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/position/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="定位"> 定位</h1>
 <p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
 <p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
@@ -13376,14 +13300,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">选择器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/css/selector/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="选择器"> 选择器</h1>
 <p>CSS 有一套完整的选择器规则，可以帮助我们快速获取任意指定元素或元素集。</p>
 <h2 id="元素选择器"> 元素选择器</h2>
@@ -13731,14 +13655,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">构建工具</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/build/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="构建工具"> 构建工具</h1>
 <h2 id="webpack"> Webpack</h2>
 <h2 id="rollup"> Rollup</h2>
@@ -13750,14 +13674,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">格式化工具</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/format/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="格式化工具"> 格式化工具</h1>
 <h2 id="eslint"> ESLint</h2>
 <h2 id="prettier"> Prettier</h2>
@@ -13768,14 +13692,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">包管理器</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/engineer/package/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="包管理器"> 包管理器</h1>
 <h2 id="npm"> npm</h2>
 <h2 id="yarn"> yarn</h2>
@@ -13786,14 +13710,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTML 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/html/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/html/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
 <h2 id="什么是-html"> 什么是 HTML</h2>
 <p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
@@ -14042,14 +13966,14 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JavaScript 基础</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="javascript-基础"> JavaScript 基础</h1>
 <h2 id="什么是-javascript"> 什么是 JavaScript</h2>
 <p><code>JavaScript</code> 是一种具有函数优先的轻量级、解释型的脚本语言。它最初的设计是用来操作浏览器中的 <code>DOM</code> 元素的，但现在它也被应用到了很多非浏览器环境中，甚至开发后端应用。</p>
@@ -14193,14 +14117,14 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">异步编程</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="异步编程"> 异步编程</h1>
 <h2 id="异步的由来与实现"> 异步的由来与实现</h2>
 <p>JS 在设计之初就是单线程的，所以本质上并不存在异步编程。在经过不断的进化和改良之后，现在所谓的异步编程也只是利用任务队列来改变事件的触发顺序，从而在效果上达到异步。</p>
@@ -15423,14 +15347,14 @@ MyPromise<span>.</span><span>race</span><span>(</span><span>[</span>p3<span>,</s
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">网络请求</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/net/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/net/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="网络请求"> 网络请求</h1>
 <h2 id="ajax"> Ajax</h2>
 <p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
@@ -15661,14 +15585,14 @@ Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">原型和原型链详解</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/prototype/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="原型和原型链详解"> 原型和原型链详解</h1>
 <p>网上有很多相关的文章、视频等资料，但很多都是片面的，不完全的。我也为了自身加深理解，所以对其进行一下简单的总结。</p>
 <h2 id="两个属性"> 两个属性</h2>
@@ -16339,14 +16263,14 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Proxy 与 Reflect</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/proxy/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="proxy-与-reflect"> Proxy 与 Reflect</h1>
 <h2 id="proxy"> Proxy</h2>
 <p><code>Proxy</code> 是一个对象，用于创建一个对象的代理，从而实现基本操作的拦截和自定义（如属性查找、赋值、枚举、函数调用等）。</p>
@@ -16863,14 +16787,14 @@ star2<span>.</span>name <span>=</span> <span>"王xx"</span><span>;</span> <span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">this 关键字</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/js/this/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/js/this/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="this-关键字"> this 关键字</h1>
 <p>JavaScript 中的 <code>this</code> 关键字与其他语言略有不同，<strong>在绝大多数情况下，函数的调用方式决定了 <code>this</code> 的值（运行时绑定）</strong>。<code>this</code> 不能在执行期间被赋值，并且在每次函数被调用时 <code>this</code> 的值也可能不同。</p>
 <p>ES5 引入了 <code>bind</code> 方法来设置函数的 <code>this</code> 值，而不用考虑函数是如何被调用的。同时，箭头函数不提供自身的 <code>this</code> 绑定。</p>
@@ -17111,14 +17035,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">React 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/react/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/react/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
 <p>React 的学习之路，英文比中文新。</p>
 <p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -17131,14 +17055,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-学习之路"> Vue 学习之路</h1>
 <p>Vue 的学习之路。</p>
 ]]></content>
@@ -17148,14 +17072,14 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">组件</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="组件"> 组件</h1>
 <p>组件允许我们将 UI 划分为独立的、可重用的部分，并且可以对每个部分进行单独的思考。在实际应用中，组件常常被组织成层层嵌套的树状结构：</p>
 <img :src="$withBase('/assets/roadmap/vue/component-base.png')" alt="component-base">
@@ -17380,14 +17304,14 @@ props<span>:</span> <span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">双向绑定</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="双向绑定"> 双向绑定</h1>
 <p>在 Vue 中，双向绑定是一个非常实用的技术。它本身是用来进行表单的输入绑定。</p>
 <div><pre><code><span><span><span>&lt;</span>input</span> <span>:value</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>@input</span><span><span>=</span><span>"</span>e => text = e.target.value<span>"</span></span> <span>/></span></span>
@@ -17530,15 +17454,608 @@ props<span>:</span> <span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
-    <title type="html">UI 框架</title>
+    <title type="html">搭建一个 UI 框架</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/framework/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="ui-框架"> UI 框架</h1>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="搭建一个-ui-框架"> 搭建一个 UI 框架</h1>
+<p>搭建一个 UI 框架，是学习的终极解决方案，既可以学习到所有基础内容，又可以接触到从搭建、开发、打包的一系列全流程。</p>
+<p>从中可以学到：</p>
+<ul>
+<li>合理搭建项目结构</li>
+<li>打包工具的使用</li>
+<li>编译工具的使用</li>
+<li>类型声明过程</li>
+</ul>
+<h2 id="项目构思"> 项目构思</h2>
+<p>首先，我们要明确目标。我们创建的框架项目需要有以下内容：</p>
+<ul>
+<li>类型声明，所以需要 TypeScript</li>
+<li>与时俱进的内容，所以使用 vue3</li>
+<li>高效的开发流程，所以使用 vite</li>
+<li>monorepo 环境管理是必须的，所以需要 pnpm</li>
+</ul>
+<p>基于上，我们即将用到如下主体技术：</p>
+<ul>
+<li>
+<p>基础构建</p>
+<ul>
+<li>Vue</li>
+<li>TypeScript</li>
+<li>scss</li>
+<li>pnpm</li>
+<li>vite</li>
+</ul>
+</li>
+<li>
+<p>打包</p>
+<ul>
+<li>vite</li>
+<li>gulp</li>
+</ul>
+</li>
+</ul>
+<h2 id="搭建项目"> 搭建项目</h2>
+<p>确保系统已安装 <code>pnpm</code>，然后运行：</p>
+<div><pre><code><span>pnpm</span> create vite ui-packages --template vue-ts
+</code></pre>
+<div><span>1</span><br></div></div><p>此时，我们就得到了基础项目内容。</p>
+<h3 id="修改项目结构"> 修改项目结构</h3>
+<h4 id="_1、移动当前内容"> 1、移动当前内容</h4>
+<ul>
+<li>首先，修改 <code>src</code> 文件夹为 <code>examples</code>。</li>
+<li>接着把 <code>public</code> 文件夹 和 <code>index.html</code> 都移动到 <code>examples</code> 下。</li>
+<li>然后修改 <code>index.html</code> 中的 <code>src</code> 路径，对应当前正确路径即可。</li>
+</ul>
+<h4 id="_2、新增结构"> 2、新增结构</h4>
+<ul>
+<li>在项目根目录下，新建 <code>packages</code> 和 <code>scripts</code> 文件夹。</li>
+<li>在 <code>packages</code> 目录下，创建：
+<ul>
+<li><code>components</code> 文件夹，用于存放组件源代码</li>
+<li><code>fonts</code> 文件夹，存放字体、图标等资源文件</li>
+<li><code>themes</code> 文件夹，存放公共样式</li>
+<li><code>utils</code> 文件夹，存放公共方法等</li>
+</ul>
+</li>
+</ul>
+<h4 id="_3、新增文件"> 3、新增文件</h4>
+<ul>
+<li>在根目录下，创建 <code>pnpm-workspace.yaml</code> 文件，并填入如下内容：<div><pre><code><span>packages</span><span>:</span>
+  <span>-</span> <span>"packages/**"</span>
+  <span>-</span> <span>"examples"</span> 
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><blockquote>
+<p>它实现了一个 <code>monorepo</code> 环境（指单仓库多项目，需要一个 packages 文件夹，里面还包含多个子包）</p>
+</blockquote>
+</li>
+<li>在根目录下，创建 <code>.npmrc</code> 文件，并填入如下内容：<div><pre><code>shamefully-hoist <span>=</span> <span>true</span><span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><blockquote>
+<p>它确保使用 <code>pnpm</code> 安装依赖时，可以将所有依赖扁平化，确保不会因为某些深层依赖出现不可预知的问题。</p>
+</blockquote>
+</li>
+<li>在 <code>packages</code> 文件夹中新建 <code>vite-env.d.ts</code> 文件，并填入如下内容：<div><pre><code><span>/// &lt;reference types="vite/client" /></span>
+
+<span>declare</span> <span>module</span> <span>"*.vue"</span> <span>{</span>
+  <span>import</span> <span>type</span> <span>{</span> DefineComponent <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+  <span>const</span> component<span>:</span> DefineComponent<span>&lt;</span><span>{</span><span>}</span><span>,</span> <span>{</span><span>}</span><span>,</span> <span>any</span><span>></span><span>;</span>
+  <span>export</span> <span>default</span> component<span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></li>
+</ul>
+<h4 id="_4、修改文件内容"> 4、修改文件内容</h4>
+<ul>
+<li>移动了文件内容，所以我们需要修改启动位置。修改 <code>package.json</code> 中的启动参数：<div><pre><code><span>{</span>
+  <span>"scripts"</span><span>:</span> <span>{</span>
+    <span>"dev"</span><span>:</span> <span>"cd examples &amp;&amp; vite"</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br></div></div></li>
+<li>在 <code>tsconfig.json</code> 中添加如下内容：<div><pre><code><span>{</span>
+  <span>"emitDeclarationOnly"</span><span>:</span> <span>true</span><span>,</span>
+  <span>"declaration"</span><span>:</span> <span>true</span><span>,</span>
+  <span>"skipDefaultLibCheck"</span><span>:</span> <span>true</span><span>,</span>
+  <span>"declarationDir"</span><span>:</span> <span>"types"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div></li>
+</ul>
+<p>最后，我们的项目结构基本就创建完毕，大体结构如下：</p>
+<div><pre><code>┌-- examples/
+|     |-- assets/**
+|     |-- components/**
+|     |-- public/**
+|     |-- App.vue
+|     |-- index.html
+|     |-- main.ts
+|     |-- style.css
+|     ╰-- vite-env.d.ts
+|
+|-- packages/
+|     |-- components/**
+|     |-- fonts/**
+|     |-- themes/**
+|     |-- utils/**
+|     ╰-- vite-env.d.ts
+|
+|-- scripts/**
+|-- .gitignore
+|-- .npmrc
+|-- package.json
+|-- pnpm-workspace.yaml
+|-- README.md
+|-- tsconfig.json
+|-- vite.config.ts
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br></div></div><h2 id="体验一下-monorepo-环境"> 体验一下 monorepo 环境</h2>
+<p>首先我们在 <code>packages/utils/</code> 下创建一个 <code>index.ts</code> 文件，并填入：</p>
+<div><pre><code><span>export</span> <span>const</span> <span>count</span> <span>=</span> <span>(</span>a<span>:</span> <span>number</span><span>,</span> b<span>:</span> <span>number</span><span>)</span> <span>=></span> a <span>+</span> b<span>;</span>
+</code></pre>
+<div><span>1</span><br></div></div><p>同时在 <code>packages/utils/</code> 下添加 <code>package.json</code> 文件：</p>
+<div><pre><code><span>{</span>
+  <span>"name"</span><span>:</span> <span>"@ui-packages/utils"</span><span>,</span>
+  <span>"version"</span><span>:</span> <span>"1.0.0"</span><span>,</span>
+  <span>"description"</span><span>:</span> <span>"All utils are settled here"</span><span>,</span>
+  <span>"main"</span><span>:</span> <span>"index.ts"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>然后我们在 <code>packages/components/</code> 下添加 <code>index.ts</code> 文件，添加如下内容：</p>
+<div><pre><code><span>import</span> <span>{</span> count <span>}</span> <span>from</span> <span>'@ui-packages/utils'</span><span>;</span>
+
+<span>console</span><span>.</span><span>log</span><span>(</span><span>count</span><span>(</span><span>1</span><span>,</span> <span>2</span><span>)</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>此时会找不到 <code>@ui-packages/utils</code> 包。没关系，我们安装一下：</p>
+<div><pre><code><span>pnpm</span> <span>install</span> @ui-packages/utils -w   // 如果不在根目录下执行，一定加上 -w
+</code></pre>
+<div><span>1</span><br></div></div><p>此时根目录下的 <code>package.json</code> 的依赖中会多一个 <code>&quot;@ui-packages/utils&quot;: &quot;workspace:^1.0.0&quot;</code>，而我们的 <code>components/index.ts</code> 文件中也不会再报找不到的问题了，说明它已经成功安装并引入了。</p>
+<p>然后我们执行 <code>components/index.ts</code> 文件，它会正确打印 <code>3</code>。</p>
+<blockquote>
+<p>如果无法执行，可以安装 <code>npm install esno -g</code>，然后通过 <code>esno index.ts</code> 来执行。</p>
+</blockquote>
+<p>如果已经成功，则可以继续往下，我们将开始组件的创建。</p>
+<h2 id="开发一个-button-组件"> 开发一个 button 组件</h2>
+<p>我们所有组件都在 <code>packages/components/</code> 下进行，这里作为 <strong>组件源码包</strong> 的根目录，先要创建一个 <code>package.json</code> 文件，并填入基础信息：</p>
+<div><pre><code><span>{</span>
+  <span>"name"</span><span>:</span> <span>"@ui-packages/components"</span><span>,</span>
+  <span>"version"</span><span>:</span> <span>"1.0.0"</span><span>,</span>
+  <span>"description"</span><span>:</span> <span>"All components are settled here"</span><span>,</span>
+  <span>"main"</span><span>:</span> <span>"index.ts"</span><span>,</span>
+  <span>"module"</span><span>:</span> <span>"index.ts"</span><span>,</span>
+  <span>"types"</span><span>:</span> <span>"components.d.ts"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>然后，我们创建一个 <code>button</code> 文件夹，其结构如下：</p>
+<div><pre><code>|-- components/
+|   ╰-- button/
+|         |-- __tests__/**       // 测试用
+|         |-- style/
+|         |     ╰-- index.scss   // 样式文件
+|         |-- index.vue          // 源码
+|         |-- index.ts           // 组件入口文件
+|         ╰-- prop.ts            // 参数
+|-- components.d.ts              // 声明文件
+|-- index.ts                     // 项目入口文件
+|-- package.json                 // 包文件
+╰-- vite-env.d.ts                // vite 环境依赖文件
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div><blockquote>
+<p>后续所有组件也都按照这样的结构操作，方便打包。</p>
+</blockquote>
+<h3 id="声明参数"> 声明参数</h3>
+<p>在 <code>props.ts</code> 文件中，我们需要声明按钮的参数。这里我们只做演示，所以仅仅声明：</p>
+<ul>
+<li>类型</li>
+<li>大小</li>
+</ul>
+<p>其他内容不属于这里的讨论范围。</p>
+<div><pre><code><span>import</span> <span>{</span> ExtractPropTypes<span>,</span> PropType <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+
+<span>export</span> <span>type</span> <span>ButtonType</span> <span>=</span>
+  <span>|</span> <span>"default"</span>
+  <span>|</span> <span>"primary"</span>
+  <span>|</span> <span>"secondary"</span>
+  <span>|</span> <span>"success"</span>
+  <span>|</span> <span>"warning"</span>
+  <span>|</span> <span>"danger"</span>
+  <span>|</span> <span>"info"</span><span>;</span>
+
+<span>export</span> <span>type</span> <span>ButtonSize</span> <span>=</span> <span>"mini"</span> <span>|</span> <span>"small"</span> <span>|</span> <span>"normal"</span> <span>|</span> <span>"large"</span> <span>|</span> <span>"big"</span><span>;</span>
+
+<span>export</span> <span>const</span> props <span>=</span> <span>{</span>
+  <span>/**
+   * 类型
+   * @default "default"
+   */</span>
+  type<span>:</span> <span>{</span>
+    type<span>:</span> String <span>as</span> PropType<span>&lt;</span>ButtonType<span>></span>
+  <span>}</span><span>,</span>
+
+  <span>/**
+   * 按钮大小
+   * @default "normal"
+   */</span>
+  size<span>:</span> <span>{</span>
+    type<span>:</span> String <span>as</span> PropType<span>&lt;</span>ButtonSize<span>></span>
+  <span>}</span>
+<span>}</span>
+
+<span>export</span> <span>type</span> <span>ButtonProps</span> <span>=</span> ExtractPropTypes<span>&lt;</span><span>typeof</span> props<span>></span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br></div></div><h3 id="创建组件"> 创建组件</h3>
+<p>接着创建按钮组件：</p>
+<div><pre><code><span><span><span>&lt;</span>template</span><span>></span></span>
+  <span><span><span>&lt;</span>button</span> <span>:class</span><span><span>=</span><span>"</span>[<span>'</span>x-button<span>'</span>, `x-button--${cptSize}`, `x-button--${cptType}`]<span>"</span></span><span>></span></span>
+    <span><span><span>&lt;</span>slot</span> <span>/></span></span>
+  <span><span><span>&lt;/</span>button</span><span>></span></span>
+<span><span><span>&lt;/</span>template</span><span>></span></span>
+
+<span><span><span>&lt;</span>script</span> <span>lang</span><span><span>=</span><span>"</span>ts<span>"</span></span><span>></span></span><span><span>
+<span>import</span> <span>"./style/index.scss"</span><span>;</span>
+<span>import</span> <span>{</span> defineComponent <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+<span>import</span> <span>{</span> props <span>}</span> <span>from</span> <span>"./prop"</span><span>;</span>
+
+<span>export</span> <span>default</span> <span>defineComponent</span><span>(</span><span>{</span>
+  name<span>:</span> <span>"x-button"</span><span>,</span>
+  props<span>,</span>
+
+  computed<span>:</span> <span>{</span>
+    <span>cptSize</span><span>(</span><span>)</span> <span>{</span>
+      <span>return</span> <span>this</span><span>.</span>size <span>||</span> <span>"normal"</span><span>;</span>
+    <span>}</span><span>,</span>
+
+    <span>cptType</span><span>(</span><span>)</span> <span>{</span>
+      <span>return</span> <span>this</span><span>.</span>type <span>||</span> <span>"default"</span><span>;</span>
+    <span>}</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><h3 id="添加样式文件"> 添加样式文件</h3>
+<h4 id="定义通用样式"> 定义通用样式</h4>
+<p>首先，我们需要在 <code>themes</code> 文件夹中添加一个包，里面需要定义一些通用样式文件。</p>
+<p>在 <code>themes</code> 文件夹下创建 <code>package.json</code> 文件，并填入：</p>
+<div><pre><code><span>{</span>
+    <span>"name"</span><span>:</span> <span>"@ui-packages/themes"</span><span>,</span>
+    <span>"version"</span><span>:</span> <span>"1.0.0"</span><span>,</span>
+    <span>"description"</span><span>:</span> <span>"All themes are settled here"</span><span>,</span>
+    <span>"main"</span><span>:</span> <span>"index.scss"</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br></div></div><p>我们在按钮中定义了类型和大小，为了更好的通用性，我们应该在通用方法里定义这些基础变量。所以，在 <code>themes</code> 下创建 <code>var.scss</code> 文件：</p>
+<div><pre><code><span>// ***** 定义所有基础变量 ***** //</span>
+
+<span>// 所有颜色配置</span>
+<span><span>$primary-color</span></span><span>:</span> #eca710 <span>!default</span><span>;</span>
+<span><span>$secondary-color</span></span><span>:</span> #368ee0 <span>!default</span><span>;</span>
+<span><span>$success-color</span></span><span>:</span> #29b84d <span>!default</span><span>;</span>
+<span><span>$warning-color</span></span><span>:</span> #c15d1f <span>!default</span><span>;</span>
+<span><span>$danger-color</span></span><span>:</span> #e4131e <span>!default</span><span>;</span>
+<span><span>$info-color</span></span><span>:</span> #a035ec <span>!default</span><span>;</span>
+
+<span><span>$text-color</span></span><span>:</span> #212121 <span>!default</span><span>;</span>
+
+<span><span>$colors</span></span><span>:</span> <span>(</span>
+        <span>"primary"</span><span>:</span> <span>$primary-color</span><span>,</span>
+        <span>"secondary"</span><span>:</span> <span>$secondary-color</span><span>,</span>
+        <span>"success"</span><span>:</span> <span>$success-color</span><span>,</span>
+        <span>"warning"</span><span>:</span> <span>$warning-color</span><span>,</span>
+        <span>"danger"</span><span>:</span> <span>$danger-color</span><span>,</span>
+        <span>"info"</span><span>:</span> <span>$info-color</span><span>,</span>
+        <span>"text"</span><span>:</span> <span>$text-color</span>
+<span>)</span> <span>!default</span><span>;</span>
+
+<span>// 所有大小配置</span>
+<span><span>$size-base</span></span><span>:</span> 16px <span>!default</span><span>;</span>
+<span><span>$size-none</span></span><span>:</span> 0 <span>!default</span><span>;</span>
+<span><span>$size-xs</span></span><span>:</span> <span>$size-base</span> <span>*</span> 0.25 <span>!default</span><span>;</span>
+<span><span>$size-sm</span></span><span>:</span> <span>$size-base</span> <span>*</span> 0.5 <span>!default</span><span>;</span>
+<span><span>$size-md</span></span><span>:</span> <span>$size-base</span> <span>*</span> 1 <span>!default</span><span>;</span>
+<span><span>$size-lg</span></span><span>:</span> <span>$size-base</span> <span>*</span> 1.5 <span>!default</span><span>;</span>
+<span><span>$size-xl</span></span><span>:</span> <span>$size-base</span> <span>*</span> 3 <span>!default</span><span>;</span>
+
+<span><span>$sizes</span></span><span>:</span> <span>(</span>
+        <span>"none"</span><span>:</span> <span>$size-none</span><span>,</span>
+        <span>"xs"</span><span>:</span> <span>$size-xs</span><span>,</span>
+        <span>"sm"</span><span>:</span> <span>$size-sm</span><span>,</span>
+        <span>"md"</span><span>:</span> <span>$size-md</span><span>,</span>
+        <span>"lg"</span><span>:</span> <span>$size-lg</span><span>,</span>
+        <span>"xl"</span><span>:</span> <span>$size-xl</span>
+<span>)</span> <span>!default</span><span>;</span>
+
+<span><span>$font-size</span></span><span>:</span> 14px<span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br></div></div><p>另外，我们希望将颜色可以更加灵活的进行配置，可以考虑添加到 <code>:root</code> 下，所以新建一个 <code>colors.scss</code>
+文件，并添加如下内容：</p>
+<div><pre><code><span>@import</span> <span>"./vars.scss"</span><span>;</span>
+
+<span>:root </span><span>{</span>
+  <span>@each</span> <span><span>$key</span>, <span>$color</span> in <span>$colors</span> </span><span>{</span>
+    <span>--x-color-<span>#{$key}</span></span><span>:</span> <span>#{$color}</span><span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>然后创建 <code>index.scss</code> 并引入该文件：</p>
+<div><pre><code><span>@import</span> <span>"./var.scss"</span><span>;</span>
+<span>@import</span> <span>"./colors.scss"</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h4 id="定义按钮的样式"> 定义按钮的样式</h4>
+<p>定义好了基础样式，我们需要引入它们：</p>
+<div><pre><code><span>pnpm</span> <span>install</span> @ui-packages/themes -w
+</code></pre>
+<div><span>1</span><br></div></div><p>在组件中，我们定义了 <code>x-button</code>，以及大小和类型的样式，我们需要在样式文件中实现它：</p>
+<div><pre><code><span>@use</span> <span>"sass:math"</span><span>;</span>
+<span>@import</span> <span>"@ui-packages/themes/index.scss"</span><span>;</span>
+
+<span>.x-button </span><span>{</span>
+  <span>border</span><span>:</span> 0<span>;</span>
+  <span>border-radius</span><span>:</span> 4px<span>;</span>
+  <span>transition</span><span>:</span> all 0.2s<span>;</span>
+
+  <span><span>&amp;</span>:hover </span><span>{</span>
+    <span>filter</span><span>:</span> <span>brightness</span><span>(</span>1.2<span>)</span><span>;</span>
+  <span>}</span>
+
+  <span><span>&amp;</span>:active </span><span>{</span>
+    <span>filter</span><span>:</span> <span>brightness</span><span>(</span>0.8<span>)</span><span>;</span>
+    <span>border</span><span>:</span> 0px<span>;</span>
+    <span>outline</span><span>:</span> 0px<span>;</span>
+  <span>}</span>
+
+  <span><span>&amp;</span>:focus </span><span>{</span>
+    <span>filter</span><span>:</span> <span>brightness</span><span>(</span>1.1<span>)</span><span>;</span>
+    <span>border</span><span>:</span> 0px<span>;</span>
+    <span>outline</span><span>:</span> 0px<span>;</span>
+  <span>}</span>
+<span>}</span>
+
+<span>.x-button--default </span><span>{</span>
+  <span>color</span><span>:</span> <span>var</span><span>(</span>--x-color-text<span>)</span><span>;</span>
+  <span>background-color</span><span>:</span> lightgrey<span>;</span>
+<span>}</span>
+
+<span>@each</span> <span><span>$key</span>, <span>$color</span> in <span>$colors</span> </span><span>{</span>
+  <span>.x-button--<span>#{$key}</span> </span><span>{</span>
+    <span>color</span><span>:</span> <span>var</span><span>(</span>--x-color-text<span>)</span><span>;</span>
+    <span>background-color</span><span>:</span> <span>#{$color}</span><span>;</span>
+  <span>}</span>
+<span>}</span>
+
+<span><span>$size-xs</span></span><span>:</span> <span>$size-base</span> <span>*</span> 0.25 <span>!default</span><span>;</span>
+<span><span>$size-sm</span></span><span>:</span> <span>$size-base</span> <span>*</span> 0.5 <span>!default</span><span>;</span>
+<span><span>$size-md</span></span><span>:</span> <span>$size-base</span> <span>*</span> 1 <span>!default</span><span>;</span>
+<span><span>$size-lg</span></span><span>:</span> <span>$size-base</span> <span>*</span> 1.5 <span>!default</span><span>;</span>
+<span><span>$size-xl</span></span><span>:</span> <span>$size-base</span> <span>*</span> 3 <span>!default</span><span>;</span>
+
+<span><span>$buttonSizes</span></span><span>:</span> <span>(</span>
+        <span>"mini"</span><span>:</span> <span>$size-xs</span><span>,</span>
+        <span>"small"</span><span>:</span> <span>$size-sm</span><span>,</span>
+        <span>"normal"</span><span>:</span> <span>$size-md</span><span>,</span>
+        <span>"large"</span><span>:</span> <span>$size-lg</span><span>,</span>
+        <span>"big"</span><span>:</span> <span>$size-xl</span>
+<span>)</span> <span>!default</span><span>;</span>
+
+<span>@each</span> <span><span>$key</span>, <span>$size</span> in <span>$buttonSizes</span> </span><span>{</span>
+  <span>.x-button--<span>#{$key}</span> </span><span>{</span>
+    <span>padding</span><span>:</span> #<span>{</span>math.<span>div</span><span>(</span><span>$size</span><span>,</span> 2<span>)</span><span>}</span> <span>#{$size}</span><span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br></div></div><p>上面的样式文件，定义了一个按钮的基础样式，同时配合类型和大小，定义了不同的属性。 这样，一个基本的按钮就制作完成了。</p>
+<h3 id="导出组件"> 导出组件</h3>
+<p>我们在 <code>button/index.ts</code> 中添加导出方法。它需要支持单独导入，和整体导入，所以我们需要给 <code>Button</code> 组件添加 <code>install</code> 方法：</p>
+<div><pre><code><span>import</span> <span>type</span> <span>{</span> App<span>,</span> DefineComponent <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+
+<span>import</span> <span>{</span> ButtonProps <span>}</span> <span>from</span> <span>"./prop"</span><span>;</span>
+<span>import</span> Button <span>from</span> <span>"./index.vue"</span><span>;</span>
+
+<span>// 定义一个具有安装方法的类型</span>
+<span>export</span> <span>type</span> <span>XComponentConstructor<span>&lt;</span><span>T</span><span>></span></span> <span>=</span> DefineComponent<span>&lt;</span><span>T</span><span>></span> <span>&amp;</span> <span>{</span>
+  <span>install</span><span>:</span> <span>(</span>app<span>:</span> App<span>)</span> <span>=></span> <span>void</span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>// 定义一个给组件添加安装方法的工具方法</span>
+<span>export</span> <span>const</span> withInstall <span>=</span> <span>&lt;</span><span>T</span> <span>=</span> <span>{</span><span>}</span><span>></span><span>(</span>comp<span>:</span> <span>any</span><span>)</span> <span>=></span> <span>{</span>
+  <span>(</span>comp <span>as</span> XComponentConstructor<span>&lt;</span><span>T</span><span>></span><span>)</span><span>.</span><span>install</span> <span>=</span> app <span>=></span> <span>{</span>
+    app<span>.</span><span>component</span><span>(</span>comp<span>.</span>name<span>,</span> comp<span>)</span><span>;</span>
+  <span>}</span><span>;</span>
+
+  <span>return</span> comp <span>as</span> XComponentConstructor<span>&lt;</span><span>T</span><span>></span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>// 给 Button 组件添加安装方法，并导出这个组件</span>
+<span>const</span> XButton <span>=</span> <span><span>withInstall</span><span><span>&lt;</span>ButtonProps<span>></span></span></span><span>(</span>Button<span>)</span><span>;</span>
+
+<span>export</span> <span>default</span> XButton<span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div><p>接着，我们在 <code>packages/index.ts</code> 中导入 <code>XButton</code> 组件：</p>
+<div><pre><code><span>import</span> <span>{</span> App<span>,</span> Plugin <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+
+<span>import</span> <span>{</span> <span>default</span> <span>as</span> XButton <span>}</span> <span>from</span> <span>"./button/index"</span><span>;</span>
+
+<span>// 生成的组件添加到集合中</span>
+<span>const</span> components<span>:</span> Record<span>&lt;</span><span>string</span><span>,</span> Plugin<span>></span> <span>=</span> <span>{</span>
+  XButton
+<span>}</span><span>;</span>
+
+<span>// 定义整体挂在方法，就是依次挂载所有组件</span>
+<span>const</span> <span>install</span> <span>=</span> <span>(</span>app<span>:</span> App<span>,</span> options<span>?</span><span>:</span> Record<span>&lt;</span><span>string</span><span>,</span> <span>unknown</span><span>></span><span>)</span> <span>=></span> <span>{</span>
+  <span>for</span> <span>(</span><span>const</span> key <span>of</span> Object<span>.</span><span>keys</span><span>(</span>components<span>)</span><span>)</span> <span>{</span>
+    app<span>.</span><span>use</span><span>(</span>components<span>[</span>key<span>]</span><span>,</span> options<span>)</span><span>;</span>
+  <span>}</span>
+<span>}</span><span>;</span>
+
+<span>// 支持单个组件的分别加载</span>
+<span>export</span> <span>{</span> XButton <span>}</span><span>;</span>
+
+<span>// 整体加载使用</span>
+<span>export</span> <span>default</span> <span>{</span> install <span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br></div></div><h3 id="添加组件类型声明"> 添加组件类型声明</h3>
+<p>最后，为了我们可以在使用中查看组件类型，我们需要在 <code>components.d.ts</code> 中添加：</p>
+<div><pre><code><span>import</span> <span>"@vue/runtime-core"</span><span>;</span>
+
+<span>declare</span> <span>module</span> <span>"@vue/runtime-core"</span> <span>{</span>
+  <span>export</span> <span>interface</span> <span>GlobalComponents</span> <span>{</span>
+    XButton<span>:</span> <span>typeof</span> <span>import</span><span>(</span><span>"./button/index"</span><span>)</span><span>[</span><span>"default"</span><span>]</span><span>;</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>这样，我们在使用中，可以找到对应的组件类型。</p>
+<h3 id="测试按钮效果"> 测试按钮效果</h3>
+<p>首先，还是安装组件库。如果已经安装，可以跳过：</p>
+<div><pre><code><span>pnpm</span> <span>install</span> @ui-packages/components -w
+</code></pre>
+<div><span>1</span><br></div></div><p>接着，我们在 <code>examples</code> 的 <code>main.ts</code> 文件中添加刚才的组件。使用方式和其他组件库一样：</p>
+<div><pre><code><span>import</span> <span>XUI</span> <span>from</span> <span>"@ui-packages/components"</span><span>;</span>
+
+<span>createApp</span><span>(</span>App<span>)</span><span>.</span><span>use</span><span>(</span><span>XUI</span><span>)</span><span>.</span><span>mount</span><span>(</span><span>"#app"</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br></div></div><p>然后我们在 <code>App.vue</code> 中添加一个我们的按钮，它叫 <code>XButton</code>：</p>
+<div><pre><code><span><span><span>&lt;</span>x-button</span><span>></span></span>按钮一枚<span><span><span>&lt;/</span>x-button</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>此时，类型提示也可以正常显示，包括我们定义的属性，如图：</p>
+<img :src="$withBase('/assets/roadmap/vue/ui-packages-demo-1.png')" alt="类型显示">
+<blockquote>
+<p>如果提示 <code>@vitejs/plugin-vue</code> 关于 JSX 语法的错误，那你缺失了 <code>examples/vite.config.ts</code> 文件：</p>
+<div><pre><code><span>import</span> <span>{</span> defineConfig <span>}</span> <span>from</span> <span>"vite"</span><span>;</span>
+<span>import</span> vue <span>from</span> <span>"@vitejs/plugin-vue"</span><span>;</span>
+   
+<span>// https://vitejs.dev/config/</span>
+<span>export</span> <span>default</span> <span>defineConfig</span><span>(</span><span>{</span>
+   plugins<span>:</span> <span>[</span><span>vue</span><span>(</span><span>)</span><span>]</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div></blockquote>
+<h3 id="调整工具方法"> 调整工具方法</h3>
+<p>上面我们在导出按钮组件时，将导出方法写在了 <code>index.ts</code> 中。这样在后续写多个组件，是非常不方便的。我们需要把工具函数放到 <code>utils</code> 中去。</p>
+<p>我们之前已经添加了 <code>utils/index.ts</code> 文件，现在将上面写的导出声明方法添加到这里：</p>
+<div><pre><code><span>import</span> <span>type</span> <span>{</span> App<span>,</span> DefineComponent <span>}</span> <span>from</span> <span>"vue"</span><span>;</span>
+
+<span>export</span> <span>type</span> <span>XComponentConstructor<span>&lt;</span><span>T</span><span>></span></span> <span>=</span> DefineComponent<span>&lt;</span><span>T</span><span>></span> <span>&amp;</span> <span>{</span>
+  <span>install</span><span>:</span> <span>(</span>app<span>:</span> App<span>)</span> <span>=></span> <span>void</span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>export</span> <span>const</span> withInstall <span>=</span> <span>&lt;</span><span>T</span> <span>=</span> <span>{</span><span>}</span><span>></span><span>(</span>comp<span>:</span> <span>any</span><span>)</span> <span>=></span> <span>{</span>
+  <span>(</span>comp <span>as</span> XComponentConstructor<span>&lt;</span><span>T</span><span>></span><span>)</span><span>.</span><span>install</span> <span>=</span> app <span>=></span> <span>{</span>
+    app<span>.</span><span>component</span><span>(</span>comp<span>.</span>name<span>,</span> comp<span>)</span><span>;</span>
+  <span>}</span><span>;</span>
+
+  <span>return</span> comp <span>as</span> XComponentConstructor<span>&lt;</span><span>T</span><span>></span><span>;</span>
+<span>}</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>然后，我们每个组件中的 <code>index.ts</code> 就不在需要，而是直接引入使用即可：</p>
+<div><pre><code><span>import</span> <span>{</span> withInstall <span>}</span> <span>from</span> <span>"@ui-packages/utils"</span><span>;</span>
+<span>import</span> <span>{</span> ButtonProps <span>}</span> <span>from</span> <span>"./prop"</span><span>;</span>
+<span>import</span> Button <span>from</span> <span>"./index.vue"</span><span>;</span>
+
+<span>const</span> XButton <span>=</span> <span><span>withInstall</span><span><span>&lt;</span>ButtonProps<span>></span></span></span><span>(</span>Button<span>)</span><span>;</span>
+
+<span>export</span> <span>default</span> XButton<span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br></div></div><p>这样，所有内容就在它应该在的地方了~</p>
+<h2 id="打包"> 打包</h2>
+<h3 id="打包组件文件"> 打包组件文件</h3>
+<p><code>vite</code> 配置了专门的库打包模式，我们可以通过简单配置就可以完成打包工作。</p>
+<p>在 <code>scripts/</code> 文件夹下创建一个 <code>build.ts</code> 文件，并添加如下内容：</p>
+<div><pre><code><span>import</span> <span>{</span> defineConfig <span>}</span> <span>from</span> <span>"vite"</span><span>;</span>
+<span>import</span> vue <span>from</span> <span>"@vitejs/plugin-vue"</span><span>;</span>
+
+<span>export</span> <span>default</span> <span>defineConfig</span><span>(</span><span>{</span>
+  publicDir<span>:</span> <span>false</span><span>,</span>
+  plugins<span>:</span> <span>[</span><span>vue</span><span>(</span><span>)</span><span>]</span><span>,</span>
+
+  build<span>:</span> <span>{</span>
+    target<span>:</span> <span>"modules"</span><span>,</span>                              <span>// 打包模式</span>
+    minify<span>:</span> <span>true</span><span>,</span>                                   <span>// 是否启动压缩</span>
+    emptyOutDir<span>:</span> <span>true</span><span>,</span>
+    rollupOptions<span>:</span> <span>{</span>
+      external<span>:</span> <span>[</span><span>"vue"</span><span>]</span><span>,</span>                            <span>// 要忽略的包</span>
+      output<span>:</span> <span>[</span>
+        <span>{</span>
+          globals<span>:</span> <span>{</span> vue<span>:</span> <span>"Vue"</span> <span>}</span><span>,</span>
+          format<span>:</span> <span>"es"</span><span>,</span>                             <span>// 打包格式</span>
+          entryFileNames<span>:</span> <span>"[name].js"</span><span>,</span>              <span>// 打包后入口文件名。默认 xxx.es.js</span>
+          assetFileNames<span>:</span> <span>"index.css"</span><span>,</span>              <span>// 打包后资源文件名</span>
+          preserveModules<span>:</span> <span>true</span><span>,</span>                    <span>// 是否对应目录</span>
+          dir<span>:</span> <span>"es"</span>                                 <span>// 打包后的目录</span>
+        <span>}</span><span>,</span>
+        <span>{</span>
+          globals<span>:</span> <span>{</span> vue<span>:</span> <span>"Vue"</span> <span>}</span><span>,</span>
+          format<span>:</span> <span>"cjs"</span><span>,</span>
+          entryFileNames<span>:</span> <span>"[name].js"</span><span>,</span>
+          preserveModules<span>:</span> <span>true</span><span>,</span>
+          dir<span>:</span> <span>"lib"</span>
+        <span>}</span>
+      <span>]</span>
+    <span>}</span><span>,</span>
+    lib<span>:</span> <span>{</span>
+      entry<span>:</span> <span>"./packages/components/index.ts"</span><span>,</span>       <span>// 入口文件</span>
+      formats<span>:</span> <span>[</span><span>"es"</span><span>,</span> <span>"cjs"</span><span>]</span>                         <span>// 打包格式，可配置多个，与 output 对应即可</span>
+    <span>}</span>
+  <span>}</span>
+<span>}</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br></div></div><p>接着修改根目录下的 <code>package.json</code> 打包命令：</p>
+<div><pre><code>vite build --config ./scripts/build.ts
+</code></pre>
+<div><span>1</span><br></div></div><p>它会调用该配置文件进行打包，结果会保存到根目录下。</p>
+<h3 id="打包声明文件"> 打包声明文件</h3>
+<p>我们使用 <code>vite</code> 创建的项目，已经帮我们安装好了 <code>vue-tsc</code>，所以直接使用即可。稍微修改打包命令：</p>
+<div><pre><code>vue-tsc <span>&amp;&amp;</span> tsc -d
+</code></pre>
+<div><span>1</span><br></div></div><p>此时可以得到一个 <code>types</code> 文件夹，里面包含了所有组件声明文件。但是它并不会打包 <code>components.d.ts</code> 文件。我们需要手动处理一下。</p>
+<p>我们需要在 <code>scripts/</code> 中添加 <code>build.type.js</code>，并填入：</p>
+<div><pre><code><span>import</span> fs <span>from</span> <span>"fs"</span><span>;</span>
+
+<span>const</span> <span>build</span> <span>=</span> <span>(</span><span>)</span> <span>=></span> <span>{</span>
+  fs<span>.</span><span>copyFileSync</span><span>(</span>
+    <span>"./packages/components/components.d.ts"</span><span>,</span>
+    <span>"./types/components.d.ts"</span>
+  <span>)</span><span>;</span>
+  fs<span>.</span><span>appendFileSync</span><span>(</span><span>"./types/index.d.ts"</span><span>,</span> <span><span>`</span><span>import "./components.d";</span><span>`</span></span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+
+<span>build</span><span>(</span><span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>并且修改命令：</p>
+<div><pre><code>vue-tsc <span>&amp;&amp;</span> tsc -d <span>&amp;&amp;</span> node ./scripts/build.type.js
+</code></pre>
+<div><span>1</span><br></div></div><p>这样我们就打包好了文件。最后导出文件入口即可。添加如下内容到根目录下的 <code>package.json</code>：</p>
+<div><pre><code><span>{</span>
+  <span>"files"</span><span>:</span> <span>[</span>
+    <span>"es"</span><span>,</span>
+    <span>"lib"</span><span>,</span>
+    <span>"types"</span>
+  <span>]</span><span>,</span>
+  <span>"types"</span><span>:</span> <span>"types/index.d.ts"</span><span>,</span>
+  <span>"main"</span><span>:</span> <span>"lib/components/index.js"</span><span>,</span>
+  <span>"style"</span><span>:</span> <span>"es/index.css"</span><span>,</span>
+  <span>"module"</span><span>:</span> <span>"es/components/index.js"</span><span>,</span>
+  <span>"exports"</span><span>:</span> <span>{</span>
+    <span>"."</span><span>:</span> <span>{</span>
+      <span>"types"</span><span>:</span> <span>"./types/index.d.ts"</span><span>,</span>
+      <span>"import"</span><span>:</span> <span>"./es/components/index.js"</span><span>,</span>
+      <span>"require"</span><span>:</span> <span>"./lib/components/index.js"</span>
+    <span>}</span><span>,</span>
+    <span>"./styles/index.css"</span><span>:</span> <span>{</span>
+      <span>"import"</span><span>:</span> <span>"./es/index.css"</span><span>,</span>
+      <span>"require"</span><span>:</span> <span>"./es/index.css"</span>
+    <span>}</span>
+  <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br></div></div><p>使用时，直接引入包名，然后引入样式，就可以全局使用我们的组件了：</p>
+<div><pre><code><span>import</span> <span>XUI</span> <span>from</span> <span>"ui-packages"</span><span>;</span>
+<span>import</span> <span>"ui-packages/styles/index.css"</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><img :src="$withBase('/assets/roadmap/vue/ui-packages-demo-2.png')" alt="效果展示">
 ]]></content>
     <author>
       <name>JeremyJone</name>
@@ -17546,14 +18063,63 @@ props<span>:</span> <span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">MVVM</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="mvvm"> MVVM</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">Vue Test Utils</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
+<h2 id="jest"> Jest</h2>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">Devtools</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="devtools"> Devtools</h1>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue Router</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-router"> Vue Router</h1>
 <h2 id="路由原理"> 路由原理</h2>
 <h2 id="动态匹配"> 动态匹配</h2>
@@ -17568,102 +18134,14 @@ props<span>:</span> <span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">MVVM</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="mvvm"> MVVM</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">Vue Test Utils</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
-<h2 id="jest"> Jest</h2>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">Devtools</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="devtools"> Devtools</h1>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
-    <rights>Copyright by JeremyJone</rights>
-  </entry>
-  <entry>
-    <title type="html">使用项目模板</title>
-    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</id>
-    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/template/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
-<h2 id="如何添加模板"> 如何添加模板</h2>
-<h3 id="方法一"> 方法一</h3>
-<p>通过 <a href="https://github.com/Rich-Harris/degit" target="_blank" rel="noopener noreferrer"><code>degit</code></a> 安装：</p>
-<p>首先安装 <code>degit</code></p>
-<div><pre><code><span>npm</span> <span>install</span> -g degit
-</code></pre>
-<div><span>1</span><br></div></div><p>然后可以下载模板。例如：</p>
-<div><pre><code>npx degit jeremyjone/<span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
-</code></pre>
-<div><span>1</span><br></div></div><div><p>提示</p>
-<p>方法一创建的项目模板不包含 <code>git</code>，需要进入目录后手动执行 <code>git init</code> 方可。</p>
-</div>
-<h3 id="方法二"> 方法二</h3>
-<p>可以直接 clone 项目到本地即可。例如：</p>
-<div><pre><code><span>git</span> clone https://github.com/jeremyjone/<span>&lt;</span>repertory_name<span>></span>.git
-<span>mv</span> <span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br></div></div><h2 id="模板地址"> 模板地址</h2>
-<ul>
-<li><a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">vue3-ts-template</a> - 包括 <code>vue 3</code>、<code>vue-router 4</code>、<code>axios</code>、<code>vuex 4</code>、<code>vite 2</code> 等工程化项目模板。</li>
-</ul>
-<h2 id="社区模板"> 社区模板</h2>
-<p>vite 社区提供了很多免费模板，可以 <a href="https://github.com/vitejs/awesome-vite#templates" target="_blank" rel="noopener noreferrer">参考</a>。</p>
-]]></content>
-    <author>
-      <name>JeremyJone</name>
-    </author>
-    <contributor>
-      <name>JeremyJone</name>
-    </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vuex</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vuex"> Vuex</h1>
 <h2 id="state"> State</h2>
 <h2 id="getter"> Getter</h2>
@@ -17677,14 +18155,14 @@ props<span>:</span> <span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">从 0 搭建项目模板（vue3）</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="从-0-搭建项目模板（vue3）"> 从 0 搭建项目模板（vue3）</h1>
 <p>为简化每次初始化项目，最好的方法就是搭建一个项目模板，这样每次初始化的时候直接拉取就好，不用再一个一个进行配置，省去了大量时间。</p>
 <p>该内容模板已经在 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a>，如果需要，可以直接下载使用。具体使用方法可以查看 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a> 或者 <a href="./">模板文档</a></p>
@@ -18965,14 +19443,53 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">使用项目模板</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/template/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
+<h2 id="如何添加模板"> 如何添加模板</h2>
+<h3 id="方法一"> 方法一</h3>
+<p>通过 <a href="https://github.com/Rich-Harris/degit" target="_blank" rel="noopener noreferrer"><code>degit</code></a> 安装：</p>
+<p>首先安装 <code>degit</code></p>
+<div><pre><code><span>npm</span> <span>install</span> -g degit
+</code></pre>
+<div><span>1</span><br></div></div><p>然后可以下载模板。例如：</p>
+<div><pre><code>npx degit jeremyjone/<span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
+</code></pre>
+<div><span>1</span><br></div></div><div><p>提示</p>
+<p>方法一创建的项目模板不包含 <code>git</code>，需要进入目录后手动执行 <code>git init</code> 方可。</p>
+</div>
+<h3 id="方法二"> 方法二</h3>
+<p>可以直接 clone 项目到本地即可。例如：</p>
+<div><pre><code><span>git</span> clone https://github.com/jeremyjone/<span>&lt;</span>repertory_name<span>></span>.git
+<span>mv</span> <span>&lt;</span>repertory_name<span>></span> <span>&lt;</span>project-name<span>></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br></div></div><h2 id="模板地址"> 模板地址</h2>
+<ul>
+<li><a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">vue3-ts-template</a> - 包括 <code>vue 3</code>、<code>vue-router 4</code>、<code>axios</code>、<code>vuex 4</code>、<code>vite 2</code> 等工程化项目模板。</li>
+</ul>
+<h2 id="社区模板"> 社区模板</h2>
+<p>vite 社区提供了很多免费模板，可以 <a href="https://github.com/vitejs/awesome-vite#templates" target="_blank" rel="noopener noreferrer">参考</a>。</p>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Java 学习之路</title>
     <id>https://docs.jeremyjone.com/roadmap/java/</id>
     <link href="https://docs.jeremyjone.com/roadmap/java/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
 <p>Java 的学习之路，页面包含学习链接。</p>
 <p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -18984,14 +19501,14 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">虚拟 DOM</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
 ]]></content>
     <author>
@@ -19000,14 +19517,14 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">代码书写规范总纲</title>
     <id>https://docs.jeremyjone.com/standard/</id>
     <link href="https://docs.jeremyjone.com/standard/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="代码书写规范总纲"> 代码书写规范总纲</h1>
 <Description author="JeremyJone" version="v1" copyright="Jz" />
 <p><strong>良好的规范，促进高质量的代码。</strong> --<em>与君共勉</em></p>
@@ -19256,14 +19773,14 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">CSS 规范</title>
     <id>https://docs.jeremyjone.com/standard/css/</id>
     <link href="https://docs.jeremyjone.com/standard/css/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="css-规范"> CSS 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本文档适用于所有css文件的开发编写。</p>
@@ -19305,14 +19822,14 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">C#</title>
     <id>https://docs.jeremyjone.com/standard/csharp/</id>
     <link href="https://docs.jeremyjone.com/standard/csharp/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="c"> C#</h1>
 ]]></content>
     <author>
@@ -19321,14 +19838,14 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">HTML 规范</title>
     <id>https://docs.jeremyjone.com/standard/html/</id>
     <link href="https://docs.jeremyjone.com/standard/html/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有Html页面的开发。</p>
@@ -19353,14 +19870,14 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">JavaScript 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/javascript/</id>
     <link href="https://docs.jeremyjone.com/standard/javascript/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="javascript-开发规范"> JavaScript 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有使用 JavaScript 以及相关框架的开发。</p>
@@ -19589,14 +20106,14 @@ Object<span>.</span><span>assign</span><span>(</span>object1<span>,</span> <span
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Python 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/python/</id>
     <link href="https://docs.jeremyjone.com/standard/python/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
 <Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
 <p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
@@ -19750,14 +20267,14 @@ pythonCode <span>=</span> <span>"python code"</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue 开发规范</title>
     <id>https://docs.jeremyjone.com/standard/vue/</id>
     <link href="https://docs.jeremyjone.com/standard/vue/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-开发规范"> Vue 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有基于 Vue 框架的开发。</p>
@@ -20045,14 +20562,90 @@ component<span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
+    <rights>Copyright by JeremyJone</rights>
+  </entry>
+  <entry>
+    <title type="html">前端进阶</title>
+    <id>https://docs.jeremyjone.com/roadmap/frontend/advanced/</id>
+    <link href="https://docs.jeremyjone.com/roadmap/frontend/advanced/"/>
+    <updated>2023-01-12T08:30:47.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
+<h2 id="cors-详解"> CORS 详解</h2>
+<p><code>CORS</code> 全称是 <code>Cross-origin Resource Sharing</code>，即 <code>跨域资源共享</code>。它解决了浏览器中只能同源请求数据的限制。</p>
+<p>那么我们首先要知道什么是 <code>跨域</code> 和 <code>同源</code>？</p>
+<h3 id="什么是跨域"> 什么是跨域</h3>
+<p>浏览器都是同源策略，即可以访问同一资源域。对于需要访问不同的资源域，就属于跨域范畴，这在浏览器中是被严格禁止的。</p>
+<p>不同域包括：</p>
+<ul>
+<li>协议不同</li>
+<li>域名不同</li>
+<li>端口不同</li>
+<li>子域名不同</li>
+</ul>
+<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
+<p>只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。</p>
+<h3 id="cors-的两种请求模式"> CORS 的两种请求模式</h3>
+<p>随着 Ajax 请求的使用越来越频繁，网页跨域请求急需解决，于是 W3C 在 2014 年发布了一个正式推荐的通信标准来解决该问题，它就是 <code>CORS</code>。</p>
+<p>该方案需要服务端配置相关功能，然后由浏览器自动为每一个跨域请求都自动携带上 <code>Origin</code> 等 http 请求头信息，后台服务检索判定允许或者拒绝即可，这样就可以请求跨域的资源了。</p>
+<p>CORS请求分为两种：</p>
+<ul>
+<li>
+<p>简单请求</p>
+<blockquote>
+<p>简单请求就是使用设定的请求方式来请求数据</p>
+<p>简单请求的条件：</p>
+<ul>
+<li>使用 <code>HEAD</code>、<code>GET</code>、<code>POST</code> 方法</li>
+<li><code>HTTP</code> 头信息不超过以下：
+<ul>
+<li>Accept</li>
+<li>Accept-Language</li>
+<li>Content-Language</li>
+<li>Last-Event-ID</li>
+<li>Content-Type，该属性仅限三个值：(application/x-www-form-urlencoded、multipart/form-data、text/plain)</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<p>非简单请求</p>
+<blockquote>
+<p>非简单请求则是在使用设定的请求方式请求数据之前，先发送一个 <code>OPTIONS</code> 请求，确定服务端是否允许发送非简单请求，如果可以，才真正发送请求。这个过程叫做 <code>预检</code>。</p>
+</blockquote>
+</li>
+</ul>
+<p>了解了 CORS 的请求方式，也就知道，在<strong>浏览器</strong>中，仅仅支持默认的同源访问策略。如果需要访问跨域资源，浏览器会根据请求类型自动处理，整个过程没有人工干预。至于可不可以访问，需要后台服务来判断批准。</p>
+<h3 id="前端处理跨域问题"> 前端处理跨域问题</h3>
+<p>1、使用 JSONP 请求资源</p>
+<p>该方式只支持 GET 请求，它利用浏览器允许跨域请求一些 link、img、script 标签上的内容，实现在一个 script 标签中请求一个链接并返回相应内容进行处理。</p>
+<blockquote>
+<p>该方式单一、不安全，尽量不要使用。</p>
+</blockquote>
+<p>2、单独请求</p>
+<p>前端遇到跨域问题，常规情况下是解决不了的，这个问题一般来说都是后端来控制的，包括但不限于：</p>
+<ul>
+<li>反向代理配置，如 nginx、apache 等配置相关字段</li>
+<li>后端服务代码中直接添加 <code>AddPolicy.WithOrigins(xxx)</code> 之类的方法来允许某些特定域可以访问当前服务资源</li>
+</ul>
+<p>这些都是最根本的方案，但有些时候，比如开发期间，我们需要本地调试，这个时候，可以单独请求，这也是我们现在开发中常用的方法。</p>
+<p>现在，我们创建一个前端项目之后，通常回本地启动服务，比如 vue，启动后，会在本地开启一个 <code>http://localhost:8080</code> 的服务，浏览器中的每一个请求其实都请求到这里，再通过该服务请求到真正的后台服务。</p>
+]]></content>
+    <author>
+      <name>JeremyJone</name>
+    </author>
+    <contributor>
+      <name>JeremyJone</name>
+    </contributor>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">Vue Cli</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
 ]]></content>
     <author>
@@ -20061,14 +20654,14 @@ component<span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
   <entry>
     <title type="html">响应式的原理</title>
     <id>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</id>
     <link href="https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/"/>
-    <updated>2023-01-05T02:47:36.000Z</updated>
+    <updated>2023-01-12T08:30:47.000Z</updated>
     <content type="html"><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
 ]]></content>
     <author>
@@ -20077,7 +20670,7 @@ component<span>{</span>
     <contributor>
       <name>JeremyJone</name>
     </contributor>
-    <published>2023-01-05T02:47:36.000Z</published>
+    <published>2023-01-12T08:30:47.000Z</published>
     <rights>Copyright by JeremyJone</rights>
   </entry>
 </feed>
