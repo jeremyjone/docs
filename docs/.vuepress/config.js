@@ -377,8 +377,8 @@ function getFrontendSideBar() {
         "test",
         "tools"
       ]),
-      "framework",
-      _GetSubSideBar("项目模板", "vue/template", ["", "setup-from-0"])
+      _GetSubSideBar("项目模板", "vue/template", ["", "setup-from-0"]),
+      "framework"
     ]),
     _GetSubSideBar("React", "react", [""])
   ];
