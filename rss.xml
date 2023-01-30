@@ -6,8 +6,8 @@
     <link>https://docs.jeremyjone.com/</link>
     <description>一个快速学习、速查的站点</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 12 Jan 2023 08:32:32 GMT</pubDate>
-    <lastBuildDate>Thu, 12 Jan 2023 08:32:32 GMT</lastBuildDate>
+    <pubDate>Mon, 30 Jan 2023 07:46:59 GMT</pubDate>
+    <lastBuildDate>Mon, 30 Jan 2023 07:46:59 GMT</lastBuildDate>
     <generator>@mr-hope/vuepress-plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>MIT Licensed | Copyright © 2020-present &lt;a href="https://www.jeremyjone.com" target="_blank"&gt;JeremyJone&lt;/a&gt;</copyright>
@@ -16,7 +16,7 @@
       <link>https://docs.jeremyjone.com/</link>
       <guid>https://docs.jeremyjone.com/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Home</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<Home />
 ]]></content:encoded>
     </item>
@@ -25,7 +25,7 @@
       <link>https://docs.jeremyjone.com/codes/</link>
       <guid>https://docs.jeremyjone.com/codes/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">手撸代码</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="手撸代码"> 手撸代码</h1>
 <p>代码既可以学习，也可以拿来直接使用。</p>
 <p>这里既有自己写的，也有各处找的。总之呢，前人种树，后人乘凉，学习代码，快乐无穷。</p>
@@ -36,7 +36,7 @@
       <link>https://docs.jeremyjone.com/codes/js/</link>
       <guid>https://docs.jeremyjone.com/codes/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <p>一些通用函数。</p>
 <h2 id="拷贝"> 拷贝</h2>
@@ -148,7 +148,7 @@
       <link>https://docs.jeremyjone.com/codes/js/array/</link>
       <guid>https://docs.jeremyjone.com/codes/js/array/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数组的一些扩展方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数组的一些扩展方法"> 数组的一些扩展方法</h1>
 <h2 id="判断元素是否在数组中"> 判断元素是否在数组中</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>contains</span> <span>=</span> <span>(</span><span>arr<span>,</span> val</span><span>)</span> <span>=></span> <span>{</span>
@@ -268,7 +268,7 @@
       <link>https://docs.jeremyjone.com/codes/js/colors/</link>
       <guid>https://docs.jeremyjone.com/codes/js/colors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理颜色的方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理颜色的方法"> 处理颜色的方法</h1>
 <p>相信对于前端来说，颜色的处理一定是越来越多的。</p>
 <p>下面这些属性可以任意变换，使用时需要注意引用关系。</p>
@@ -595,7 +595,7 @@
       <link>https://docs.jeremyjone.com/codes/js/create/</link>
       <guid>https://docs.jeremyjone.com/codes/js/create/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">生成方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="生成方法"> 生成方法</h1>
 <p>一些生成、创建的方法。</p>
 <h2 id="生成-uuid"> 生成 uuid</h2>
@@ -663,7 +663,7 @@
       <link>https://docs.jeremyjone.com/codes/js/date/</link>
       <guid>https://docs.jeremyjone.com/codes/js/date/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">处理日期方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="处理日期方法"> 处理日期方法</h1>
 <h2 id="判断日期"> 判断日期</h2>
 <h3 id="日期是否有效"> 日期是否有效</h3>
@@ -820,7 +820,7 @@
       <link>https://docs.jeremyjone.com/codes/js/html/</link>
       <guid>https://docs.jeremyjone.com/codes/js/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 处理方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-处理方法"> HTML 处理方法</h1>
 <h2 id="去除-html-标签"> 去除 html 标签</h2>
 <div><pre><code><span>export</span> <span>const</span> <span>removeHtmltag</span> <span>=</span> <span>str</span> <span>=></span> <span>{</span>
@@ -992,7 +992,7 @@
       <link>https://docs.jeremyjone.com/codes/js/judge/</link>
       <guid>https://docs.jeremyjone.com/codes/js/judge/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">判断方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="判断方法"> 判断方法</h1>
 <p>一些通用的判断方法。</p>
 <h2 id="判断类型"> 判断类型</h2>
@@ -1514,7 +1514,7 @@
       <link>https://docs.jeremyjone.com/codes/js/transform/</link>
       <guid>https://docs.jeremyjone.com/codes/js/transform/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">常用的转换方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="常用的转换方法"> 常用的转换方法</h1>
 <h2 id="字符串大小写转换"> 字符串大小写转换</h2>
 <div><pre><code><span>/**
@@ -1844,7 +1844,7 @@
       <link>https://docs.jeremyjone.com/demo/</link>
       <guid>https://docs.jeremyjone.com/demo/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">样例</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="样例"> 样例</h1>
 <p>各种样例，可以直接运行使用的那种</p>
 ]]></content:encoded>
@@ -1854,7 +1854,7 @@
       <link>https://docs.jeremyjone.com/demo/css/</link>
       <guid>https://docs.jeremyjone.com/demo/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 样例</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-样例"> CSS 样例</h1>
 <h2 id="跳动的心"> 跳动的心</h2>
 <IFrameWrapper src="https://desktop.jeremyjone.com/example/jump-heart.html" />
@@ -1869,7 +1869,7 @@
       <link>https://docs.jeremyjone.com/demo/css/adv/</link>
       <guid>https://docs.jeremyjone.com/demo/css/adv/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">高级样例</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="高级样例"> 高级样例</h1>
 <h2 id="瀑布流"> 瀑布流</h2>
 <IFrameWrapper src="https://desktop.jeremyjone.com/example/waterfall.html" />
@@ -1881,7 +1881,7 @@
       <link>https://docs.jeremyjone.com/document/</link>
       <guid>https://docs.jeremyjone.com/document/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">文档手册</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="文档手册"> 文档手册</h1>
 <p>持续完善的工具文档手册。</p>
 <ul>
@@ -1897,7 +1897,7 @@
       <link>https://docs.jeremyjone.com/document/docker/</link>
       <guid>https://docs.jeremyjone.com/document/docker/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 使用文档</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-使用文档"> Docker 使用文档</h1>
 <h2 id="安装"> 安装</h2>
 <p>以下以 <code>CentOS7+</code> 为例，其余请参考<a href="https://docs.docker.com/engine/install/" target="_blank" rel="noopener noreferrer">官方文档</a>：</p>
@@ -2202,7 +2202,7 @@ docker <span>kill</span> <span>&lt;</span>容器ID<span>></span>     <span># 强
       <link>https://docs.jeremyjone.com/document/docker/example/npm/</link>
       <guid>https://docs.jeremyjone.com/document/docker/example/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Docker 快速搭建 NPM 服务器</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="docker-快速搭建-npm-服务器"> Docker 快速搭建 NPM 服务器</h1>
 <p>我们使用 <a href="https://verdaccio.org/docs/docker/" target="_blank" rel="noopener noreferrer">verdaccio</a> 来快速搭建 NPM 服务器。</p>
 <h2 id="拉取镜像"> 拉取镜像</h2>
@@ -2235,7 +2235,7 @@ docker pull verdaccio/verdaccio:4.0.0
       <link>https://docs.jeremyjone.com/document/emmet/</link>
       <guid>https://docs.jeremyjone.com/document/emmet/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Emmet 使用文档</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="emmet-使用文档"> Emmet 使用文档</h1>
 <p><code>Emmet</code> 可以帮助我们快速开发页面代码，通过固定语法，快速生成 <code>HTML</code>、<code>CSS</code> 代码的一种工具。</p>
 <h2 id="使用方法"> 使用方法</h2>
@@ -2486,7 +2486,7 @@ docker pull verdaccio/verdaccio:4.0.0
       <link>https://docs.jeremyjone.com/document/gantt/README_old/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/README_old/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">入门</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="入门"> 入门</h1>
 <Description author="jeremyjone" version="0.0.17" date="2020-12-22" copyright="jeremyjone" />
 <p>通过入门的章节内容，可以快速引入并使用 JzGantt。</p>
@@ -2579,7 +2579,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/column/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/column/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">列组件 JGanttColumn</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="列组件-jganttcolumn"> 列组件 JGanttColumn</h1>
 <Description author="jeremyjone" date="2020-10-12" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -2651,7 +2651,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/common/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/common/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">通用方法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="通用方法"> 通用方法</h1>
 <h2 id="日期格式化属性"> 日期格式化属性</h2>
 <p>在甘特表的属性中，可以通过给定一个格式化字符串来获取指定格式的日期内容，它的全部参数如下：</p>
@@ -2704,7 +2704,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/root/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/root/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">根组件 JGantt</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="根组件-jgantt"> 根组件 JGantt</h1>
 <Description author="jeremyjone" date="2020-12-02" copyright="jeremyjone" />
 <p>对于 <code>JGantt</code> 组件，它具有非常丰富的属性。</p>
@@ -2910,7 +2910,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/gantt/slider/</link>
       <guid>https://docs.jeremyjone.com/document/gantt/slider/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">滑块组件 JGanttSlider</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="滑块组件-jganttslider"> 滑块组件 JGanttSlider</h1>
 <Description author="jeremyjone" date="2020-11-05" copyright="jeremyjone" />
 <p>因为我们在内部已经将其加载，所以您并不需要显示的再次导入到您的组件中就可以使用。</p>
@@ -3051,7 +3051,7 @@ Vue<span>.</span><span>use</span><span>(</span>Gantt<span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/document/git/</link>
       <guid>https://docs.jeremyjone.com/document/git/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GIT 命令</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="git-命令"> GIT 命令</h1>
 <h2 id="安装"> 安装</h2>
 <ul>
@@ -3734,7 +3734,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/git/github_workflow/</link>
       <guid>https://docs.jeremyjone.com/document/git/github_workflow/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">GitHub Pages action 配置</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="github-pages-action-配置"> GitHub Pages action 配置</h1>
 <p>GitHub 给我们提供了非常方便的部署功能 <a href="https://github.com/marketplace/actions/github-pages-action" target="_blank" rel="noopener noreferrer">GitHub Pages action</a>。它可以帮助我们快速部署静态页面，省去了每次单独部署的繁琐操作，我们只需要通过简单的配置就可以实现该功能。</p>
 <p>我们以该 vuepress 文档为例。</p>
@@ -3960,7 +3960,7 @@ Closes #1, #2
       <link>https://docs.jeremyjone.com/document/markdown/</link>
       <guid>https://docs.jeremyjone.com/document/markdown/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Markdown 语法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="markdown-语法"> Markdown 语法</h1>
 <h2 id="标题"> 标题</h2>
 <p>使用 <code>#</code> 设置标题。
@@ -4464,7 +4464,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/document/npm/</link>
       <guid>https://docs.jeremyjone.com/document/npm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">npm 使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="npm-使用"> npm 使用</h1>
 <h2 id="安装"> 安装</h2>
 <p><code>npm</code> 是 <code>Node</code> 默认的模块管理器，同时也是模块登记和管理系统，它随 <code>Node</code> 环境一起安装，不需要单独安装。</p>
@@ -4845,7 +4845,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/document/regexp/</link>
       <guid>https://docs.jeremyjone.com/document/regexp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">正则表达式的使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="正则表达式的使用"> 正则表达式的使用</h1>
 <h2 id="什么是正则表达式"> 什么是正则表达式</h2>
 <p>正则表达式是高级文本匹配模式，用于搜索文本中的指定字符串。其本质是由一些字符和特殊字符组成的字符串，其中的字符可以是字母，数字，特殊字符，可以是零个或多个。这个字符串可以用来搜索文本中的指定字符串。</p>
@@ -5155,14 +5155,110 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
 </tr>
 </tbody>
 </table>
-]]></content:encoded>
+<h2 id="常用的正则表达式"> 常用的正则表达式</h2>
+<div><pre><code>
+非负整数：^\d+$
+ 
+正整数：^[0-9]*[1-9][0-9]*$
+ 
+非正整数：^((-\d+)|(0+))$
+ 
+负整数：^-[0-9]*[1-9][0-9]*$
+ 
+整数：^-?\d+$
+ 
+非负浮点数：^\d+(\.\d+)?$
+ 
+正浮点数 : ^((0-9)+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)$
+ 
+非正浮点数：^((-\d+\.\d+)?)|(0+(\.0+)?))$
+ 
+负浮点数：^(-((正浮点数正则式)))$
+ 
+英文字符串：^[A-Za-z]+$
+ 
+英文大写串：^[A-Z]+$
+ 
+英文小写串：^[a-z]+$
+ 
+英文字符数字串：^[A-Za-z0-9]+$
+ 
+英数字加下划线串：^\w+$
+ 
+E-mail地址：^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$
+ 
+URL：^[a-zA-Z]+://(\w+(-\w+)*)(\.(\w+(-\w+)*))*(\?\s*)?$ 
+ 或：^http:\/\/[A-Za-z0-9]+\.[A-Za-z0-9]+[\/=\?%\-&amp;_~`@[\]\&#39;:+!]*([^&lt;&gt;\&quot;\&quot;])*$
+ 
+邮政编码：^[1-9]\d{5}$
+ 
+中文：^[\u0391-\uFFE5]+$
+ 
+电话号码：^((\(\d{2,3}\))|(\d{3}\-))?(\(0\d{2,3}\)|0\d{2,3}-)?[1-9]\d{6,7}(\-\d{1,4})?$
+ 
+手机号码：^((\(\d{2,3}\))|(\d{3}\-))?13\d{9}$
+ 
+双字节字符(包括汉字在内)：^\x00-\xff
+ 
+匹配首尾空格：(^\s*)|(\s*$)（像vbscript那样的trim函数）
+ 
+匹配HTML标记：&lt;(.*)&gt;.*&lt;\/\1&gt;|&lt;(.*) \/&gt;
+ 
+匹配空行：\n[\s| ]*\r
+ 
+提取信息中的网络链接：(h|H)(r|R)(e|E)(f|F)  *=  *(&#39;|&quot;)?(\w|\\|\/|\.)+(&#39;|&quot;|  *|&gt;)?
+ 
+提取信息中的邮件地址：\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*
+ 
+提取信息中的图片链接：(s|S)(r|R)(c|C)  *=  *(&#39;|&quot;)?(\w|\\|\/|\.)+(&#39;|&quot;|  *|&gt;)?
+ 
+提取信息中的IP地址：(\d+)\.(\d+)\.(\d+)\.(\d+)
+ 
+提取信息中的中国手机号码：(86)*0*13\d{9}
+ 
+提取信息中的中国固定电话号码：(\(\d{3,4}\)|\d{3,4}-|\s)?\d{8}
+ 
+提取信息中的中国电话号码（包括移动和固定电话）：(\(\d{3,4}\)|\d{3,4}-|\s)?\d{7,14}
+ 
+提取信息中的中国邮政编码：[1-9]{1}(\d+){5}
+ 
+提取信息中的浮点数（即小数）：(-?\d*)\.?\d+
+ 
+提取信息中的任何数字 ：(-?\d*)(\.\d+)? 
+ 
+IP：(\d+)\.(\d+)\.(\d+)\.(\d+)
+ 
+电话区号：/^0\d{2,3}$/
+ 
+腾讯QQ号：^[1-9]*[1-9][0-9]*$
+ 
+帐号(字母开头，允许5-16字节，允许字母数字下划线)：^[a-zA-Z][a-zA-Z0-9_]{4,15}$
+ 
+中文、英文、数字及下划线：^[\u4e00-\u9fa5_a-zA-Z0-9]+$
+ 
+匹配中文字符的正则表达式： [\u4e00-\u9fa5]
+ 
+匹配双字节字符(包括汉字在内)：[^\x00-\xff]
+ 
+匹配空行的正则表达式：\n[\s| ]*\r
+ 
+匹配HTML标记的正则表达式：/&lt;(.*)&gt;.*&lt;\/\1&gt;|&lt;(.*) \/&gt;/
+ 
+sql语句：^(select|drop|delete|create|update|insert).*$
+ 
+匹配首尾空格的正则表达式：(^\s*)|(\s*$)
+ 
+匹配Email地址的正则表达式：\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*
+
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Vim 使用说明</title>
       <link>https://docs.jeremyjone.com/document/vim/</link>
       <guid>https://docs.jeremyjone.com/document/vim/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vim 使用说明</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vim-使用说明"> Vim 使用说明</h1>
 <h2 id="打开文件"> 打开文件</h2>
 <p><code>vim filename</code>     打开文件</p>
@@ -5394,7 +5490,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/example/</link>
       <guid>https://docs.jeremyjone.com/example/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Example Page</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="example-page"> Example Page</h1>
 <p>YAML config</p>
 <div><pre><code><span>---</span>
@@ -5424,7 +5520,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/</link>
       <guid>https://docs.jeremyjone.com/roadmap/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">学习路线</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="学习路线"> 学习路线</h1>
 <p>保持学习，从 GitHub 搬运了一点学习路线图，以及对应的主页，方便查找和学习，可以快速查缺补漏。</p>
 <ul>
@@ -5441,7 +5537,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/android/</link>
       <guid>https://docs.jeremyjone.com/roadmap/android/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Android 学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="android-学习之路"> Android 学习之路</h1>
 <p>Android 的学习之路，页面只有图，不咋地。。。</p>
 <p><a href="https://github.com/mobile-roadmap/android-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -5454,7 +5550,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">计算机基础</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="计算机基础"> 计算机基础</h1>
 <p>计算机基础是计算机科学的重要基石。只有充分掌握了计算机的基础理论部分，才可以更快、更好的学习更高级的知识。</p>
 ]]></content:encoded>
@@ -5464,8 +5560,17 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/algorithm/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/algorithm/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">算法</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="算法"> 算法</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>计算机基础内容</title>
+      <link>https://docs.jeremyjone.com/roadmap/base/computer/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/base/computer/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">计算机基础内容</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -5473,7 +5578,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/data-structure/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/data-structure/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据结构</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据结构"> 数据结构</h1>
 ]]></content:encoded>
     </item>
@@ -5482,7 +5587,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/database/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/database/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据库</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据库"> 数据库</h1>
 ]]></content:encoded>
     </item>
@@ -5491,7 +5596,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络基础</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络基础"> 网络基础</h1>
 <h2 id="osi-模型"> OSI 模型</h2>
 <h3 id="七层模型"> 七层模型</h3>
@@ -5511,7 +5616,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/domain/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/domain/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">域名</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="域名"> 域名</h1>
 ]]></content:encoded>
     </item>
@@ -5520,7 +5625,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/ip/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/ip/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">IP 网际协议</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="ip-网际协议"> IP 网际协议</h1>
 ]]></content:encoded>
     </item>
@@ -5529,7 +5634,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">OSI 模型</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="osi-模型"> OSI 模型</h1>
 ]]></content:encoded>
     </item>
@@ -5538,7 +5643,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">四层模型</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="四层模型"> 四层模型</h1>
 ]]></content:encoded>
     </item>
@@ -5547,7 +5652,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/osi/layer-7/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">七层模型</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="七层模型"> 七层模型</h1>
 ]]></content:encoded>
     </item>
@@ -5556,7 +5661,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/tcp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TCP 协议</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="tcp-协议"> TCP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -5565,7 +5670,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/protocol/udp/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">UDP 协议</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="udp-协议"> UDP 协议</h1>
 ]]></content:encoded>
     </item>
@@ -5574,17 +5679,8 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">万维网</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="万维网"> 万维网</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>计算机基础内容</title>
-      <link>https://docs.jeremyjone.com/roadmap/base/computer/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/base/computer/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">计算机基础内容</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="计算机基础内容"> 计算机基础内容</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -5592,7 +5688,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/http/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/http/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTP</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="http"> HTTP</h1>
 <p><code>HTTP</code>：<code>hypertext transform protocol</code>，超文本传输协议。它允许将超文本标记语言（<code>HTML</code>）从 web 服务器传送到客户端的浏览器。为了使超文本的链接能够高效率的完成，需要使用 <code>HTTP</code> 协议来出阿松一些必需的信息。</p>
 <p>从层次的角度看，<code>HTTP</code> 是面向事务的应用层协议，它是万维网上能够可靠地交换文件的重要基础。</p>
@@ -5819,7 +5915,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/https/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/https/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTTPS</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="https"> HTTPS</h1>
 <h2 id="什么是-https"> 什么是 HTTPS</h2>
 <p><code>HTTPS</code>：（Hyper Text Transfer Protocol over SecureSocket Layer），是以安全为目标的 <code>HTTP</code> 通道。在 <code>HTTP</code> 的基础上，通过传输加密和身份认证保证了传输过程的安全性。</p>
@@ -5866,7 +5962,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/base/network/www/url/</link>
       <guid>https://docs.jeremyjone.com/roadmap/base/network/www/url/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">URL</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="url"> URL</h1>
 <p><code>URL</code>：<code>Uniform Resource Identifier</code>，即统一资源定位符。是对可以从因特网上得到的资源的位置和防蚊方法的一种简洁的表示。<code>URL</code> 给资源的位置提供一种抽象的识别方法，并用这种方法给资源定位。只要能够对资源定位，系统就可以对资源进行各种操作，如存取、更新、替换和查找等。</p>
 <p><code>URL</code> 相当于一个文件名在网络范围的扩展。因此 <code>URL</code> 是与因特网相连的机器上的任何可访问对象的一个指针。</p>
@@ -5891,7 +5987,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">ASP.NET Core 开发者学习路线图</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="asp-net-core-开发者学习路线图"> ASP.NET Core 开发者学习路线图</h1>
 <p>.NET Core 的学习之路，中文更新速度很好。</p>
 <p><a href="https://github.com/MoienTajik/AspNetCore-Developer-Roadmap" target="_blank" rel="noopener noreferrer">英文文档</a></p>
@@ -5905,7 +6001,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <h2 id="开始之前"> 开始之前</h2>
 <p>先贴上官方地址：
@@ -5955,7 +6051,7 @@ $\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/example/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">在 ASP.NET 中使用授权与认证</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="在-asp-net-中使用授权与认证"> 在 ASP.NET 中使用授权与认证</h1>
 <p>下面通过一组渐进式的例子，来学习 ASP.NET 是如何认证并授权的。</p>
 <h2 id="添加认证中间件"> 添加认证中间件</h2>
@@ -6338,7 +6434,7 @@ services<span>.</span><span><span>AddSingleton</span><span><span>&lt;</span>IAut
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">IdentityServer4 的使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="identityserver4-的使用"> IdentityServer4 的使用</h1>
 <p>IdentityServer4 是基于 OpenId Connect（OIDC）、OAuth 2.0 统一的身份认证和授权系统。它拥有很多功能：</p>
 <ul>
@@ -6689,7 +6785,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/external-account/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">外部身份验证</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="外部身份验证"> 外部身份验证</h1>
 <p>基于 OAuth2 的特性，我们可以轻松通过外部账户进行登录。</p>
 <p>外部账户登录的好处：</p>
@@ -6831,7 +6927,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/intro-config/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">详解认证中心的配置</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="详解认证中心的配置"> 详解认证中心的配置</h1>
 <p>在 <code>IdentityServer</code> 中，需要我们进行配置的内容，大体分成：<code>IdentityResource</code>、<code>ApiScope</code>、<code>ApiResource</code> 和 <code>Client</code>，它们都是在 <code>IdentityServer4.Models</code> 中定义的。</p>
 <p>我们在创建一个 Ids 服务之后，也要首先进行配置初始数据（之前写过的 Config.cs），也就是配置这些内容。</p>
@@ -7304,7 +7400,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>options <span>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/is4/useef/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">数据的持久化（使用数据库）</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="数据的持久化（使用数据库）"> 数据的持久化（使用数据库）</h1>
 <p>前面只是一个最简单的基础使用方案，虽然已经实现了认证与授权，但是明显并不能满足生产需求，下面就按不同需求进行配置。</p>
 <p>上面的例子中，所有数据都在内存中，并不能持久化。如果要数据持久化，上数据库是必然的。</p>
@@ -7932,7 +8028,7 @@ dotnet ef database update -c ApplicationDbContext
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/auth/jwt/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JWT</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="jwt"> JWT</h1>
 <h2 id="什么是-jwt"> 什么是 JWT</h2>
 <p>Jwt，Json Web Token 是一个开放标准（<a href="https://tools.ietf.org/html/rfc7519" target="_blank" rel="noopener noreferrer">RFC 7519</a>），它定义了一种紧凑且独立的方法，用于在各方之间安全地将信息作为 JSON 对象传输。由于此信息是经过数字签名的，因此可以被验证和信任。可以使用密码（使用 HMAC 算法）或使用 RSA 或 ECDSA 的公钥/私钥对对 JWT 进行签名。</p>
@@ -8099,7 +8195,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/basic/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">基础知识</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="基础知识"> 基础知识</h1>
 <p>本文将学习 <code>.NET</code> 需要的一些前置基础知识。</p>
 <blockquote>
@@ -8186,7 +8282,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>在互联网中，因为服务器性能、网络带宽等各种原因，传输数据时需要考虑的问题相比单机程序要更多。缓存的出现有效解决了这个问题。缓存可以有效降低服务器的重复工作量，进而提高服务器的性能和效率。</p>
 <p>缓存适用于不经常修改的数据，如媒体文件等。而且缓存一般存在于高速介质中，同时网络中各个节点均可设置缓存，所以使用缓存的效率会更高。</p>
@@ -8301,7 +8397,7 @@ services<span>.</span><span>AddAuthentication</span><span>(</span>JwtBearerDefau
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/distributed/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">分布式缓存</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="分布式缓存"> 分布式缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>分布式缓存，顾名思义就是多个服务器共享一个缓存。</p>
@@ -8467,7 +8563,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cache/memory/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">内存缓存</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="内存缓存"> 内存缓存</h1>
 <h2 id="概述"> 概述</h2>
 <p>ASP.NET 支持多个不同缓存。通过 <code>IMemoryCache</code> 可以创建一个简单的内存缓存，它用于在 web 服务器的内存中创建一块缓存。当服务器运行时应确保会话在使用内存中缓存时处于粘滞状态。粘滞会话确保来自客户端的后续请求都将发送到相同服务器。</p>
@@ -8543,7 +8639,7 @@ GO
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/cors/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">跨域</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="跨域"> 跨域</h1>
 <h2 id="什么是跨域"> 什么是跨域</h2>
 <h2 id="配置-cors"> 配置 CORS</h2>
@@ -8571,7 +8667,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>数据库就是存储数据的仓库。数据库在保存数据上具有显而易见的优势：</p>
 <ul>
@@ -8658,7 +8754,7 @@ app<span>.</span><span>UseCors</span><span>(</span><span>"allowedCors"</span><sp
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <p>Entity Framework (EF) Core 是轻量化、可扩展、开源和跨平台版的常用 Entity Framework 数据访问技术。
 EF Core 可用作对象关系映射程序 (O/RM)，这可以实现以下两点：</p>
@@ -8861,7 +8957,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/context/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">DbContext 的配置</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="dbcontext-的配置"> DbContext 的配置</h1>
 <p><code>DbContext</code> 实例表示与数据库的会话，可用于查询和保存实体实例。<code>DbContext</code> 是工作单元和存储库模式的组合。</p>
 <p>通常，你将创建一个从 <code>DbContext</code> 派生的类，并在 <code>DbSet&lt;TEntity&gt;</code> 模型中包含每个实体的属性。如果 <code>DbSet&lt;TEntity&gt;</code> 属性具有公共资源库，则在创建派生上下文的实例时，它们会自动初始化。</p>
@@ -8923,7 +9019,7 @@ dotnet ef database update
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/manage/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">管理数据库</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="管理数据库"> 管理数据库</h1>
 <h2 id="迁移数据库"> 迁移数据库</h2>
 <p>迁移数据库是将模型转换为数据库表。</p>
@@ -8989,7 +9085,7 @@ Scaffold<span>-</span>DbContext <span>"server=localhost;userid=jeremyjone;pwd=12
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/model/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">模型</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="模型"> 模型</h1>
 <p>Entity Framework Core 使用一组约定来根据实体类的形状生成模型。可指定其他配置以补充或替代约定的内容。模型对应于数据库中的表，每一张数据表都应该对应一个数据模型。</p>
 <div><p>示例代码</p>
@@ -9245,7 +9341,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/efcore/use/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="使用"> 使用</h1>
 <h2 id="查询数据"> 查询数据</h2>
 <p>Entity Framework Core 使用语言集成查询 (LINQ) 来查询数据库中的数据。</p>
@@ -9325,7 +9421,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/db/other/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">其他映射工具</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="其他映射工具"> 其他映射工具</h1>
 <ul>
 <li><a href="http://www.donet5.com/Doc/1/1180" target="_blank" rel="noopener noreferrer">SqlSugar</a></li>
@@ -9338,7 +9434,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
 <blockquote>
 <p>高内聚，低耦合</p>
@@ -9444,7 +9540,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/collections/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">服务容器</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="服务容器"> 服务容器</h1>
 <h2 id="默认容器"> 默认容器</h2>
 <p>使用内置的服务容器可以满足框架和大多数消费者应用的需求。在一个基本框架的 <code>Startup.cs</code> 中已经添加好了相应的代码，我们只需要直接使用即可：</p>
@@ -9484,7 +9580,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/di/lifetimes/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">生命周期</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="生命周期"> 生命周期</h1>
 <p>在 <code>ASP.NET Core</code> 中，可以将服务注册为以下任一生存周期：</p>
 <ul>
@@ -9519,7 +9615,7 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/APM/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">应用性能监控系统</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="应用性能监控系统"> 应用性能监控系统</h1>
 <p>如今分布式架构越来越多，对于整套系统的监控越来越复杂，不单单是一个日志能够解决的，需要日志、追踪、分析等不同工具配合使用，才能满足需求。</p>
 <p>在众多 APM 系统中，<code>SkyWalking</code> 算是一款比较好用的 APM 系统。它包括 <code>服务端</code>、<code>界面</code>、以及 <code>探针</code>，其中 <code>探针</code> 是针对不同语言有不同的包，针对 ASP.NET 的探针包是 <code>SkyAPM-dotnet</code>，具体可以查看 <a href="https://github.com/SkyAPM" target="_blank" rel="noopener noreferrer">GitHub</a>。</p>
@@ -9658,11 +9754,65 @@ modelBuilder<span>.</span><span>ApplyConfigurationsFromAssembly</span><span>(</s
 ]]></content:encoded>
     </item>
     <item>
+      <title>概述</title>
+      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
+<p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
+<p>举个例子，一个用户对象，它有如下属性：</p>
+<div><pre><code><span>public</span> <span>class</span> <span>User</span>
+<span>{</span>
+    <span>public</span> <span><span>int</span></span> Id <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Nickname <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Password <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Email <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>现在我们需要查询用户基本信息，当我们没有对象映射的时候，每次都需要将整个对象内容返回，但是其中包含了敏感信息，所以我们需要新建一个对象，并重新赋值，比如：</p>
+<div><pre><code><span>public</span> <span>class</span> <span>UserDto</span>
+<span>{</span>
+    <span>public</span> <span><span>int</span></span> Id <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Nickname <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+<span>}</span>
+
+<span><span>var</span></span> userDto <span>=</span> <span>new</span> <span>UserDto</span>
+<span>{</span>
+    Id <span>=</span> user<span>.</span>Id<span>,</span>
+    Username <span>=</span> user<span>.</span>Username<span>,</span>
+    Nickname <span>=</span> user<span>.</span>Nickname
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><div><p>DTO 是什么</p>
+<p>DTO：Data Transfer Object，数据传输对象。用于在不同层之间进行数据交互的对象。</p>
+</div>
+<p>这样的方式就是最对象映射。比如现在我们需要一个查询用户邮箱的对象，还要重新新建一个对象，然后使用时依次赋值：</p>
+<div><pre><code><span>public</span> <span>class</span> <span>UserEmailDto</span>
+<span>{</span>
+    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+    <span>public</span> <span><span>string</span></span> Email <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
+<span>}</span>
+
+<span><span>var</span></span> userEmailDto <span>=</span> <span>new</span> <span>UserEmailDto</span>
+<span>{</span>
+    Username <span>=</span> user<span>.</span>Username<span>,</span>
+    Email <span>=</span> user<span>.</span>Email
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>这样就映射了一个新的查询用户邮箱的对象。</p>
+<p>这样做，一次两次还可以，但一个项目有很多对象，每个对象可能会有不同使用情况，于是就有了更多的 <code>DTO</code>，每一个都这样做的话就很麻烦，但是很必要，因为它提供了一种对象分离的思路。</p>
+<p>为了避免这样大量重复的工作，所以就有了对象映射器这种工具。它的好处在于避免了大量重复工作，让我们只需要关注当前对象即可，做到了一次配置，终身受益。</p>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Serilog 的使用</title>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/log/Serilog/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Serilog 的使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="serilog-的使用"> Serilog 的使用</h1>
 <p>Serilog 是第三方日志工具，拥有强大的插件功能和易用性。</p>
 <h2 id="安装"> 安装</h2>
@@ -9740,65 +9890,377 @@ Log<span>.</span><span>CloseAndFlush</span><span>(</span><span>)</span><span>;</
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>概述</title>
-      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">概述</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="概述"> 概述</h1>
-<p>对象映射是将一个对象通过一定规则转换成另一个对象的方法。它非常有用，通过对象映射可以将底层原始数据对象隐藏，转成面向用户的对象，从而实现数据对象的分层管理。</p>
-<p>举个例子，一个用户对象，它有如下属性：</p>
-<div><pre><code><span>public</span> <span>class</span> <span>User</span>
-<span>{</span>
-    <span>public</span> <span><span>int</span></span> Id <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Nickname <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Password <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Email <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-<span>}</span>
+      <title>RabbitMQ 的使用</title>
+      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">RabbitMQ 的使用</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
+<p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
+<h2 id="安装"> 安装</h2>
+<p><code>RabbitMQ</code> 使用 <code>Erlang</code> 编写，所以在安装之前需要首先安装 <code>Erlang</code> 环境。</p>
+<p><code>Erlang</code>： <a href="https://www.erlang.org/downloads" target="_blank" rel="noopener noreferrer">下载地址</a>
+<code>RabbitMQ</code>：<a href="https://github.com/rabbitmq/rabbitmq-server/releases" target="_blank" rel="noopener noreferrer">下载地址</a></p>
+<p>全部下载最新稳定版即可。</p>
+<p>下载并安装之后，需要配置管理界面。通过命令直接启用即可：</p>
+<div><pre><code>rabbitmq-plugins ebable rabbitmq_management
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>现在我们需要查询用户基本信息，当我们没有对象映射的时候，每次都需要将整个对象内容返回，但是其中包含了敏感信息，所以我们需要新建一个对象，并重新赋值，比如：</p>
-<div><pre><code><span>public</span> <span>class</span> <span>UserDto</span>
-<span>{</span>
-    <span>public</span> <span><span>int</span></span> Id <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Nickname <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-<span>}</span>
-
-<span><span>var</span></span> userDto <span>=</span> <span>new</span> <span>UserDto</span>
-<span>{</span>
-    Id <span>=</span> user<span>.</span>Id<span>,</span>
-    Username <span>=</span> user<span>.</span>Username<span>,</span>
-    Nickname <span>=</span> user<span>.</span>Nickname
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><div><p>DTO 是什么</p>
-<p>DTO：Data Transfer Object，数据传输对象。用于在不同层之间进行数据交互的对象。</p>
+<div><span>1</span><br></div></div><p>如果没有配置环境变量，可以进入安装目录下的 <code>/sbin</code> 文件夹中执行，如图：</p>
+<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_management.png')" alt="配置 RabbitMQ 界面">
+<div><p>建议</p>
+<p>建议将安装路径下的 <code>/sbin</code> 路径添加到环境变量中，以便后续使用命令。</p>
 </div>
-<p>这样的方式就是最对象映射。比如现在我们需要一个查询用户邮箱的对象，还要重新新建一个对象，然后使用时依次赋值：</p>
-<div><pre><code><span>public</span> <span>class</span> <span>UserEmailDto</span>
-<span>{</span>
-    <span>public</span> <span><span>string</span></span> Username <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-    <span>public</span> <span><span>string</span></span> Email <span>{</span> <span>get</span><span>;</span> <span>set</span><span>;</span> <span>}</span>
-<span>}</span>
+<div><p>提示</p>
+<p><code>RabbitMQ</code> 默认监听端口为 <code>5672</code>。而管理后台的端口则是 <code>15672</code>，所以启用管理之后，可以通过浏览器访问：<code>http://localhost:15672/</code></p>
+</div>
+<h2 id="配置"> 配置</h2>
+<h3 id="添加用户"> 添加用户</h3>
+<p>通过命令可以快速管理用户：</p>
+<div><pre><code><span># 查看用户列表</span>
+rabbitmqctl list_users
 
-<span><span>var</span></span> userEmailDto <span>=</span> <span>new</span> <span>UserEmailDto</span>
+<span># 添加用户</span>
+<span># rabbitmqctl add_user &lt;username> &lt;password></span>
+rabbitmqctl add_user admin qaz123
+
+<span># 设置权限</span>
+<span># rabbitmqctl set_permissions [-p &lt;vhost>] &lt;username> &lt;configuration> &lt;write> &lt;read></span>
+rabbitmqctl set_permissions -p <span>"/"</span> admin <span>".*"</span> <span>".*"</span> <span>".*"</span>
+
+<span># 设置用户标签</span>
+rabbitmqctl set_user_tags admin administrator
+
+<span># 通常删除默认账户</span>
+rabbitmqctl delete_user guest
+
+<span># 管理账户</span>
+<span># 1、修改密码</span>
+rabbitmqctl change_password <span>&lt;</span>username<span>></span> <span>&lt;</span>newpassword<span>></span>
+
+<span># 2、清除密码（无法使用密码登录）</span>
+rabbitmqctl clear_password <span>&lt;</span>username<span>></span>
+
+<span># 3、清除用户权限（拒绝指定用户访问指定主机）</span>
+rabbitmqctl clear_permissions <span>[</span>-p <span>&lt;</span>vhost<span>></span><span>]</span> <span>&lt;</span>username<span>></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><div><p>提示</p>
+<p>更多命令行内容，可以参考<a href="https://www.rabbitmq.com/man/rabbitmqctl.8.html#" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+</div>
+<p>经过上面的命令，可以在管理界面看到发生了变化。当然，如果你已经通过 <code>guest</code> 登录且已经在命令行中将其删除，界面会提示你登录失败并尝试让你重新登录。</p>
+<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_users.png')" alt="用户列表">
+<h2 id="使用"> 使用</h2>
+<p>针对不同的使用方式，<a href="https://www.rabbitmq.com/getstarted.html" target="_blank" rel="noopener noreferrer">官方文档</a> 给出了不错的示例。下面介绍基本的使用方式。</p>
+<div><p>示例代码</p>
+<p>具体代码可以看 <a href="https://github.com/jeremyjone/dotnet-study-road/tree/master/MicroService/MQ/RabbitMQ" target="_blank" rel="noopener noreferrer">示例代码</a></p>
+</div>
+<h3 id="创建一个生产者"> 创建一个生产者</h3>
+<p>创建一个控制台项目，并安装 <code>RabbitMQ.Client</code> 包。在主函数中直接创建即可：</p>
+<div><pre><code><span>// 创建连接</span>
+<span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+<span>// 创建通道</span>
+<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+<span>// 1、声明交换机</span>
+channel<span>.</span><span>ExchangeDeclare</span><span>(</span><span>""</span><span>,</span> ExchangeType<span>.</span>Direct<span>,</span> <span>true</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+<span>// 2、声明队列</span>
+channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+<span>// 3、绑定</span>
+channel<span>.</span><span>QueueBind</span><span>(</span><span>"queue"</span><span>,</span> <span>""</span><span>,</span> <span>"queue"</span><span>)</span><span>;</span>
+
+<span>// 循环发送50个消息到 RabbitMQ</span>
+<span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
+<span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>50</span><span>;</span> i<span>++</span><span>)</span>
 <span>{</span>
-    Username <span>=</span> user<span>.</span>Username<span>,</span>
-    Email <span>=</span> user<span>.</span>Email
+    <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+    <span>// 发送消息到队列</span>
+    channel<span>.</span><span>BasicPublish</span><span>(</span><span>""</span><span>,</span> <span>"queue"</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
+    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
 <span>}</span>
 </code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br></div></div><p>这样就映射了一个新的查询用户邮箱的对象。</p>
-<p>这样做，一次两次还可以，但一个项目有很多对象，每个对象可能会有不同使用情况，于是就有了更多的 <code>DTO</code>，每一个都这样做的话就很麻烦，但是很必要，因为它提供了一种对象分离的思路。</p>
-<p>为了避免这样大量重复的工作，所以就有了对象映射器这种工具。它的好处在于避免了大量重复工作，让我们只需要关注当前对象即可，做到了一次配置，终身受益。</p>
-]]></content:encoded>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br></div></div><p>如果你已经开启了 <code>RabbitMQ</code>，此时运行该生产者之后，消息会保存到消息队列中：</p>
+<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_queue_basic.png')" alt="消息保存">
+<h3 id="创建一个消费者"> 创建一个消费者</h3>
+<p>新创建一个控制台项目，同样安装 <code>RabbitMQ.Client</code> 包。在主函数中直接创建即可：</p>
+<div><pre><code><span>// 创建连接</span>
+<span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+<span>// 创建通道</span>
+<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+<span>// 声明队列</span>
+channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+<span>// 创建基于事件的消费者</span>
+<span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
+consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
+<span>{</span>
+    <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
+    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+<span>}</span><span>;</span>
+channel<span>.</span><span>BasicConsume</span><span>(</span><span>"queue"</span><span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><p>运行之后，可以消费所有队列中的数据：</p>
+<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_queue_consumer.png')" alt="消费队列">
+<h3 id="消息持久化"> 消息持久化</h3>
+<p>上面的内容，一旦 <code>RabbitMQ</code> 失效了，数据就会丢失。如何做到数据持久化呢，需要如下配置：</p>
+<div><div><br><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+<span>// 消息持久化</span>
+<span><span>var</span></span> properties <span>=</span> channel<span>.</span><span>CreateBasicProperties</span><span>(</span><span>)</span><span>;</span>
+properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span>
+
+<span>// 循环发送50个消息到 RabbitMQ</span>
+<span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
+<span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>50</span><span>;</span> i<span>++</span><span>)</span>
+<span>{</span>
+    <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+    <span>// 发送消息到队列。将上面创建的属性添加进来</span>
+    channel<span>.</span><span>BasicPublish</span><span>(</span><span>""</span><span>,</span> <span>"queue"</span><span>,</span> properties<span>,</span> body<span>)</span><span>;</span>
+    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
+<span>}</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><h3 id="继续"> 继续</h3>
+<p>上面是一个最基本的使用方式。在 <a href="https://www.rabbitmq.com/getstarted.html" target="_blank" rel="noopener noreferrer">官方指导教程</a> 中，包含了包括上面方式的共 7 中模式，其中前 5 中是比较常用的，尤其是第 3、4、5，分别是：</p>
+<ul>
+<li>
+<p>fanout 发布/订阅模式</p>
+<blockquote>
+<p>即：生产者发送一个消息无差别地到所有消息队列，所有消费者都可以通过消息队列获取该消息。</p>
+</blockquote>
+</li>
+<li>
+<p>direct 精准推送模式</p>
+<blockquote>
+<p>即：生产者指定队列的 <code>KEY</code> 值，精确推送到指定的队列中，所有可以读取该队列的消费者都可以获取该消息。</p>
+</blockquote>
+</li>
+<li>
+<p>topic 主题模式</p>
+<blockquote>
+<p>即：生产者可以根据一定规则指定队列的 <code>KEY</code> 值，模糊匹配队列并推送消息到队列中，所有可以读取该队列的消费者都可以获取该消息。</p>
+</blockquote>
+</li>
+</ul>
+<p>将基本代码贴出来，具体代码可以参照我的 <a href="https://github.com/jeremyjone/dotnet-study-road/tree/master/MicroService/MQ/RabbitMQ" target="_blank" rel="noopener noreferrer">文档配套代码库</a></p>
+<h4 id="生产者"> 生产者</h4>
+<div><pre><code><span>// 发布订阅模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Fanout</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"fanout_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"fanout_queue1"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"fanout_queue2"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"fanout_queue3"</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Fanout<span>)</span><span>;</span>
+
+    <span>// 声明3个队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机。不写 routingKey，意味着消息将发送到所有队列</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
+
+    <span>// 循环发送100个消息到 RabbitMQ</span>
+    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
+    <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>20</span><span>;</span> i<span>++</span><span>)</span>
+    <span>{</span>
+        <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+        <span>// 发送消息到交换机</span>
+        channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> <span>""</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
+        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
+    <span>}</span>
+<span>}</span>
+
+<span>// 精准推送模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Direct</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"direct_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"direct_queue1"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"direct_queue2"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"direct_queue3"</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Direct<span>)</span><span>;</span>
+
+    <span>// 声明3个队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机。为了达到直发效果，需要填写 routingKey，会按照该 Key 值匹配发送</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"c"</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>"cpp"</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>"csharp"</span><span>)</span><span>;</span>
+
+    <span>// 循环发送100个消息到 RabbitMQ</span>
+    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
+    <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>20</span><span>;</span> i<span>++</span><span>)</span>
+    <span>{</span>
+        <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+
+        <span><span>var</span></span> routingKeys <span>=</span> <span>new</span><span>[</span><span>]</span> <span>{</span><span>"c"</span><span>,</span> <span>"cpp"</span><span>,</span> <span>"csharp"</span><span>}</span><span>;</span>
+        <span>// 发送消息到交换机</span>
+        channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> routingKeys<span>[</span>i <span>%</span> <span>3</span><span>]</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
+        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
+    <span>}</span>
+<span>}</span>
+
+<span>// 主题模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Topic</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"topic_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"topic_queue1"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"topic_queue2"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"topic_queue3"</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Topic<span>)</span><span>;</span>
+
+    <span>// 声明3个队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机。Topic 模式下，绑定时可以填写模糊符号 "*" / "#"</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"data.*"</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>"data.#"</span><span>)</span><span>;</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>"data.update"</span><span>)</span><span>;</span>
+
+    <span>// 循环发送100个消息到 RabbitMQ</span>
+    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
+
+
+    <span>foreach</span> <span>(</span><span><span>var</span></span> key <span>in</span> <span>new</span> <span>[</span><span>]</span> <span>{</span><span>"data.update"</span><span>,</span> <span>"data.insert"</span><span>,</span> <span>"data.insert.one"</span><span>}</span><span>)</span>
+    <span>{</span>
+        <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>10</span><span>;</span> i<span>++</span><span>)</span>
+        <span>{</span>
+            <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+
+            <span>// 发送消息到交换机</span>
+            channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> key<span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
+            Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列，Key 为 </span><span><span>{</span><span>key</span><span>}</span></span><span>。"</span></span><span>)</span><span>;</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br></div></div><h4 id="消费者"> 消费者</h4>
+<div><pre><code><span>// 发布订阅模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Fanout</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>// 创建连接</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>// 创建通道</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"fanout_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"fanout_queue2"</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Fanout<span>)</span><span>;</span>
+
+    <span>// 声明队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
+
+    <span>// 创建基于事件的消费者</span>
+    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
+
+    <span>// 设置 prefetchCount</span>
+    channel<span>.</span><span>BasicQos</span><span>(</span><span>0</span><span>,</span> <span>1</span><span>,</span> <span>false</span><span>)</span><span>;</span>
+    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
+    <span>{</span>
+        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
+        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+    <span>}</span><span>;</span>
+
+    <span>// 消费第二个队列中的消息</span>
+    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName2<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
+<span>}</span>
+
+<span>// 精准推送模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Direct</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>// 创建连接</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>// 创建通道</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"direct_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"direct_queue1"</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Direct<span>)</span><span>;</span>
+
+    <span>// 声明队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"c"</span><span>)</span><span>;</span>
+
+    <span>// 创建基于事件的消费者</span>
+    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
+    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
+    <span>{</span>
+        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
+        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>，key：</span><span><span>{</span><span>ea<span>.</span>RoutingKey</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+    <span>}</span><span>;</span>
+
+    <span>// 消费第一个队列中的消息</span>
+    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName1<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
+<span>}</span>
+
+<span>// 主题模式</span>
+<span>public</span> <span>static</span> <span><span>void</span></span> <span>Topic</span><span>(</span><span>)</span>
+<span>{</span>
+    <span>// 创建连接</span>
+    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
+    <span>// 创建通道</span>
+    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
+
+    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"topic_exchange"</span><span>;</span>
+    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"topic_queue1"</span><span>;</span>
+
+    <span>// 声明交换机</span>
+    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Topic<span>)</span><span>;</span>
+
+    <span>// 声明队列</span>
+    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
+
+    <span>// 将队列绑定到交换机</span>
+    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"data.delete"</span><span>)</span><span>;</span>
+
+    <span>// 创建基于事件的消费者</span>
+    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
+    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
+    <span>{</span>
+        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
+        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>，key：</span><span><span>{</span><span>ea<span>.</span>RoutingKey</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
+    <span>}</span><span>;</span>
+
+    <span>// 消费第一个队列中的消息</span>
+    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName1<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>AutoMapper</title>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/mapper/automapper/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">AutoMapper</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="automapper"> AutoMapper</h1>
 <p>正如前文说的那样，对象映射就是将一个对象中的属性按照一定规则映射到另一个对象中。这个操作是枯燥重复的，所以就有了 <code>AutoMapper</code> 这样的对象映射器。</p>
 <h2 id="映射规则"> 映射规则</h2>
@@ -10520,377 +10982,11 @@ services<span>.</span><span>AddAutoMapper</span><span>(</span><span>typeof</span
 ]]></content:encoded>
     </item>
     <item>
-      <title>RabbitMQ 的使用</title>
-      <link>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/microservice/mq/RabbitMQ/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">RabbitMQ 的使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="rabbitmq-的使用"> RabbitMQ 的使用</h1>
-<p><code>RabbitMQ</code> 是使用 <code>Erlang</code> 编写的开源消息队列，支持多种协议，非常适合企业及开发。</p>
-<h2 id="安装"> 安装</h2>
-<p><code>RabbitMQ</code> 使用 <code>Erlang</code> 编写，所以在安装之前需要首先安装 <code>Erlang</code> 环境。</p>
-<p><code>Erlang</code>： <a href="https://www.erlang.org/downloads" target="_blank" rel="noopener noreferrer">下载地址</a>
-<code>RabbitMQ</code>：<a href="https://github.com/rabbitmq/rabbitmq-server/releases" target="_blank" rel="noopener noreferrer">下载地址</a></p>
-<p>全部下载最新稳定版即可。</p>
-<p>下载并安装之后，需要配置管理界面。通过命令直接启用即可：</p>
-<div><pre><code>rabbitmq-plugins ebable rabbitmq_management
-</code></pre>
-<div><span>1</span><br></div></div><p>如果没有配置环境变量，可以进入安装目录下的 <code>/sbin</code> 文件夹中执行，如图：</p>
-<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_management.png')" alt="配置 RabbitMQ 界面">
-<div><p>建议</p>
-<p>建议将安装路径下的 <code>/sbin</code> 路径添加到环境变量中，以便后续使用命令。</p>
-</div>
-<div><p>提示</p>
-<p><code>RabbitMQ</code> 默认监听端口为 <code>5672</code>。而管理后台的端口则是 <code>15672</code>，所以启用管理之后，可以通过浏览器访问：<code>http://localhost:15672/</code></p>
-</div>
-<h2 id="配置"> 配置</h2>
-<h3 id="添加用户"> 添加用户</h3>
-<p>通过命令可以快速管理用户：</p>
-<div><pre><code><span># 查看用户列表</span>
-rabbitmqctl list_users
-
-<span># 添加用户</span>
-<span># rabbitmqctl add_user &lt;username> &lt;password></span>
-rabbitmqctl add_user admin qaz123
-
-<span># 设置权限</span>
-<span># rabbitmqctl set_permissions [-p &lt;vhost>] &lt;username> &lt;configuration> &lt;write> &lt;read></span>
-rabbitmqctl set_permissions -p <span>"/"</span> admin <span>".*"</span> <span>".*"</span> <span>".*"</span>
-
-<span># 设置用户标签</span>
-rabbitmqctl set_user_tags admin administrator
-
-<span># 通常删除默认账户</span>
-rabbitmqctl delete_user guest
-
-<span># 管理账户</span>
-<span># 1、修改密码</span>
-rabbitmqctl change_password <span>&lt;</span>username<span>></span> <span>&lt;</span>newpassword<span>></span>
-
-<span># 2、清除密码（无法使用密码登录）</span>
-rabbitmqctl clear_password <span>&lt;</span>username<span>></span>
-
-<span># 3、清除用户权限（拒绝指定用户访问指定主机）</span>
-rabbitmqctl clear_permissions <span>[</span>-p <span>&lt;</span>vhost<span>></span><span>]</span> <span>&lt;</span>username<span>></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br></div></div><div><p>提示</p>
-<p>更多命令行内容，可以参考<a href="https://www.rabbitmq.com/man/rabbitmqctl.8.html#" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
-</div>
-<p>经过上面的命令，可以在管理界面看到发生了变化。当然，如果你已经通过 <code>guest</code> 登录且已经在命令行中将其删除，界面会提示你登录失败并尝试让你重新登录。</p>
-<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_users.png')" alt="用户列表">
-<h2 id="使用"> 使用</h2>
-<p>针对不同的使用方式，<a href="https://www.rabbitmq.com/getstarted.html" target="_blank" rel="noopener noreferrer">官方文档</a> 给出了不错的示例。下面介绍基本的使用方式。</p>
-<div><p>示例代码</p>
-<p>具体代码可以看 <a href="https://github.com/jeremyjone/dotnet-study-road/tree/master/MicroService/MQ/RabbitMQ" target="_blank" rel="noopener noreferrer">示例代码</a></p>
-</div>
-<h3 id="创建一个生产者"> 创建一个生产者</h3>
-<p>创建一个控制台项目，并安装 <code>RabbitMQ.Client</code> 包。在主函数中直接创建即可：</p>
-<div><pre><code><span>// 创建连接</span>
-<span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-<span>// 创建通道</span>
-<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-<span>// 1、声明交换机</span>
-channel<span>.</span><span>ExchangeDeclare</span><span>(</span><span>""</span><span>,</span> ExchangeType<span>.</span>Direct<span>,</span> <span>true</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-<span>// 2、声明队列</span>
-channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-<span>// 3、绑定</span>
-channel<span>.</span><span>QueueBind</span><span>(</span><span>"queue"</span><span>,</span> <span>""</span><span>,</span> <span>"queue"</span><span>)</span><span>;</span>
-
-<span>// 循环发送50个消息到 RabbitMQ</span>
-<span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
-<span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>50</span><span>;</span> i<span>++</span><span>)</span>
-<span>{</span>
-    <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-    <span>// 发送消息到队列</span>
-    channel<span>.</span><span>BasicPublish</span><span>(</span><span>""</span><span>,</span> <span>"queue"</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
-    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br></div></div><p>如果你已经开启了 <code>RabbitMQ</code>，此时运行该生产者之后，消息会保存到消息队列中：</p>
-<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_queue_basic.png')" alt="消息保存">
-<h3 id="创建一个消费者"> 创建一个消费者</h3>
-<p>新创建一个控制台项目，同样安装 <code>RabbitMQ.Client</code> 包。在主函数中直接创建即可：</p>
-<div><pre><code><span>// 创建连接</span>
-<span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-<span>// 创建通道</span>
-<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-<span>// 声明队列</span>
-channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-<span>// 创建基于事件的消费者</span>
-<span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
-consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
-<span>{</span>
-    <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
-    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-<span>}</span><span>;</span>
-channel<span>.</span><span>BasicConsume</span><span>(</span><span>"queue"</span><span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br></div></div><p>运行之后，可以消费所有队列中的数据：</p>
-<img :src="$withBase('/assets/roadmap/dotnet/mq/rabbitmq_queue_consumer.png')" alt="消费队列">
-<h3 id="消息持久化"> 消息持久化</h3>
-<p>上面的内容，一旦 <code>RabbitMQ</code> 失效了，数据就会丢失。如何做到数据持久化呢，需要如下配置：</p>
-<div><div><br><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><br><br><br><br><br><br><br><div>&nbsp;</div><br><br><br></div><pre><code><span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-<span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-channel<span>.</span><span>QueueDeclare</span><span>(</span><span>"queue"</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-<span>// 消息持久化</span>
-<span><span>var</span></span> properties <span>=</span> channel<span>.</span><span>CreateBasicProperties</span><span>(</span><span>)</span><span>;</span>
-properties<span>.</span>Persistent <span>=</span> <span>true</span><span>;</span>
-
-<span>// 循环发送50个消息到 RabbitMQ</span>
-<span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
-<span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>0</span><span>;</span> i <span>&lt;</span> <span>50</span><span>;</span> i<span>++</span><span>)</span>
-<span>{</span>
-    <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-    <span>// 发送消息到队列。将上面创建的属性添加进来</span>
-    channel<span>.</span><span>BasicPublish</span><span>(</span><span>""</span><span>,</span> <span>"queue"</span><span>,</span> properties<span>,</span> body<span>)</span><span>;</span>
-    Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
-<span>}</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br></div></div><h3 id="继续"> 继续</h3>
-<p>上面是一个最基本的使用方式。在 <a href="https://www.rabbitmq.com/getstarted.html" target="_blank" rel="noopener noreferrer">官方指导教程</a> 中，包含了包括上面方式的共 7 中模式，其中前 5 中是比较常用的，尤其是第 3、4、5，分别是：</p>
-<ul>
-<li>
-<p>fanout 发布/订阅模式</p>
-<blockquote>
-<p>即：生产者发送一个消息无差别地到所有消息队列，所有消费者都可以通过消息队列获取该消息。</p>
-</blockquote>
-</li>
-<li>
-<p>direct 精准推送模式</p>
-<blockquote>
-<p>即：生产者指定队列的 <code>KEY</code> 值，精确推送到指定的队列中，所有可以读取该队列的消费者都可以获取该消息。</p>
-</blockquote>
-</li>
-<li>
-<p>topic 主题模式</p>
-<blockquote>
-<p>即：生产者可以根据一定规则指定队列的 <code>KEY</code> 值，模糊匹配队列并推送消息到队列中，所有可以读取该队列的消费者都可以获取该消息。</p>
-</blockquote>
-</li>
-</ul>
-<p>将基本代码贴出来，具体代码可以参照我的 <a href="https://github.com/jeremyjone/dotnet-study-road/tree/master/MicroService/MQ/RabbitMQ" target="_blank" rel="noopener noreferrer">文档配套代码库</a></p>
-<h4 id="生产者"> 生产者</h4>
-<div><pre><code><span>// 发布订阅模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Fanout</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"fanout_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"fanout_queue1"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"fanout_queue2"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"fanout_queue3"</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Fanout<span>)</span><span>;</span>
-
-    <span>// 声明3个队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机。不写 routingKey，意味着消息将发送到所有队列</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
-
-    <span>// 循环发送100个消息到 RabbitMQ</span>
-    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
-    <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>20</span><span>;</span> i<span>++</span><span>)</span>
-    <span>{</span>
-        <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-        <span>// 发送消息到交换机</span>
-        channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> <span>""</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
-        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
-    <span>}</span>
-<span>}</span>
-
-<span>// 精准推送模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Direct</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"direct_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"direct_queue1"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"direct_queue2"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"direct_queue3"</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Direct<span>)</span><span>;</span>
-
-    <span>// 声明3个队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机。为了达到直发效果，需要填写 routingKey，会按照该 Key 值匹配发送</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"c"</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>"cpp"</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>"csharp"</span><span>)</span><span>;</span>
-
-    <span>// 循环发送100个消息到 RabbitMQ</span>
-    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
-    <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>20</span><span>;</span> i<span>++</span><span>)</span>
-    <span>{</span>
-        <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-
-        <span><span>var</span></span> routingKeys <span>=</span> <span>new</span><span>[</span><span>]</span> <span>{</span><span>"c"</span><span>,</span> <span>"cpp"</span><span>,</span> <span>"csharp"</span><span>}</span><span>;</span>
-        <span>// 发送消息到交换机</span>
-        channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> routingKeys<span>[</span>i <span>%</span> <span>3</span><span>]</span><span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
-        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列。"</span></span><span>)</span><span>;</span>
-    <span>}</span>
-<span>}</span>
-
-<span>// 主题模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Topic</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"topic_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"topic_queue1"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"topic_queue2"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName3 <span>=</span> <span>"topic_queue3"</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Topic<span>)</span><span>;</span>
-
-    <span>// 声明3个队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName3<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机。Topic 模式下，绑定时可以填写模糊符号 "*" / "#"</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"data.*"</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>"data.#"</span><span>)</span><span>;</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName3<span>,</span> exchangeName<span>,</span> <span>"data.update"</span><span>)</span><span>;</span>
-
-    <span>// 循环发送100个消息到 RabbitMQ</span>
-    <span>const</span> <span><span>string</span></span> message <span>=</span> <span>"Producer RabbitMQ Message"</span><span>;</span>
-
-
-    <span>foreach</span> <span>(</span><span><span>var</span></span> key <span>in</span> <span>new</span> <span>[</span><span>]</span> <span>{</span><span>"data.update"</span><span>,</span> <span>"data.insert"</span><span>,</span> <span>"data.insert.one"</span><span>}</span><span>)</span>
-    <span>{</span>
-        <span>for</span> <span>(</span><span><span>var</span></span> i <span>=</span> <span>1</span><span>;</span> i <span>&lt;=</span> <span>10</span><span>;</span> i<span>++</span><span>)</span>
-        <span>{</span>
-            <span><span>var</span></span> body <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetBytes</span><span>(</span><span><span>$"</span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-
-            <span>// 发送消息到交换机</span>
-            channel<span>.</span><span>BasicPublish</span><span>(</span>exchangeName<span>,</span> key<span>,</span> <span>null</span><span>,</span> body<span>)</span><span>;</span>
-            Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"发布消息 </span><span><span>{</span><span>message</span><span>}</span></span><span>-</span><span><span>{</span><span>i</span><span>}</span></span><span> 到队列，Key 为 </span><span><span>{</span><span>key</span><span>}</span></span><span>。"</span></span><span>)</span><span>;</span>
-        <span>}</span>
-    <span>}</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br><span>99</span><br><span>100</span><br><span>101</span><br><span>102</span><br><span>103</span><br><span>104</span><br><span>105</span><br><span>106</span><br><span>107</span><br><span>108</span><br><span>109</span><br></div></div><h4 id="消费者"> 消费者</h4>
-<div><pre><code><span>// 发布订阅模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Fanout</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>// 创建连接</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>// 创建通道</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"fanout_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName2 <span>=</span> <span>"fanout_queue2"</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Fanout<span>)</span><span>;</span>
-
-    <span>// 声明队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName2<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName2<span>,</span> exchangeName<span>,</span> <span>""</span><span>)</span><span>;</span>
-
-    <span>// 创建基于事件的消费者</span>
-    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
-
-    <span>// 设置 prefetchCount</span>
-    channel<span>.</span><span>BasicQos</span><span>(</span><span>0</span><span>,</span> <span>1</span><span>,</span> <span>false</span><span>)</span><span>;</span>
-    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
-    <span>{</span>
-        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
-        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-    <span>}</span><span>;</span>
-
-    <span>// 消费第二个队列中的消息</span>
-    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName2<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
-<span>}</span>
-
-<span>// 精准推送模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Direct</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>// 创建连接</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>// 创建通道</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"direct_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"direct_queue1"</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Direct<span>)</span><span>;</span>
-
-    <span>// 声明队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"c"</span><span>)</span><span>;</span>
-
-    <span>// 创建基于事件的消费者</span>
-    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
-    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
-    <span>{</span>
-        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
-        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>，key：</span><span><span>{</span><span>ea<span>.</span>RoutingKey</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-    <span>}</span><span>;</span>
-
-    <span>// 消费第一个队列中的消息</span>
-    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName1<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
-<span>}</span>
-
-<span>// 主题模式</span>
-<span>public</span> <span>static</span> <span><span>void</span></span> <span>Topic</span><span>(</span><span>)</span>
-<span>{</span>
-    <span>// 创建连接</span>
-    <span>using</span> <span><span>var</span></span> connection <span>=</span> RabbitMQFactory<span>.</span><span>Create</span><span>(</span><span>)</span><span>;</span>
-    <span>// 创建通道</span>
-    <span>using</span> <span><span>var</span></span> channel <span>=</span> connection<span>.</span><span>CreateModel</span><span>(</span><span>)</span><span>;</span>
-
-    <span>const</span> <span><span>string</span></span> exchangeName <span>=</span> <span>"topic_exchange"</span><span>;</span>
-    <span>const</span> <span><span>string</span></span> queueName1 <span>=</span> <span>"topic_queue1"</span><span>;</span>
-
-    <span>// 声明交换机</span>
-    channel<span>.</span><span>ExchangeDeclare</span><span>(</span>exchangeName<span>,</span> ExchangeType<span>.</span>Topic<span>)</span><span>;</span>
-
-    <span>// 声明队列</span>
-    channel<span>.</span><span>QueueDeclare</span><span>(</span>queueName1<span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>false</span><span>,</span> <span>null</span><span>)</span><span>;</span>
-
-    <span>// 将队列绑定到交换机</span>
-    channel<span>.</span><span>QueueBind</span><span>(</span>queueName1<span>,</span> exchangeName<span>,</span> <span>"data.delete"</span><span>)</span><span>;</span>
-
-    <span>// 创建基于事件的消费者</span>
-    <span><span>var</span></span> consumer <span>=</span> <span>new</span> <span>EventingBasicConsumer</span><span>(</span>channel<span>)</span><span>;</span>
-    consumer<span>.</span>Received <span>+=</span> <span>(</span>model<span>,</span> ea<span>)</span> <span>=></span>
-    <span>{</span>
-        <span><span>var</span></span> message <span>=</span> Encoding<span>.</span>UTF8<span>.</span><span>GetString</span><span>(</span>ea<span>.</span>Body<span>.</span><span>ToArray</span><span>(</span><span>)</span><span>)</span><span>;</span>
-        Console<span>.</span><span>WriteLine</span><span>(</span><span><span>$"收到消息：</span><span><span>{</span><span>message</span><span>}</span></span><span>，key：</span><span><span>{</span><span>ea<span>.</span>RoutingKey</span><span>}</span></span><span>"</span></span><span>)</span><span>;</span>
-    <span>}</span><span>;</span>
-
-    <span>// 消费第一个队列中的消息</span>
-    channel<span>.</span><span>BasicConsume</span><span>(</span>queueName1<span>,</span> <span>true</span><span>,</span> consumer<span>)</span><span>;</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br><span>24</span><br><span>25</span><br><span>26</span><br><span>27</span><br><span>28</span><br><span>29</span><br><span>30</span><br><span>31</span><br><span>32</span><br><span>33</span><br><span>34</span><br><span>35</span><br><span>36</span><br><span>37</span><br><span>38</span><br><span>39</span><br><span>40</span><br><span>41</span><br><span>42</span><br><span>43</span><br><span>44</span><br><span>45</span><br><span>46</span><br><span>47</span><br><span>48</span><br><span>49</span><br><span>50</span><br><span>51</span><br><span>52</span><br><span>53</span><br><span>54</span><br><span>55</span><br><span>56</span><br><span>57</span><br><span>58</span><br><span>59</span><br><span>60</span><br><span>61</span><br><span>62</span><br><span>63</span><br><span>64</span><br><span>65</span><br><span>66</span><br><span>67</span><br><span>68</span><br><span>69</span><br><span>70</span><br><span>71</span><br><span>72</span><br><span>73</span><br><span>74</span><br><span>75</span><br><span>76</span><br><span>77</span><br><span>78</span><br><span>79</span><br><span>80</span><br><span>81</span><br><span>82</span><br><span>83</span><br><span>84</span><br><span>85</span><br><span>86</span><br><span>87</span><br><span>88</span><br><span>89</span><br><span>90</span><br><span>91</span><br><span>92</span><br><span>93</span><br><span>94</span><br><span>95</span><br><span>96</span><br><span>97</span><br><span>98</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>Swagger 文档的使用</title>
       <link>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</link>
       <guid>https://docs.jeremyjone.com/roadmap/dotnetcore/swagger/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Swagger 文档的使用</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="swagger-文档的使用"> Swagger 文档的使用</h1>
 <p>相信能看到这里，你一定对 swagger 多少有了解。它是极具推崇的文档生成工具，在多种语言下都可以有良好的体验。有兴趣的朋友可以去看看 <a href="https://swagger.io/docs/" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
 <h2 id="安装"> 安装</h2>
@@ -11174,7 +11270,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/flutter/</link>
       <guid>https://docs.jeremyjone.com/roadmap/flutter/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Flutter 学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="flutter-学习之路"> Flutter 学习之路</h1>
 <p>Flutter 的学习之路，页面包含英文学习文章链接。</p>
 <p><a href="https://github.com/olexale/flutter_roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -11187,10 +11283,79 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">前端学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="前端学习之路"> 前端学习之路</h1>
 <p>前端学习，需要逐步进阶。从网络三剑客开始，<a href="./html">HTML</a>，<a href="./css">CSS</a>，<a href="./js">JavaScript</a>，然后逐步学习网络知识以，了解了网络原理后可以学习提升性能。</p>
 <p>然后可以开始学习框架内容。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>前端进阶</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">前端进阶</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
+<h2 id="cors-详解"> CORS 详解</h2>
+<p><code>CORS</code> 全称是 <code>Cross-origin Resource Sharing</code>，即 <code>跨域资源共享</code>。它解决了浏览器中只能同源请求数据的限制。</p>
+<p>那么我们首先要知道什么是 <code>跨域</code> 和 <code>同源</code>？</p>
+<h3 id="什么是跨域"> 什么是跨域</h3>
+<p>浏览器都是同源策略，即可以访问同一资源域。对于需要访问不同的资源域，就属于跨域范畴，这在浏览器中是被严格禁止的。</p>
+<p>不同域包括：</p>
+<ul>
+<li>协议不同</li>
+<li>域名不同</li>
+<li>端口不同</li>
+<li>子域名不同</li>
+</ul>
+<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
+<p>只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。</p>
+<h3 id="cors-的两种请求模式"> CORS 的两种请求模式</h3>
+<p>随着 Ajax 请求的使用越来越频繁，网页跨域请求急需解决，于是 W3C 在 2014 年发布了一个正式推荐的通信标准来解决该问题，它就是 <code>CORS</code>。</p>
+<p>该方案需要服务端配置相关功能，然后由浏览器自动为每一个跨域请求都自动携带上 <code>Origin</code> 等 http 请求头信息，后台服务检索判定允许或者拒绝即可，这样就可以请求跨域的资源了。</p>
+<p>CORS请求分为两种：</p>
+<ul>
+<li>
+<p>简单请求</p>
+<blockquote>
+<p>简单请求就是使用设定的请求方式来请求数据</p>
+<p>简单请求的条件：</p>
+<ul>
+<li>使用 <code>HEAD</code>、<code>GET</code>、<code>POST</code> 方法</li>
+<li><code>HTTP</code> 头信息不超过以下：
+<ul>
+<li>Accept</li>
+<li>Accept-Language</li>
+<li>Content-Language</li>
+<li>Last-Event-ID</li>
+<li>Content-Type，该属性仅限三个值：(application/x-www-form-urlencoded、multipart/form-data、text/plain)</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li>
+<p>非简单请求</p>
+<blockquote>
+<p>非简单请求则是在使用设定的请求方式请求数据之前，先发送一个 <code>OPTIONS</code> 请求，确定服务端是否允许发送非简单请求，如果可以，才真正发送请求。这个过程叫做 <code>预检</code>。</p>
+</blockquote>
+</li>
+</ul>
+<p>了解了 CORS 的请求方式，也就知道，在<strong>浏览器</strong>中，仅仅支持默认的同源访问策略。如果需要访问跨域资源，浏览器会根据请求类型自动处理，整个过程没有人工干预。至于可不可以访问，需要后台服务来判断批准。</p>
+<h3 id="前端处理跨域问题"> 前端处理跨域问题</h3>
+<p>1、使用 JSONP 请求资源</p>
+<p>该方式只支持 GET 请求，它利用浏览器允许跨域请求一些 link、img、script 标签上的内容，实现在一个 script 标签中请求一个链接并返回相应内容进行处理。</p>
+<blockquote>
+<p>该方式单一、不安全，尽量不要使用。</p>
+</blockquote>
+<p>2、单独请求</p>
+<p>前端遇到跨域问题，常规情况下是解决不了的，这个问题一般来说都是后端来控制的，包括但不限于：</p>
+<ul>
+<li>反向代理配置，如 nginx、apache 等配置相关字段</li>
+<li>后端服务代码中直接添加 <code>AddPolicy.WithOrigins(xxx)</code> 之类的方法来允许某些特定域可以访问当前服务资源</li>
+</ul>
+<p>这些都是最根本的方案，但有些时候，比如开发期间，我们需要本地调试，这个时候，可以单独请求，这也是我们现在开发中常用的方法。</p>
+<p>现在，我们创建一个前端项目之后，通常回本地启动服务，比如 vue，启动后，会在本地开启一个 <code>http://localhost:8080</code> 的服务，浏览器中的每一个请求其实都请求到这里，再通过该服务请求到真正的后台服务。</p>
 ]]></content:encoded>
     </item>
     <item>
@@ -11198,7 +11363,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/css-processor/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 预处理器</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-预处理器"> CSS 预处理器</h1>
 ]]></content:encoded>
     </item>
@@ -11207,7 +11372,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/performance/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">性能部分</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="性能部分"> 性能部分</h1>
 <h2 id="网站的性能优化"> 网站的性能优化</h2>
 <p>网站的性能主要是指一个网站从请求到完全打开的过程是否顺畅以及用时是否能够达到用户的承受度。简单来说，就是用户打开网站，如果时间过长，或者打开时很不顺畅，那么这种体验是非常糟糕的，也就是性能不好。</p>
@@ -11245,7 +11410,7 @@ app<span>.</span><span>UseSwaggerUI</span><span>(</span>c <span>=></span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/principle/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原理部分</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原理部分"> 原理部分</h1>
 <h2 id="浏览器的渲染机制和原理"> 浏览器的渲染机制和原理</h2>
 <p>当我们在浏览器地址栏中键入一个地址，然后按下回车，此时一个请求便开始了。</p>
@@ -11405,7 +11570,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/ts/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">TypeScript</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="typescript"> TypeScript</h1>
 ]]></content:encoded>
     </item>
@@ -11414,7 +11579,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 基础</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-基础"> CSS 基础</h1>
 <h2 id="什么是-css"> 什么是 CSS</h2>
 <p>CSS，<code>Cascading Style Sheets</code>，即 <code>层叠样式表</code>。它是一种样式表语言，用来描述 <code>HTML</code> 或 <code>XML</code> 文档的呈现。<code>CSS</code> 描述了在屏幕、纸质、音频等其他媒体上的元素应该如何被渲染的问题。</p>
@@ -11510,7 +11675,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/box/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/box/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">盒模型</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="盒模型"> 盒模型</h1>
 <p>盒模型是 <code>CSS</code> 中一个非常重要的概念。所有元素都被一个个盒子包裹，理解盒模型的原理，是我们使用 <code>CSS</code> 实现准确布局、处理元素排列的关键所在。</p>
 <h2 id="块级与内联"> 块级与内联</h2>
@@ -11676,7 +11841,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">布局</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="布局"> 布局</h1>
 <p><code>CSS</code> 页面布局技术允许我们拾取网页中的元素，并且控制它们相对正常布局流、周边元素、父容器或主视口的位置。</p>
 <h2 id="正常布局流"> 正常布局流</h2>
@@ -11697,7 +11862,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/flex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">弹性布局（Flexbox）</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="弹性布局（flexbox）"> 弹性布局（Flexbox）</h1>
 <p>弹性盒子布局是专门用于创建横向/纵向的一维页面布局。虽然它是一维页面布局，但是通过嵌套，可以在两个维度构建更加丰富的布局内容。</p>
 <p>要使用弹性盒子，只需要在父级元素中设置 <code>display:flex</code> 即可，所有子元素都将按照 <code>flex</code> 进行布局。</p>
@@ -11994,7 +12159,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/layout/grid/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">栅格布局（Grid）</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="栅格布局（grid）"> 栅格布局（Grid）</h1>
 <p>与弹性布局不同，栅格布局是一个<strong>二维布局系统</strong>。它可以用于布局页面中主要的区域以及小型组件。</p>
 <p>栅格布局是一组水平和垂直的 <strong>栅格线</strong> 相交，划分了 <strong>行</strong> 和 <strong>列</strong> 的轨道。</p>
@@ -12507,7 +12672,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/media/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/media/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">响应式与媒体查询</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="响应式与媒体查询"> 响应式与媒体查询</h1>
 <p>媒体查询是 <code>CSS2</code> 引入的，它让不同媒体类型定义不同样式成为了可能。</p>
 <h2 id="媒体查询的作用"> 媒体查询的作用</h2>
@@ -12586,7 +12751,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/position/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/position/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">定位</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="定位"> 定位</h1>
 <p>定位，顾名思义就是用于确定 <strong>元素在页面中的位置</strong>。</p>
 <p>在 <code>CSS</code> 中，可以分为以下几种定位方式：</p>
@@ -12680,7 +12845,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/css/selector/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">选择器</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="选择器"> 选择器</h1>
 <p>CSS 有一套完整的选择器规则，可以帮助我们快速获取任意指定元素或元素集。</p>
 <h2 id="元素选择器"> 元素选择器</h2>
@@ -13028,7 +13193,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/build/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">构建工具</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="构建工具"> 构建工具</h1>
 <h2 id="webpack"> Webpack</h2>
 <h2 id="rollup"> Rollup</h2>
@@ -13040,7 +13205,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/format/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">格式化工具</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="格式化工具"> 格式化工具</h1>
 <h2 id="eslint"> ESLint</h2>
 <h2 id="prettier"> Prettier</h2>
@@ -13051,7 +13216,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/engineer/package/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">包管理器</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="包管理器"> 包管理器</h1>
 <h2 id="npm"> npm</h2>
 <h2 id="yarn"> yarn</h2>
@@ -13062,7 +13227,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/html/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 基础</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-基础"> HTML 基础</h1>
 <h2 id="什么是-html"> 什么是 HTML</h2>
 <p><code>HTML</code>：<code>Hyper Text Markup Language</code>，超文本标记语言。它不是编程语言，而是一种定义了网页内容的含义和结构的标记语言。</p>
@@ -13311,7 +13476,7 @@ div<span>.</span>style<span>.</span>left <span>=</span> <span>"200px"</span><spa
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 基础</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-基础"> JavaScript 基础</h1>
 <h2 id="什么是-javascript"> 什么是 JavaScript</h2>
 <p><code>JavaScript</code> 是一种具有函数优先的轻量级、解释型的脚本语言。它最初的设计是用来操作浏览器中的 <code>DOM</code> 元素的，但现在它也被应用到了很多非浏览器环境中，甚至开发后端应用。</p>
@@ -13455,7 +13620,7 @@ target<span>.</span><span>addEventListener</span><span>(</span>type<span>,</span
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/asynchronous/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">异步编程</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="异步编程"> 异步编程</h1>
 <h2 id="异步的由来与实现"> 异步的由来与实现</h2>
 <p>JS 在设计之初就是单线程的，所以本质上并不存在异步编程。在经过不断的进化和改良之后，现在所谓的异步编程也只是利用任务队列来改变事件的触发顺序，从而在效果上达到异步。</p>
@@ -14678,7 +14843,7 @@ MyPromise<span>.</span><span>race</span><span>(</span><span>[</span>p3<span>,</s
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/net/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/net/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">网络请求</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="网络请求"> 网络请求</h1>
 <h2 id="ajax"> Ajax</h2>
 <p><code>Ajax</code>，<code>Asynchronous JavaScript and XML</code>，它本身并不是新技术，而是一种利用现有技术创新的技术集合。它利用了 <code>XMLHttpRequest</code> 以及多种数据格式，能够让网页应用快速地增量更新呈现在用户界面上，而不是重载整个页面，这使得页面的交互更加友好。</p>
@@ -14909,7 +15074,7 @@ Access-Control-Allow-Credentials<span>:</span> <span>true</span> <span>// 非简
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/prototype/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">原型和原型链详解</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="原型和原型链详解"> 原型和原型链详解</h1>
 <p>网上有很多相关的文章、视频等资料，但很多都是片面的，不完全的。我也为了自身加深理解，所以对其进行一下简单的总结。</p>
 <h2 id="两个属性"> 两个属性</h2>
@@ -15580,7 +15745,7 @@ child3<span>.</span><span>show</span><span>(</span><span>)</span><span>;</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/proxy/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Proxy 与 Reflect</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="proxy-与-reflect"> Proxy 与 Reflect</h1>
 <h2 id="proxy"> Proxy</h2>
 <p><code>Proxy</code> 是一个对象，用于创建一个对象的代理，从而实现基本操作的拦截和自定义（如属性查找、赋值、枚举、函数调用等）。</p>
@@ -16097,7 +16262,7 @@ star2<span>.</span>name <span>=</span> <span>"王xx"</span><span>;</span> <span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/js/this/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/js/this/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">this 关键字</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="this-关键字"> this 关键字</h1>
 <p>JavaScript 中的 <code>this</code> 关键字与其他语言略有不同，<strong>在绝大多数情况下，函数的调用方式决定了 <code>this</code> 的值（运行时绑定）</strong>。<code>this</code> 不能在执行期间被赋值，并且在每次函数被调用时 <code>this</code> 的值也可能不同。</p>
 <p>ES5 引入了 <code>bind</code> 方法来设置函数的 <code>this</code> 值，而不用考虑函数是如何被调用的。同时，箭头函数不提供自身的 <code>this</code> 绑定。</p>
@@ -16338,7 +16503,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/react/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/react/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">React 学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="react-学习之路"> React 学习之路</h1>
 <p>React 的学习之路，英文比中文新。</p>
 <p><a href="https://github.com/adam-golab/react-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -16352,7 +16517,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-学习之路"> Vue 学习之路</h1>
 <p>Vue 的学习之路。</p>
 ]]></content:encoded>
@@ -16362,7 +16527,7 @@ console<span>.</span><span>log</span><span>(</span>p<span>.</span><span>f</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/component/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">组件</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="组件"> 组件</h1>
 <p>组件允许我们将 UI 划分为独立的、可重用的部分，并且可以对每个部分进行单独的思考。在实际应用中，组件常常被组织成层层嵌套的树状结构：</p>
 <img :src="$withBase('/assets/roadmap/vue/component-base.png')" alt="component-base">
@@ -16583,154 +16748,11 @@ props<span>:</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>双向绑定</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">双向绑定</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="双向绑定"> 双向绑定</h1>
-<p>在 Vue 中，双向绑定是一个非常实用的技术。它本身是用来进行表单的输入绑定。</p>
-<div><pre><code><span><span><span>&lt;</span>input</span> <span>:value</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>@input</span><span><span>=</span><span>"</span>e => text = e.target.value<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>它等效于</p>
-<div><pre><code><span><span><span>&lt;</span>input</span> <span>v-model</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>这极大简化了开发成本。</p>
-<h2 id="在组件上使用"> 在组件上使用</h2>
-<p>很多时候，这种双向绑定机制希望可以在更多地方使用，幸运的是，通过自定义事件，我们可以在任何组件实现数据的双向绑定，这可以大大提高生产效率。</p>
-<p>父组件向子组件传递一个 <code>value</code>，子组件通过 <code>$emit('input', value)</code> 将值返回给父组件即可。</p>
-<img :src="$withBase('/assets/roadmap/vue/v-model.png')" alt="v-model">
-<h3 id="vue2-中的实现"> vue2 中的实现</h3>
-<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>:value</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>@input</span><span><span>=</span><span>"</span>v => value = v<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>它等效于</p>
-<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>v-model</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>vue2 中，默认是 <code>value</code> 参数接收 <code>v-model</code> 的参数。有时候，我们需要改变参数名，可以通过 <code>model</code> 选项来实现：</p>
-<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>export</span> <span>default</span> <span>{</span>
-    props<span>:</span> <span>{</span>
-        checked<span>:</span> Boolean
-    <span>}</span><span>,</span>
-    model<span>:</span> <span>{</span>
-        prop<span>:</span> <span>'checked'</span><span>,</span>  <span>// 将 checked 等效于 value</span>
-        event<span>:</span> <span>'change'</span>   <span>// 将 change 事件等效于 input</span>
-    <span>}</span>
-<span>}</span>
-</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>此时，外部仍然使用 <code>v-model</code>，它会自动绑定到 <code>checked</code> 属性上，并监听 <code>change</code> 事件。</p>
-<p>此外，在 <code>2.3.0+</code> 中，推荐使用以 <code>update</code> 开头并附加属性名的事件替代 <code>input</code>（<code>update:myPropName</code>），为了方便这样的使用，提供了一个新的解决方案，一个全新的 <code>.sync</code> 修饰符：</p>
-<div><pre><code><span><span><span>&lt;</span>text-document</span> <span><span>v-bind:</span>title.sync</span><span><span>=</span><span>"</span>doc.title<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>text-document</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>它等效于：</p>
-<div><pre><code><span><span><span>&lt;</span>text-document</span>
-  <span><span>v-bind:</span>title</span><span><span>=</span><span>"</span>doc.title<span>"</span></span>
-  <span><span>v-on:</span><span>update:</span>title</span><span><span>=</span><span>"</span>doc.title = $event<span>"</span></span>
-<span>></span></span><span><span><span>&lt;/</span>text-document</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="vue3-中的实现"> vue3 中的实现</h3>
-<p>在 vue3 中，默认使用 <code>modelValue</code> 作为参数，自定义事件继承了 <code>2.3.0+</code> 的实现方式，应该以 <code>update</code> 开头：</p>
-<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>:modelValue</span><span><span>=</span><span>"</span>value<span>"</span></span> <span><span>@update:</span>modelValue</span><span><span>=</span><span>"</span>v => value = v<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>它等效于</p>
-<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>v-model</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>子组件的实现：</p>
-<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
-<span>export</span> <span>default</span> <span>{</span>
-  props<span>:</span> <span>[</span><span>'modelValue'</span><span>]</span><span>,</span>
-  emits<span>:</span> <span>[</span><span>'update:modelValue'</span><span>]</span>
-<span>}</span>
-</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
-
-<span><span><span>&lt;</span>template</span><span>></span></span>
-  <span><span><span>&lt;</span>input</span>
-    <span>:value</span><span><span>=</span><span>"</span>modelValue<span>"</span></span>
-    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:modelValue<span>'</span>, $event.target.value)<span>"</span></span>
-  <span>/></span></span>
-<span><span><span>&lt;/</span>template</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>我们可以通过显式的给出一个参数名，来绑定指定名称：</p>
-<div><pre><code><span><span><span>&lt;</span>MyComponent</span> <span><span>v-model:</span>title</span><span><span>=</span><span>"</span>bookTitle<span>"</span></span> <span>/></span></span>
-</code></pre>
-<div><span>1</span><br></div></div><p>它对应的子组件实现：</p>
-<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
-<span>export</span> <span>default</span> <span>{</span>
-  props<span>:</span> <span>[</span><span>'title'</span><span>]</span><span>,</span>
-  emits<span>:</span> <span>[</span><span>'update:title'</span><span>]</span>
-<span>}</span>
-</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
-
-<span><span><span>&lt;</span>template</span><span>></span></span>
-  <span><span><span>&lt;</span>input</span>
-    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
-    <span>:value</span><span><span>=</span><span>"</span>title<span>"</span></span>
-    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:title<span>'</span>, $event.target.value)<span>"</span></span>
-  <span>/></span></span>
-<span><span><span>&lt;/</span>template</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>因为这样的方式，vue3 可以完成多个参数绑定：</p>
-<div><pre><code><span><span><span>&lt;</span>UserName</span>
-  <span><span>v-model:</span>first-name</span><span><span>=</span><span>"</span>first<span>"</span></span>
-  <span><span>v-model:</span>last-name</span><span><span>=</span><span>"</span>last<span>"</span></span>
-<span>/></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>对应的子组件：</p>
-<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
-<span>export</span> <span>default</span> <span>{</span>
-  props<span>:</span> <span>{</span>
-    firstName<span>:</span> String<span>,</span>
-    lastName<span>:</span> String
-  <span>}</span><span>,</span>
-  emits<span>:</span> <span>[</span><span>'update:firstName'</span><span>,</span> <span>'update:lastName'</span><span>]</span>
-<span>}</span>
-</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
-
-<span><span><span>&lt;</span>template</span><span>></span></span>
-  <span><span><span>&lt;</span>input</span>
-    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
-    <span>:value</span><span><span>=</span><span>"</span>firstName<span>"</span></span>
-    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:firstName<span>'</span>, $event.target.value)<span>"</span></span>
-  <span>/></span></span>
-  <span><span><span>&lt;</span>input</span>
-    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
-    <span>:value</span><span><span>=</span><span>"</span>lastName<span>"</span></span>
-    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:lastName<span>'</span>, $event.target.value)<span>"</span></span>
-  <span>/></span></span>
-<span><span><span>&lt;/</span>template</span><span>></span></span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br></div></div><h3 id="自定义修饰符"> 自定义修饰符</h3>
-<p>vue3中，修饰符会自动包装在 <code>modelModifiers</code> 中，它需要显式的在 <code>props</code> 中声明：</p>
-<div><pre><code><span>export</span> <span>default</span> <span>{</span>
-    props<span>:</span> <span>{</span>
-        modelValue<span>:</span> String<span>,</span>
-        modelModifiers<span>:</span> <span>{</span>
-            <span>default</span><span>:</span> <span>(</span><span>)</span> <span>=></span> <span>(</span><span>{</span><span>}</span><span>)</span>
-        <span>}</span>
-    <span>}</span>
-<span>}</span>
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>然后就可以使用自定义内容了。它们都是 bool 值。</p>
-<p>对于类似 <code>&lt;MyComponent v-model:title.capitalize=&quot;bookTitle&quot; /&gt;</code> 这样的自定义属性绑定，同样可以使用自定义的方式：</p>
-<div><pre><code>export default {
-    props: {
-        titleValue: String,
-        titleModifiers: {
-            default: () => ({})
-        }
-    },
-    emits: ['update:title'],
-    created() {
-        console.log(this.titleModifiers) // { capitalize: true }
-    }
-}
-</code></pre>
-<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
-    </item>
-    <item>
       <title>搭建一个 UI 框架</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/framework/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">搭建一个 UI 框架</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="搭建一个-ui-框架"> 搭建一个 UI 框架</h1>
 <p>搭建一个 UI 框架，是学习的终极解决方案，既可以学习到所有基础内容，又可以接触到从搭建、开发、打包的一系列全流程。</p>
 <p>从中可以学到：</p>
@@ -17328,22 +17350,165 @@ props<span>:</span> <span>{</span>
 ]]></content:encoded>
     </item>
     <item>
-      <title>MVVM</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
-]]></content:encoded>
+      <title>双向绑定</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/basic/v-model/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">双向绑定</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="双向绑定"> 双向绑定</h1>
+<p>在 Vue 中，双向绑定是一个非常实用的技术。它本身是用来进行表单的输入绑定。</p>
+<div><pre><code><span><span><span>&lt;</span>input</span> <span>:value</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>@input</span><span><span>=</span><span>"</span>e => text = e.target.value<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>它等效于</p>
+<div><pre><code><span><span><span>&lt;</span>input</span> <span>v-model</span><span><span>=</span><span>"</span>text<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>这极大简化了开发成本。</p>
+<h2 id="在组件上使用"> 在组件上使用</h2>
+<p>很多时候，这种双向绑定机制希望可以在更多地方使用，幸运的是，通过自定义事件，我们可以在任何组件实现数据的双向绑定，这可以大大提高生产效率。</p>
+<p>父组件向子组件传递一个 <code>value</code>，子组件通过 <code>$emit('input', value)</code> 将值返回给父组件即可。</p>
+<img :src="$withBase('/assets/roadmap/vue/v-model.png')" alt="v-model">
+<h3 id="vue2-中的实现"> vue2 中的实现</h3>
+<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>:value</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>@input</span><span><span>=</span><span>"</span>v => value = v<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>它等效于</p>
+<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>v-model</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>vue2 中，默认是 <code>value</code> 参数接收 <code>v-model</code> 的参数。有时候，我们需要改变参数名，可以通过 <code>model</code> 选项来实现：</p>
+<div><div><br><br><br><br><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><div>&nbsp;</div><br><br></div><pre><code><span>export</span> <span>default</span> <span>{</span>
+    props<span>:</span> <span>{</span>
+        checked<span>:</span> Boolean
+    <span>}</span><span>,</span>
+    model<span>:</span> <span>{</span>
+        prop<span>:</span> <span>'checked'</span><span>,</span>  <span>// 将 checked 等效于 value</span>
+        event<span>:</span> <span>'change'</span>   <span>// 将 change 事件等效于 input</span>
+    <span>}</span>
+<span>}</span>
+</code></pre><div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br></div></div><p>此时，外部仍然使用 <code>v-model</code>，它会自动绑定到 <code>checked</code> 属性上，并监听 <code>change</code> 事件。</p>
+<p>此外，在 <code>2.3.0+</code> 中，推荐使用以 <code>update</code> 开头并附加属性名的事件替代 <code>input</code>（<code>update:myPropName</code>），为了方便这样的使用，提供了一个新的解决方案，一个全新的 <code>.sync</code> 修饰符：</p>
+<div><pre><code><span><span><span>&lt;</span>text-document</span> <span><span>v-bind:</span>title.sync</span><span><span>=</span><span>"</span>doc.title<span>"</span></span><span>></span></span><span><span><span>&lt;/</span>text-document</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>它等效于：</p>
+<div><pre><code><span><span><span>&lt;</span>text-document</span>
+  <span><span>v-bind:</span>title</span><span><span>=</span><span>"</span>doc.title<span>"</span></span>
+  <span><span>v-on:</span><span>update:</span>title</span><span><span>=</span><span>"</span>doc.title = $event<span>"</span></span>
+<span>></span></span><span><span><span>&lt;/</span>text-document</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><h3 id="vue3-中的实现"> vue3 中的实现</h3>
+<p>在 vue3 中，默认使用 <code>modelValue</code> 作为参数，自定义事件继承了 <code>2.3.0+</code> 的实现方式，应该以 <code>update</code> 开头：</p>
+<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>:modelValue</span><span><span>=</span><span>"</span>value<span>"</span></span> <span><span>@update:</span>modelValue</span><span><span>=</span><span>"</span>v => value = v<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>它等效于</p>
+<div><pre><code><span><span><span>&lt;</span>custom-component</span> <span>v-model</span><span><span>=</span><span>"</span>value<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>子组件的实现：</p>
+<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
+<span>export</span> <span>default</span> <span>{</span>
+  props<span>:</span> <span>[</span><span>'modelValue'</span><span>]</span><span>,</span>
+  emits<span>:</span> <span>[</span><span>'update:modelValue'</span><span>]</span>
+<span>}</span>
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+
+<span><span><span>&lt;</span>template</span><span>></span></span>
+  <span><span><span>&lt;</span>input</span>
+    <span>:value</span><span><span>=</span><span>"</span>modelValue<span>"</span></span>
+    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:modelValue<span>'</span>, $event.target.value)<span>"</span></span>
+  <span>/></span></span>
+<span><span><span>&lt;/</span>template</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br></div></div><p>我们可以通过显式的给出一个参数名，来绑定指定名称：</p>
+<div><pre><code><span><span><span>&lt;</span>MyComponent</span> <span><span>v-model:</span>title</span><span><span>=</span><span>"</span>bookTitle<span>"</span></span> <span>/></span></span>
+</code></pre>
+<div><span>1</span><br></div></div><p>它对应的子组件实现：</p>
+<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
+<span>export</span> <span>default</span> <span>{</span>
+  props<span>:</span> <span>[</span><span>'title'</span><span>]</span><span>,</span>
+  emits<span>:</span> <span>[</span><span>'update:title'</span><span>]</span>
+<span>}</span>
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+
+<span><span><span>&lt;</span>template</span><span>></span></span>
+  <span><span><span>&lt;</span>input</span>
+    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
+    <span>:value</span><span><span>=</span><span>"</span>title<span>"</span></span>
+    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:title<span>'</span>, $event.target.value)<span>"</span></span>
+  <span>/></span></span>
+<span><span><span>&lt;/</span>template</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br></div></div><p>因为这样的方式，vue3 可以完成多个参数绑定：</p>
+<div><pre><code><span><span><span>&lt;</span>UserName</span>
+  <span><span>v-model:</span>first-name</span><span><span>=</span><span>"</span>first<span>"</span></span>
+  <span><span>v-model:</span>last-name</span><span><span>=</span><span>"</span>last<span>"</span></span>
+<span>/></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br></div></div><p>对应的子组件：</p>
+<div><pre><code><span><span><span>&lt;</span>script</span><span>></span></span><span><span>
+<span>export</span> <span>default</span> <span>{</span>
+  props<span>:</span> <span>{</span>
+    firstName<span>:</span> String<span>,</span>
+    lastName<span>:</span> String
+  <span>}</span><span>,</span>
+  emits<span>:</span> <span>[</span><span>'update:firstName'</span><span>,</span> <span>'update:lastName'</span><span>]</span>
+<span>}</span>
+</span></span><span><span><span>&lt;/</span>script</span><span>></span></span>
+
+<span><span><span>&lt;</span>template</span><span>></span></span>
+  <span><span><span>&lt;</span>input</span>
+    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
+    <span>:value</span><span><span>=</span><span>"</span>firstName<span>"</span></span>
+    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:firstName<span>'</span>, $event.target.value)<span>"</span></span>
+  <span>/></span></span>
+  <span><span><span>&lt;</span>input</span>
+    <span>type</span><span><span>=</span><span>"</span>text<span>"</span></span>
+    <span>:value</span><span><span>=</span><span>"</span>lastName<span>"</span></span>
+    <span>@input</span><span><span>=</span><span>"</span>$emit(<span>'</span>update:lastName<span>'</span>, $event.target.value)<span>"</span></span>
+  <span>/></span></span>
+<span><span><span>&lt;/</span>template</span><span>></span></span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br></div></div><h3 id="自定义修饰符"> 自定义修饰符</h3>
+<p>vue3中，修饰符会自动包装在 <code>modelModifiers</code> 中，它需要显式的在 <code>props</code> 中声明：</p>
+<div><pre><code><span>export</span> <span>default</span> <span>{</span>
+    props<span>:</span> <span>{</span>
+        modelValue<span>:</span> String<span>,</span>
+        modelModifiers<span>:</span> <span>{</span>
+            <span>default</span><span>:</span> <span>(</span><span>)</span> <span>=></span> <span>(</span><span>{</span><span>}</span><span>)</span>
+        <span>}</span>
+    <span>}</span>
+<span>}</span>
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br></div></div><p>然后就可以使用自定义内容了。它们都是 bool 值。</p>
+<p>对于类似 <code>&lt;MyComponent v-model:title.capitalize=&quot;bookTitle&quot; /&gt;</code> 这样的自定义属性绑定，同样可以使用自定义的方式：</p>
+<div><pre><code>export default {
+    props: {
+        titleValue: String,
+        titleModifiers: {
+            default: () => ({})
+        }
+    },
+    emits: ['update:title'],
+    created() {
+        console.log(this.titleModifiers) // { capitalize: true }
+    }
+}
+</code></pre>
+<div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br></div></div>]]></content:encoded>
     </item>
     <item>
       <title>Vue Test Utils</title>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/test/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Test Utils</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-test-utils"> Vue Test Utils</h1>
 <h2 id="jest"> Jest</h2>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>MVVM</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/mvvm/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">MVVM</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="mvvm"> MVVM</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -17351,7 +17516,7 @@ props<span>:</span> <span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/tools/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Devtools</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="devtools"> Devtools</h1>
 ]]></content:encoded>
     </item>
@@ -17360,7 +17525,7 @@ props<span>:</span> <span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/router/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Router</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-router"> Vue Router</h1>
 <h2 id="路由原理"> 路由原理</h2>
 <h2 id="动态匹配"> 动态匹配</h2>
@@ -17375,7 +17540,7 @@ props<span>:</span> <span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/vuex/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vuex</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vuex"> Vuex</h1>
 <h2 id="state"> State</h2>
 <h2 id="getter"> Getter</h2>
@@ -17389,7 +17554,7 @@ props<span>:</span> <span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/setup-from-0/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">从 0 搭建项目模板（vue3）</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="从-0-搭建项目模板（vue3）"> 从 0 搭建项目模板（vue3）</h1>
 <p>为简化每次初始化项目，最好的方法就是搭建一个项目模板，这样每次初始化的时候直接拉取就好，不用再一个一个进行配置，省去了大量时间。</p>
 <p>该内容模板已经在 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a>，如果需要，可以直接下载使用。具体使用方法可以查看 <a href="https://github.com/jeremyjone/vue3-ts-template" target="_blank" rel="noopener noreferrer">Github</a> 或者 <a href="./">模板文档</a></p>
@@ -18670,7 +18835,7 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/template/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">使用项目模板</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="使用项目模板"> 使用项目模板</h1>
 <h2 id="如何添加模板"> 如何添加模板</h2>
 <h3 id="方法一"> 方法一</h3>
@@ -18698,11 +18863,20 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
 ]]></content:encoded>
     </item>
     <item>
+      <title>虚拟 DOM</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">虚拟 DOM</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>Java 学习之路</title>
       <link>https://docs.jeremyjone.com/roadmap/java/</link>
       <guid>https://docs.jeremyjone.com/roadmap/java/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Java 学习之路</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="java-学习之路"> Java 学习之路</h1>
 <p>Java 的学习之路，页面包含学习链接。</p>
 <p><a href="https://github.com/s4kibs4mi/java-developer-roadmap" target="_blank" rel="noopener noreferrer">英文</a></p>
@@ -18711,20 +18885,11 @@ standard-version --prerelease alpha   <span># 1.0.1-alpha.0</span>
       <enclosure url="https://github.com/s4kibs4mi/java-developer-roadmap/raw/master/java-developer-roadmap.png" type="image/png"/>
     </item>
     <item>
-      <title>虚拟 DOM</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/virtualdom/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">虚拟 DOM</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="虚拟-dom"> 虚拟 DOM</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>代码书写规范总纲</title>
       <link>https://docs.jeremyjone.com/standard/</link>
       <guid>https://docs.jeremyjone.com/standard/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">代码书写规范总纲</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="代码书写规范总纲"> 代码书写规范总纲</h1>
 <Description author="JeremyJone" version="v1" copyright="Jz" />
 <p><strong>良好的规范，促进高质量的代码。</strong> --<em>与君共勉</em></p>
@@ -18969,11 +19134,20 @@ bool okFlag <span>=</span> true<span>;</span> <span>// 成功的标志位，意�
 ]]></content:encoded>
     </item>
     <item>
+      <title>C#</title>
+      <link>https://docs.jeremyjone.com/standard/csharp/</link>
+      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
+]]></content:encoded>
+    </item>
+    <item>
       <title>CSS 规范</title>
       <link>https://docs.jeremyjone.com/standard/css/</link>
       <guid>https://docs.jeremyjone.com/standard/css/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">CSS 规范</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="css-规范"> CSS 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本文档适用于所有css文件的开发编写。</p>
@@ -19011,20 +19185,11 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
 ]]></content:encoded>
     </item>
     <item>
-      <title>C#</title>
-      <link>https://docs.jeremyjone.com/standard/csharp/</link>
-      <guid>https://docs.jeremyjone.com/standard/csharp/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">C#</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="c"> C#</h1>
-]]></content:encoded>
-    </item>
-    <item>
       <title>HTML 规范</title>
       <link>https://docs.jeremyjone.com/standard/html/</link>
       <guid>https://docs.jeremyjone.com/standard/html/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">HTML 规范</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="html-规范"> HTML 规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有Html页面的开发。</p>
@@ -19049,7 +19214,7 @@ cssclassName 应当使用 <code>小写 + “-”</code> 连接符进行拼接。
       <link>https://docs.jeremyjone.com/standard/javascript/</link>
       <guid>https://docs.jeremyjone.com/standard/javascript/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">JavaScript 开发规范</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="javascript-开发规范"> JavaScript 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有使用 JavaScript 以及相关框架的开发。</p>
@@ -19278,7 +19443,7 @@ Object<span>.</span><span>assign</span><span>(</span>object1<span>,</span> <span
       <link>https://docs.jeremyjone.com/standard/python/</link>
       <guid>https://docs.jeremyjone.com/standard/python/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Python 开发规范</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="python-开发规范"> Python 开发规范</h1>
 <Description author="jeremyjone" date="2019.7.9" version="v1.1" copyright="FFM TD" />
 <p>This rule defines the basic rules for python code, Developers need to follow this rule to develop. All python code for FFM needs to follow this rule.</p>
@@ -19432,7 +19597,7 @@ pythonCode <span>=</span> <span>"python code"</span>
       <link>https://docs.jeremyjone.com/standard/vue/</link>
       <guid>https://docs.jeremyjone.com/standard/vue/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue 开发规范</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-开发规范"> Vue 开发规范</h1>
 <Description author="jeremyjone" version="v1" />
 <p>本规范适用于所有基于 Vue 框架的开发。</p>
@@ -19716,72 +19881,12 @@ component<span>{</span>
 <div><span>1</span><br><span>2</span><br><span>3</span><br><span>4</span><br><span>5</span><br><span>6</span><br><span>7</span><br><span>8</span><br><span>9</span><br><span>10</span><br><span>11</span><br><span>12</span><br><span>13</span><br><span>14</span><br><span>15</span><br><span>16</span><br><span>17</span><br><span>18</span><br><span>19</span><br><span>20</span><br><span>21</span><br><span>22</span><br><span>23</span><br></div></div>]]></content:encoded>
     </item>
     <item>
-      <title>前端进阶</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/advanced/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/advanced/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">前端进阶</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="前端进阶"> 前端进阶</h1>
-<h2 id="cors-详解"> CORS 详解</h2>
-<p><code>CORS</code> 全称是 <code>Cross-origin Resource Sharing</code>，即 <code>跨域资源共享</code>。它解决了浏览器中只能同源请求数据的限制。</p>
-<p>那么我们首先要知道什么是 <code>跨域</code> 和 <code>同源</code>？</p>
-<h3 id="什么是跨域"> 什么是跨域</h3>
-<p>浏览器都是同源策略，即可以访问同一资源域。对于需要访问不同的资源域，就属于跨域范畴，这在浏览器中是被严格禁止的。</p>
-<p>不同域包括：</p>
-<ul>
-<li>协议不同</li>
-<li>域名不同</li>
-<li>端口不同</li>
-<li>子域名不同</li>
-</ul>
-<img :src="$withBase('/assets/roadmap/frontend/advanced/cors01.png')" alt="cors01">
-<p>只要有一点不同，那么就属于跨域请求，浏览器就会禁止该操作。</p>
-<h3 id="cors-的两种请求模式"> CORS 的两种请求模式</h3>
-<p>随着 Ajax 请求的使用越来越频繁，网页跨域请求急需解决，于是 W3C 在 2014 年发布了一个正式推荐的通信标准来解决该问题，它就是 <code>CORS</code>。</p>
-<p>该方案需要服务端配置相关功能，然后由浏览器自动为每一个跨域请求都自动携带上 <code>Origin</code> 等 http 请求头信息，后台服务检索判定允许或者拒绝即可，这样就可以请求跨域的资源了。</p>
-<p>CORS请求分为两种：</p>
-<ul>
-<li>
-<p>简单请求</p>
-<blockquote>
-<p>简单请求就是使用设定的请求方式来请求数据</p>
-<p>简单请求的条件：</p>
-<ul>
-<li>使用 <code>HEAD</code>、<code>GET</code>、<code>POST</code> 方法</li>
-<li><code>HTTP</code> 头信息不超过以下：
-<ul>
-<li>Accept</li>
-<li>Accept-Language</li>
-<li>Content-Language</li>
-<li>Last-Event-ID</li>
-<li>Content-Type，该属性仅限三个值：(application/x-www-form-urlencoded、multipart/form-data、text/plain)</li>
-</ul>
-</li>
-</ul>
-</blockquote>
-</li>
-<li>
-<p>非简单请求</p>
-<blockquote>
-<p>非简单请求则是在使用设定的请求方式请求数据之前，先发送一个 <code>OPTIONS</code> 请求，确定服务端是否允许发送非简单请求，如果可以，才真正发送请求。这个过程叫做 <code>预检</code>。</p>
-</blockquote>
-</li>
-</ul>
-<p>了解了 CORS 的请求方式，也就知道，在<strong>浏览器</strong>中，仅仅支持默认的同源访问策略。如果需要访问跨域资源，浏览器会根据请求类型自动处理，整个过程没有人工干预。至于可不可以访问，需要后台服务来判断批准。</p>
-<h3 id="前端处理跨域问题"> 前端处理跨域问题</h3>
-<p>1、使用 JSONP 请求资源</p>
-<p>该方式只支持 GET 请求，它利用浏览器允许跨域请求一些 link、img、script 标签上的内容，实现在一个 script 标签中请求一个链接并返回相应内容进行处理。</p>
-<blockquote>
-<p>该方式单一、不安全，尽量不要使用。</p>
-</blockquote>
-<p>2、单独请求</p>
-<p>前端遇到跨域问题，常规情况下是解决不了的，这个问题一般来说都是后端来控制的，包括但不限于：</p>
-<ul>
-<li>反向代理配置，如 nginx、apache 等配置相关字段</li>
-<li>后端服务代码中直接添加 <code>AddPolicy.WithOrigins(xxx)</code> 之类的方法来允许某些特定域可以访问当前服务资源</li>
-</ul>
-<p>这些都是最根本的方案，但有些时候，比如开发期间，我们需要本地调试，这个时候，可以单独请求，这也是我们现在开发中常用的方法。</p>
-<p>现在，我们创建一个前端项目之后，通常回本地启动服务，比如 vue，启动后，会在本地开启一个 <code>http://localhost:8080</code> 的服务，浏览器中的每一个请求其实都请求到这里，再通过该服务请求到真正的后台服务。</p>
+      <title>响应式的原理</title>
+      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</link>
+      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</guid>
+      <source url="https://docs.jeremyjone.com/rss.xml">响应式的原理</source>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
 ]]></content:encoded>
     </item>
     <item>
@@ -19789,17 +19894,8 @@ component<span>{</span>
       <link>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</link>
       <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/supports/cli/</guid>
       <source url="https://docs.jeremyjone.com/rss.xml">Vue Cli</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
+      <pubDate>Mon, 30 Jan 2023 07:46:03 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="vue-cli"> Vue Cli</h1>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>响应式的原理</title>
-      <link>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</link>
-      <guid>https://docs.jeremyjone.com/roadmap/frontend/vue/reactive/</guid>
-      <source url="https://docs.jeremyjone.com/rss.xml">响应式的原理</source>
-      <pubDate>Thu, 12 Jan 2023 08:30:47 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="响应式的原理"> 响应式的原理</h1>
 ]]></content:encoded>
     </item>
   </channel>
