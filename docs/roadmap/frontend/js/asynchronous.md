@@ -545,16 +545,127 @@ err: p1;
 
 ## async / await
 
-这两个写法是 ES6 新加的特性，这让我们的代码更加简单明了。但是这并不是什么新技术，只是一个语法糖而已，它的本质还是 Promise。
+这两个写法是 ES7 新加的特性，这让我们的代码更加简单明了。但是这并不是什么新技术，只是一个语法糖而已，它的本质是 Promise + 生成器，这是最完美的组合。
+
+通过 `async` 和 `await`，将函数声明为一个全新的 async 函数，并且使用 await 等待 Promise 的决议。
+
+本质上，async 函数就是一个生成器，具有自动执行的功能，不用我们再手动调用 `next` 方法。 而 `await` 关键字可以类比 `yield`，函数遇到便会暂停等待，直到返回值。
+
+### Promise + 生成器的组合体
+
+首先，让我们来看一下他们组合的样子：
+
+```js
+function get(x, y) {
+    // 这是一个异步请求
+    return request("http://www.jeremyjone.com/add?x=" + x + "&y=" + y);
+}
+
+function *main() {
+    try {
+        let res = yield get(1, 2);
+        console.log(res);
+    } catch (err) {
+        console.log(err)
+    }
+}
+```
+
+现在运行 *main()：
+
+```js
+// 创建迭代器
+const it = main();
+// 首先执行它，并接收 yield 出来的 Promise
+const p = it.next().value;
+// 控制回调
+p.then(res => it.next(res), err => it.throw(err));
+```
+
+这就是一个最简单的组合例子。这个组合利用了 Promise 的一次决议不再改变，并且生成器可以暂停的特性，完美用同步的代码写出了异步的效果，并且这样的代码是足够可信任的。
+
+虽然这样的写法足够安全，也足够简单，但是每一次调用都要手工编写不同的 Promise 链，这仍然是一个无法忍受的过程。
+
+另外，我们希望生成器可以自行启动，并且可以实现重复迭代，每次生成一个 Promise，等待决议后再继续，同时在调用过程中出现错误也可以处理，那就太好了。
+
+基于上面的想法，我们可以大致编写一个执行工具：
+
+```js
+// 本代码片段摘自《你不知道的 JavaScript》
+function run(gen) {
+  var args = [].slice.call( arguments, 1), it;
+  // 在当前上下文中初始化生成器
+  it = gen.apply( this, args );
+  // 返回一个promise用于生成器完成
+  return Promise.resolve()
+    .then( function handleNext(value){
+      // 对下一个yield出的值运行
+      var next = it.next( value );
+      return (function handleResult(next){
+        // 生成器运行完毕了吗？
+        if (next.done) {
+          return next.value;
+        }
+        // 否则继续运行
+        else {
+          return Promise.resolve( next.value )
+            .then(
+              // 成功就恢复异步循环，把决议的值发回生成器
+              handleNext,
+              // 如果value是被拒绝的 promise，
+              // 就把错误传回生成器进行出错处理
+              function handleErr(err) {
+                return Promise.resolve(
+                  it.throw( err )
+              )
+              .then( handleResult );
+              }
+            );
+        }
+      })(next);
+    } );
+}
+```
+
+现在我们只需要把我们的生成器函数 `*main()` 扔进 `run()` 方法（`run(main)`）即可，哇！是不是简单了很多。
+
+### async
+
+需要注意的是，`async` 函数本身永远返回一个 `Promise`。
+
+先来看一下 `async` 的写法：
+
+```js
+// async 至于 function 之前，将该函数变为 async 函数
+async function get(x, y) {
+  // 假如这是一个两数相加方法
+  return request("http://www.jeremyjone.com/add?x=" + x + "&y=" + y);
+}
+```
+
+此时 `get` 方法摇身一变，成了一个异步函数，它本质上返回一个 Promise，我们在使用的时候仍然可以通过 `then` 来使用：
+
+```js
+// 接上例
+get(1, 2).then(v => console.log(v)); // 3
+```
+
+如果此时的 `get` 方法本身是同步方法，也会返回一个 Promise，相当于：
+
+```js
+function get(x, y) {
+  return new Promise(resolve => {
+    resolve(x + y);
+  });
+}
+```
 
 ### await
-
-我个人理解，`await` 是这两个语法糖的重点。它具有以下特点：
 
 - 它后面需要跟一个 Promise，如果是一个值，则会自动包裹成一个 Promise
 - 它需要在异步函数内部使用，也就是函数必须使用 `async` 修饰。
 
-`await` 相当于前面提到过的 `then`，使用 `await` 等待其后 Promise 的结果，只有获取了结果，程序才会继续执行，否则会一直等待。
+使用 `await` 等待其后 Promise 的结果，只有获取了结果，程序才会继续执行，否则会一直等待，就像生成器一样。
 
 ```js
 async function get() {
@@ -567,38 +678,7 @@ async function get() {
 get(); // 等待1秒后，打印：jeremyjone
 ```
 
-### async
-
-先来看一下 `async` 的写法：
-
-```js
-async function get() {
-  return "jeremyjone";
-}
-```
-
-此时 `get` 方法摇身一变，成了一个异步函数，它本质上返回一个 Promise，我们在使用的时候仍然可以通过 `then` 来使用。这也就是为什么 `await` 需要在 `async` 修饰的函数中，它们相互又可以成为一个链式操作：
-
-```js
-// 接上例
-get().then(v => console.log(v)); // jeremyjone
-
-// 或者使用 await
-let r = await get();
-console.log(r); // jeremyjone
-```
-
-此时的 `get` 方法就相当于：
-
-```js
-function get() {
-  return new Promise(resolve => {
-    resolve("jeremyjone");
-  });
-}
-```
-
-这就是两个异步语法糖的用法。
+这样的写法，很好地解决了我们需要自己动手编写 `run()` 方法的不足。现在这个函数可以自动开始执行，并且在遇到 `await` 的时候，会自动暂停等待 Promise 的决议，然后再继续向下执行。这样的同步编写习惯是符合我们大脑的思维的，同时它又是异步的，可以等待决议后再向下，这种方式有效实际的解决了回调的主要问题。
 
 ## 捕获异常
 
