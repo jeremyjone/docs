@@ -134,10 +134,11 @@ module.exports = config({
     // 禁用搜索
     // search: false,
 
-    // algolia: {
-    //   apiKey: "3f94959dafef69821ece1276fc81cc05",
-    //   indexName: "my_document_search"
-    // },
+    algolia: {
+      apiKey: "3277f53e5aa8783b9a88b600e24ecc3e",
+      indexName: "doc_jeremyjone",
+      appId: "BXK543XHCE"
+    },
     // algoliaType: "full",
 
     // 设置最大显示数量
@@ -267,7 +268,8 @@ function getEmmetSideBar() {
 function getDockerSideBar() {
   return [
     _GetSubSideBar("Docker 使用文档", "", [""]),
-    _GetSubSideBar("Docker 实战内容", "example", ["npm"])
+    _GetSubSideBar("Docker 实战内容", "example", ["npm"]),
+    _GetSubSideBar("Docker 私库搭建", "private", [""])
   ];
 }
 

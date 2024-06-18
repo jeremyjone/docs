@@ -21,7 +21,7 @@ sudo yum remove docker \
 
 #### 安装需要的安装包
 
-```sh
+```sh****
 sudo yum install -y yum-utils
 ```
 
