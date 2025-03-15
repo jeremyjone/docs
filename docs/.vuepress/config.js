@@ -79,6 +79,13 @@ module.exports = config({
           }
         ]
       },
+      {
+        text: "实战系列",
+        ariaLabel: "实战系列菜单",
+        items: [
+          { text: "开发一个基于 Vue3 的组件库", link: "/play/ui/" }
+        ]
+      },
 
       // 外部链接
       {
@@ -128,7 +135,8 @@ module.exports = config({
       "/roadmap/flutter/": getFlutterSideBar(),
       "/roadmap/android/": getAndroidSideBar(),
       "/codes/": getCodesSideBar(),
-      "/demo/": getDemoSideBar()
+      "/demo/": getDemoSideBar(),
+      "/play/ui/": getPlayUiSideBar()
     },
 
     // 禁用搜索
@@ -420,6 +428,12 @@ function getDemoSideBar() {
       "adv"
     ])
   ];
+}
+
+function getPlayUiSideBar() {
+  return [
+    _GetSubSideBar("开发一个基于 Vue3 的组件库", "", ["", '01-start', '02-style', '03-directive', '04-transfer', '05-modal', '06-dialog'])
+  ]
 }
 
 function _GetSubSideBar(title, path, name, collapsable = true) {
