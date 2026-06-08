@@ -83,7 +83,8 @@ module.exports = config({
         text: "实战系列",
         ariaLabel: "实战系列菜单",
         items: [
-          { text: "开发一个基于 Vue3 的组件库", link: "/play/ui/" }
+          { text: "开发一个基于 Vue3 的组件库", link: "/play/ui/" },
+          { text: "AI 实战", link: "/play/ai/" }
         ]
       },
 
@@ -136,7 +137,8 @@ module.exports = config({
       "/roadmap/android/": getAndroidSideBar(),
       "/codes/": getCodesSideBar(),
       "/demo/": getDemoSideBar(),
-      "/play/ui/": getPlayUiSideBar()
+      "/play/ui/": getPlayUiSideBar(),
+      "/play/ai/": getPlayAiSideBar()
     },
 
     // 禁用搜索
@@ -433,6 +435,12 @@ function getDemoSideBar() {
 function getPlayUiSideBar() {
   return [
     _GetSubSideBar("开发一个基于 Vue3 的组件库", "", ["", '01-start', '02-style', '03-directive', '04-transfer', '05-modal', '06-dialog'])
+  ]
+}
+
+function getPlayAiSideBar() {
+  return [
+    _GetSubSideBar("AI 实战", "", ["", '01-openclaw-docker-config'])
   ]
 }
 
