@@ -59,6 +59,7 @@ module.exports = config({
             items: [
               { text: "Docker 使用文档", link: "/document/docker/" },
               { text: "Emmet 使用文档", link: "/document/emmet/" },
+              { text: "Nginx 使用文档", link: "/document/nginx/" },
               { text: "Git 使用文档", link: "/document/git/" },
               { text: "Markdown 使用文档", link: "/document/markdown/" },
               { text: "npm 使用文档", link: "/document/npm/" },
@@ -129,6 +130,7 @@ module.exports = config({
       "/document/docker/": getDockerSideBar(),
       "/document/regexp/": getRegExpSideBar(),
       "/document/emmet/": getEmmetSideBar(),
+      "/document/nginx/": getNginxSideBar(),
       "/roadmap/base/": getComputerBaseSideBar(),
       "/roadmap/dotnetcore/": getDotNetSideBar(),
       "/roadmap/java/": getJavaSideBar(),
@@ -273,6 +275,10 @@ function getRegExpSideBar() {
 
 function getEmmetSideBar() {
   return [_GetSubSideBar("Emmet 使用文档", "", [""])];
+}
+
+function getNginxSideBar() {
+  return [_GetSubSideBar("Nginx 使用文档", "", [""])];
 }
 
 function getDockerSideBar() {
