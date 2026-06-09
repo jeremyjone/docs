@@ -90,6 +90,7 @@ module.exports = config({
       },
 
       // 外部链接
+      { text: "速查表", link: "https://ref.jeremyjone.com", target: "_blank" },
       {
         text: "我的博客",
         link: "https://www.jeremyjone.com",
