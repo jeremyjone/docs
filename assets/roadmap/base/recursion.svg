@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520">
+  <style>text{font-family:system-ui,-apple-system,sans-serif}</style>
+
+  <text x="360" y="25" text-anchor="middle" fill="#e0e0e0" font-size="16" font-weight="bold">递归示例：factorial(4) = 4 × 3 × 2 × 1 = 24</text>
+  <text x="360" y="45" text-anchor="middle" fill="#5a6a7a" font-size="11">递归：函数调用自身，每层拆解问题，到达终止条件后逐层返回结果</text>
+
+  <!-- ====== 调用栈展开（递推） ====== -->
+  <text x="180" y="70" text-anchor="middle" fill="#64b5f6" font-size="14" font-weight="bold">递推阶段（逐层压栈）</text>
+  <text x="180" y="87" text-anchor="middle" fill="#5a6a7a" font-size="11">从 factorial(4) 一路拆到 factorial(1)</text>
+
+  <text x="540" y="70" text-anchor="middle" fill="#ff7043" font-size="14" font-weight="bold">回归阶段（逐层出栈）</text>
+  <text x="540" y="87" text-anchor="middle" fill="#5a6a7a" font-size="11">从 factorial(1)=1 一路回代到 factorial(4)=24</text>
+
+  <!-- 分割线 -->
+  <line x1="360" y1="95" x2="360" y2="500" stroke="#3a4a5a" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+  <!-- ====== 调用栈（递推） ====== -->
+
+  <!-- level 0: factorial(4) -->
+  <rect x="40" y="100" width="280" height="60" rx="6" fill="#1a3a5c" stroke="#64b5f6" stroke-width="2"/>
+  <text x="180" y="125" text-anchor="middle" fill="#90caf9" font-size="14">factorial(4)</text>
+  <text x="180" y="145" text-anchor="middle" fill="#5a7a8a" font-size="12">return 4 × factorial(3)  → 等待子结果</text>
+
+  <!-- 箭头 -->
+  <line x1="180" y1="160" x2="180" y2="178" stroke="#5a6a7a" stroke-width="1.5"/>
+  <polygon points="175,178 180,185 185,178" fill="#5a6a7a"/>
+
+  <!-- level 1: factorial(3) -->
+  <rect x="40" y="188" width="280" height="60" rx="6" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="180" y="213" text-anchor="middle" fill="#90caf9" font-size="14">factorial(3)</text>
+  <text x="180" y="233" text-anchor="middle" fill="#5a7a8a" font-size="12">return 3 × factorial(2)  → 等待子结果</text>
+
+  <line x1="180" y1="248" x2="180" y2="266" stroke="#5a6a7a" stroke-width="1.5"/>
+  <polygon points="175,266 180,273 185,266" fill="#5a6a7a"/>
+
+  <!-- level 2: factorial(2) -->
+  <rect x="40" y="276" width="280" height="60" rx="6" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="180" y="301" text-anchor="middle" fill="#90caf9" font-size="14">factorial(2)</text>
+  <text x="180" y="321" text-anchor="middle" fill="#5a7a8a" font-size="12">return 2 × factorial(1)  → 等待子结果</text>
+
+  <line x1="180" y1="336" x2="180" y2="354" stroke="#5a6a7a" stroke-width="1.5"/>
+  <polygon points="175,354 180,361 185,354" fill="#5a6a7a"/>
+
+  <!-- level 3: factorial(1) — 终止条件 -->
+  <rect x="40" y="364" width="280" height="60" rx="6" fill="#2e7d32" stroke="#4caf50" stroke-width="2.5"/>
+  <text x="180" y="389" text-anchor="middle" fill="#a5d6a7" font-size="14" font-weight="bold">factorial(1) ← 终止条件</text>
+  <text x="180" y="409" text-anchor="middle" fill="#81c784" font-size="12">return 1  ✅ 不再递归</text>
+
+  <!-- ====== 回归计算结果 ====== -->
+
+  <!-- level 3 返回 -->
+  <line x1="460" y1="364" x2="520" y2="364" stroke="#4caf50" stroke-width="1.5"/>
+  <polygon points="520,360 528,364 520,368" fill="#4caf50"/>
+
+  <rect x="530" y="345" width="150" height="38" rx="6" fill="#1a4a2a" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="605" y="369" text-anchor="middle" fill="#a5d6a7" font-size="13">= 1</text>
+  <text x="530" y="395" fill="#4caf50" font-size="11">↑ factorial(1) 返回 1</text>
+
+  <!-- level 2 返回 -->
+  <line x1="320" y1="296" x2="400" y2="296" stroke="#ff7043" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <line x1="400" y1="296" x2="530" y2="363" stroke="#ff7043" stroke-width="1.5" stroke-dasharray="5,3"/>
+
+  <rect x="530" y="275" width="150" height="38" rx="6" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="605" y="299" text-anchor="middle" fill="#90caf9" font-size="13">= 2 × 1 = 2</text>
+  <text x="530" y="325" fill="#6a7a8a" font-size="11">↑ factorial(2) 返回 2</text>
+
+  <!-- level 1 返回 -->
+  <rect x="530" y="205" width="150" height="38" rx="6" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="605" y="229" text-anchor="middle" fill="#90caf9" font-size="13">= 3 × 2 = 6</text>
+  <text x="530" y="255" fill="#6a7a8a" font-size="11">↑ factorial(3) 返回 6</text>
+
+  <!-- level 0 返回 -->
+  <rect x="530" y="125" width="150" height="38" rx="6" fill="#2e7d32" stroke="#4caf50" stroke-width="2"/>
+  <text x="605" y="149" text-anchor="middle" fill="#a5d6a7" font-size="13" font-weight="bold">= 4 × 6 = 24</text>
+  <text x="530" y="180" fill="#4caf50" font-size="12">↑ 最终结果：24</text>
+
+  <!-- 底部说明 -->
+  <rect x="40" y="440" width="640" height="70" rx="6" fill="#1a2a3a" stroke="#4a5a6a" stroke-width="1"/>
+  <text x="360" y="462" text-anchor="middle" fill="#b0bec5" font-size="13">递归的两个关键要素</text>
+  <text x="360" y="485" text-anchor="middle" fill="#6a7a8a" font-size="11">递推公式：factorial(n) = n × factorial(n-1)  ｜  终止条件：factorial(1) = 1</text>
+  <text x="360" y="500" text-anchor="middle" fill="#5a6a7a" font-size="10">没有终止条件 = 无限递归 → 栈溢出</text>
+</svg>

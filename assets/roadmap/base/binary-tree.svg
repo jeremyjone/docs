@@ -62,6 +62,6 @@
   <!-- BST 特性标注 -->
   <rect x="50" y="345" width="500" height="65" rx="6" fill="#1a2a3a" stroke="#4a5a6a" stroke-width="1"/>
   <text x="300" y="367" text-anchor="middle" fill="#b0bec5" font-size="13" font-weight="bold">二叉搜索树（BST）特性</text>
-  <text x="300" y="388" text-anchor="middle" fill="#6a7a8a" font-size="11">左子树所有节点 < 根节点 < 右子树所有节点</text>
+  <text x="300" y="388" text-anchor="middle" fill="#6a7a8a" font-size="11">左子树所有节点 &lt; 根节点 &lt; 右子树所有节点</text>
   <text x="300" y="404" text-anchor="middle" fill="#6a7a8a" font-size="11">中序遍历 → 20, 30, 40, 50, 60, 70, 80（有序输出）</text>
 </svg>

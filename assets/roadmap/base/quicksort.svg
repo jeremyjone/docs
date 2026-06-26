@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460">
+  <style>text{font-family:system-ui,-apple-system,sans-serif}</style>
+
+  <text x="340" y="25" text-anchor="middle" fill="#e0e0e0" font-size="16" font-weight="bold">快速排序：对 [5, 3, 8, 4, 2] 升序排列</text>
+  <text x="340" y="45" text-anchor="middle" fill="#5a6a7a" font-size="11">核心：选 pivot ➤ 分区（小的左、大的右） ➤ 递归左右子数组</text>
+
+  <!-- ====== 原始 ====== -->
+  <text x="340" y="72" text-anchor="middle" fill="#6a7a8a" font-size="12">原始数组</text>
+  <rect x="120" y="80" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="150" y="101" text-anchor="middle" fill="#90caf9" font-size="14">5</text>
+  <rect x="180" y="80" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="210" y="101" text-anchor="middle" fill="#90caf9" font-size="14">3</text>
+  <rect x="240" y="80" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="270" y="101" text-anchor="middle" fill="#90caf9" font-size="14">8</text>
+  <rect x="300" y="80" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="330" y="101" text-anchor="middle" fill="#90caf9" font-size="14">4</text>
+  <rect x="360" y="80" width="60" height="34" rx="3" fill="#3a1a1a" stroke="#ef5350" stroke-width="2.5"/>
+  <text x="390" y="101" text-anchor="middle" fill="#ef9a9a" font-size="14" font-weight="bold">2</text>
+
+  <!-- pivot 标记 -->
+  <line x1="390" y1="114" x2="390" y2="125" stroke="#ef5350" stroke-width="1.5"/>
+  <text x="390" y="138" text-anchor="middle" fill="#ef5350" font-size="11" font-weight="bold">pivot</text>
+
+  <!-- ====== 分区过程 ====== -->
+  <text x="340" y="162" text-anchor="middle" fill="#6a7a8a" font-size="12">分区：比 2 小的在左，大的在右</text>
+
+  <!-- 指针标记 -->
+  <text x="150" y="185" text-anchor="middle" fill="#ff7043" font-size="11">i=0</text>
+  <text x="210" y="185" text-anchor="middle" fill="#ff7043" font-size="11">i=1</text>
+  <text x="270" y="185" text-anchor="middle" fill="#ff7043" font-size="11">i=2</text>
+  <text x="330" y="185" text-anchor="middle" fill="#ff7043" font-size="11">i=3</text>
+
+  <rect x="120" y="195" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="150" y="216" text-anchor="middle" fill="#90caf9" font-size="14">5</text>
+  <rect x="180" y="195" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="210" y="216" text-anchor="middle" fill="#90caf9" font-size="14">3</text>
+  <rect x="240" y="195" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="270" y="216" text-anchor="middle" fill="#90caf9" font-size="14">8</text>
+  <rect x="300" y="195" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="330" y="216" text-anchor="middle" fill="#90caf9" font-size="14">4</text>
+  <rect x="360" y="195" width="60" height="34" rx="3" fill="#4a2a1a" stroke="#ff7043" stroke-width="2"/>
+  <text x="390" y="216" text-anchor="middle" fill="#ffab91" font-size="14">2</text>
+
+  <!-- 全部大于 pivot -->
+  <text x="485" y="215" text-anchor="middle" fill="#6a7a8a" font-size="11">5,3,8,4 都 &gt; pivot</text>
+
+  <!-- 结果行 -->
+  <text x="340" y="258" text-anchor="middle" fill="#6a7a8a" font-size="12">交换 pivot 到中间位置 →</text>
+
+  <rect x="120" y="268" width="60" height="34" rx="3" fill="#2e7d32" stroke="#4caf50" stroke-width="2"/>
+  <text x="150" y="289" text-anchor="middle" fill="#a5d6a7" font-size="14" font-weight="bold">2</text>
+
+  <rect x="180" y="268" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="210" y="289" text-anchor="middle" fill="#90caf9" font-size="14">3</text>
+  <rect x="240" y="268" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="270" y="289" text-anchor="middle" fill="#90caf9" font-size="14">4</text>
+  <rect x="300" y="268" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="330" y="289" text-anchor="middle" fill="#90caf9" font-size="14">5</text>
+  <rect x="360" y="268" width="60" height="34" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="390" y="289" text-anchor="middle" fill="#90caf9" font-size="14">8</text>
+
+  <!-- pivot boundary -->
+  <line x1="180" y1="305" x2="180" y2="405" stroke="#4caf50" stroke-width="1.5" stroke-dasharray="6,4"/>
+  <text x="140" y="420" text-anchor="middle" fill="#4caf50" font-size="11">pivot 已就位</text>
+
+  <!-- ====== 递归 ====== -->
+  <text x="300" y="330" text-anchor="middle" fill="#ff7043" font-size="11">┌──────── 递归左子数组 [3,4,5,8] ────────┐</text>
+
+  <!-- 左子选 pivot -->
+  <rect x="180" y="340" width="60" height="30" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="210" y="359" text-anchor="middle" fill="#90caf9" font-size="12">3</text>
+  <rect x="240" y="340" width="60" height="30" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="270" y="359" text-anchor="middle" fill="#90caf9" font-size="12">4</text>
+  <rect x="300" y="340" width="60" height="30" rx="3" fill="#3a1a1a" stroke="#ef5350" stroke-width="2"/>
+  <text x="330" y="359" text-anchor="middle" fill="#ef9a9a" font-size="12" font-weight="bold">5</text>
+  <rect x="360" y="340" width="60" height="30" rx="3" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="390" y="359" text-anchor="middle" fill="#90caf9" font-size="12">8</text>
+  <text x="370" y="378" text-anchor="middle" fill="#ef5350" font-size="10">pivot=5</text>
+
+  <!-- 结果 -->
+  <text x="340" y="395" text-anchor="middle" fill="#6a7a8a" font-size="11">分区后 → 比 5 小的在左</text>
+
+  <rect x="180" y="400" width="60" height="30" rx="3" fill="#2e7d32" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="210" y="419" text-anchor="middle" fill="#a5d6a7" font-size="12">3</text>
+  <rect x="240" y="400" width="60" height="30" rx="3" fill="#2e7d32" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="270" y="419" text-anchor="middle" fill="#a5d6a7" font-size="12">4</text>
+  <rect x="300" y="400" width="60" height="30" rx="3" fill="#2e7d32" stroke="#4caf50" stroke-width="2"/>
+  <text x="330" y="419" text-anchor="middle" fill="#a5d6a7" font-size="12" font-weight="bold">5</text>
+  <rect x="360" y="400" width="60" height="30" rx="3" fill="#2e7d32" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="390" y="419" text-anchor="middle" fill="#a5d6a7" font-size="12">8</text>
+  <text x="445" y="419" text-anchor="middle" fill="#4caf50" font-size="12">✅</text>
+</svg>
