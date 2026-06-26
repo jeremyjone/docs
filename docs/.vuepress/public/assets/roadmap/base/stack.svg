@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350">
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+
+  <text x="200" y="30" text-anchor="middle" fill="#e0e0e0" font-size="18" font-weight="bold">栈 — 后进先出（LIFO）</text>
+
+  <!-- 栈容器 -->
+  <rect x="120" y="50" width="160" height="250" rx="6" fill="none" stroke="#5a6a7a" stroke-width="2"/>
+  <rect x="120" y="50" width="160" height="30" rx="6" fill="#2a3a4a" stroke="#5a6a7a" stroke-width="2"/>
+  <text x="200" y="70" text-anchor="middle" fill="#b0bec5" font-size="14">栈顶 ← push / pop</text>
+
+  <!-- 栈底 -->
+  <text x="200" y="320" text-anchor="middle" fill="#5a6a7a" font-size="12">栈底</text>
+
+  <!-- 元素 3（栈顶） -->
+  <rect x="145" y="85" width="110" height="40" rx="4" fill="#2e7d32" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="200" y="110" text-anchor="middle" fill="#a5d6a7" font-size="14">"撤回"</text>
+
+  <!-- 元素 2 -->
+  <rect x="145" y="130" width="110" height="40" rx="4" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="200" y="155" text-anchor="middle" fill="#90caf9" font-size="14">函数B调用</text>
+
+  <!-- 元素 1 -->
+  <rect x="145" y="175" width="110" height="40" rx="4" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="200" y="200" text-anchor="middle" fill="#90caf9" font-size="14">函数A调用</text>
+
+  <!-- 元素 0（栈底） -->
+  <rect x="145" y="220" width="110" height="40" rx="4" fill="#1a3a5c" stroke="#64b5f6" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="200" y="245" text-anchor="middle" fill="#5a7a8a" font-size="14">入口 main</text>
+
+  <!-- 操作箭头 -->
+
+  <!-- push 箭头 -->
+  <line x1="300" y1="95" x2="258" y2="105" stroke="#4caf50" stroke-width="1.5" marker-end="url(#arrow-green2)"/>
+  <polygon points="258,100 250,105 258,110" fill="#4caf50"/>
+  <text x="330" y="99" fill="#4caf50" font-size="13">push</text>
+
+  <!-- pop 箭头 -->
+  <line x1="300" y1="120" x2="258" y2="110" stroke="#ff7043" stroke-width="1.5"/>
+  <polygon points="258,115 250,110 258,105" fill="#ff7043"/>
+  <text x="330" y="124" fill="#ff7043" font-size="13">pop</text>
+
+  <!-- 说明 -->
+  <text x="200" y="345" text-anchor="middle" fill="#6a7a8a" font-size="11">只能从栈顶操作，最后放入的最先取出</text>
+</svg>

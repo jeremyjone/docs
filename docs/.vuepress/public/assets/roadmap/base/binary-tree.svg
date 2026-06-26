@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+
+  <text x="300" y="30" text-anchor="middle" fill="#e0e0e0" font-size="18" font-weight="bold">二叉树结构</text>
+
+  <!-- 根节点 50 -->
+  <circle cx="300" cy="70" r="28" fill="#1a5a3a" stroke="#4caf50" stroke-width="2"/>
+  <text x="300" y="75" text-anchor="middle" fill="#a5d6a7" font-size="15" font-weight="bold">50</text>
+
+  <!-- 连线：根 → 左子 -->
+  <line x1="300" y1="98" x2="175" y2="165" stroke="#5a6a7a" stroke-width="2"/>
+  <!-- 连线：根 → 右子 -->
+  <line x1="300" y1="98" x2="425" y2="165" stroke="#5a6a7a" stroke-width="2"/>
+
+  <!-- 左子 30 -->
+  <circle cx="175" cy="165" r="25" fill="#1a3a5c" stroke="#64b5f6" stroke-width="2"/>
+  <text x="175" y="170" text-anchor="middle" fill="#90caf9" font-size="14" font-weight="bold">30</text>
+
+  <!-- 右子 70 -->
+  <circle cx="425" cy="165" r="25" fill="#1a3a5c" stroke="#64b5f6" stroke-width="2"/>
+  <text x="425" y="170" text-anchor="middle" fill="#90caf9" font-size="14" font-weight="bold">70</text>
+
+  <!-- 连线：30 → 左子 -->
+  <line x1="158" y1="187" x2="95" y2="255" stroke="#5a6a7a" stroke-width="2"/>
+  <!-- 连线：30 → 右子 -->
+  <line x1="192" y1="187" x2="235" y2="255" stroke="#5a6a7a" stroke-width="2"/>
+
+  <!-- 左子的左子 20 -->
+  <circle cx="95" cy="258" r="22" fill="#2a2a4a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="95" y="263" text-anchor="middle" fill="#b39ddb" font-size="13">20</text>
+
+  <!-- 左子的右子 40 -->
+  <circle cx="235" cy="258" r="22" fill="#2a2a4a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="235" y="263" text-anchor="middle" fill="#b39ddb" font-size="13">40</text>
+
+  <!-- 连线：70 → 左子 -->
+  <line x1="410" y1="187" x2="365" y2="255" stroke="#5a6a7a" stroke-width="2"/>
+  <!-- 连线：70 → 右子 -->
+  <line x1="440" y1="187" x2="490" y2="255" stroke="#5a6a7a" stroke-width="2"/>
+
+  <!-- 右子的左子 60 -->
+  <circle cx="365" cy="258" r="22" fill="#2a2a4a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="365" y="263" text-anchor="middle" fill="#b39ddb" font-size="13">60</text>
+
+  <!-- 右子的右子 80 -->
+  <circle cx="490" cy="258" r="22" fill="#2a2a4a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="490" y="263" text-anchor="middle" fill="#b39ddb" font-size="13">80</text>
+
+  <!-- 叶子子节点标记 1 -->
+  <line x1="80" y1="278" x2="70" y2="310" stroke="#5a6a7a" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="110" y1="278" x2="120" y2="310" stroke="#5a6a7a" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="70" y="325" text-anchor="middle" fill="#5a6a7a" font-size="10">null</text>
+  <text x="120" y="325" text-anchor="middle" fill="#5a6a7a" font-size="10">null</text>
+
+  <line x1="222" y1="278" x2="215" y2="310" stroke="#5a6a7a" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="248" y1="278" x2="255" y2="310" stroke="#5a6a7a" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="215" y="325" text-anchor="middle" fill="#5a6a7a" font-size="10">null</text>
+  <text x="255" y="325" text-anchor="middle" fill="#5a6a7a" font-size="10">null</text>
+
+  <!-- BST 特性标注 -->
+  <rect x="50" y="345" width="500" height="65" rx="6" fill="#1a2a3a" stroke="#4a5a6a" stroke-width="1"/>
+  <text x="300" y="367" text-anchor="middle" fill="#b0bec5" font-size="13" font-weight="bold">二叉搜索树（BST）特性</text>
+  <text x="300" y="388" text-anchor="middle" fill="#6a7a8a" font-size="11">左子树所有节点 < 根节点 < 右子树所有节点</text>
+  <text x="300" y="404" text-anchor="middle" fill="#6a7a8a" font-size="11">中序遍历 → 20, 30, 40, 50, 60, 70, 80（有序输出）</text>
+</svg>
