@@ -424,8 +424,8 @@ function getComputerBaseSideBar() {
       _GetSubSideBar("域名", "network/domain", [""]),
       _GetSubSideBar("万维网", "network/www", ["", "url", "http", "https"])
     ]),
-    _GetSubSideBar("算法", "algorithm", [""]),
-    _GetSubSideBar("数据结构", "data-structure", [""]),
+    _GetSubSideBar("算法", "algorithm", ["", "complexity", "binary-search", "bubble-sort", "quick-sort", "recursion", "dp", "graph-traversal"]),
+    _GetSubSideBar("数据结构", "data-structure", ["", "array", "stack", "queue", "tree", "hash", "graph"]),
     _GetSubSideBar("数据库基础", "database", [""])
   ];
 }

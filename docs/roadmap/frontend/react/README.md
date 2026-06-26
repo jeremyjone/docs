@@ -29,3 +29,9 @@ React 是一个声明式、组件化的 JavaScript UI 库，由 Meta（Facebook�
 - [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/)
 
 > React 和 Vue 没有绝对的优劣，取决于团队的技术栈偏好和项目需求。两者的核心思想（组件化、单向数据流、虚拟 DOM）本质相通。
+
+[英文](https://github.com/adam-golab/react-developer-roadmap)
+
+[中文](https://github.com/adam-golab/react-developer-roadmap/blob/master/README-CN.md)
+
+![react roadmap](https://github.com/adam-golab/react-developer-roadmap/raw/master/roadmap-cn.png)
