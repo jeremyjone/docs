@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 530">
+  <style>text{font-family:system-ui,-apple-system,sans-serif}</style>
+
+  <text x="350" y="25" text-anchor="middle" fill="#e0e0e0" font-size="16" font-weight="bold">图遍历：BFS 广度优先 vs DFS 深度优先</text>
+
+  <!-- ====== 图结构 ====== -->
+  <text x="350" y="50" text-anchor="middle" fill="#6a7a8a" font-size="12">从节点 A 出发遍历整个图</text>
+
+  <!-- 图 -->
+  <!-- 节点 A -->
+  <circle cx="100" cy="100" r="30" fill="#1a5a3a" stroke="#4caf50" stroke-width="2.5"/>
+  <text x="100" y="105" text-anchor="middle" fill="#a5d6a7" font-size="15" font-weight="bold">A</text>
+
+  <!-- 节点 B -->
+  <circle cx="200" cy="160" r="26" fill="#1a3a5c" stroke="#64b5f6" stroke-width="2"/>
+  <text x="200" y="165" text-anchor="middle" fill="#90caf9" font-size="14" font-weight="bold">B</text>
+
+  <!-- 节点 C -->
+  <circle cx="300" cy="90" r="26" fill="#1a3a5c" stroke="#64b5f6" stroke-width="2"/>
+  <text x="300" y="95" text-anchor="middle" fill="#90caf9" font-size="14" font-weight="bold">C</text>
+
+  <!-- 节点 D -->
+  <circle cx="350" cy="180" r="26" fill="#2a2a4a" stroke="#9575cd" stroke-width="2"/>
+  <text x="350" y="185" text-anchor="middle" fill="#b39ddb" font-size="14" font-weight="bold">D</text>
+
+  <!-- 节点 E -->
+  <circle cx="450" cy="110" r="26" fill="#2a2a4a" stroke="#9575cd" stroke-width="2"/>
+  <text x="450" y="115" text-anchor="middle" fill="#b39ddb" font-size="14" font-weight="bold">E</text>
+
+  <!-- 节点 F -->
+  <circle cx="500" cy="200" r="26" fill="#4a2a1a" stroke="#ff7043" stroke-width="2"/>
+  <text x="500" y="205" text-anchor="middle" fill="#ffab91" font-size="14" font-weight="bold">F</text>
+
+  <!-- 边 -->
+  <line x1="125" y1="115" x2="178" y2="148" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="125" y1="85" x2="275" y2="80" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="220" y1="175" x2="325" y2="175" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="195" y1="138" x2="288" y2="110" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="320" y1="105" x2="430" y2="104" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="365" y1="178" x2="430" y2="145" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="365" y1="190" x2="478" y2="195" stroke="#5a6a7a" stroke-width="1.5"/>
+  <line x1="470" y1="130" x2="495" y2="185" stroke="#5a6a7a" stroke-width="1.5"/>
+
+  <!-- ====== BFS ====== -->
+  <text x="350" y="260" text-anchor="middle" fill="#4caf50" font-size="15" font-weight="bold">BFS（广度优先）—— 用队列，逐层访问</text>
+  <text x="350" y="278" text-anchor="middle" fill="#5a6a7a" font-size="11">访问顺序：A → B, C → D, E → F  ｜  特性：找最短路径</text>
+
+  <rect x="50" y="290" width="600" height="50" rx="4" fill="#1a2a3a" stroke="#4a5a6a" stroke-width="1"/>
+
+  <rect x="60" y="300" width="50" height="30" rx="3" fill="#4a9a5a" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="85" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">A</text>
+  <text x="110" y="320" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="125" y="300" width="50" height="30" rx="3" fill="#3a6a8a" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="150" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">B</text>
+  <text x="175" y="320" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="190" y="300" width="50" height="30" rx="3" fill="#3a6a8a" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="215" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">C</text>
+  <text x="240" y="320" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="255" y="300" width="50" height="30" rx="3" fill="#5a5a8a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="280" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">D</text>
+  <text x="305" y="320" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="320" y="300" width="50" height="30" rx="3" fill="#5a5a8a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="345" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">E</text>
+  <text x="370" y="320" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="385" y="300" width="50" height="30" rx="3" fill="#7a4a3a" stroke="#ff7043" stroke-width="1.5"/>
+  <text x="410" y="320" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">F</text>
+
+  <text x="470" y="320" fill="#4caf50" font-size="12">  ✅ 逐层扩散</text>
+
+  <!-- BFS 队列 -->
+  <text x="350" y="360" text-anchor="middle" fill="#5a6a7a" font-size="11">BFS 用队列实现：A入队 → A出队，B、C入队 → B出队，D入队 → C出队，E入队 → D出队，F入队 → E出队 → F出队</text>
+
+  <!-- ====== DFS ====== -->
+  <text x="350" y="400" text-anchor="middle" fill="#ff7043" font-size="15" font-weight="bold">DFS（深度优先）—— 用栈，一条路走到底</text>
+  <text x="350" y="418" text-anchor="middle" fill="#5a6a7a" font-size="11">访问顺序：A → B → D → F → E → C  ｜  特性：找是否存在路径</text>
+
+  <rect x="50" y="430" width="600" height="50" rx="4" fill="#1a2a3a" stroke="#4a5a6a" stroke-width="1"/>
+
+  <rect x="60" y="440" width="50" height="30" rx="3" fill="#4a9a5a" stroke="#4caf50" stroke-width="1.5"/>
+  <text x="85" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">A</text>
+  <text x="110" y="460" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="125" y="440" width="50" height="30" rx="3" fill="#3a6a8a" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="150" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">B</text>
+  <text x="175" y="460" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="190" y="440" width="50" height="30" rx="3" fill="#5a5a8a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="215" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">D</text>
+  <text x="240" y="460" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="255" y="440" width="50" height="30" rx="3" fill="#7a4a3a" stroke="#ff7043" stroke-width="1.5"/>
+  <text x="280" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">F</text>
+  <text x="305" y="460" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="320" y="440" width="50" height="30" rx="3" fill="#5a5a8a" stroke="#9575cd" stroke-width="1.5"/>
+  <text x="345" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">E</text>
+  <text x="370" y="460" fill="#5a6a7a" font-size="14">→</text>
+
+  <rect x="385" y="440" width="50" height="30" rx="3" fill="#3a6a8a" stroke="#64b5f6" stroke-width="1.5"/>
+  <text x="410" y="460" text-anchor="middle" fill="#fff" font-size="12" font-weight="bold">C</text>
+
+  <text x="470" y="460" fill="#ff7043" font-size="12">  ✅ 一条路走到底再回溯</text>
+
+  <!-- DFS 栈 -->
+  <text x="350" y="495" text-anchor="middle" fill="#5a6a7a" font-size="11">DFS 用栈实现：A压栈 → 弹出A，B/C压栈 → 弹出C...（实际先走B→D→F到底再回溯）</text>
+</svg>
