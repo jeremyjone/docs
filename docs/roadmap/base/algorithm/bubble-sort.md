@@ -42,35 +42,43 @@
 
 ## 伪代码
 
-```text
-function bubbleSort(arr):
-    n = arr.length
+```js
+function bubbleSort(arr) {
+  let n = arr.length;
 
-    for i = 0 to n-2:          // 共 n-1 轮
-        for j = 0 to n-2-i:    // 每轮比较范围缩小
-            if arr[j] > arr[j+1]:
-                swap(arr[j], arr[j+1])
+  for (let i = 0; i <= n - 2; i++) { // 共 n-1 轮
+    for (let j = 0; j <= n - 2 - i; j++) { // 每轮比较范围缩小
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+      }
+    }
+  }
 
-    return arr
+  return arr;
+}
 ```
 
 ### 提前退出优化
 
 如果某一轮没有发生任何交换，说明数组已经有序，可以提前结束：
 
-```text
-function bubbleSort(arr):
-    n = arr.length
+```js
+function bubbleSort(arr) {
+  let n = arr.length;
 
-    for i = 0 to n-2:
-        swapped = false
-        for j = 0 to n-2-i:
-            if arr[j] > arr[j+1]:
-                swap(arr[j], arr[j+1])
-                swapped = true
-        if not swapped: break   // 本轮无交换 → 已有序
+  for (let i = 0; i <= n - 2; i++) {
+    let swapped = false;
+    for (let j = 0; j <= n - 2 - i; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+        swapped = true;
+      }
+    }
+    if (!swapped) break; // 本轮无交换 → 已有序
+  }
 
-    return arr
+  return arr;
+}
 ```
 
 ---

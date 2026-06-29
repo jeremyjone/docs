@@ -63,48 +63,59 @@
 
 ### BFS（队列）
 
-```text
-function bfs(graph, start):
-    queue = [start]
-    visited = {start}
+```js
+function bfs(graph, start) {
+  let queue = [start];
+  let visited = new Set([start]);
 
-    while queue is not empty:
-        node = queue.dequeue()
-        print(node)                    // 访问
+  while (queue.length > 0) {
+    let node = queue.shift();
+    console.log(node); // 访问
 
-        for neighbor in graph[node]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                queue.enqueue(neighbor)
+    for (let neighbor of graph[node]) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        queue.push(neighbor);
+      }
+    }
+  }
+}
 ```
 
 ### DFS（递归）
 
-```text
-function dfs(graph, node, visited):
-    visited.add(node)
-    print(node)                        // 访问
+```js
+function dfs(graph, node, visited) {
+  visited.add(node);
+  console.log(node); // 访问
 
-    for neighbor in graph[node]:
-        if neighbor not in visited:
-            dfs(graph, neighbor, visited)
+  for (let neighbor of graph[node]) {
+    if (!visited.has(neighbor)) {
+      dfs(graph, neighbor, visited);
+    }
+  }
+}
 ```
 
 ### DFS（非递归栈）
 
-```text
-function dfs(graph, start):
-    stack = [start]
-    visited = {start}
+```js
+function dfs(graph, start) {
+  let stack = [start];
+  let visited = new Set([start]);
 
-    while stack is not empty:
-        node = stack.pop()
-        print(node)                    // 访问
+  while (stack.length > 0) {
+    let node = stack.pop();
+    console.log(node); // 访问
 
-        for neighbor in graph[node]:
-            if neighbor not in visited:
-                visited.add(neighbor)
-                stack.push(neighbor)
+    for (let neighbor of graph[node]) {
+      if (!visited.has(neighbor)) {
+        visited.add(neighbor);
+        stack.push(neighbor);
+      }
+    }
+  }
+}
 ```
 
 ---

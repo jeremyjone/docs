@@ -43,23 +43,25 @@
 
 ## 伪代码
 
-```text
-function quickSort(arr, left, right):
-    if left >= right:
-        return                     // 0 或 1 个元素，不排
+```js
+function quickSort(arr, left, right) {
+  if (left >= right) return; // 0 或 1 个元素，不排
 
-    pivot = arr[right]             // 选最右为 pivot
-    i = left                       // i 是"小元素区"右边界
+  let pivot = arr[right]; // 选最右为 pivot
+  let i = left; // i 是"小元素区"右边界
 
-    for j = left to right-1:
-        if arr[j] < pivot:
-            swap(arr[i], arr[j])
-            i = i + 1
+  for (let j = left; j <= right - 1; j++) {
+    if (arr[j] < pivot) {
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+      i++;
+    }
+  }
 
-    swap(arr[i], arr[right])       // pivot 归位
+  [arr[i], arr[right]] = [arr[right], arr[i]]; // pivot 归位
 
-    quickSort(arr, left, i-1)     // 递归左半
-    quickSort(arr, i+1, right)    // 递归右半
+  quickSort(arr, left, i - 1); // 递归左半
+  quickSort(arr, i + 1, right); // 递归右半
+}
 ```
 
 ---

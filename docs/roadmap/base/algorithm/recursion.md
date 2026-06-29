@@ -29,14 +29,14 @@ factorial(4)
 
 ## 伪代码
 
-```text
-function factorial(n):
-    // 终止条件：n <= 1 时直接返回 1
-    if n <= 1:
-        return 1
+```js
+function factorial(n) {
+  // 终止条件：n <= 1 时直接返回 1
+  if (n <= 1) return 1;
 
-    // 递推公式：n! = n × (n-1)!
-    return n × factorial(n - 1)
+  // 递推公式：n! = n × (n-1)!
+  return n * factorial(n - 1);
+}
 ```
 
 ---
@@ -62,15 +62,17 @@ function factorial(n):
 
 如果递归调用是函数的最后一步（且不需要当前帧的状态），编译器可以复用栈帧，把空间降到 O(1)：
 
-```text
+```js
 // 普通递归 — 需要当前帧的 n 做乘法
-function factorial(n):
-    return n × factorial(n - 1)
+function factorial(n) {
+  return n * factorial(n - 1);
+}
 
 // 尾递归 — 最后一步只调用自身，不依赖当前帧
-function factorial(n, acc = 1):
-    if n <= 1: return acc
-    return factorial(n - 1, n × acc)
+function factorialTail(n, acc = 1) {
+  if (n <= 1) return acc;
+  return factorialTail(n - 1, n * acc);
+}
 ```
 
 > 很多编译器/解释器会对尾递归做优化（如 Safari、ES6 严格模式），但主流 JS 引擎（V8）未完全实现尾递归优化，写代码时不必强求。

@@ -36,22 +36,25 @@ S3: left=5, right=5, mid=5 → arr[5]=31 ✅ 找到了
 
 ## 伪代码
 
-```text
-function binarySearch(arr, target):
-    left = 0
-    right = arr.length - 1
+```js
+function binarySearch(arr, target) {
+  let left = 0;
+  let right = arr.length - 1;
 
-    while left <= right:
-        mid = (left + right) / 2
+  while (left <= right) {
+    let mid = Math.floor((left + right) / 2);
 
-        if arr[mid] == target:
-            return mid           // 找到了
-        else if arr[mid] < target:
-            left = mid + 1       // 去右边找
-        else:
-            right = mid - 1      // 去左边找
+    if (arr[mid] === target) {
+      return mid; // 找到了
+    } else if (arr[mid] < target) {
+      left = mid + 1; // 去右边找
+    } else {
+      right = mid - 1; // 去左边找
+    }
+  }
 
-    return -1  // 没找到
+  return -1; // 没找到
+}
 ```
 
 ---

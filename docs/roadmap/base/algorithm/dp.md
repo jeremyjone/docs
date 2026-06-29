@@ -61,39 +61,41 @@ F(5) = F(4) + F(3) = 3 + 2 = 5  ✅
 
 ### 动态规划（自底向上填表）
 
-```text
-function fibonacci(n):
-    if n <= 1:
-        return n
+```js
+function fibonacci(n) {
+  if (n <= 1) return n;
 
-    dp = new int[n+1]
-    dp[0] = 0
-    dp[1] = 1
+  let dp = new Array(n + 1);
+  dp[0] = 0;
+  dp[1] = 1;
 
-    for i = 2 to n:
-        dp[i] = dp[i-1] + dp[i-2]
+  for (let i = 2; i <= n; i++) {
+    dp[i] = dp[i - 1] + dp[i - 2];
+  }
 
-    return dp[n]
+  return dp[n];
+}
 ```
 
 ### 空间优化版
 
 只用两个变量，空间从 O(n) 降到 O(1)：
 
-```text
-function fibonacci(n):
-    if n <= 1:
-        return n
+```js
+function fibonacci(n) {
+  if (n <= 1) return n;
 
-    prev2 = 0   // F(i-2)
-    prev1 = 1   // F(i-1)
+  let prev2 = 0; // F(i-2)
+  let prev1 = 1; // F(i-1)
 
-    for i = 2 to n:
-        curr = prev1 + prev2
-        prev2 = prev1
-        prev1 = curr
+  for (let i = 2; i <= n; i++) {
+    let curr = prev1 + prev2;
+    prev2 = prev1;
+    prev1 = curr;
+  }
 
-    return prev1
+  return prev1;
+}
 ```
 
 ---
